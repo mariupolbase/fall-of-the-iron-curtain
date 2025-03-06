@@ -1,13 +1,13 @@
 state={
-	id=983
-	name="STATE_983"
+	id=1018
+	name="STATE_1018"
 	provinces={
-		13366
+		13376
 	}
 	history={
 		owner = WGR
 		victory_points = {
-			13366 25 
+			13376 25 
 		}
 		add_core_of = WGR
 		add_core_of = DDR
@@ -15,7 +15,7 @@ state={
 			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
-			13366 ={
+			13376 ={
 				bunker = 7
 			}
 		}

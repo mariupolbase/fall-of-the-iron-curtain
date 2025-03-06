@@ -2,12 +2,12 @@ state={
 	id=985
 	name="STATE_985"
 	provinces={
-		13368
+		13378
 	}
 	history={
 		owner = PAL
 		victory_points = {
-			13368 5
+			13378 5
 		}
 		add_core_of = PAL
 		add_core_of = ISR
@@ -15,7 +15,7 @@ state={
 			infrastructure = 1
 			arms_factory = 1
 			industrial_complex = 1
-			13368 ={
+			13378 ={
 				bunker = 6
 				naval_base = 1
 			}
