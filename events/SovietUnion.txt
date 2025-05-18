@@ -627,7 +627,7 @@ country_event = {
 
 	trigger = {
 		tag = SOV
-		date > 1990.05.04
+		date > 1990.3.18
 	}
 
 	mean_time_to_happen = {
@@ -635,11 +635,11 @@ country_event = {
 	}
 	option = {
 		name = soviet.17.a
-		add_stability = 0.1
-		add_political_power = 50
+		add_stability = 0.01
+		add_political_power = 10
 		add_popularity = {
-			ideology = democratic 
-			popularity = 0.10
+			ideology = market_liberalism 
+			popularity = 0.07
 		}
 	}
 }
@@ -728,5 +728,83 @@ country_event = {
 	option = {
 		name = soviet.21.b
 		country_event = soviet.20
+	}
+}
+country_event = {
+	id = soviet.22
+	title = soviet.22.t
+	desc = soviet.22.d
+	picture = GFX_report_event_SOV_narodniy
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		date > 1990.11.14
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+		name = soviet.22.a
+		add_stability = 0.01
+		add_political_power = 10
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.01
+		}
+	}
+}
+country_event = {
+	id = soviet.23
+	title = soviet.23.t
+	desc = soviet.23.d
+	picture = GFX_report_event_SOV_narodniy
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		date > 1990.5.20
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+		name = soviet.23.a
+		add_stability = -0.01
+		add_political_power = -10
+		add_popularity = {
+			ideology = market_liberalism
+			popularity = 0.01
+		}
+	}
+}
+country_event = {
+	id = soviet.24
+	title = soviet.24.t
+	desc = soviet.24.d
+	picture = GFX_report_event_SOV_narodniy
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+		date > 1990.3.4
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+		name = soviet.24.a
+		add_stability = 0.01
+		add_political_power = 10
+		add_popularity = {
+			ideology = market_liberalism
+			popularity = 0.01
+		}
 	}
 }

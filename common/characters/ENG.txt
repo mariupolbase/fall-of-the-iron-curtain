@@ -8,7 +8,7 @@ Characters = {
 		}
 		country_leader = {
 			ideology = conservatism_ideology
-			expire = "1993.1.1.1"
+			expire = "2022.1.1.1"
 			id = -1
 			traits = { queen_of_the_people popular_queen }
 		}

@@ -47,6 +47,7 @@ add_ideas = {
 
 }
 	
+recruit_character = ENG_Elizabeth
 
 set_convoys = 1000
 
@@ -63,5 +64,3 @@ set_popularities = {
 	neutrality = 1.6
 	fascism = 0.3
 }
-
-recruit_character = ENG_Elizabeth
