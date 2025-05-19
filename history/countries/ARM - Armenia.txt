@@ -1,0 +1,25 @@
+﻿capital = 230 #Yerevan, Armenia
+
+oob = "AZR_1936"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+
+}
+set_politics = {
+	ruling_party = market_liberalism
+	last_election = "1986.10.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	market_liberalism = 90.2
+	social_democracy = 4.3
+	conservatism = 0.16
+	neutrality = 5.34
+}
+
+

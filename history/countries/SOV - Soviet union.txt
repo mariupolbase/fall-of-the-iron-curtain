@@ -17,7 +17,7 @@ recruit_character = SOV_Gorbachev
 recruit_character = SOV_Yeltsin
 
 set_technology = {
-	synth_oil_experiments = 1
+
 }
 
 capital = 988
