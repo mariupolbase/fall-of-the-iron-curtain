@@ -115,7 +115,7 @@ bookmarks = {
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
-		# minors from DLC ####
+		# minor
 		"CAN"={
 			minor = yes
 			history = "CAN_BLITZKRIEG_DESC"
@@ -371,53 +371,7 @@ bookmarks = {
 				TUR_misak_i_milli
 			}
 		}
-		"LIT"={
-			minor = yes
-			history = "LIT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LIT_victory_in_trust_idea
-				LIT_invested_in_farms_1
-				BALTIC_forest_brothers_idea
-			}
-			focuses = {
-				LIT_prepare_forest_brothers
-				LIT_new_kind_of_iron_wolf
-				BALTIC_belarus_ssr
-			}
-		}
-		
-		"LAT"={
-			minor = yes
-			history = "LAT_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				LAT_saeima_idea_military_1
-				LAT_the_sun_shines_equally_idea
-				LAT_paramilitary_idea_1
-			}
-			focuses = {
-				LAT_supply_forest_brothers
-				LAT_womens_aizsargi
-				BALTIC_revolutionary_cabinet
-			}
-		}
-		
-		"EST"={
-			minor = yes
-			history = "EST_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-				EST_ismaaliit_idea
-				EST_national_council_idea
-				EST_exploit_the_banks_idea
-			}
-			focuses = {
-				EST_forest_brothers
-				EST_formalize_baltic_entente
-				BALTIC_united_baltic_ssr
-			}
-		}
+
 		"POL"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
