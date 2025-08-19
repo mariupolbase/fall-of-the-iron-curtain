@@ -58,8 +58,11 @@ set_politics = {
 }
 set_popularities = {
 	market_liberalism = 11.2
-	fascism = 2.5
-	communism = 86.3
+	fascism = 1.5
+	communism = 84.3
+	anarchism = 1
+	conservatism = 1
+	social_democracy = 1
 }
 
 create_faction = Warswaw_pact
