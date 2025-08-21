@@ -1,23 +1,18 @@
 focus_tree = {
-	id = soviet_focus
-
+	id = SOV
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = SOV
 		}
 	}
-	
-	default = no
-
 	continuous_focus_position = { x = 55 y = 8000 }
 
 	focus = {
 		id = SOV_new_ideas
 		icon = GFX_SOV_Perestroyka
-		cost = 20.00
+		cost = 2.9
 		x = 8
 		y = 1
 		available = {
@@ -38,7 +33,7 @@ focus_tree = {
 	focus = {
 		id = SOV_Pyatiletka
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 50.00
+		cost = 7.2
 		x = 2
 		y = 1
 		completion_reward = {
@@ -79,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = SOV_dont_worry
 		icon = GFX_focus_hol_the_fourth_ally
-		cost = 15.00
+		cost = 2.2
 		x = 16
 		y = 1
 		available = {
@@ -450,8 +445,16 @@ focus_tree = {
 		y = 4
 
 		completion_reward = {
-		
 		}
+	}
+	focus = {
+		id = SOV_robit
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		x = 13
+		y = 10
 
+		completion_reward = {
+		}
 	}
 }
