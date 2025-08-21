@@ -80,6 +80,21 @@ ideologies = {
 
 			anti_revisionism = {
 			}
+
+			democratic_socialism = {
+			}
+
+			neocommunism = {
+			}
+
+			socialism = {
+			}
+
+			vanguard_stratocracy = {
+			}
+
+			national_communism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -216,6 +231,113 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.10
 	}
 
+	social_liberalism = {
+		types = {
+			social_liberalism_ideology = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		color = { 245 140 0 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			join_faction_tension = 0.30
+			generate_wargoal_tension = 0.75
+			puppet_cost_factor = 0.3
+			drift_defence_factor = -0.3
+			annex_cost_factor = 0.5
+		}
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+
+	market_liberalism = {
+		types = {
+			market_liberalism_ideology = {}
+			conservatism_liberalism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		color = { 240 186 0 } # 73 121 198 # 240 186 0 #255 216 0
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.5
+			puppet_cost_factor = 0.7
+			annex_cost_factor = 0.5
+		}
+		ai_democratic = yes
+		can_be_boosted = no
+	}
+	
+	conservatism = {
+		types = {
+			conservatism_ideology = {}
+
+			national_conservatism = {}
+
+			liberalism_conservatism = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+			"FACTION_NAME_DEMOCRATIC_6"
+		}
+		color = { 30 85 205 }
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.25
+		
+		modifiers = {
+			join_faction_tension = 0.30
+			generate_wargoal_tension = 0.30
+			puppet_cost_factor = 0.6
+			annex_cost_factor = 0.25
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	neutrality = {
 
 		types = {
@@ -230,6 +352,9 @@ ideologies = {
 			}
 
 			centrism = {
+			}
+
+			paternalism = {
 			}
 		}
 
@@ -273,109 +398,6 @@ ideologies = {
 		ai_neutral = yes
 		ai_ideology_wanted_units_factor = 1.15
 	}
-
-	social_liberalism = {
-		types = {
-			social_liberalism_ideology = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		color = { 245 140 0 }
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.25
-		
-		modifiers = {
-			join_faction_tension = 0.30
-			generate_wargoal_tension = 0.75
-			puppet_cost_factor = 0.3
-			drift_defence_factor = -0.3
-			annex_cost_factor = 0.5
-		}
-		ai_democratic = yes
-		can_be_boosted = no
-	}
-
-	market_liberalism = {
-		types = {
-			market_liberalism_ideology = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		color = { 240 186 0 } # 73 121 198 # 240 186 0 #255 216 0
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.25
-		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 0.5
-			puppet_cost_factor = 0.7
-			annex_cost_factor = 0.5
-		}
-		ai_democratic = yes
-		can_be_boosted = no
-	}
-	
-	conservatism = {
-		types = {
-			conservatism_ideology = {}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-			"FACTION_NAME_DEMOCRATIC_2"
-			"FACTION_NAME_DEMOCRATIC_3"
-			"FACTION_NAME_DEMOCRATIC_4"
-			"FACTION_NAME_DEMOCRATIC_5"
-			"FACTION_NAME_DEMOCRATIC_6"
-		}
-		color = { 30 85 205 }
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		can_host_government_in_exile = yes
-		
-		war_impact_on_world_tension = 0.25
-		faction_impact_on_world_tension = 0.25
-		
-		modifiers = {
-			join_faction_tension = 0.30
-			generate_wargoal_tension = 0.30
-			puppet_cost_factor = 0.6
-			annex_cost_factor = 0.25
-		}
-		ai_neutral = yes
-		can_be_boosted = no
-	}
 	fascism = {
 
 		types = {
@@ -393,6 +415,12 @@ ideologies = {
 			}
 
 			rexism = {
+			}
+
+			right_populism = {
+			}
+
+			social_nationalism = {
 			}
 		}
 
