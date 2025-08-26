@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	continuous_focus_position = { x = 55 y = 8000 }
-
+	default = no
 	focus = {
 		id = SOV_new_ideas
 		icon = GFX_SOV_Perestroyka
