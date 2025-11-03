@@ -196,7 +196,7 @@ DOCTRINE_SF_aifc_superior_firepower = {
 
 DOCTRINE_SF_aifc_mechanized_offensive = {
 	enable = {
-		has_tech = sup_mechanized_offensive
+		has_tech = mechanised_offensive
 	}
 	abort_when_not_enabled = yes
 

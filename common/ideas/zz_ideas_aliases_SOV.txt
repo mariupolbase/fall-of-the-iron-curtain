@@ -1,0 +1,25 @@
+ideas = {
+    country = {
+        # Aliases / placeholders so AI checks referencing old IDs don't error out.
+        SOV_vyacheslav_molotov = {
+            picture = Vyacheslav_Volodin
+            allowed = {
+                original_tag = SOV
+            }
+            removal_cost = -1
+            # No gameplay modifiers here — acts as a placeholder/alias to avoid "not A valid Idea" errors.
+            modifier = {
+            }
+        }
+
+        SOV_maksim_litvinov = {
+            picture = Maksim_Katz
+            allowed = {
+                original_tag = SOV
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        }
+    }
+}

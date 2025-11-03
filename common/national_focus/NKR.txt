@@ -19,7 +19,7 @@ focus_tree = {
 		cost = 70
 		completion_reward = {
 			add_political_power = -25
-  add_stability = 0.05
+  			add_stability = 0.05
 		}
 	}
 	focus = {
@@ -30,16 +30,16 @@ focus_tree = {
 		x = 2
 		y = 1
 		completion_reward = {
-			add_political_power = 200
-  add_stability = 0.10
-  set_popularities = {
-	  democratic = 7.4
-  	neutrality = 1.9
-  	fascism = 3.2
-  	communism = 87.5
-  }
+			add_political_power = 100
+  			add_stability = 0.05
+  		set_popularities = {
+	  		democratic = 7.4
+  			neutrality = 1.9
+  			fascism = 3.2
+  			communism = 87.5
 		}
 	}
+}
 focus = {
 		id = NKR_razvpol # развитие политики
 		icon = GFX_goal_support_democracy
@@ -62,13 +62,14 @@ focus = {
 		mutually_exclusive = { focus = NKR_razvpol }
 		completion_reward = {
 			add_political_power = -50
-  add_stability = -0.05
-  add_manpower = -20000
-  add_popularity = { ideology = democratic popularity = -0.2 }
-  add_popularity = { ideology = neutrality popularity = -0.15 }
-  add_popularity = { ideology = fascism popularity = -0.15 }
+  			add_stability = -0.05
+ 			add_manpower = -20000
+  			add_popularity = { ideology = democratic popularity = -0.2 }
+  			add_popularity = { ideology = neutrality popularity = -0.15 }
+  			add_popularity = { ideology = fascism popularity = -0.15 }
 				}
 			}
-		}
-	}
+}
+
+#}
 	

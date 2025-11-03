@@ -1,0 +1,16 @@
+# NKR events
+
+event = {
+	id = 90x.nkr.1
+	title = 90x.nkr.1.t
+	desc = 90x.nkr.1.d
+	picture = GFX_report_event_SOV_litvinov_beck
+	is_triggered_only = yes
+
+	# Intended to be triggered by the national focus NKR_parlvib
+	option = {
+		name = 90x.nkr.1.a
+		ai_chance = { factor = 0 }
+	}
+}
+
