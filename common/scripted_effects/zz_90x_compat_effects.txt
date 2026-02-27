@@ -1,0 +1,547 @@
+﻿# 90x compatibility scripted effects
+# Auto-generated from error.log on 2026-02-26 19:57:00
+# No-op fallbacks for unresolved legacy calls
+
+add_academic_development = {
+}
+
+add_industrial_development = {
+}
+
+AFG_amunullah_khan = {
+}
+
+AFG_faqir_of_ipi = {
+}
+
+AFG_generic_navy_1 = {
+}
+
+AFG_generic_navy_2 = {
+}
+
+AFG_mazrak_zadran = {
+}
+
+AFG_mohammad_hashim_khan = {
+}
+
+AFG_mohammed_daoud_khan = {
+}
+
+AFG_mohammed_zahir_shah = {
+}
+
+AFG_muhammad_ibrahim_khan = {
+}
+
+AFG_sardar_shah_wali_khan = {
+}
+
+AFG_shah_mahmud_khan = {
+}
+
+ANU = {
+}
+
+ARG_agustin_pedro_justo = {
+}
+
+ARG_antonio_soto = {
+}
+
+ARG_arturo_rawson = {
+}
+
+ARG_edelmiro_julian_farrell = {
+}
+
+ARG_fanny_edelman = {
+}
+
+ARG_juan_peron = {
+}
+
+ARG_marcelo_t_de_alvear = {
+}
+
+ARG_pedro_pablo_ramirez = {
+}
+
+ARG_ramon_castillo = {
+}
+
+ARG_roberto_maria_ortiz = {
+}
+
+ARG_rodolfo_ghioldi = {
+}
+
+BEL_charles_count_of_flanders_person = {
+}
+
+BEL_king_leopold_iii = {
+}
+
+BEL_victor_van_strydonck_de_burkel = {
+}
+
+BHR = {
+}
+
+BLC = {
+}
+
+CIP = {
+}
+
+ENG_sylvia_pankhurst = {
+}
+
+ENG_winston_churchill = {
+}
+
+FRA_philippe_petain = {
+}
+
+GDC = {
+}
+
+GER_oskar_von_nidermayer = {
+}
+
+GSM = {
+}
+
+HBC = {
+}
+
+HUN_dezso_laszlo = {
+}
+
+HUN_dome_sztojay = {
+}
+
+HUN_ferenc_feketehalmyczeydner = {
+}
+
+HUN_ferenc_szalasi = {
+}
+
+HUN_fidel_palffy = {
+}
+
+HUN_gyula_gombos_de_jakfa = {
+}
+
+HUN_istvan_horthy = {
+}
+
+HUN_ivan_hindy = {
+}
+
+HUN_jeno_oszkar_ruszkay = {
+}
+
+HUN_joseph_august_von_habsburg = {
+}
+
+HUN_jozsef_bajnoczy = {
+}
+
+HUN_jusztinian_seredi = {
+}
+
+HUN_kalman_daranyi = {
+}
+
+HUN_karoly_bartha = {
+}
+
+HUN_karoly_beregfy = {
+}
+
+HUN_magdolna_purgly = {
+}
+
+HUN_miklos_horthy = {
+}
+
+HUN_miklos_horthy_jr = {
+}
+
+HUN_otto_von_habsburg = {
+}
+
+HUN_vasyl_vyshyvanyi = {
+}
+
+HYD = {
+}
+
+IRQ_abd_al_ilah = {
+}
+
+IRQ_ahmed_barzani = {
+}
+
+IRQ_bakr_sidqi = {
+}
+
+IRQ_faisal_ii = {
+}
+
+IRQ_fawsi_al_kaukji = {
+}
+
+IRQ_ghazi_i = {
+}
+
+IRQ_hamdi_al_pachachi = {
+}
+
+IRQ_hikmat_suleiman = {
+}
+
+IRQ_mustafa_barzani = {
+}
+
+IRQ_naji_al_suwaidi = {
+}
+
+IRQ_nuri_as_said = {
+}
+
+IRQ_saib_shawkat = {
+}
+
+IRQ_salah_al_din_al_sabbagh = {
+}
+
+IRQ_sharaf_bin_rajeh = {
+}
+
+JAP_abe_isoo = {
+}
+
+JAP_hisaichi_terauchi = {
+}
+
+JAP_ichiro_hatoyama = {
+}
+
+JAP_isoroku_yamamoto = {
+}
+
+JAP_jinzaburo_masaki = {
+}
+
+JAP_kiyoshi_hasegawa = {
+}
+
+JAP_komakichi_matsuoka = {
+}
+
+JAP_kozo_sasaki = {
+}
+
+JAP_masakazu_kawabe = {
+}
+
+JAP_mitsumasa_yonai = {
+}
+
+JAP_naoki_hoshino = {
+}
+
+JAP_noboru_yamaguchi = {
+}
+
+JAP_sadao_araki = {
+}
+
+JAP_shunroku_hata = {
+}
+
+JAP_tadaichi_wakamatsu = {
+}
+
+JAP_tetsu_katayama = {
+}
+
+JAP_tokugawa_iesato = {
+}
+
+KAS = {
+}
+
+KHL = {
+}
+
+KHM = {
+}
+
+KLT = {
+}
+
+KOL = {
+}
+
+KOS = {
+}
+
+KUM = {
+}
+
+MPU = {
+}
+
+MYS = {
+}
+
+NWF = {
+}
+
+NXM = {
+}
+
+POL_boleslaw_bierut = {
+}
+
+POL_boleslaw_piasecki = {
+}
+
+POL_edward_osobka_morawski = {
+}
+
+POL_henryk_floyar_rajchman = {
+}
+
+POL_jozef_haller = {
+}
+
+POL_karl_albrecht = {
+}
+
+POL_wanda_wasilewska = {
+}
+
+POL_wladyslaw_sikorski = {
+}
+
+PRC_bo_gu = {
+}
+
+PRC_chen_changhao = {
+}
+
+PRC_deng_xiaoping = {
+}
+
+PRC_he_long = {
+}
+
+PRC_kang_sheng = {
+}
+
+PRC_liu_shaoqi = {
+}
+
+PRC_luo_ruiqing = {
+}
+
+PRC_mao_zedong = {
+}
+
+PRC_otto_braun = {
+}
+
+PRC_pavel_mif = {
+}
+
+PRC_ren_bishi = {
+}
+
+PRC_wang_jiaxiang = {
+}
+
+PRC_wang_ming = {
+}
+
+PRC_wang_shiwei = {
+}
+
+PRC_zhang_guotao = {
+}
+
+PRC_zhou_enlai = {
+}
+
+PRC_ziao_jingguang = {
+}
+
+PSR = {
+}
+
+RAS = {
+}
+
+RJP = {
+}
+
+RNG = {
+}
+
+ROM_ion_antonescu = {
+}
+
+ROM_king_michael = {
+}
+
+ROM_octavian_goga = {
+}
+
+SIC = {
+}
+
+SIN = {
+}
+
+SKK = {
+}
+
+SND = {
+}
+
+SOV_aleksandr_cherepanov = {
+}
+
+SOV_aleksandr_shlyapnikov = {
+}
+
+SOV_aleksandr_yegorov = {
+}
+
+SOV_aleksey_rykov = {
+}
+
+SOV_andrey_shkuro = {
+}
+
+SOV_andrey_vlasov = {
+}
+
+SOV_grigory_semyonov = {
+}
+
+SOV_grigory_sokolnikov = {
+}
+
+SOV_grigory_zinovyev = {
+}
+
+SOV_ivan_smirnov = {
+}
+
+SOV_ivar_smilga = {
+}
+
+SOV_karl_radek = {
+}
+
+SOV_lev_kamenev = {
+}
+
+SOV_maksim_litvinov = {
+}
+
+SOV_martemyan_ryutin = {
+}
+
+SOV_mikhail_tomsky = {
+}
+
+SOV_mikhail_tukhachevsky = {
+}
+
+SOV_nikolay_bukharin = {
+}
+
+SOV_nikolay_ustryalov = {
+}
+
+SOV_pyotr_krasnov = {
+}
+
+SOV_semyon_budyonny = {
+}
+
+SOV_vasily_blyukher = {
+}
+
+SOV_vasily_chuykov = {
+}
+
+SOV_Vasily_Kuznetsov = {
+}
+
+SOV_vitaly_primakov = {
+}
+
+SOV_yevgeny_preobrazhensky = {
+}
+
+TML = {
+}
+
+USA_chester_w_nimitz = {
+}
+
+USA_douglas_macarthur = {
+}
+
+USA_ernest_king = {
+}
+
+USA_george_s_patton = {
+}
+
+USA_harry_white = {
+}
+
+USA_jonathan_wainwright = {
+}
+
+USA_joseph_stilwell = {
+}
+
+USA_mark_clark = {
+}
+
+USA_native_american_council = {
+}
+
+USA_omar_bradley = {
+}
+
+USA_victor_perlo = {
+}
+
+USA_whittaker_chambers = {
+}
+
+USA_william_halsey_jr = {
+}
+
+WIS = {
+}
+
+XIC = {
+}
+
+YUG_josip_broz_tito = {
+}
+
+YUG_prince_paul = {
+}
+

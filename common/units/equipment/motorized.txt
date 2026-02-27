@@ -65,10 +65,10 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 	}
-	motorized_equipment_3 = {
-		year = 2036
-		archetype = motorized_equipment
-		parent = motorized_equipment_2
+		motorized_equipment_3 = {
+			year = 2036
+			archetype = motorized_equipment
+			parent = motorized_equipment_2
 		priority = 30
 		#Misc Abilities
 		maximum_speed = 21
@@ -80,7 +80,34 @@ equipments = {
 		defense = 20
 		breakthrough = 4
 		hardness = 0.4
-		#Space taken in convoy
-		lend_lease_cost = 5
+			#Space taken in convoy
+			lend_lease_cost = 5
+		}
+		motorbike_equipment = {
+			year = 2000
+			is_archetype = yes
+			picture = archetype_motorized_equipment
+			is_buildable = no
+			type = {
+				motorized
+				support
+			}
+			group_by = archetype
+			interface_category = interface_category_land
+			maximum_speed = 14
+			reliability = 0.9
+			breakthrough = 1
+			lend_lease_cost = 2
+			build_cost_ic = 1.5
+			resources = {
+				rubber = 1
+				steel = 1
+			}
+			fuel_consumption = 0.5
+		}
+		motorbike_equipment_1 = {
+			year = 2000
+			archetype = motorbike_equipment
+			priority = 1
+		}
 	}
-}

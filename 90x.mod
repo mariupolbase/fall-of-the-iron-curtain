@@ -8,7 +8,7 @@ tags={
 	"Historical"
 }
 name="Fall of the Iron Curtain Prototype"
-supported_version="1.16.*"
+supported_version="1.17.4.*"
 replace_path = "history/states"
 replace_path = "map/strategicregions"
 path="mod/90x"

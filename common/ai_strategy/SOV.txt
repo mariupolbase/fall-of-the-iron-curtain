@@ -54,7 +54,13 @@ SOV_unit_production = {
 	ai_strategy = {
 		type = role_ratio
 		id = armor
-		value = 8
+		value = 7
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = heavy_armor
+		value = 1
 	}
 
 	ai_strategy = {
@@ -266,12 +272,12 @@ SOV_we_want_to_reach_t34_asap = {
 	ai_strategy = {
 		type = research_weight_factor
 		id = basic_medium_tank_chassis
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = research_weight_factor
 		id = basic_medium_tank
-		value = 100
+		value = 200
 	}
 }
 
@@ -287,22 +293,76 @@ SOV_we_want_t34_asap = {
 	ai_strategy = {
 		type = research_weight_factor
 		id = improved_medium_tank_chassis
-		value = 100
+		value = 250
 	}
 	ai_strategy = {
 		type = research_weight_factor
 		id = improved_medium_tank
-		value = 100
+		value = 200
 	}
 	ai_strategy = {
 		type = production_upgrade_desire_offset
-		id = medium_tank_chassis_1
+		id = medium_tank_equipment_2
 		value = 100  # 100 essentially means we don't require a stockpile surplus
 	}
 	ai_strategy = {
 		type = production_upgrade_desire_offset
-		id = medium_tank_equipment_1
+		id = medium_tank_chassis_2
 		value = 100  # 100 essentially means we don't require a stockpile surplus
+	}
+}
+
+SOV_build_the_t34 = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1940.3.1
+		OR = {
+			has_tech = improved_medium_tank
+			has_tech = improved_medium_tank_chassis
+		}
+	}
+	abort = {
+		OR = {
+			has_tech = main_battle_tank
+			has_tech = main_battle_tank_chassis
+		}
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories_archetype
+		id = medium_tank_chassis
+		value = 5
+	}
+	ai_strategy = {
+		type = equipment_production_min_factories_archetype
+		id = motorized_equipment
+		value = 2
+	}
+}
+
+SOV_time_to_leave_light_tanks = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		OR = {
+			has_tech = improved_medium_tank
+			has_tech = improved_medium_tank_chassis
+		}
+		has_template_ai_majority_unit = medium_armor
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_chassis
+		value = -75
+	}
+	ai_strategy = {
+		type = equipment_variant_production_factor
+		id = medium_tank_chassis
+		value = 30
 	}
 }
 
@@ -546,6 +606,38 @@ spanish_civil_war_SOV_resistance = {
 	}
 }
 
+manchukuo_soviet_aid = {
+	allowed = {
+		original_tag = SOV
+		has_dlc = "No Compromise, No Surrender"
+	}
+	enable = {
+		has_government = communism
+		country_exists = MAN
+		MAN = {
+			has_completed_focus = MAN_tsr_soviet_aid
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = befriend
+		id = MAN
+		value = 100
+	}
+	ai_strategy = {
+		type = support
+		id = MAN
+		value = 100
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = MAN
+		value = 100
+	}
+}
+
+
+
 SOV_template_design_1 = {
 	allowed = {
 		original_tag = SOV
@@ -581,11 +673,11 @@ SOV_template_design_1 = {
 		value = -10
 	}
 
-	ai_strategy = {
-		type = template_prio
-		id = heavy_armor
-		value = -50
-	}
+	#ai_strategy = {
+	#	type = template_prio
+	#	id = heavy_armor
+	#	value = -50
+	#}
 
 	ai_strategy = {
 		type = template_prio
@@ -950,6 +1042,71 @@ SOV_dont_send_volunteers_that_early_to_china = {
 	}
 }
 
+SOV_send_volunteers_to_sinkiang = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		SIK = { has_war_with = KHM }
+		country_exists = SIK
+	}
+
+	abort = {
+		NOT = {
+			SIK = { has_war_with = KHM }
+		}
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SIK"
+		value = 999
+	}
+}
+
+SOV_dont_send_volunteers_to_japan = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		JAP = { 
+			has_war_with = CHI 
+			NOT = { has_government = communism }
+		}
+		SOV = {
+			has_government = communism
+		}
+	}
+
+	abort_when_not_enabled = yes 
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "JAP"
+		value = -800
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MAN"
+		value = -800
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "MEN"
+		value = -800
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "KOR"
+		value = -800
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "RNG"
+		value = -800
+	}
+}
+
 SOV_dont_send_lend_lease_that_early_to_china = {
 	allowed = {
 		original_tag = SOV
@@ -984,7 +1141,7 @@ SOV_have_some_train_production = {
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = train
-		value = 3
+		value = 2
 	}
 }
 
@@ -1819,7 +1976,7 @@ SOV_unit_buffer_for_asian_threat = {
 			has_war = no
 			AND = {
 				has_war = yes
-				surrender_progress < 0.75
+				surrender_progress < 0.35
 			}
 		}
 	}
@@ -1837,10 +1994,7 @@ SOV_unit_buffer_for_asian_threat = {
 
 		# states to put garrison orders (if no state is friendly, strat is invalid)
 		states = {
-			564
-			563
-			566
-			567
+			563	
 			561
 			657
 			408
@@ -1940,8 +2094,7 @@ SOV_boost_div_upgrades = { #lets make sure sov upgrades divs when at war
 	}
 	enable = {
 		has_war = yes
-
-		date > 1941.1.1
+		date > 1940.1.1
 	}
 
 	abort = {
@@ -2018,7 +2171,7 @@ SOV_wants_civ = {
 		original_tag = SOV
 	}
 	enable = {
-		date < 1939.1.1
+		date < 1938.9.1
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -2489,12 +2642,120 @@ SOV_cant_stop_wont_stop = {
 	allowed = { original_tag = SOV }
 	enable = {
 		is_historical_focus_on = yes
+		date > 1941.9.1
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
 		type = ai_wanted_divisions_factor
 		value = 0.15  #FEED THE MEATGRINDER
+	}
+}
+
+SOV_lets_prep_for_more_advanced_heavy_tanks = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1937.1.1
+		OR = {
+			has_tech = basic_medium_tank
+			has_tech = basic_medium_tank_chassis
+		}
+		
+	}
+
+	abort = {
+		OR = {
+			has_tech = basic_heavy_tank_chassis
+			has_tech = basic_heavy_tank
+		}
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_heavy_tank_chassis
+		value = 200
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = basic_heavy_tank
+		value = 200
+	}
+}
+
+SOV_lets_get_some_kv_tanks = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1939.6.1
+		OR = {
+			has_tech = improved_medium_tank_chassis
+			has_tech = improved_medium_tank
+		}
+	}
+
+	abort = {
+		OR = {
+			has_tech = improved_heavy_tank_chassis
+			has_tech = improved_heavy_tank
+		}
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = improved_heavy_tank_chassis
+		value = 200
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = improved_heavy_tank
+		value = 200
+	}
+}
+
+SOV_lets_get_some_is_tanks = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		date > 1941.1.1
+		has_tech = improved_heavy_tank_chassis
+	}
+
+	abort = {
+		has_tech = advanced_heavy_tank_chassis
+	}
+
+	ai_strategy = {
+		type = research_weight_factor
+		id = advanced_heavy_tank_chassis
+		value = 200
+	}
+}
+
+SOV_we_need_more_tanks_to_smash_the_german_lines = {
+	allowed = { original_tag = SOV }
+	enable = {
+		date > 1941.1.1
+		any_enemy_country = {
+			is_major = yes 
+		}
+		surrender_progress < 0.6 # Stop when pushed back too far as we won't have resources
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {	
+		type = role_ratio
+		id = armor
+		value = 3
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = heavy_armor
+		value = 1
 	}
 }
 

@@ -1,0 +1,336 @@
+﻿# 90x compatibility scripted triggers
+# Auto-generated from error.log on 2026-02-26 19:57:00
+# Conservative false fallback for unresolved legacy calls
+
+ai_air_doctrine_tier_1_trigger = {
+    always = no
+}
+
+ai_air_doctrine_tier_2_trigger = {
+    always = no
+}
+
+ai_land_doctrine_tier_1_trigger = {
+    always = no
+}
+
+ai_land_doctrine_tier_2_trigger = {
+    always = no
+}
+
+ANU = {
+    always = no
+}
+
+behavior_competitive_trigger = {
+    always = no
+}
+
+behavior_dispersed_trigger = {
+    always = no
+}
+
+behavior_indolent_trigger = {
+    always = no
+}
+
+BHR = {
+    always = no
+}
+
+BLC = {
+    always = no
+}
+
+CIP = {
+    always = no
+}
+
+FOR = {
+    always = no
+}
+
+FSA = {
+    always = no
+}
+
+GDC = {
+    always = no
+}
+
+GSM = {
+    always = no
+}
+
+HBC = {
+    always = no
+}
+
+head_minister_trigger = {
+    always = no
+}
+
+HYD = {
+    always = no
+}
+
+IMO = {
+    always = no
+}
+
+is_communist = {
+    always = no
+}
+
+JAP_chikuhei_nakajima = {
+    always = no
+}
+
+JAP_emperor_hirohito = {
+    always = no
+}
+
+JAP_giro_senoo = {
+    always = no
+}
+
+JAP_hisaichi_terauchi = {
+    always = no
+}
+
+JAP_kenjiro_matsumoto = {
+    always = no
+}
+
+JAP_koyata_iwasaki = {
+    always = no
+}
+
+JAP_masakazu_kawabe = {
+    always = no
+}
+
+JAP_shunroku_hata = {
+    always = no
+}
+
+JAP_tadaichi_wakamatsu = {
+    always = no
+}
+
+JAP_tsuji_jun = {
+    always = no
+}
+
+JAP_yoshisuke_aikawa = {
+    always = no
+}
+
+JAP_yosuke_matsuoka = {
+    always = no
+}
+
+KAS = {
+    always = no
+}
+
+KHL = {
+    always = no
+}
+
+KHM = {
+    always = no
+}
+
+KLT = {
+    always = no
+}
+
+KOL = {
+    always = no
+}
+
+KOS = {
+    always = no
+}
+
+KUM = {
+    always = no
+}
+
+MPU = {
+    always = no
+}
+
+MYS = {
+    always = no
+}
+
+NWF = {
+    always = no
+}
+
+NXM = {
+    always = no
+}
+
+PLU = {
+    always = no
+}
+
+PRC_bo_gu = {
+    always = no
+}
+
+PRC_otto_braun = {
+    always = no
+}
+
+PRC_wang_ming = {
+    always = no
+}
+
+PRC_zhang_guotao = {
+    always = no
+}
+
+PRC_zhou_enlai = {
+    always = no
+}
+
+RAS = {
+    always = no
+}
+
+RJP = {
+    always = no
+}
+
+RNG = {
+    always = no
+}
+
+SIC = {
+    always = no
+}
+
+SIN = {
+    always = no
+}
+
+SKK = {
+    always = no
+}
+
+SND = {
+    always = no
+}
+
+SOV_aleksandr_cherepanov = {
+    always = no
+}
+
+SOV_aleksandr_shlyapnikov = {
+    always = no
+}
+
+SOV_aleksandr_yegorov = {
+    always = no
+}
+
+SOV_aleksey_rykov = {
+    always = no
+}
+
+SOV_genrikh_yagoda = {
+    always = no
+}
+
+SOV_grigory_sokolnikov = {
+    always = no
+}
+
+SOV_grigory_zinovyev = {
+    always = no
+}
+
+SOV_ivan_smirnov = {
+    always = no
+}
+
+SOV_ivar_smilga = {
+    always = no
+}
+
+SOV_karl_radek = {
+    always = no
+}
+
+SOV_lavrenty_beriya = {
+    always = no
+}
+
+SOV_lev_kamenev = {
+    always = no
+}
+
+SOV_maksim_litvinov = {
+    always = no
+}
+
+SOV_martemyan_ryutin = {
+    always = no
+}
+
+SOV_mikhail_tomsky = {
+    always = no
+}
+
+SOV_mikhail_tukhachevsky = {
+    always = no
+}
+
+SOV_nikolay_bukharin = {
+    always = no
+}
+
+SOV_nikolay_ustryalov = {
+    always = no
+}
+
+SOV_nikolay_yezhov = {
+    always = no
+}
+
+SOV_vasily_blyukher = {
+    always = no
+}
+
+SOV_vasily_chuykov = {
+    always = no
+}
+
+SOV_vitaly_primakov = {
+    always = no
+}
+
+SOV_yevgeny_preobrazhensky = {
+    always = no
+}
+
+TML = {
+    always = no
+}
+
+USA_robert_oppenheimer = {
+    always = no
+}
+
+WIS = {
+    always = no
+}
+
+XIC = {
+    always = no
+}
+

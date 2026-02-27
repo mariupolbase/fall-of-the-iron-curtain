@@ -71,7 +71,7 @@ containerWindowType = {
 			fixedsize = yes
 		}
 		iconType = {
-			name = "pic_coat_of_arms"
+			name = "pic_coat_of_arms_2"
 			position = { x = 300 y = 100 }
 			quadTextureSprite = "GFX_nazi_coat_of_arms"
 			scale = 0.9

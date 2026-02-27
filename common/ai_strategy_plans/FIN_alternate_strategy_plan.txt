@@ -188,6 +188,45 @@ FIN_democratic_plan = {
 	}
 
 	ai_national_focuses = {
+		#1936
+		FIN_suomalainen_sosialismi #35
+		FIN_enhance_southern_infrastructure
+		FIN_social_democracy #35
+		FIN_industrial_development
+		FIN_align_the_agrarian_league #35
+		FIN_increase_military_budget #35
+		FIN_janiskoski_power_plant #35
+		FIN_pragmatic_socialism #35
+
+		#1937
+		FIN_social_democratic_womens_union
+		FIN_sosialistinen_eduskuntaryhma #35
+		FIN_suomen_maavoimat
+		FIN_extra_refresher_exercises
+		FIN_mannerheim_line
+		FIN_expand_imatra_hydropower_plant #35
+
+		#1938
+		FIN_outokumpu_for_defence_industry
+		FIN_the_cold_front #35
+		FIN_jaeger_movement
+		FIN_defense_in_depth
+		FIN_suomen_ilmavoimat
+		FIN_winter_warfare #35
+				
+		#1939
+		FIN_antagonize_the_soviets #35
+		FIN_finnish_learned_societies
+		FIN_defensive_preparations
+		FIN_trade_agreements
+		FIN_motti_tactics #35
+		FIN_finnish_federation_of_trade_unions
+
+		#1940
+		FIN_salvaged_and_retooled
+		FIN_mineral_wealth
+
+		# DEMOCRATIC AI PUSHED TOWARDS focus Approach Major Democracies if conditionas are appropriate (in the FT weights), otherwise it will go for United Under the North Star
 
 	}
 

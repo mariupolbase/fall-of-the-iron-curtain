@@ -615,7 +615,10 @@ ITA_communist_plan = {
 
 	#Focuses never to take
 	focus_factors = {
-
+		ITA_culto_del_duce = 0
+		ITA_monarchia_d_italia = 0
+		ITA_italian_socialism = 0
+		ITA_new_colonial_policies = 0
 	}		
 
 	research = {
@@ -658,7 +661,72 @@ ITA_democratic_plan = {
 	}
 
 	ai_national_focuses = {
+		#1936
+		ITA_ethiopian_war_logistics_bba 			#35
+		ITA_triumph_in_africa_bba 					#35	(as soon as possible)
+		ITA_unite_the_opposition					#35
+		ITA_organize_strikes_in_the_north			#35
+		ITA_servizio_informazione_militare 					
+		ITA_italian_highways_bba					#35
+		ITA_railway_innovations
+		ITA_army_primacy_bba						#35
+		
+		#1937
+		ITA_defy_the_duce							#35
+		ITA_appeal_to_the_bourgeoisie				#35
+		ITA_seize_old_equipment						#35
+		ITA_the_italian_republic					#35
+		ITA_italian_socialism						#35 (as soon as possible)
+		ITA_aid_for_the_spanish_republic			#35 (as soon as possible)
+		ITA_the_republics_leadership				#35 (as soon as possible)
+		ITA_cooperate_with_the_mafia				#35
+		ITA_investments_in_edison
 
+		#1938
+		ITA_the_ethiopian_question					#35
+		ITA_new_colonial_policies					#35
+		ITA_negotiations_with_albania				#35
+		ITA_the_italian_confederation
+		ITA_expand_national_universities
+		ITA_empower_the_unions
+		ITA_ministry_of_italian_africa 				#35
+
+		#1939
+		ITA_naval_power_projection					#35
+		ITA_expand_naval_facilities					#35
+		ITA_steel_industry_in_terni
+		ITA_a_bandits_war
+		ITA_italian_tankettes
+		ITA_production_lines
+
+		#1940
+		ITA_fiocchi_munizioni 						#35
+		ITA_planned_economy							#35
+		ITA_enlist_the_bashkimi_kombetar			#35
+		ITA_increase_artillery_production
+		ITA_bring_back_exiled_intellectuals
+		ITA_social_stability						#35
+		ITA_italia_libera							#35
+		ITA_industria_della_gomma_sintetica			#35
+
+		#1941
+		ITA_the_fight_overseas
+		ITA_ascari
+		ITA_irregulars
+		ITA_liberate_the_workers_of_africa
+		ITA_european_democracies
+		ITA_scientific_cooperation
+
+		#1942						
+		ITA_superesercito							#35
+		ITA_supermarina								#35
+		ITA_self_propelled_guns
+		ITA_incrociatori_leggeri					#35
+		ITA_midget_submarines						#35
+		ITA_end_fiat_ansaldo_duopoly				#35
+		ITA_ferrea_mole_ferreo_cuore				#35
+		ITA_air_innovations_bba						#35
+		ITA_citta_dell_aria
 	}	
 
 	#Focuses never to take
