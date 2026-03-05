@@ -436,7 +436,7 @@ GER_raids_store_some_equipment = {
 
 	ai_strategy = {
 		type = save_equipment
-		id = transport_plane_equipment
+		id = air_transport
 		value = 10
 	}
 	ai_strategy = {

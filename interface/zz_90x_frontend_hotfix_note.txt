@@ -1,0 +1,11 @@
+# 90x frontend hotfix (2026-02-27)
+#
+# Context:
+# HOI4 1.17.4.1 crashes on country-selection due to outdated mod overrides:
+# - interface/frontendmainview.gui
+# - interface/frontendmainview.gfx
+#
+# Actions:
+# - Renamed to .disabled so vanilla frontend UI is used.
+#
+# Re-enable only after full merge with current vanilla 1.17.4.1 frontend definitions.
