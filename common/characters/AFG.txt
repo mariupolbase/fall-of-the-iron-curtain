@@ -314,7 +314,6 @@ characters={
 				logistics_skill = 2
 				legacy_id = -1
 				visible = {
-					has_completed_focus = AFG_adopt_nufus
 					is_country_leader = no
 				}
 			}
@@ -720,11 +719,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_against_kabul
 				}
 			}
 			available = {
-				has_completed_focus = AFG_reform_1
 			}
 			traits  = {
 				education_reformer 
@@ -746,7 +743,6 @@ characters={
 				original_tag  = AFG
 			}
 			#available = {
-			#	has_completed_focus = AFG_promote_the_counter_elite
 			#}
 			traits  = {
 				AFG_director_of_public_health 
@@ -769,11 +765,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_against_kabul
 				}
 			}
 			available = {
-				has_completed_focus = AFG_promote_the_counter_elite
 			}
 			traits  = {
 				socialist_journalist 
@@ -796,11 +790,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_against_kabul
 				}
 			}
 			available = {
-				has_completed_focus = AFG_retire_the_uncles
 			}
 			traits  = {
 				SWI_social_democrat 
@@ -860,8 +852,6 @@ characters={
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_concessions_to_pashtuns
-					has_completed_focus = AFG_unite_pashtunistan
 				}
 			}
 			traits  = {
@@ -884,7 +874,6 @@ characters={
 				original_tag  = AFG
 			}
 			available = {
-				has_completed_focus = AFG_secure_dynasty
 				is_country_leader = no
 			}
 			traits  = {
@@ -925,13 +914,10 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_remember_the_khost_rebellion
 				}
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_ally_the_young_afghans
-					has_completed_focus = AFG_education_for_women_and_girls
 				}
 			}
 			traits  = {
@@ -955,11 +941,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_against_kabul
 				}
 			}
 			available = {
-				has_completed_focus = AFG_gant_refuge_to_jadidists
 			}
 			traits  = {
 				AFG_uzbek_scholar 
@@ -984,11 +968,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_against_kabul
 				}
 			}
 			available = {
-				has_completed_focus = AFG_gant_refuge_to_jadidists
 			}
 			traits  = {
 				AFG_bukharan_jadidist 
@@ -1013,13 +995,10 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_support_king_zahir
 				}
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_ally_basmachi_remnants
-					has_completed_focus = AFG_integrate_the_basmachi_movement
 				}
 			}
 			traits  = {
@@ -1045,13 +1024,10 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_support_king_zahir
 				}
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_ally_basmachi_remnants
-					has_completed_focus = AFG_integrate_the_basmachi_movement
 				}
 			}
 			traits  = {
@@ -1078,15 +1054,10 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_support_king_zahir
-					has_completed_focus = AFG_crown_the_bukharan_emir
-					has_completed_focus = AFG_invite_the_mughal_prince
 				}
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_contact_amanullah_loyalists
-					has_completed_focus = AFG_form_the_khuddamul_furqan
 				}
 			}
 			traits  = {
@@ -1137,11 +1108,9 @@ characters={
 			}
 			visible = {
 				#NOT = {
-				#	has_completed_focus = AFG_against_kabul
 				#}
 			}
 			available = {
-				has_completed_focus = AFG_socialist_coup
 			}
 			traits  = {
 				AFG_red_shirt_trait
@@ -1166,11 +1135,9 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_completed_focus = AFG_support_king_zahir
 				}
 			}
 			available = {
-				has_completed_focus = AFG_expand_the_madrasas	
 			}
 			traits  = {
 				AFG_influential_spiritual_leader_trait
@@ -1219,8 +1186,6 @@ characters={
 			}
 			available = {
 				OR = {
-					has_completed_focus = AFG_revive_the_1923_constitution
-					has_completed_focus = AFG_ally_the_young_afghans
 				}
 			}
 			traits  = {
@@ -1245,10 +1210,8 @@ characters={
 				original_tag  = AFG
 			}
 			visible = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			traits  = {
 				war_industrialist 
@@ -1271,10 +1234,8 @@ characters={
 				original_tag  = AFG
 			}
 			visible = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			traits  = {
 				economist 
@@ -1298,10 +1259,8 @@ characters={
 				original_tag  = AFG
 			}
 			visible = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			available = {
-				has_completed_focus = AFG_recruit_foreign_experts
 			}
 			traits  = {
 				armaments_organizer 
@@ -1405,7 +1364,6 @@ characters={
 			visible = {
 			}
 			available = {
-				has_completed_focus = AFG_renew_soviet_trade_agreement
 				NOT = {
 					has_country_leader = {
 						ruling_only = yes

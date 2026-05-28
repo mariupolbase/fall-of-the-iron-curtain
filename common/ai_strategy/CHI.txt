@@ -477,8 +477,6 @@ CHI_aifc_incompetent_officers = {
 	enable = {
 		OR = {
 			has_idea = CHI_incompetent_officers
-			NOT = { has_completed_focus = CHI_serve_the_country_with_utmost_loyalty }
-			NOT = { has_completed_focus = CHI_prepare_the_war_zones }
 		}
 	}
 	
@@ -510,7 +508,6 @@ CHI_dont_defend_HBC = {
 			}
 		}
 		CHI = {
-			NOT = { has_completed_focus = CHI_strengthening_our_resolve }
 		}
 	}
 
@@ -709,8 +706,6 @@ CHI_bog_them_down_and_war_zones_concentrations = {
 	}
 	enable = {
 		OR = {
-			has_completed_focus = CHI_bog_them_down_in_the_centre
-			has_completed_focus = CHI_prepare_the_war_zones
 		}
 		any_core_state = {
 			has_state_flag = CHI_holding_state_mission_flag
@@ -744,7 +739,6 @@ CHI_prioritize_coast_garrisons = {
 			has_war_with = FRA
 		}
 		CHI = {
-			NOT = { has_completed_focus = CHI_strengthening_our_resolve }
 		}
 	}
 	abort_when_not_enabled = yes
@@ -771,7 +765,6 @@ CHI_prioritize_coast_garrisons_low_effort = { # Specifically for fasc-chi
 			has_war_with = ENG
 			has_war_with = FRA
 		}
-		has_completed_focus = CHI_strengthening_our_resolve 
 	}
 	abort_when_not_enabled = yes
 	
@@ -886,7 +879,6 @@ HBC_do_everything_possible_to_allow_japan_to_invade = {
 		has_war = no
 		date < 1938.1.1
 		CHI = {
-			NOT = { has_completed_focus = CHI_strengthening_our_resolve }
 		}
 	}
 	abort_when_not_enabled = yes

@@ -3,7 +3,7 @@ add_namespace = sovievent
 country_event = {
 	id = sovievent.1
 	title = sovievent.1.t
-	description = sovievent.1.d
+	desc = sovievent.1.d
 	picture = GFX_report_event_picture
 
 	is_triggered_only = yes
@@ -17,7 +17,7 @@ country_event = {
 country_event = {
 	id = sovievent.2
 	title = sovievent.2.t
-	description = sovievent.2.d
+	desc = sovievent.2.d
 	picture = GFX_report_event_picture
 
 	is_triggered_only = yes

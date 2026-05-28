@@ -1,4 +1,4 @@
-## THEME: GERMAN CHANCELLOR ###
+﻿## THEME: GERMAN CHANCELLOR ###
 GER_LEADERS = {
 	name = NAME_THEME_LEADERS 
 
@@ -60,11 +60,10 @@ GER_NAZI_LEADER = {
 	for_countries = { GER }
 
 	can_use = { 
-		OR = { 
-		has_government = fascist 
-		has_government = nationalist
-		has_government = authoritarian_democrat
-	  }
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
 	}
 
 	type = ship
@@ -87,9 +86,9 @@ GER_NAZI_LEADER = {
 #
 #	can_use = { 
 #		OR = { 
-#		has_government = fascist 
-#		has_government = nationalist
-#		has_government = authoritarian_democrat
+#		has_government = fascism 
+#		has_government = fascism
+#		has_government = neutrality
 #	  }
 #	}
 #

@@ -586,12 +586,10 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AST_standard_gauge_railway
 			}
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -641,7 +639,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = AST_cockatoo_island_shipyards
 			}
 			
 			research_bonus = {
@@ -662,7 +659,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = AST_kangaroo_point_shipyards
 			}
 			
 			research_bonus = {
@@ -734,7 +730,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AST_commonwealth_aircraft_corporation
 				is_subject_of = ENG
 			}
 

@@ -1,8 +1,3 @@
-﻿#Brigades names come from existing or former brigade of the French Army since the Cold War.
-#To virtually help the list being slightly bigger, former divisions name were taken to as brigades. It's a common pratice, the 2nd Armored Brigade being the heir of 2nd Armored Division.
-#Division names are unlikely to be used by the Player, except in USoE scenario, so I've simply taken the vanilla lists, removed some and add others.
-#
-
 FRA_INF_01 = {
 	name = "Infantry Brigade"
 
@@ -18,7 +13,6 @@ FRA_INF_01 = {
 		1 = { "%dère Brg. d'Infanterie" }
 	}
 }
-
 FRA_INF_02 = {
 	name = "Infantry Division"
 
@@ -36,7 +30,6 @@ FRA_INF_02 = {
 		1 = { "%dère Div. d'Infanterie" }
 	}
 }
-
 FRA_CHA_01 = {
 	name = "Chasseur Regiment"
 
@@ -52,7 +45,6 @@ FRA_CHA_01 = {
 		1 = { "%dère Rég. de Chasseurs" }
 	}
 }
-
 FRA_CHA_02 = {
 	name = "Chasseur Brigade"
 
@@ -70,7 +62,6 @@ FRA_CHA_02 = {
 		1 = { "%dère Brg. de Chasseurs" }
 	}
 }
-
 FRA_MOT_01 = {
 	name = "Motorized Brigade"
 
@@ -88,7 +79,6 @@ FRA_MOT_01 = {
 		1 = { "%dère Brg. d'Infanterie Motorisée" }
 	}
 }
-
 FRA_MOT_02 = {
 	name = "Motorized Division"
 
@@ -115,7 +105,6 @@ FRA_MOT_02 = {
 		15 = { "%dème Div. d'Infanterie Motorisée" }
 	}
 }
-
 FRA_MEC_01 = {
 	name = "Mechanized Brigade"
 
@@ -142,7 +131,6 @@ FRA_MEC_01 = {
 		16 = { "%dème Brg. Mécanisée" }
 	}
 }
-
 FRA_MEC_02 = {
 	name = "Mechanized Division"
 
@@ -171,7 +159,6 @@ FRA_MEC_02 = {
 		16 = { "%dème Div. Mécanisée" }
 	}
 }
-
 FRA_ARM_01 = {
 	name = "Armored Brigade"
 
@@ -191,7 +178,6 @@ FRA_ARM_01 = {
 		7 = { "7ème Brg. Blindée" }
 	}
 }
-
 FRA_ARM_02 = {
 	name = "Armored Division"
 
@@ -209,7 +195,6 @@ FRA_ARM_02 = {
 		1 = { "%dère Div. Blindée" }
 	}
 }
-
 FRA_REC_01 = {
 	name = "Lightly Armored Brigade"
 
@@ -228,7 +213,6 @@ FRA_REC_01 = {
 		6 = { "6ème Brg. Légère Blindée" }
 	}
 }
-
 FRA_REC_02 = {
 	name = "Lightly Armored Division"
 
@@ -250,7 +234,6 @@ FRA_REC_02 = {
 		1 = { "%dère Div. Légère Blindée" }
 	}
 }
-
 FRA_PAR_01 = {
 	name = "Parachute Brigade"
 
@@ -269,7 +252,6 @@ FRA_PAR_01 = {
 		11 = { "11ème Brg. Parachutiste" }
 	}
 }
-
 FRA_PAR_02 = {
 	name = "Airborne Division"
 
@@ -301,7 +283,6 @@ FRA_PAR_02 = {
 		9 = { "%dème Div. Parachutiste" }
 	}
 }
-
 FRA_MAR_01 = {
 	name = "Marine Brigade"
 
@@ -320,7 +301,6 @@ FRA_MAR_01 = {
 		9 = { "9ème Brg. d'Infanterie de Marine" }
 	}
 }
-
 FRA_MAR_02 = {
 	name = "Marine Division"
 
@@ -357,7 +337,6 @@ FRA_MAR_02 = {
 		20 = { "%dème Div. d'Infanterie de Marine" }
 	}
 }
-
 FRA_MNT_01 = {
 	name = "Mountain Brigade"
 
@@ -376,7 +355,6 @@ FRA_MNT_01 = {
 		27 = { "27ème Brg. d’Infanterie de Montagne" }
 	}
 }
-
 FRA_MNT_02 = {
 	name = "Mountain Division"
 
@@ -402,7 +380,6 @@ FRA_MNT_02 = {
 		21 = { "%dème Div. d'Infanterie de Montagne" }
 	}
 }
-
 FRA_AIR_01 = {
 	name = "Airmobile Brigade"
 
@@ -420,7 +397,6 @@ FRA_AIR_01 = {
 		1 = { "%dère Brg. Aéromobile" }
 	}
 }
-
 FRA_AIR_02 = {
 	name = "Airmobile Division"
 
@@ -439,7 +415,6 @@ FRA_AIR_02 = {
 		4 = { "%dème Div. Aéromobile" }
 	}
 }
-
 FRA_SOF_01 = {
 	name = "SOF Regiment"
 
@@ -458,7 +433,6 @@ FRA_SOF_01 = {
 		13 = { "13ème Rég. de Dragons Parachutistes" }
 	}
 }
-
 FRA_SOF_02 = {
 	name = "SOF Brigade"
 
@@ -476,7 +450,6 @@ FRA_SOF_02 = {
 		1 = { "%dère Brg. de Forces Spéciales" }
 	}
 }
-
 FRA_SOF_03 = {
 	name = "SOF Division"
 
@@ -494,7 +467,6 @@ FRA_SOF_03 = {
 		1 = { "%dère Div. de Forces Spéciales" }
 	}
 }
-
 FRA_LEG_01 = {
 	name = "Foreign Legion Regiment"
 
@@ -512,7 +484,6 @@ FRA_LEG_01 = {
 		13 = { "13ème Demi-Brigade de la Légion Etrangère" }
 	}
 }
-
 FRA_LEG_02 = {
 	name = "Foreign Legion Brigade"
 
@@ -530,7 +501,6 @@ FRA_LEG_02 = {
 		1 = { "%dère Brg. Étranger d'Infanterie" }
 	}
 }
-
 FRA_LEG_03 = {
 	name = "Foreign Legion Division"
 
@@ -548,18 +518,13 @@ FRA_LEG_03 = {
 		1 = { "%dère Div. Étranger d'Infanterie" }
 	}
 }
-
 FRA_MAQ_01 = {
 	name = "FFI/Maquisards"
 
 	for_countries = { FPR }
 	
 	can_use = {
-		OR = {
-			has_government = communist 
-			has_government = totalitarian_socialist 
-			has_government = libertarian_socialist 
-		}
+		has_government = communism
 	}
 	
 	division_types = { "infantry" "recce" "militia" }
@@ -583,5 +548,379 @@ FRA_MAQ_01 = {
 		13 = { "%dème Division Maquisard" }
 		14 = { "%dème Division Maquisard" }
 		16 = { "%dème Division Maquisard" }
+	}
+}
+FRA_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème Division de Cavalerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dère Division de Cavalerie" }
+		2 = { "%dème Division de Cavalerie" }
+		3 = { "%dème Division de Cavalerie" }
+		4 = { "%dème Division de Cavalerie" }
+		5 = { "%dème Division de Cavalerie" }
+		6 = { "%dème Division de Cavalerie" }
+		7 = { "%dème Division de Cavalerie" }
+		8 = { "%dème Division de Cavalerie" }
+		9 = { "%dème Division de Cavalerie" }
+		10 = { "%dème Division de Cavalerie" }
+		11 = { "%dème Division de Cavalerie" }
+		12 = { "%dème Division de Cavalerie" }
+		13 = { "%dème Division de Cavalerie" }
+		14 = { "%dème Division de Cavalerie" }
+		15 = { "%dème Division de Cavalerie" }
+		16 = { "%dème Division de Cavalerie" }
+		17 = { "%dème Division de Cavalerie" }
+		18 = { "%dème Division de Cavalerie" }
+		19 = { "%dème Division de Cavalerie" }
+		20 = { "%dème Division de Cavalerie" }
+	}
+}
+FRA_DLC_01 = 
+{
+	name = "Light Cavalry Division"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" "cavalry" "mechanized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème Div. Légère de Cavalerie"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dère Div. Légère de Cavalerie" }
+		2 = { "%dème Div. Légère de Cavalerie" }
+		3 = { "%dème Div. Légère de Cavalerie" }
+		4 = { "%dème Div. Légère de Cavalerie" }
+		5 = { "%dème Div. Légère de Cavalerie" }
+		6 = { "%dème Div. Légère de Cavalerie" }	# fictional divisions start here
+		7 = { "%dème Div. Légère de Cavalerie" }
+		8 = { "%dème Div. Légère de Cavalerie" }
+		9 = { "%dème Div. Légère de Cavalerie" }
+		10 = { "%dème Div. Légère de Cavalerie" }
+		11 = { "%dème Div. Légère de Cavalerie" }
+		12 = { "%dème Div. Légère de Cavalerie" }
+		13 = { "%dème Div. Légère de Cavalerie" }
+		14 = { "%dème Div. Légère de Cavalerie" }
+		15 = { "%dème Div. Légère de Cavalerie" }
+		16 = { "%dème Div. Légère de Cavalerie" }
+		17 = { "%dème Div. Légère de Cavalerie" }
+		18 = { "%dème Div. Légère de Cavalerie" }
+		19 = { "%dème Div. Légère de Cavalerie" }
+		20 = { "%dème Div. Légère de Cavalerie" }
+		21 = { "%dème Div. Légère de Cavalerie" }
+		22 = { "%dème Div. Légère de Cavalerie" }
+		23 = { "%dème Div. Légère de Cavalerie" }
+		24 = { "%dème Div. Légère de Cavalerie" }
+		25 = { "%dème Div. Légère de Cavalerie" }
+		26 = { "%dème Div. Légère de Cavalerie" }
+		27 = { "%dème Div. Légère de Cavalerie" }
+		28 = { "%dème Div. Légère de Cavalerie" }
+		29 = { "%dème Div. Légère de Cavalerie" }
+		30 = { "%dème Div. Légère de Cavalerie" }
+	}
+}
+FRA_ARM_03 = 
+{
+	name = "Armored Division (late)"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "medium_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { FRA_ARM_01 }
+
+	fallback_name = "%dème Division Blindée"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%dère Division Blindée" }
+		2 = { "%dème Division Blindée" }
+		3 = { "%dème Division Blindée" }
+		41 = { "%dème Division Blindée" }
+		42 = { "%dème Division Blindée" }
+		43 = { "%dème Division Blindée" }
+		4 = { "%dème Division Blindée" }
+		5 = { "%dème Division Blindée" }
+		6 = { "%dème Division Blindée" }
+		7 = { "%dème Division Blindée" }
+		8 = { "%dème Division Blindée" }
+		9 = { "%dème Division Blindée" }
+		10 = { "%dème Division Blindée" }
+		11 = { "%dème Division Blindée" }
+		12 = { "%dème Division Blindée" }
+		13 = { "%dème Division Blindée" }
+		14 = { "%dème Division Blindée" }
+		15 = { "%dème Division Blindée" }
+		16 = { "%dème Division Blindée" }
+		17 = { "%dème Division Blindée" }
+		18 = { "%dème Division Blindée" }
+		19 = { "%dème Division Blindée" }
+		20 = { "%dème Division Blindée" }
+		21 = { "%dème Division Blindée" }
+		22 = { "%dème Division Blindée" }
+		23 = { "%dème Division Blindée" }
+		24 = { "%dème Division Blindée" }
+		25 = { "%dème Division Blindée" }
+		26 = { "%dème Division Blindée" }
+		27 = { "%dème Division Blindée" }
+		28 = { "%dème Division Blindée" }
+		29 = { "%dème Division Blindée" }
+		30 = { "%dème Division Blindée" }
+		31 = { "%dème Division Blindée" }
+		32 = { "%dème Division Blindée" }
+		33 = { "%dème Division Blindée" }
+		34 = { "%dème Division Blindée" }
+		35 = { "%dème Division Blindée" }
+		36 = { "%dème Division Blindée" }
+		37 = { "%dème Division Blindée" }
+		38 = { "%dème Division Blindée" }
+		39 = { "%dème Division Blindée" }
+		40 = { "%dème Division Blindée" }
+	}
+}
+FRA_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème Division de Forteresse"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		101 = { "%dème Div. d'Inf. de Forteresse" }
+		102 = { "%dème Div. d'Inf. de Forteresse" }
+		103 = { "%dème Div. d'Inf. de Forteresse" }
+		104 = { "%dème Div. d'Inf. de Forteresse" }
+		105 = { "%dème Div. d'Inf. de Forteresse" }
+		106 = { "%dème Div. d'Inf. de Forteresse" }
+		107 = { "%dème Div. d'Inf. de Forteresse" }
+		108 = { "%dème Div. d'Inf. de Forteresse" }
+		109 = { "%dème Div. d'Inf. de Forteresse" }
+		110 = { "%dème Div. d'Inf. de Forteresse" }
+		111 = { "%dème Div. d'Inf. de Forteresse" }
+		112 = { "%dème Div. d'Inf. de Forteresse" }
+		113 = { "%dème Div. d'Inf. de Forteresse" }
+		114 = { "%dème Div. d'Inf. de Forteresse" }
+		115 = { "%dème Div. d'Inf. de Forteresse" }
+		116 = { "%dème Div. d'Inf. de Forteresse" }
+		117 = { "%dème Div. d'Inf. de Forteresse" }
+		118 = { "%dème Div. d'Inf. de Forteresse" }
+		119 = { "%dème Div. d'Inf. de Forteresse" }
+		120 = { "%dème Div. d'Inf. de Forteresse" }
+		141 = { "%dème Div. d'Inf. de Forteresse" }
+		142 = { "%dème Div. d'Inf. de Forteresse" }
+		143 = { "%dème Div. d'Inf. de Forteresse" }
+		144 = { "%dème Div. d'Inf. de Forteresse" }
+		145 = { "%dème Div. d'Inf. de Forteresse" }
+		146 = { "%dème Div. d'Inf. de Forteresse" }
+		147 = { "%dème Div. d'Inf. de Forteresse" }
+		148 = { "%dème Div. d'Inf. de Forteresse" }
+		149 = { "%dème Div. d'Inf. de Forteresse" }
+		150 = { "%dème Div. d'Inf. de Forteresse" }
+		201 = { "%dème Div. d'Inf. de Forteresse" }
+		202 = { "%dème Div. d'Inf. de Forteresse" }
+		203 = { "%dème Div. d'Inf. de Forteresse" }
+		204 = { "%dème Div. d'Inf. de Forteresse" }
+		205 = { "%dème Div. d'Inf. de Forteresse" }
+		206 = { "%dème Div. d'Inf. de Forteresse" }
+		207 = { "%dème Div. d'Inf. de Forteresse" }
+		208 = { "%dème Div. d'Inf. de Forteresse" }
+		209 = { "%dème Div. d'Inf. de Forteresse" }
+		210 = { "%dème Div. d'Inf. de Forteresse" }
+		211 = { "%dème Div. d'Inf. de Forteresse" }
+		212 = { "%dème Div. d'Inf. de Forteresse" }
+		213 = { "%dème Div. d'Inf. de Forteresse" }
+		214 = { "%dème Div. d'Inf. de Forteresse" }
+		215 = { "%dème Div. d'Inf. de Forteresse" }
+		216 = { "%dème Div. d'Inf. de Forteresse" }
+		217 = { "%dème Div. d'Inf. de Forteresse" }
+		218 = { "%dème Div. d'Inf. de Forteresse" }
+		219 = { "%dème Div. d'Inf. de Forteresse" }
+		220 = { "%dème Div. d'Inf. de Forteresse" }
+		221 = { "%dème Div. d'Inf. de Forteresse" }
+		222 = { "%dème Div. d'Inf. de Forteresse" }
+		223 = { "%dème Div. d'Inf. de Forteresse" }
+		224 = { "%dème Div. d'Inf. de Forteresse" }
+		225 = { "%dème Div. d'Inf. de Forteresse" }
+		226 = { "%dème Div. d'Inf. de Forteresse" }
+		227 = { "%dème Div. d'Inf. de Forteresse" }
+		228 = { "%dème Div. d'Inf. de Forteresse" }
+		229 = { "%dème Div. d'Inf. de Forteresse" }
+		230 = { "%dème Div. d'Inf. de Forteresse" }
+		231 = { "%dème Div. d'Inf. de Forteresse" }
+		232 = { "%dème Div. d'Inf. de Forteresse" }
+		233 = { "%dème Div. d'Inf. de Forteresse" }
+		234 = { "%dème Div. d'Inf. de Forteresse" }
+	}
+}
+FRA_COL_01 = 
+{
+	name = "Colonial Division"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { FRA_INF_01 }
+
+	fallback_name = "%dème d'Infanterie Coloniale"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		41 = { "1ère Div. d'Inf. Nord-Africaine" }
+		42 = { "2ème Div. d'Inf. Nord-Africaine" }
+		43 = { "3ème Div. d'Inf. Nord-Africaine" }
+		44 = { "4ème Div. d'Inf. Nord-Africaine" }
+		1 = { "%dère Div. d'Infanterie Coloniale" }
+		2 = { "%dème Div. d'Infanterie Coloniale" }
+		3 = { "%dème Div. d'Infanterie Coloniale" }
+		4 = { "%dème Div. d'Infanterie Coloniale" }
+		91 = { "Division de Tonkin" }
+		92 = { "Division de Cochinchine-Cambodge" }
+		93 = { "Division de Tunisie" }
+		94 = { "Division de Sousse" }
+		95 = { "Division de Casablanca" }
+		96 = { "Division de Fès" }
+		97 = { "Division de Marrakech" }
+		98 = { "Division de Meknès" }
+		45 = { "5ème Div. d'Inf. Nord-Africaine" }
+		5 = { "%dème Div. d'Infanterie Coloniale" }
+		6 = { "%dème Div. d'Infanterie Coloniale" }
+		7 = { "%dème Div. d'Infanterie Coloniale" }
+		61 = { "1ère Division Marocaine" }
+		62 = { "2ème Division Marocaine" }
+		63 = { "3ème Division Marocaine" }
+		46 = { "6ème Div. d'Inf. Nord-Africaine" }
+		47 = { "7ème Div. d'Inf. Nord-Africaine" }
+		8 = { "%dème Div. d'Infanterie Coloniale" }
+		9 = { "%dème Div. d'Infanterie Coloniale" }			# post-invasion divisions start here, raised haphazardly
+		101 = { "1ère Div. Légère d'Inf. Nord-Africaine" }
+		102 = { "2ème Div. Légère d'Inf. Coloniale" }
+		108 = { "8ème Div. Légère d'Inf. Coloniale" }
+		10 = { "%dème Div. d'Infanterie Coloniale" }		# fictional divisions start here
+		64 = { "4ème Division Marocaine" }
+		65 = { "5ème Division Marocaine" }
+		11 = { "%dème Div. d'Infanterie Coloniale" }
+		12 = { "%dème Div. d'Infanterie Coloniale" }
+		48 = { "8ème Div. d'Inf. Nord-Africaine" }
+		49 = { "9ème Div. d'Inf. Nord-Africaine" }
+		50 = { "10ème Div. d'Inf. Nord-Africaine" }
+		81 = { "1ère Div. d'Infanterie Algérienne" }
+		82 = { "2ème Div. d'Infanterie Algérienne" }
+		83 = { "3ème Div. d'Infanterie Algérienne" }
+		84 = { "4ème Div. d'Infanterie Algérienne" }
+		66 = { "6ème Division Marocaine" }
+		99 = { "Division de Levant" }
+		13 = { "%dème Div. d'Infanterie Coloniale" }
+		14 = { "%dème Div. d'Infanterie Coloniale" }
+		15 = { "%dème Div. d'Infanterie Coloniale" }
+		16 = { "%dème Div. d'Infanterie Coloniale" }
+		51 = { "11ème Div. d'Inf. Nord-Africaine" }
+		52 = { "12ème Div. d'Inf. Nord-Africaine" }
+		53 = { "13ème Div. d'Inf. Nord-Africaine" }
+		85 = { "5ème Div. d'Infanterie Algérienne" }
+		86 = { "6ème Div. d'Infanterie Algérienne" }
+		87 = { "7ème Div. d'Infanterie Algérienne" }
+		17 = { "%dème Div. d'Infanterie Coloniale" }
+		18 = { "%dème Div. d'Infanterie Coloniale" }
+		19 = { "%dème Div. d'Infanterie Coloniale" }
+		20 = { "%dème Div. d'Infanterie Coloniale" }
+		67 = { "7ème Division Marocaine" }
+		68 = { "8ème Division Marocaine" }
+		54 = { "14ème Div. d'Inf. Nord-Africaine" }
+		55 = { "15ème Div. d'Inf. Nord-Africaine" }
+		21 = { "%dème Div. d'Infanterie Coloniale" }
+		22 = { "%dème Div. d'Infanterie Coloniale" }
+		23 = { "%dème Div. d'Infanterie Coloniale" }
+		24 = { "%dème Div. d'Infanterie Coloniale" }
+		56 = { "16ème Div. d'Inf. Nord-Africaine" }
+		57 = { "17ème Div. d'Inf. Nord-Africaine" }
+		25 = { "%dème Div. d'Infanterie Coloniale" }
+		26 = { "%dème Div. d'Infanterie Coloniale" }
+		27 = { "%dème Div. d'Infanterie Coloniale" }
+		69 = { "9ème Division Marocaine" }
+		70 = { "10ème Division Marocaine" }
+		28 = { "%dème Div. d'Infanterie Coloniale" }
+		29 = { "%dème Div. d'Infanterie Coloniale" }
+		30 = { "%dème Div. d'Infanterie Coloniale" }
+	}
+}
+FRA_RGR_01 = {
+	name = "Ranger Divisions"
+
+	for_countries = { FRA }
+
+	can_use = { always = yes }
+
+	division_types = { "ranger_battalion"  }
+
+	fallback_name = "%dème Division Légère de Chasseurs"
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+	1 = { "%dère Division Légère de Chasseurs" }
+	2 = { "%dème Division Légère de Chasseurs" }
+	3 = { "%dème Division Légère de Chasseurs" }
+	4 = { "%dème Division Légère de Chasseurs" }
+	5 = { "%dème Division Légère de Chasseurs" }
+	6 = { "%dème Division Légère de Chasseurs" }
+	7 = { "%dème Division Légère de Chasseurs" }
+	8 = { "%dème Division Légère de Chasseurs" }
+	9 = { "%dème Division Légère de Chasseurs" }
+	10 = { "%dème Division Légère de Chasseurs" }
+	11 = { "%dème Division Légère de Chasseurs" }
+	12 = { "%dème Division Légère de Chasseurs" }
+	13 = { "%dème Division Légère de Chasseurs" }
+	14 = { "%dème Division Légère de Chasseurs" }
+	15 = { "%dème Division Légère de Chasseurs" }
+	16 = { "%dème Division Légère de Chasseurs" }
+	17 = { "%dème Division Légère de Chasseurs" }
+	18 = { "%dème Division Légère de Chasseurs" }
+	19 = { "%dème Division Légère de Chasseurs" }
+	20 = { "%dème Division Légère de Chasseurs" }
+		
 	}
 }

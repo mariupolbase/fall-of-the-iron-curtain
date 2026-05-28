@@ -1,0 +1,11 @@
+state = {
+	id = 1029
+	name = "STATE_1029"
+	manpower = 0
+	state_category = pastoral
+
+	history = {
+	}
+
+	provinces = { 234 }
+}

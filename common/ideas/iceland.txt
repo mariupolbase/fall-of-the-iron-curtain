@@ -1414,7 +1414,6 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 			available = {
-				has_completed_focus = ICE_american_investments
 			}
 
 			
@@ -1436,7 +1435,6 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 			available = {
-				has_completed_focus = ICE_develop_icelandic_shipping
 			}
 
 			equipment_bonus = {
@@ -1465,7 +1463,6 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 			available = {
-				has_completed_focus = ICE_american_investments
 			}
 
 			
@@ -1488,7 +1485,6 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 			available = {
-				has_completed_focus = ICE_research_cooperation
 			}
 			
 			research_bonus = {
@@ -1504,7 +1500,6 @@ ideas = {
 				has_dlc = "Arms Against Tyranny"
 			}
 			available = {
-				has_completed_focus = ICE_state_owned_industry
 			}
 			
 			research_bonus = {
@@ -1528,7 +1523,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ICE_industrial_cooperation
 			}
 			
 			research_bonus = {

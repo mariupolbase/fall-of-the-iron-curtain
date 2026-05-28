@@ -128,10 +128,6 @@ BUL_country_seeks_macedonian_stability = {
 BUL_has_freedom_of_press = {
 	custom_trigger_tooltip = {
 		tooltip = BUL_freedom_of_press_trigger_tt
-		NOT = { has_decision = institute_press_censorship_neutrality_state }
-		NOT = { has_decision = institute_press_censorship_fascist_state }
-		NOT = { has_decision = institute_press_censorship_democratic_state }
-		NOT = { has_decision = institute_press_censorship_communist_state }
 	}
 }
 
@@ -282,9 +278,6 @@ BUL_has_abolished_monarchy = {
 		tooltip = BUL_has_abolished_monarchy_tt
 		OR = {
 			has_government = communism
-			has_completed_focus = BUL_overthrow_the_tsar
-			has_completed_focus = BUL_abolish_the_monarchy
-			has_completed_focus = BUL_depose_the_tsar
 		}
 	}
 }

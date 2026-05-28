@@ -2217,8 +2217,6 @@ DEN_trade_deal_effects = {
 	if = { #This is to show the player that the different focuses below will modify Economic Crisis in different ways and is here purely for loc purposes
 		limit = {
 			NOT = {
-				has_completed_focus = DEN_kanslergadeforliget
-				has_completed_focus = DEN_fortify_our_borders
 			}
 		}
 		custom_effect_tooltip = DEN_effects_after_fortify_our_borders_tt
@@ -2227,7 +2225,6 @@ DEN_trade_deal_effects = {
 	}
 	if = { #This is to show the player the effects after completing Fortify Our Borders
 		limit = {
-			has_completed_focus = DEN_fortify_our_borders
 			has_dynamic_modifier = { modifier = DEN_economic_crisis_dynamic_modifier }
 		}
 		add_to_variable = { DEN_economic_crisis_neutrality_drift = -0.02 }
@@ -4251,7 +4248,6 @@ DEN_independence_war_effects = {
 
 	if = {
 		limit = { #Mostly for TT purposes
-			has_completed_focus = DEN_form_the_danish_freedom_council
 		}
 		37 = {
 			create_unit = { 

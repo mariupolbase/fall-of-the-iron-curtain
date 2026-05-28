@@ -3,7 +3,6 @@ spanish_civil_war_GER_expatriate = {
 		NOT = { has_dlc = "La Resistance" }
 	}
 	enable = {
-		GER = { has_completed_focus = GER_expatriate_the_communists }
 		NOT = { has_government = fascism }
 		SPR = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
@@ -26,7 +25,6 @@ spanish_civil_war_GER_expatriate = {
 spanish_civil_war_GER_expatriate_resistance = {
 	allowed = { has_dlc = "La Resistance" }
 	enable = {
-		GER = { has_completed_focus = GER_expatriate_the_communists }
 		NOT = { has_government = fascism }
 		SPD = { has_civil_war = yes }
 		NOT = { has_global_flag = scw_over }
@@ -201,7 +199,6 @@ spanish_civil_war_isolate_anarchists = {
 	allowed = { has_dlc = "La Resistance" }
 	enable = {
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 		NOT = {
 			tag = SPC
 		}
@@ -255,7 +252,6 @@ spanish_civil_war_isolate_POUM = {
 	}
 	enable = {
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_the_anti_fascist_workers_revolution }
 		OR = {
 			tag = SOV
 			is_in_faction_with = SOV
@@ -371,7 +367,6 @@ spanish_civil_war_defriend_anarchists = {
 	}
 	enable = {
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 		NOT = {
 			original_tag = SPR
 		}
@@ -420,7 +415,6 @@ spanish_civil_war_contain_anarchists = {
 	}
 	enable = {
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 		NOT = {
 			original_tag = SPR
 		}
@@ -452,7 +446,6 @@ spanish_civil_war_exterminate_anarchists = {
 	allowed = { has_dlc = "La Resistance" }
 	enable = {
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 		NOT = {
 			original_tag = SPR
 		}
@@ -504,7 +497,6 @@ spanish_civil_war_really_exterminate_anarchists = {
 			}
 		}
 		country_exists = SPC
-		SPC = { has_completed_focus = SPR_regional_defense_council_of_aragon }
 		NOT = {
 			original_tag = SPR
 		}

@@ -918,6 +918,36 @@ equipments = {
 		}
 	}
 
+	modern_tank_chassis_2 = {
+		abbreviation = "mbt1"
+		derived_variant_name = modern_tank_equipment_2
+		visual_level = 1
+		year = 2020
+		archetype = modern_tank_chassis
+		priority = 2001
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
+	modern_tank_chassis_3 = {
+		abbreviation = "mbt2"
+		derived_variant_name = modern_tank_equipment_3
+		visual_level = 2
+		year = 2024
+		archetype = modern_tank_chassis
+		priority = 2002
+		module_slots = inherit
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+	}
+
 	super_heavy_tank_chassis = {
 		year = 1948
 		is_archetype = yes

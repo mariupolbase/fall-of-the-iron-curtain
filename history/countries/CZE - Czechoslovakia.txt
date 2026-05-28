@@ -5,7 +5,6 @@ set_technology = {
 
 }
 
-recruit_character = CZE_edvard_benesh
 
 set_research_slots = 3
 

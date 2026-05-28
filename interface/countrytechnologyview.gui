@@ -61,7 +61,7 @@ guiTypes = {
 			name = "research_title"
 			position = { x = 45 y = 8 }
 			textureFile = ""
-			font = "VCR02_24"
+			font = "hoi4_typewriter22"
 			borderSize = {x = 0 y = 0}
 			text = "RESEARCH_RESEARCH"
 			maxWidth = 440
@@ -79,7 +79,7 @@ guiTypes = {
 				position = { x = -125 y = -15 }
 				quadTextureSprite = "GFX_tab_large"
 				text = "RESEARCH_TAB_SLOTS"
-				buttonFont = "VCR02_16"
+				buttonFont = "hoi4_typewriter16"
 				frame = 1
 				clicksound = click_default
 				Orientation = "CENTER"
@@ -154,7 +154,7 @@ guiTypes = {
 					name = "limited_research_bonus_text"
 					position = { x = 50 y = 145 }
 					textureFile = ""
-					font = "VCR02_14"
+					font = "hoi4_typewriter16"
 					borderSize = {x = 0 y = 0}
 					text = "LIMITED_RESEARCH_BONUS"
 					maxWidth = 130
@@ -167,7 +167,7 @@ guiTypes = {
 					name = "limited_research_bonus_value"
 					position = { x = 215 y = 145 }
 					textureFile = ""
-					font = "VCR02_14"
+					font = "hoi4_typewriter16"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -185,7 +185,7 @@ guiTypes = {
 					name = "research_speed_text"
 					position = { x = 295 y = 145 }
 					textureFile = ""
-					font = "VCR02_14"
+					font = "hoi4_typewriter16"
 					borderSize = {x = 0 y = 0}
 					text = "RESEARCH_SPEED"
 					maxWidth = 125
@@ -198,7 +198,7 @@ guiTypes = {
 					name = "research_speed_value"
 					position = { x = 455 y = 145 }
 					textureFile = ""
-					font = "VCR02_16"
+					font = "hoi4_typewriter16"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -308,7 +308,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 57 y = 12 }
 			textureFile = ""
-			font = "VCR02_14"
+			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 400
 			maxHeight = 30
@@ -319,7 +319,7 @@ guiTypes = {
 			name = "year"
 			position = { x = 57 y = 60 }
 			textureFile = ""
-			font = "VCR02_14"
+			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 50
 			maxHeight = 22
@@ -330,7 +330,7 @@ guiTypes = {
 			name = "eta"
 			position = { x = 335 y = 12 }
 			textureFile = ""
-			font = "VCR02_14"
+			font = "hoi4_typewriter16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 125
 			maxHeight = 20

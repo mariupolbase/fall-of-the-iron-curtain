@@ -568,10 +568,12 @@ focus_tree = {
 		x = 42
 		y = 3
 		completion_reward = {
-		add_building_construction = {
-			type = industrial_complex	
-			level = 3
-			instant_build = yes
+			capital_scope = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
 
@@ -600,10 +602,12 @@ focus_tree = {
 		x = 42
 		y = 5
 		completion_reward = {
-		add_building_construction = {
-			type = 	dockyard
-			level = 3
-			instant_build = yes
+			capital_scope = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
 
@@ -632,10 +636,12 @@ focus_tree = {
 		x = 44
 		y = 4
 		completion_reward = {
-		set_building_level = {
-			type = infrastructure
-			level = 7
-			instant_build = yes
+			capital_scope = {
+				set_building_level = {
+					type = infrastructure
+					level = 7
+					instant_build = yes
+				}
 			}
 		}
 

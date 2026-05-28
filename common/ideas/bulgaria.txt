@@ -417,7 +417,6 @@ ideas = {
 				has_country_leader = {
 					character = BUL_boris_iii
 				}
-				has_completed_focus = BUL_seek_cooperation_with_the_tsar
 				NOT = {
 					any_other_country = {
 						tag = BUL
@@ -588,7 +587,6 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_completed_focus = BUL_found_the_brannik
 					has_government = neutrality
 				}
 			}
@@ -2038,7 +2036,6 @@ ideas = {
 					is_subject_of = GER
 				}
 				is_in_faction_with = GER
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2109,7 +2106,6 @@ ideas = {
 					is_subject_of = ENG
 				}
 				is_in_faction_with = ENG
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2180,7 +2176,6 @@ ideas = {
 					is_subject_of = SOV
 				}
 				is_in_faction_with = SOV
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2251,7 +2246,6 @@ ideas = {
 					is_subject_of = ITA
 				}
 				is_in_faction_with = ITA
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2301,11 +2295,9 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_an_aegean_sea_fleet }
 			}
 
 			available = {
-				has_completed_focus = BUL_expand_varna_naval_base
 			}
 
 			research_bonus = {
@@ -2331,11 +2323,9 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_an_aegean_sea_fleet
 			}
 
 			available = {
-				has_completed_focus = BUL_expand_varna_naval_base
 			}
 
 			research_bonus = {
@@ -2382,7 +2372,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = ENG
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2449,7 +2438,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = SOV
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2516,7 +2504,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = ITA
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2565,11 +2552,9 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_prussia_of_the_balkans }
 			}
 
 			available = {
-				has_completed_focus = BUL_darzhavna_aeroplanna_rabotilnitsa
 			}
 						
 			research_bonus = {
@@ -2598,11 +2583,9 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_prussia_of_the_balkans
 			}
 
 			available = {
-				has_completed_focus = BUL_darzhavna_aeroplanna_rabotilnitsa
 			}
 						
 			research_bonus = {
@@ -2628,11 +2611,9 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_prussia_of_the_balkans }
 			}
 
 			available = {
-				has_completed_focus = BUL_kaproni_bulgarski
 			}
 						
 			research_bonus = {
@@ -2657,11 +2638,9 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_prussia_of_the_balkans
 			}
 
 			available = {
-				has_completed_focus = BUL_kaproni_bulgarski
 			}
 						
 			research_bonus = {
@@ -2709,7 +2688,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = GER
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2780,7 +2758,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = ENG
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2851,7 +2828,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = SOV
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -2928,11 +2904,9 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_prussia_of_the_balkans }
 			}
 
 			available = {
-				has_completed_focus = BUL_darzhavna_voenna_fabrika
 			}
 			
 			research_bonus = {
@@ -2957,11 +2931,9 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_prussia_of_the_balkans
 			}
 
 			available = {
-				has_completed_focus = BUL_darzhavna_voenna_fabrika
 			}
 			
 			research_bonus = {
@@ -2986,11 +2958,9 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_prussia_of_the_balkans }
 			}
 
 			available = {
-				has_completed_focus = BUL_found_dvf_sopot
 			}
 			
 			research_bonus = {
@@ -3015,11 +2985,9 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_prussia_of_the_balkans
 			}
 
 			available = {
-				has_completed_focus = BUL_found_dvf_sopot
 			}
 			
 			research_bonus = {
@@ -3066,7 +3034,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = GER
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3133,7 +3100,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = ENG
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3200,7 +3166,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = SOV
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3269,7 +3234,6 @@ ideas = {
 					is_subject = no
 					is_subject_of = ITA
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3317,13 +3281,10 @@ ideas = {
 			}	
 
 			visible = {
-				NOT = { has_completed_focus = BUL_utmost_optimization }
 			}
 
 			available = {
 				OR = {
-					has_completed_focus = BUL_invigorate_national_industry
-					has_completed_focus = BUL_nationalization
 				}
 			}
 			
@@ -3350,8 +3311,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_invigorate_national_industry
-				has_completed_focus = BUL_utmost_optimization
 			}	
 			
 			research_bonus = {
@@ -3377,13 +3336,10 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_utmost_optimization }
 			}
 
 			available = {
 				OR = {
-					has_completed_focus = BUL_invigorate_national_industry
-					has_completed_focus = BUL_nationalization
 				}
 			}		
 			
@@ -3409,8 +3365,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_invigorate_national_industry
-				has_completed_focus = BUL_utmost_optimization
 			}
 			
 			research_bonus = {
@@ -3436,13 +3390,10 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_utmost_optimization }
 			}
 
 			available = {
 				OR = {
-					has_completed_focus = BUL_invigorate_national_industry
-					has_completed_focus = BUL_nationalization
 				}
 			}
 
@@ -3468,8 +3419,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_invigorate_national_industry
-				has_completed_focus = BUL_utmost_optimization
 			}
 			
 			research_bonus = {
@@ -3493,13 +3442,10 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BUL_utmost_optimization }
 			}
 
 			available = {
 				OR = {
-					has_completed_focus = BUL_invigorate_national_industry
-					has_completed_focus = BUL_nationalization
 				}
 			}
 
@@ -3525,8 +3471,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BUL_invigorate_national_industry
-				has_completed_focus = BUL_utmost_optimization
 			}
 			
 			research_bonus = {
@@ -3576,7 +3520,6 @@ ideas = {
 					tooltip = BUL_foreign_industrial_concern_requirements_ger_tt
 					NOT = { check_variable = { BUL_german_industrial_investments < BUL_industrial_investments_medium_cap } }
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3630,7 +3573,6 @@ ideas = {
 					tooltip = BUL_foreign_industrial_concern_requirements_eng_tt
 					NOT = { check_variable = { BUL_british_industrial_investments < BUL_industrial_investments_medium_cap } }
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3684,7 +3626,6 @@ ideas = {
 					tooltip = BUL_foreign_industrial_concern_requirements_sov_tt
 					NOT = { check_variable = { BUL_soviet_industrial_investments < BUL_industrial_investments_medium_cap } }
 				}
-				NOT = { has_completed_focus = BUL_nationalization }
 			}
 
 			on_add = {
@@ -3729,7 +3670,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3764,7 +3704,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3799,7 +3738,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3834,7 +3772,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3869,7 +3806,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3904,7 +3840,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3939,7 +3874,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -3974,7 +3908,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4009,7 +3942,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4044,7 +3976,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4079,7 +4010,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4114,7 +4044,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4149,7 +4078,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4184,7 +4112,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4219,7 +4146,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4254,7 +4180,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4289,7 +4214,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4324,7 +4248,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4359,7 +4282,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4394,7 +4316,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4429,7 +4350,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4464,7 +4384,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4499,7 +4418,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4534,7 +4452,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4569,7 +4486,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4604,7 +4520,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4639,7 +4554,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	
@@ -4674,7 +4588,6 @@ ideas = {
 				tag = BUL
 				if = {
 					limit = {
-						has_completed_focus = BUL_the_anti_capitalist_fight
 					}
 					has_government = communism
 				}	

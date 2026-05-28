@@ -34,5 +34,4 @@ set_popularities = {
 	market_liberalism = 0.18
 }
 
-recruit_character = ITA_benito_mussolini
 

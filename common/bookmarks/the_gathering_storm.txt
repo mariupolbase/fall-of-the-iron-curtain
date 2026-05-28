@@ -15,11 +15,6 @@ bookmarks = {
 				FRA_disjointed_government
 				FRA_protected_by_the_maginot_line
 			}
-			focuses = {
-				FRA_form_the_popular_front
-				FRA_revive_the_national_bloc
-				FRA_france_leads
-			}
 		}
 
 		"USA"={
@@ -27,11 +22,6 @@ bookmarks = {
 			ideology = conservatism
 			ideas = {
 				home_of_the_free
-			}
-			focuses = {
-				USA_army
-				USA_bush_starshiy
-				USA_prom
 			}
 		}
 		"ENG"={
@@ -42,11 +32,6 @@ bookmarks = {
 				ENG_the_war_to_end_all_wars
 				george_v
 			}
-			focuses = {
-				tizard_mission_focus
-				ENG_war_with_germany
-				ENG_war_with_italy
-			}
 		}
 		"WGR"={
 			history = "GER_GATHERING_STORM_DESC"
@@ -55,11 +40,6 @@ bookmarks = {
 				sour_loser
 				general_staff
 				GER_mefo_bills_1
-			}
-			focuses = {
-				GER_anschluss
-				GER_danzig_or_war
-				GER_ussr_war_goal
 			}
 		}
 		"ITA"={
@@ -70,11 +50,6 @@ bookmarks = {
 				ITA_iri_fake_ns
 				ITA_re_fake_ns
 			}	
-			focuses = {
-				ITA_comandante_diavolo
-				ITA_to_live_as_a_lion
-				ITA_a_colonial_empire
-			}		
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
@@ -84,11 +59,6 @@ bookmarks = {
 				JAP_zaibatsus
 				JAP_militarism
 			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}			
 		}
 		"SOV"={
 			history = "SOV_GATHERING_STORM_DESC"
@@ -98,11 +68,6 @@ bookmarks = {
 				SOV_second_five_year_plan_fake_1936_ns
 				SOV_politicized_military
 			}
-			focuses = {
-				SOV_new_ideas
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
-			}	
 		}
 
 		"---"={

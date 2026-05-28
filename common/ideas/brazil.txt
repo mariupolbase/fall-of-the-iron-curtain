@@ -959,7 +959,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BRA_italian_trucks
 			}
 			research_bonus = {
 				motorized_equipment = 0.15
@@ -989,8 +988,6 @@ ideas = {
 		 		ELSE = { #original_tag = BRA
 		 			FROM = {
 		 				OR = {
-		 					has_completed_focus = SMB_domestic_production
-		 					has_completed_focus = SMB_foreign_designs
 		 				}
 		 			}
 		 		} 
@@ -1024,7 +1021,6 @@ ideas = {
 				ELSE = {
 					FROM = {
 						OR = {
-							has_completed_focus = SMB_establish_aircraft_industry
 						}
 					}
 				}
@@ -1056,13 +1052,11 @@ ideas = {
 				OR = {
 					AND = {
 						FROM = { original_tag = ARG }
-						FROM = { has_completed_focus = ARG_russian_manufacturers }
 					}
 
 					AND = {
 
 						FROM = { original_tag = BRA }
-						FROM = { has_completed_focus = BRA_soviet_arms_industry }
 					}
 				}
 
@@ -1133,11 +1127,9 @@ ideas = {
 				OR = {
 					AND = {
 						original_tag = ARG
-						has_completed_focus = ARG_russian_manufacturers
 					}
 					AND = {
 						original_tag = BRA 
-						has_completed_focus = BRA_soviet_arms_industry
 					}
 				}
 			}
@@ -1175,12 +1167,10 @@ ideas = {
 				OR = {
 					AND = {
 						original_tag = ARG
-						has_completed_focus = ARG_russian_manufacturers
 					}
 
 					AND = {
 						original_tag = BRA
-						has_completed_focus = BRA_soviet_arms_industry
 					}
 				}
 			}
@@ -1206,7 +1196,6 @@ ideas = {
 			
 
 			available = {
-				has_completed_focus = BRA_expand_fordlandia
 			}
 			research_bonus = {
 				motorized_equipment = 0.2
@@ -1274,7 +1263,6 @@ ideas = {
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = BRA_banco_do_brasil
 			}
 			visible = {
 				
@@ -1368,7 +1356,6 @@ ideas = {
 				original_tag = BRA
 			}
 			available = {
-				has_completed_focus = BRA_coffee_crisis_aftermath
 			}
 			visible = {
 				

@@ -1043,7 +1043,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					has_completed_focus = ITA_security_militias
 				}
 			}
 					
@@ -1073,7 +1072,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					has_completed_focus = ITA_security_militias
 				}
 			}
 					
@@ -1104,7 +1102,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					has_completed_focus = ITA_security_militias
 				}
 			}
 					
@@ -1136,7 +1133,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascism
-					has_completed_focus = ITA_security_militias
 				}
 			}
 					
@@ -1165,7 +1161,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ITA_italian_irredentism
 			}
 					
 			modifier = {
@@ -1267,7 +1262,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ITA_pact_of_steel
 			}
 
 			modifier = {
@@ -1290,7 +1284,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ITA_corpo_di_truppe_volontarie
 			}
 
 			modifier = {
@@ -1992,7 +1985,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_new_forms_of_weaponry
 			}
 
 			modifier = {
@@ -2015,7 +2007,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_monarchia_d_italia
 			}
 
 			modifier = {
@@ -2038,7 +2029,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_monarchia_d_italia
 			}
 
 			modifier = {
@@ -2062,7 +2052,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_monarchia_d_italia
 			}
 
 			modifier = {
@@ -2087,7 +2076,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_monarchia_d_italia
 			}
 
 			modifier = {
@@ -2106,7 +2094,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_setting_course
 			}
 
 			modifier = {
@@ -2127,7 +2114,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_seek_papal_support
 			}
 
 			modifier = {
@@ -2149,7 +2135,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_agents_of_the_church
 			}
 
 			modifier = {
@@ -2173,7 +2158,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_agents_of_the_church
 			}
 
 			modifier = {
@@ -2197,7 +2181,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_strengthen_the_papacy
 			}
 
 			modifier = {
@@ -2222,7 +2205,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_strengthen_the_papacy
 			}
 
 			modifier = {
@@ -2246,7 +2228,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_papacy_reborn
 			}
 
 			modifier = {
@@ -2272,7 +2253,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_papacy_reborn
 			}
 
 			modifier = {
@@ -2298,7 +2278,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_deus_vult
 			}
 
 			modifier = {
@@ -2327,7 +2306,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_deus_vult
 			}
 
 			modifier = {
@@ -2354,7 +2332,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_catholic_dominion
 			}
 
 			modifier = {
@@ -2388,7 +2365,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_catholic_dominion
 			}
 
 			modifier = {
@@ -2597,7 +2573,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_guarantee_austrian_independence
 			}
 			
 			modifier = {
@@ -2621,7 +2596,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_italys_destiny
 			}
 			
 			modifier = {
@@ -2644,7 +2618,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_il_vento_aureo
 			}
 			
 			modifier = {
@@ -2666,7 +2639,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_political_commissars
 			}
 			
 			modifier = {
@@ -2709,7 +2681,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_empower_the_carabinieri
 			}
 			
 			modifier = {
@@ -2733,7 +2704,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_defense_against_capitalism
 			}
 			
 			modifier = {
@@ -2755,7 +2725,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_fight_against_stalinism
 			}
 			
 			targeted_modifier = {
@@ -2777,7 +2746,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_the_italian_confederation
 			}
 
 			cancel = {
@@ -2803,7 +2771,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_planned_economy
 			}
 
 			cancel = {
@@ -2878,7 +2845,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_aid_for_the_spanish_republic
 			}
 
 			cancel = {
@@ -2935,7 +2901,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_bring_down_fascist_strongholds
 			}
 	
 			modifier = {
@@ -2954,7 +2919,6 @@ ideas = {
 			}
 	
 			allowed_civil_war = {
-				has_completed_focus = ITA_union_in_the_party
 			}
 
 			modifier = {
@@ -2973,7 +2937,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_common_ground
 			}
 	
 			modifier = {
@@ -2993,7 +2956,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_appease_the_military
 			}
 	
 			modifier = {
@@ -3044,7 +3006,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_divino_duce
 			}
 	
 			modifier = {
@@ -3066,7 +3027,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_blackshirt_loyalty
 			}
 	
 			modifier = {
@@ -3093,7 +3053,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_a_greater_purpose
 			}
 
 			modifier = {
@@ -3114,7 +3073,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_spreading_the_eagles_wings
 			}
 	
 			modifier = {
@@ -3140,7 +3098,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_italian_hegemony
 			}
 
 			modifier = {
@@ -3187,8 +3144,6 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_completed_focus = ITA_reorganize_regio_esercito
-					has_completed_focus = ITA_reinforce_regia_aeronautica
 				}
 			}
 					
@@ -3212,7 +3167,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_proclaim_the_italian_empire
 			}
 			
 			modifier = {
@@ -3235,7 +3189,6 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_completed_focus = ITA_towards_a_greater_italy
 			}
 			
 			modifier = {
@@ -3408,8 +3361,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3436,8 +3387,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 			
 			available = {
@@ -3474,8 +3423,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3502,8 +3449,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -3535,8 +3480,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3563,8 +3506,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -3595,8 +3536,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -3623,8 +3562,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -3656,8 +3593,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -3684,8 +3619,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -3714,8 +3647,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -3742,8 +3673,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -3771,8 +3700,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3799,8 +3726,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -3827,8 +3752,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3859,8 +3782,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -3888,8 +3809,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3916,8 +3835,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -3944,8 +3861,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -3972,8 +3887,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -4002,8 +3915,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -4030,8 +3941,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -4061,8 +3970,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4098,8 +4005,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -4137,8 +4042,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4174,8 +4077,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -4213,8 +4114,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4241,8 +4140,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 			
 			available = {
@@ -4272,8 +4169,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4300,8 +4195,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 			
 			available = {
@@ -4335,8 +4228,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4363,8 +4254,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 			
 			available = {
@@ -4396,8 +4285,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4424,8 +4311,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 			
 			available = {
@@ -4456,7 +4341,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = ITA_new_ricostruzione_industriale
 			}
 			
 			research_bonus = {
@@ -4489,7 +4373,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ITA_railway_innovations
 			}
 			
 			cost = 75
@@ -4526,8 +4409,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4554,8 +4435,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -4586,8 +4465,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -4614,8 +4491,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -4642,8 +4517,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4666,8 +4539,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {
@@ -4693,8 +4564,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_modernize_the_mezzogiorno
 					}
 				}
 			}
@@ -4717,8 +4586,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_modernize_the_mezzogiorno
 			}
 
 			available = {
@@ -4750,8 +4617,6 @@ ideas = {
 			visible = {
 				NOT = {
 					AND = {
-						has_completed_focus = ITA_new_industrialization_program
-						has_completed_focus = ITA_strengthen_northern_industry
 					}
 				}
 			}
@@ -4778,8 +4643,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ITA_new_industrialization_program
-				has_completed_focus = ITA_strengthen_northern_industry
 			}
 
 			available = {

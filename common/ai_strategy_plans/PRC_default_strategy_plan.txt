@@ -26,12 +26,6 @@ PRC_default_plan = {
 
 
 	focus_factors = {
-		PRC_land_redistribution = 10
-		PRC_enforce_the_three_rules = 5
-		PRC_infiltration = 10
-		PRC_agrarian_socialism = 10
-		PRC_marxist_orthodoxy = 7
-		PRC_social_democracy_focus = 7
 	}
 
 	research = {
@@ -71,7 +65,6 @@ PRC_ally_CHI = {
 				is_chinese_warlord = yes
 				OR = {
 					has_focus_tree = china_communist_focus
-					has_completed_focus = CHI_cooperation_with_the_communists
 				}
 			}
 		}

@@ -310,8 +310,6 @@ southern_expansion = {
 		original_tag = JAP
 	}
 	enable = {
-		#has_completed_focus = JAP_strike_south_doctrine
-		has_completed_focus = JAP_strike_the_southern_road
 		OR = {
 			country_exists = HOL
 			country_exists = ENG
@@ -373,8 +371,6 @@ northern_expansion = {
 	}
 	enable = {
 		OR = {
-			has_completed_focus = JAP_kantokuen
-			has_completed_focus = JAP_prepare_for_war_with_the_soviet_union
 		}
 		country_exists = SOV
 	}
@@ -396,7 +392,6 @@ chinese_war = {
 		original_tag = JAP
 	}
 	enable = {
-		has_completed_focus = JAP_reinforce_the_beijing_garrison
 		country_exists = CHI
 	}
 	abort = {
@@ -635,7 +630,6 @@ strike_usa = {
 		original_tag = JAP
 	}
 	enable = {
-		has_completed_focus = JAP_strike_the_southern_road
 		country_exists = USA
 	}
 	abort = {
@@ -663,7 +657,6 @@ jap_hush_yamamoto_its_gonna_be_ok = {
 		original_tag = JAP
 	}
 	enable = {
-		has_completed_focus = JAP_strike_the_southern_road
 		has_war_with = USA
 	}
 
@@ -824,7 +817,6 @@ germany_ally = {
 		original_tag = JAP
 	}
 	enable = {
-		has_completed_focus = JAP_technological_exchange
 		country_exists = GER
 	}
 	abort = {
@@ -848,7 +840,6 @@ germany_ally_historical = {
 		original_tag = JAP
 	}
 	enable = {
-		has_completed_focus = JAP_sea_mil_tech_coop_with_germany
 		country_exists = GER
 	}
 	abort = {
@@ -2310,7 +2301,7 @@ JAP_satisfy_army_factories_construction = {
 		original_tag = JAP
 	}
 	enable = {
-		has_active_mission = JAP_army_faction_demands_military_factories
+		always = no
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -2325,7 +2316,7 @@ JAP_satisfy_navy_dockyards_construction = {
 		original_tag = JAP
 	}
 	enable = {
-		has_active_mission = JAP_naval_faction_demands_dockyards
+		always = no
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
@@ -2340,7 +2331,7 @@ JAP_satisfy_zaibatsus_factories_construction = {
 		original_tag = JAP
 	}
 	enable = {
-		has_active_mission = JAP_zaibatsu_faction_demands_factories
+		always = no
 	}
 	abort_when_not_enabled = yes
 	ai_strategy = {

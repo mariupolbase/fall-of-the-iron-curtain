@@ -1,7 +1,7 @@
-add_namespace = news
+add_namespace = 90x_news
 
 news_event = {
-	id = news.1
+	id = 90x_news.1
 	title = news.1.t
 	desc = news.1.d
 	picture = GFX_news_event_075

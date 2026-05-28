@@ -541,3 +541,786 @@ YUG_josip_broz_tito = {
 YUG_prince_paul = {
 }
 
+
+SOV_sergey_khudyakov = {
+}
+
+SOV_yakov_smushkevich = {
+}
+
+SOV_pavel_rychagov = {
+}
+
+SOV_lev_trotsky = {
+}
+
+SOV_provisional_government = {
+}
+
+SOV_iosif_stalin = {
+}
+
+SOV_lavrenty_beriya = {
+}
+
+SOV_vasily_flug = {
+}
+
+SOV_boris_shteifon = {
+}
+
+USA_dwight_d_eisenhower = {
+}
+
+YUG_peter_ii = {
+}
+
+FRA_jean_romatet = {
+}
+
+FRA_pierre_pucheu = {
+}
+
+FRA_gaston_henry_haye = {
+}
+
+FRA_philippe_henriot = {
+}
+
+FRA_marcel_bucard = {
+}
+
+FRA_marcel_deat = {
+}
+
+FRA_charles_maurras = {
+}
+
+FRA_emile_laure = {
+}
+
+FRA_joseph_doumenc = {
+}
+
+JAP_hideki_tojo = {
+}
+
+JAP_machida_chuuji = {
+}
+
+SOV_aleksandr_kerensky = {
+}
+
+SOV_konstantin_voskoboinik = {
+}
+
+SOV_bronislav_kaminski = {
+}
+
+SOV_konstantin_rodzayevsky = {
+}
+
+HUN_franz_friedrich = {
+}
+
+POL_rudinger_von_der_goltz = {
+}
+
+BEL_leon_degrelle = {
+}
+
+ENG_oswald_mosley = {
+}
+
+JAP_kenjiro_matsumoto = {
+}
+
+JAP_yoshisuke_aikawa = {
+}
+
+JAP_chikuhei_nakajima = {
+}
+
+POL_pavel_bermondt_avalov = {
+}
+
+HUN_franz_anton_bach = {
+}
+
+USA_william_dudley_pelley = {
+}
+
+IRQ_rashid_ali_algaylani = {
+}
+
+SOV_achievement_propaganda_counter_effect = {
+}
+
+SOV_add_armed_forces_support_state = {
+}
+
+SOV_add_random_character_to_purge_targets_effect = {
+}
+
+SOV_anglo_soviet_invasion_add_ai_strategies_effect = {
+}
+
+SOV_apply_collective_ageement_on_mutual_assistance_effects_basic = {
+}
+
+SOV_apply_collective_ageement_on_mutual_assistance_effects_poland_included = {
+}
+
+SOV_approach_sinkiang_diplomacy_effect = {
+}
+
+SOV_build_national_academy_of_sciences_effect = {
+}
+
+SOV_check_for_a_new_purge_effect = {
+}
+
+SOV_clean_military_offensive_effect = {
+}
+
+SOV_clean_purge_targets_effect = {
+}
+
+SOV_clear_hidden_targeted_ns_effect = {
+}
+
+SOV_clear_hostile_diplomacy_in_all_three_countries = {
+}
+
+SOV_clear_hostile_diplomacy_in_both_countries = {
+}
+
+SOV_clear_targeted_relation_modifiers_effect = {
+}
+
+SOV_clear_unavoidable_purge_flags_effect = {
+}
+
+SOV_damage_relocated_civilian_factories_effect = {
+}
+
+SOV_damage_relocated_military_factories_effect = {
+}
+
+SOV_decrease_all_opposition_air = {
+}
+
+SOV_decrease_all_opposition_army = {
+}
+
+SOV_decrease_all_opposition_navy = {
+}
+
+SOV_decrease_church_power = {
+}
+
+SOV_exiles_civil_war_start = {
+}
+
+SOV_failed_anglo_soviet_invasion_ai_strategies_effect = {
+}
+
+SOV_foreign_politics_decision_cost_reduction_effect = {
+}
+
+SOV_fortify_mongolian_border_effect = {
+}
+
+SOV_get_centre_military_support = {
+}
+
+SOV_great_purge_army_junior_officers_effect = {
+}
+
+SOV_great_purge_army_trial_of_the_generals_effect = {
+}
+
+SOV_increase_church_power = {
+}
+
+SOV_increase_opposition_army_support = {
+}
+
+SOV_increase_opposition_army_support_small = {
+}
+
+SOV_increase_opposition_navy_support_small = {
+}
+
+SOV_increase_propaganda_campaign_cost_effect = {
+}
+
+SOV_initiate_civil_war = {
+}
+
+SOV_initiate_paranoia_effect = {
+}
+
+SOV_kill_trotsky_effect = {
+}
+
+SOV_launch_stalinist_counter_measure = {
+}
+
+SOV_launch_wreckers = {
+}
+
+SOV_left_opposition_civil_war_start = {
+}
+
+SOV_manage_a_great_purge_effect = {
+}
+
+SOV_manage_a_regular_purge_effect = {
+}
+
+SOV_manage_spanish_generals_exiled_in_ussr_effect = {
+}
+
+SOV_no_random_characters_for_this_purge_effect = {
+}
+
+SOV_opposition_support_high_increase_effect = {
+}
+
+SOV_opposition_support_low_decrease_effect = {
+}
+
+SOV_opposition_support_low_increase_effect = {
+}
+
+SOV_opposition_support_medium_increase_effect = {
+}
+
+SOV_opposition_support_very_low_increase_effect = {
+}
+
+SOV_paranoia_clamp_and_update_ui_effect = {
+}
+
+SOV_paranoia_daunt_admirals_effect = {
+}
+
+SOV_paranoia_daunt_admirals_minor_effect = {
+}
+
+SOV_paranoia_daunt_generals_effect = {
+}
+
+SOV_paranoia_daunt_generals_minor_effect = {
+}
+
+SOV_paranoia_decrease_based_on_unit_leader_level_effect = {
+}
+
+SOV_paranoia_high_decrease_effect = {
+}
+
+SOV_paranoia_high_increase_effect = {
+}
+
+SOV_paranoia_increase_based_on_unit_leader_level_effect = {
+}
+
+SOV_paranoia_increase_purge_counter_great = {
+}
+
+SOV_paranoia_increase_purge_counter_regular = {
+}
+
+SOV_paranoia_low_decrease_effect = {
+}
+
+SOV_paranoia_low_increase_effect = {
+}
+
+SOV_paranoia_medium_decrease_effect = {
+}
+
+SOV_paranoia_medium_increase_effect = {
+}
+
+SOV_paranoia_modifier_increase_effect = {
+}
+
+SOV_paranoia_modifier_update_gui_tooltip = {
+}
+
+SOV_paranoia_update_portraits_ui = {
+}
+
+SOV_paranoia_very_high_decrease_effect = {
+}
+
+SOV_paranoia_very_high_increase_effect = {
+}
+
+SOV_paranoia_very_low_increase_effect = {
+}
+
+SOV_permanent_revolution_spawn_fifth_columnists_effect = {
+}
+
+SOV_pick_great_purge_administration_type_effect = {
+}
+
+SOV_pick_great_purge_airforce_type_effect = {
+}
+
+SOV_pick_great_purge_army_type_effect = {
+}
+
+SOV_pick_great_purge_navy_type_effect = {
+}
+
+SOV_pick_propaganda_campaign_slot_effect = {
+}
+
+SOV_pick_regular_purge_administration_type_effect = {
+}
+
+SOV_pick_regular_purge_airforce_type_effect = {
+}
+
+SOV_pick_regular_purge_army_type_effect = {
+}
+
+SOV_pick_regular_purge_navy_type_effect = {
+}
+
+SOV_popular_uprising_units = {
+}
+
+SOV_poum_brigades_to_soviet_civil_war_effect = {
+}
+
+SOV_promote_to_country_leader_beriya = {
+}
+
+SOV_promote_to_country_leader_bukharin = {
+}
+
+SOV_promote_to_country_leader_kamenev = {
+}
+
+SOV_promote_to_country_leader_provisional = {
+}
+
+SOV_promote_to_country_leader_rykov = {
+}
+
+SOV_promote_to_country_leader_smirnov = {
+}
+
+SOV_promote_to_country_leader_trotsky = {
+}
+
+SOV_promote_to_country_leader_zinovyev = {
+}
+
+SOV_purge_character_effect = {
+}
+
+SOV_regular_purge_anti_saboteur_campaign_effect = {
+}
+
+SOV_regular_purge_conspiracy_in_the_academy_effect = {
+}
+
+SOV_regular_purge_general_accused_effect = {
+}
+
+SOV_regular_purge_general_accuses_general_effect = {
+}
+
+SOV_relocate_industry_in_appropriate_state_effect = {
+}
+
+SOV_remove_paranoia_effect = {
+}
+
+SOV_replace_industrial_designer = {
+}
+
+SOV_replace_stuff_based_on_ideology_effect = {
+}
+
+SOV_reset_propaganda_campaign_slot_effect = {
+}
+
+SOV_reset_specific_random_target_override_effect = {
+}
+
+SOV_right_opposition_civil_war_start = {
+}
+
+SOV_set_appropriate_national_academy_of_sciences_flag_effect = {
+}
+
+SOV_set_civil_war_state = {
+}
+
+SOV_set_military_offensive_effect = {
+}
+
+SOV_set_up_civil_war_army_fractions = {
+}
+
+SOV_set_up_civil_war_capital = {
+}
+
+SOV_set_up_dynamic_modifiers_civil_war = {
+}
+
+SOV_set_up_extras_from_concessions = {
+}
+
+SOV_set_up_japanese_troops = {
+}
+
+SOV_set_up_left_opposition_militia = {
+}
+
+SOV_set_up_nkvd = {
+}
+
+SOV_set_up_red_army = {
+}
+
+SOV_set_up_right_opposition_militia = {
+}
+
+SOV_spawn_penal_divisions_effect = {
+}
+
+SOV_start_civil_war = {
+}
+
+SOV_start_infiltrating_state = {
+}
+
+SOV_start_setting_up_hq_state = {
+}
+
+SOV_the_eyes_fear_units = {
+}
+
+SOV_trigger_great_purge_airforce_chiefs_effect = {
+}
+
+SOV_trigger_great_purge_design_bureau_dissolved_effect = {
+}
+
+SOV_trigger_great_purge_junior_naval_officers_effect = {
+}
+
+SOV_trigger_great_purge_moscow_trial_effect = {
+}
+
+SOV_trigger_great_purge_trial_of_the_admirals_effect = {
+}
+
+SOV_trigger_regular_purge_admiral_accused_effect = {
+}
+
+SOV_trigger_regular_purge_advisor_accused_effect = {
+}
+
+SOV_trigger_regular_purge_airforce_anti_saboteur_campaign_effect = {
+}
+
+SOV_trigger_regular_purge_airforce_conspiracy_in_the_academy_effect = {
+}
+
+SOV_trigger_regular_purge_civil_servants_purged_effect = {
+}
+
+SOV_trigger_regular_purge_naval_anti_saboteur_campaign_effect = {
+}
+
+SOV_trigger_regular_purge_naval_conspiracy_in_the_academy_effect = {
+}
+
+SOV_trigger_regular_purge_nkvd_effect = {
+}
+
+SOV_unlock_propaganda_campaign_slot_effect = {
+}
+
+SOV_update_ui_effect = {
+}
+
+SOV_upgrade_appropriate_aircraft_designer_1_effect = {
+}
+
+SOV_upgrade_appropriate_aircraft_designer_2_effect = {
+}
+
+SOV_upgrade_appropriate_aircraft_designer_3_effect = {
+}
+
+SOV_upgrade_appropriate_materiel_designer_1_artillery_effect = {
+}
+
+SOV_upgrade_appropriate_materiel_designer_1_infantry_effect = {
+}
+
+SOV_upgrade_appropriate_materiel_designer_1_motorized_effect = {
+}
+
+SOV_upgrade_appropriate_materiel_designer_2_effect = {
+}
+
+SOV_upgrade_appropriate_materiel_designer_3_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_1_baltic_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_1_black_sea_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_2_baltic_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_2_black_sea_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_3_baltic_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_3_black_sea_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_4_baltic_effect = {
+}
+
+SOV_upgrade_appropriate_ship_designer_4_black_sea_effect = {
+}
+
+SOV_upgrade_appropriate_tank_designer_1_effect = {
+}
+
+SOV_upgrade_appropriate_tank_designer_2_effect = {
+}
+
+SOV_upgrade_appropriate_tank_designer_3_effect = {
+}
+
+SOV_genrikh_yagoda = {
+}
+
+SOV_nikolay_yezhov = {
+}
+
+CHL_anarchic_society_level_down = {
+}
+
+JAP_big_army_faction_gain = {
+}
+
+JAP_big_army_faction_loss = {
+}
+
+JAP_big_naval_faction_gain = {
+}
+
+JAP_big_naval_faction_loss = {
+}
+
+JAP_big_zaibatsu_faction_gain = {
+}
+
+JAP_big_zaibatsu_faction_loss = {
+}
+
+JAP_big_government_faction_gain = {
+}
+
+JAP_big_government_faction_loss = {
+}
+
+JUNO_set_shared_military_branch_defaults = {
+}
+
+JUNO_create_rosita_serrano_operative = {
+}
+
+transfer_advisors_to_vichy = {
+}
+
+remove_worker_shortage_effect = {
+}
+
+remove_occupation_cost_effect = {
+}
+
+reduce_occupation_cost_effect = {
+}
+
+increase_occupation_cost_effect = {
+}
+
+FRA_congress_of_paris_italian_claims_setup_effect = {
+}
+
+FRA_congress_of_paris_portugese_claims_setup_effect = {
+}
+
+FRA_right_wing_riot_effect = {
+}
+
+FRA_communism_riot_effect = {
+}
+
+FRA_transfer_indochina_effect = {
+}
+
+FRA_transfer_syria_effect = {
+}
+
+FRA_transfer_north_africa_effect = {
+}
+
+FRA_transfer_central_africa_effect = {
+}
+
+FRA_transfer_western_africa_effect = {
+}
+
+PHI_check_japanese_ideology_and_adapt = {
+}
+
+PHI_central_focuses_done_T1 = {
+}
+
+PHI_central_focuses_done_T2 = {
+}
+
+PHI_central_focuses_done_T3 = {
+}
+
+PHI_usa_focus_done = {
+}
+
+PHI_american_intervention_change_value = {
+}
+
+PHI_american_intervention_max_value_reached = {
+}
+
+PHI_american_intervention_min_value_reached = {
+}
+
+PHI_add_or_modify_defense_strategy = {
+}
+
+PHI_recall_macarthur_for_leadership = {
+}
+
+PHI_set_pre_investment_variables = {
+}
+
+PHI_update_war_flag = {
+}
+
+PHI_refresh_ruling_ideology_drift = {
+}
+
+PHI_cobalt_sea_achievement = {
+}
+
+YUG_start_peters_coup = {
+}
+
+CHI_hyper_inflation_clear_all = {
+}
+
+CHI_hyper_inflation_level_up = {
+}
+
+CHI_hyper_inflation_level_down = {
+}
+
+CHI_warlord_integration_up = {
+}
+
+CHI_warlord_integration_down = {
+}
+
+CHI_show_state_uprising_effect_after_infiltration_level_down = {
+}
+
+CHI_infiltration_flag_down_2 = {
+}
+
+CHI_unity_level_up = {
+}
+
+CHI_unity_level_down = {
+}
+
+CHI_set_ally_strat_on_current_leader = {
+}
+
+CHI_negative_spirit_transfer = {
+}
+
+CHI_no_longer_a_warlord_idea_removal = {
+}
+
+CHI_apply_integration_cost_reduction = {
+}
+
+CHI_remove_annexed_warlord_from_array = {
+}
+
+CHI_modify_illicit_goods_event_trigger = {
+}
+
+CHI_is_corruption_in_government_on_balance_good = {
+}
+
+CHI_concessions_add_small_amount_of_days = {
+}
+
+CHI_concessions_add_medium_amount_of_days = {
+}
+
+CHI_concessions_add_large_amount_of_days = {
+}
+
+CHI_kill_chiang_for_new_leader = {
+}
+
+CHI_upgrade_wang_trait = {
+}
+
+CHI_setting_upp_colony = {
+}
+
+CHI_reduce_nine_power_malus = {
+}
+
+CHI_update_claimed_and_core_states = {
+}
+
+CHI_setup_colonized_countries_to_liberate_array = {
+}
+
+CHI_add_or_modify_political_tutelage = {
+}
+
+CHI_move_factories = {
+}
+
+CHI_corrupt_administration_improvement = {
+}
+
+CHI_modify_administration_modifier = {
+}

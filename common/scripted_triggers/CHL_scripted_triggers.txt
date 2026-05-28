@@ -60,7 +60,6 @@ CHL_hub_of_the_revolution_trigger = {
 		tag = CHL
 		has_dlc = "Trial of Allegiance"
 		CHL = { 
-			has_completed_focus = CHL_hub_of_the_world_revolution 
 			exists = yes
 			is_subject = no
 			has_government = communism

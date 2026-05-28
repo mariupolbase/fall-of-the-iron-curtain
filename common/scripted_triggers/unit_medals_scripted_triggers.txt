@@ -73,3 +73,7 @@ should_have_any_unique_medals_trigger = {
 		should_have_hungarian_medals_trigger = yes
 	}
 }
+
+should_have_czechoslovak_medals_trigger = {
+	original_tag = CZE
+}

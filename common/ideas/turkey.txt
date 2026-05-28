@@ -2940,23 +2940,7 @@ ideas = {
 
 			available = {
 				TUR_debt_council_has_no_sway = yes
-				IF = {
-					limit = {
-						has_dlc = "Arms Against Tyranny"
-					}
-					mio:TUR_ticaret_organization = {
-						has_mio_size >4
-					}
-					mio:TUR_koc_ticaret_as_shipyard_organization = {
-						has_mio_size >4
-					}
-					mio:TUR_koc_ticaret_as_defense_industry_organization = {
-						has_mio_size >4
-					}
-				}
-				ELSE = {
-					TUR_a_monopoly_has_been_formed = yes
-				}
+				TUR_a_monopoly_has_been_formed = yes
 			}
 			
 			research_bonus = {
@@ -2978,7 +2962,6 @@ ideas = {
 			}
 			available = { 
 				TUR_debt_council_has_no_sway = yes
-				has_completed_focus = TUR_turkish_state_railways
 			}	
 
 			cost = 75			
@@ -3005,7 +2988,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = TUR_the_sanayiciler
 			}			
 
 			cost = 75

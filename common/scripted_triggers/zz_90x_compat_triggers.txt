@@ -266,6 +266,10 @@ SOV_lavrenty_beriya = {
     always = no
 }
 
+SOV_aleksandr_kerensky = {
+    always = no
+}
+
 SOV_lev_kamenev = {
     always = no
 }

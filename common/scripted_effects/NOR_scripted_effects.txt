@@ -641,7 +641,6 @@ NOR_deploy_prep_fasc_basic_effects = {
 	if = {
 		limit = {
 			check_variable = { NOR_state_preparation > 2 }
-			ROOT = { has_completed_focus = NOR_the_secret_army } 
 		}
 		NOR_spawn_militias_in_state = yes 
 	}
@@ -867,7 +866,6 @@ NOR_start_fascist_civil_war = {
 	}
 	if = { 
 		limit = { #### This is for the Player led Civil War, Alt-History Fascist Path. 
-			has_completed_focus = NOR_lurk_in_the_shadows
 		}
 		NOR_fcw_effect_fascist_player = yes 
 		if = {
@@ -879,7 +877,6 @@ NOR_start_fascist_civil_war = {
 	}
 	else_if = {# Opportunistically Fascist (Started as Democratic but continued as Historical Fascist)
 		limit = {
-			has_completed_focus = NOR_continue_nygaardsvold_government
 			has_country_flag = NOR_switched_to_fasc_hist
 		}
 		NOR_fcw_effect_fascist_player = yes 
@@ -889,7 +886,6 @@ NOR_start_fascist_civil_war = {
 	}
 	else_if = { # This is for the player who decided to stay on the democratic path
 		limit = {
-			has_completed_focus = NOR_continue_nygaardsvold_government
 			NOT = { has_country_flag = NOR_switched_to_fasc_hist } 	
 		}
 		NOR_fcw_effect_democratic_player = yes 
@@ -899,7 +895,6 @@ NOR_start_fascist_civil_war = {
 	}
 	if = {
 		limit = {
-			has_completed_focus = NOR_empower_hirden 
 		}
 		NOR_spawn_hirden = yes 
 	}
@@ -1182,7 +1177,6 @@ NOR_start_communist_civil_war = {
 	NOR = {
 		if = {
 			limit = {
-				has_completed_focus = NOR_prosecute_the_nkp
 			}
 			every_character = {
 				limit = {

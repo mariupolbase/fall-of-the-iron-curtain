@@ -779,7 +779,6 @@ ideas = {
 
 
 			available = {
-				has_completed_focus = BALTIC_ford_motors
 			}
 
 			research_bonus = {
@@ -818,7 +817,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BALTIC_british_designers
 			}
 
 			research_bonus = {
@@ -856,7 +854,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BALTIC_british_designers
 			}
 
 			research_bonus = {
@@ -892,7 +889,6 @@ ideas = {
 			}
 			picture = generic_air_manufacturer_2
 			available = {
-				has_completed_focus = BALTIC_british_designers
 			}
 
 

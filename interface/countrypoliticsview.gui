@@ -194,6 +194,16 @@ guiTypes = {
 					scale = 0.55
 				}
 			}			
+			containerWindowType = {
+				name = "original_in_faction"
+				position = { x = 0 y = 0 }
+				size = { width = 0 height = 0 }
+			}
+			containerWindowType = {
+				name = "new_faction_button"
+				position = { x = 0 y = 0 }
+				size = { width = 0 height = 0 }
+			}
 		}
 						
 		containerWindowType = {
@@ -1762,5 +1772,35 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 		
+		containerWindowType = {
+			name = "faction"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
+		containerWindowType = {
+			name = "in_faction"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
+		containerWindowType = {
+			name = "no_faction"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
+		containerWindowType = {
+			name = "view_faction_icon"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
+		containerWindowType = {
+			name = "view_factions_button"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
+		containerWindowType = {
+			name = "open_faction_button"
+			position = { x = 0 y = 0 }
+			size = { width = 0 height = 0 }
+		}
 	}
 }

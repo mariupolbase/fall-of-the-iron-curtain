@@ -1,0 +1,13 @@
+
+#NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")
+# 90x custom tags
+NKR = "countries/North Korea.txt"
+RNU = "countries/Russian National.txt"
+PRK = "countries/Prussia Konigsberg.txt"
+PLD = "countries/Palestinian Democratic Republic.txt"
+APA = "countries/Antifascist People's Action.txt"
+ATW = "countries/Austrian Third Way.txt"
+FPR = "countries/French Provisional Republic.txt"
+FAF = "countries/French African Federation.txt"
+PTF = "countries/Portuguese Transitional Front.txt"
+NSM = "countries/National Socialist Movement.txt"

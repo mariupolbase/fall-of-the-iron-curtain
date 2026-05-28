@@ -7,7 +7,6 @@ set_technology = {
 
 }
 
-recruit_character = AST_john_curtin
 
 
 set_politics = {

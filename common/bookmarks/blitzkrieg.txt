@@ -14,11 +14,6 @@ bookmarks = {
 				FRA_disjointed_government
 				FRA_protected_by_the_maginot_line
 			}
-			focuses = {
-				FRA_strengthen_government_support
-				FRA_arms_purchases_in_the_us
-				FRA_french_union
-			}
 		}
 		USA = {
 			history = USA_BLITZKRIEG_DESC
@@ -29,11 +24,6 @@ bookmarks = {
 				air_war_plans_division_focus
 				USA_war_department
 				new_deal
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_arsenal_of_democracy
-				USA_selective_training_act
 			}
 		}
 		ENG = {
@@ -46,11 +36,6 @@ bookmarks = {
 				british_austerity_idea
 				ENG_colonial_elite
 			}
-			focuses = {
-				ENG_war_with_japan
-				bomber_command_focus
-				maud_focus
-			}
 			
 		}
 		WGR = {
@@ -62,11 +47,6 @@ bookmarks = {
 				GER_mefo_bills_15
 				GER_autarky_idea
 			}
-			focuses = {
-				GER_weserubung
-				GER_plan_z
-				GER_ussr_war_goal
-			}
 		}
 		ITA = {
 			history = ITA_BLITZKRIEG_DESC
@@ -76,11 +56,6 @@ bookmarks = {
 				ITA_camicie_nere
 				ITA_pact_of_steel
 			}
-			focuses = {
-				ITA_battaglioni_d_assalto
-				ITA_by_blood_alone
-				ITA_ferrea_mole_ferreo_cuore
-			}			
 		}
 		JAP = {
 			history = JAP_BLITZKRIEG_DESC
@@ -90,11 +65,6 @@ bookmarks = {
 				JAP_guide_the_zaibatsus
 				JAP_militarism
 			}	
-			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
-			}		
 		}
 		SOV = {
 			history = SOV_BLITZKRIEG_DESC
@@ -103,11 +73,6 @@ bookmarks = {
 				SOV_anti_soviet_military_thinking_banned_navy
 				SOV_second_five_year_plan_fake_1939_ns
 				SOV_purged_junior_army_officers_2
-			}
-			focuses = {
-				SOV_found_the_comecon
-				SOV_father_of_nations
-				SOV_patriarch_of_all_russia
 			}
 		}
 

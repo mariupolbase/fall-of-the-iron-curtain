@@ -177,7 +177,7 @@ ITA_stresa_front = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_ratify_the_stresa_front
+		always = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -202,7 +202,6 @@ ITA_stresa_front_ENG_FRA = {
 	}
 	enable = {
 		ITA = {
-			has_completed_focus = ITA_ratify_the_stresa_front
 		}
 	}
 	abort = {
@@ -221,7 +220,6 @@ ITA_albania_war_goal = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_albanian_occupation
 		country_exists = ALB
 	}
 	abort = {
@@ -242,7 +240,6 @@ ITA_greece_war_goal = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_war_with_greece
 		country_exists = GRE
 	}
 	abort = {
@@ -327,7 +324,6 @@ ITA_anti_uk_war_goals = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_war_with_the_uk
 		country_exists = ENG
 	}
 	abort = {
@@ -348,8 +344,6 @@ ITA_yugoslavia_war_goal = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_balkan_ambition
-		has_completed_focus = ITA_war_with_greece
 		country_exists = YUG
 	}
 	abort = {
@@ -370,7 +364,6 @@ ITA_germany_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_pact_of_steel
 		country_exists = GER
 	}
 	abort = {
@@ -394,7 +387,6 @@ ITA_romania_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
 		country_exists = ROM
 	}
 	abort = {
@@ -418,7 +410,6 @@ ITA_bulgaria_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
 		country_exists = BUL
 	}
 	abort = {
@@ -442,7 +433,6 @@ ITA_yugoslavia_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_potential_allies_in_the_balkans
 		country_exists = YUG
 	}
 	abort = {
@@ -466,7 +456,6 @@ ITA_greece_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_befriend_greece
 		country_exists = GRE
 	}
 	abort = {
@@ -490,7 +479,6 @@ ITA_turkey_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_befriend_turkey
 		country_exists = TUR
 	}
 	abort = {
@@ -514,7 +502,6 @@ ITA_portugal_ally = {
 		original_tag = ITA
 	}
 	enable = {
-		has_completed_focus = ITA_befriend_portugal
 		country_exists = POR
 	}
 	abort = {
@@ -863,7 +850,6 @@ ITA_spain_scw_support_la_resistance = {
 	abort = {
 		OR = {
 			NOT = { country_exists = SPA }
-			SPA = { has_completed_focus = SPA_join_the_allies }
 		}
 	}
 
@@ -1126,7 +1112,6 @@ ITA_attack_north = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ITA_conquer_the_north_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1151,7 +1136,6 @@ ITA_attack_south = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ITA_conquer_the_south_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1176,7 +1160,6 @@ ITA_attack_addis = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ETH_conquer_addis_ababa_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1201,7 +1184,6 @@ ITA_attack_harar = {
 	}
 	enable = {
 		has_war_with = ETH
-		has_active_mission = ETH_conquer_harar_mission
 		ITA_is_communist_ai = no
 		ITA_is_socialist_ai = no
 	}
@@ -1247,7 +1229,6 @@ ITA_communists_downplay_ethiopian_theatre = {
 			ITA_is_communist_ai = yes
 			ITA_is_socialist_ai = yes
 		}
-		NOT = { has_completed_focus = ITA_defy_the_duce }
 	}
 	abort = {
 		NOT = { has_war_with = ETH }
@@ -1287,7 +1268,6 @@ ITA_prepare_yugoslavian_invasion = {
 		}
 		OR = {
 			focus_progress = { focus = ITA_balkan_ambition progress > 0.5 }
-			has_decision = ITA_send_ultimatum_to_country_balkan
 			has_wargoal_against = YUG
 			is_justifying_wargoal_against = YUG
 		}
@@ -1389,7 +1369,6 @@ ITA_prepare_british_invasion = {
 		NOT = {	has_war_with = ENG }
 		OR = {
 			focus_progress = { focus = ITA_war_with_the_uk progress > 0.1}
-			has_completed_focus = ITA_war_with_the_uk
 		}
 	}
 

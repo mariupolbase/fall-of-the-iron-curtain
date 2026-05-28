@@ -1,4 +1,4 @@
-
+﻿
 ### THEME: FRENCH REGIONS ###
 FRA_REGIONS = {
 	name = NAME_THEME_REGIONS
@@ -161,7 +161,7 @@ FRA_KINGS = {
 	for_countries = { FRA }
 
 	can_use = { 
-		NOT = { has_government = communist }
+		NOT = { has_government = communism }
 	}
 
 	type = ship
@@ -185,11 +185,10 @@ FRA_VICHY_FRANCE = {
 	for_countries = { FRA }
 
 	can_use = { 
-		OR = { 
-		has_government = fascist 
-		has_government = nationalist
-		has_government = authoritarian_democrat
-	  }
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
 	}
 
 	type = ship

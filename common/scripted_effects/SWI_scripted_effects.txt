@@ -833,15 +833,6 @@ SWI_check_if_angry = {
 					}
 				}
 				set_variable = { SWI_angriest_country = SWI_country_to_evaluate }
-				if = {
-					limit = {
-						has_active_mission = SWI_country_angry_mission
-					}
-					add_days_mission_timeout = {
-						mission = SWI_country_angry_mission
-						days = 50
-					}
-				}
 			}
 		}
 	}
@@ -1888,10 +1879,6 @@ SWI_outgoing_president_cleanup = {
 			limit = { has_character_flag = SWI_current_confederation_president }
 			clr_character_flag = SWI_current_confederation_president
 			set_character_flag = SWI_former_confederation_president
-		}
-		if = {
-			limit = { has_active_mission = SWI_recently_finished_president_initiative_mission }
-			remove_mission = SWI_recently_finished_president_initiative_mission 
 		}
 		if = {
 			limit = { has_country_flag = SWI_president_gave_MR_speech }

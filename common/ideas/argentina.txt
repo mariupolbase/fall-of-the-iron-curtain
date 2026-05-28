@@ -1115,7 +1115,6 @@ ideas = {
 			picture = generic_constitutional_guarantees
 			allowed = {
 				original_tag = ARG
-				has_completed_focus = ARG_regulated_national_salaries
 			}
 
 			allowed_civil_war = {
@@ -1136,7 +1135,6 @@ ideas = {
 			picture = ARG_social_welfare_fund_ns
 			allowed = {
 				original_tag = ARG
-				has_completed_focus = ARG_social_welfare_fund
 			}
 
 			allowed_civil_war = {
@@ -1308,11 +1306,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ARG_banco_central_de_la_republica_argentina
 			}
 
 			visible = {
-				#has_completed_focus = ARG_banco_central_de_la_republica_argentina
 			}
 
 			cost = 50
@@ -1339,11 +1335,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ARG_yacimientos_petroliferos_fiscales
 			}
 
 			visible = {
-				#has_completed_focus = ARG_yacimientos_petroliferos_fiscales
 			}
 
 			#cost = 50
@@ -1432,12 +1426,10 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = ARG_invest_in_the_railways
 			}
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1488,7 +1480,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ARG_russian_manufacturers
 			}
 
 			research_bonus = {
@@ -1576,7 +1567,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ARG_russian_manufacturers
 			}
 
 			research_bonus = {
@@ -1653,7 +1643,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = ARG_russian_manufacturers
 			}
 
 			research_bonus = {

@@ -1,4 +1,4 @@
-
+﻿
 ## THEME: RUSSIAN CITIES ###
 SOV_CITIES = {
 	name = NAME_THEME_CITIES
@@ -20,7 +20,7 @@ SOV_LEADERS = {
 	name = NAME_THEME_LEADERS
 
 	for_countries = { SOV }
-	can_use = { has_government = communist }
+	can_use = { has_government = communism }
 
 	type = ship
 	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }

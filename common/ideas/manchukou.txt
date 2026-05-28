@@ -476,7 +476,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {
@@ -501,7 +500,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {
@@ -526,7 +524,6 @@ ideas = {
 			picture = generic_air_manufacturer_1
 
 			available = {
-				has_completed_focus = MAN_mamc
 			}
 
 			allowed = {

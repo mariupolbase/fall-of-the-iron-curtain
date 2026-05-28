@@ -55,7 +55,6 @@ BUL_befriend_ITA = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	enable = {
-		has_completed_focus = BUL_approach_germany
 		country_exists = ITA
 		ITA = {
 			has_opinion	= {
@@ -443,11 +442,10 @@ BUL_we_dont_want_to_fight_sov = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	enable = {
-		has_completed_focus = BUL_power_to_the_tsar
+		always = yes
 	}
 	abort = {
 		OR = {
-			has_completed_focus = BUL_the_eastern_front
 			date > 1945.01.01
 		}
 	}
@@ -550,8 +548,6 @@ BUL_address_internal_affairs_first = {
 	}
 	enable = {
 		OR = {
-			has_completed_focus = BUL_power_to_the_tsar
-			has_completed_focus = BUL_oppose_the_royal_dictatorship
 		}
 	}
 	abort = {
@@ -599,7 +595,6 @@ BUL_cajole_the_brits = {
 				option = THE_RETURN_OF_FERDINAND
 			}
 		}
-		has_completed_focus = BUL_negotiate_bulgarian_rearmament
 		country_exists = ENG
 		ENG = {
 			has_opinion	= {

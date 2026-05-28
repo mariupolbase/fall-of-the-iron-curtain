@@ -4367,7 +4367,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {	has_completed_focus = GER_expand_kummersdorfs_capacity }
 			}
 			
 			research_bonus = {
@@ -4397,7 +4396,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_expand_kummersdorfs_capacity
 			}
 			
 			research_bonus = {
@@ -4433,7 +4431,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_develop_modern_maneuver_warfare }
 			}
 			
 			research_bonus = {
@@ -4463,7 +4460,6 @@ ideas = {
 			}
 			
 			visible = {
-				has_completed_focus = GER_develop_modern_maneuver_warfare
 			}
 
 			research_bonus = {
@@ -4500,7 +4496,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_advanced_panzer_research }
 			}
 			
 			research_bonus = {
@@ -4523,7 +4518,6 @@ ideas = {
 			}
 			
 			visible = {
-				has_completed_focus = GER_advanced_panzer_research
 			}
 
 			research_bonus = {
@@ -4553,7 +4547,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_improve_motorized_troops }
 			}
 			
 			cost = 150
@@ -4575,7 +4568,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_improve_motorized_troops
 			}
 			
 			cost = 150
@@ -4611,7 +4603,6 @@ ideas = {
 			}
 			
 			visible = {
-				NOT = { has_completed_focus = GER_nationalize_ford_factories }
 			}
 
 			cost = 150
@@ -4647,7 +4638,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_nationalize_ford_factories
 			}
 			
 			cost = 150
@@ -4686,7 +4676,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_grosskampfschiff_construction }
 			}
 
 			research_bonus = {
@@ -4707,7 +4696,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_grosskampfschiff_construction
 			}
 			
 			research_bonus = {
@@ -4732,7 +4720,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_cruiser_warfare }
 			}
 			
 			research_bonus = {
@@ -4750,7 +4737,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_cruiser_warfare
 			}
 			
 			research_bonus = {
@@ -4773,7 +4759,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_u_boat_efforts }
 			}
 			
 			cost = 150
@@ -4794,7 +4779,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_u_boat_efforts
 			}
 			
 			cost = 150
@@ -4820,7 +4804,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_high_seas_fleet }
 			}
 			
 			cost = 150
@@ -4841,7 +4824,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_high_seas_fleet
 			}
 			
 			cost = 150
@@ -4866,7 +4848,6 @@ ideas = {
 			}
 			
 			visible = {
-				NOT = { has_completed_focus = GER_construct_aircraft_carriers }
 			}
 
 			cost = 150
@@ -4888,7 +4869,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_construct_aircraft_carriers
 			}
 			
 			cost = 150
@@ -4924,7 +4904,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_expand_kriegsmarinewerft }
 			}
 			
 			cost = 150
@@ -4952,7 +4931,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_expand_kriegsmarinewerft
 			}
 			
 			cost = 150
@@ -4984,7 +4962,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_form_the_jagdwaffe }
 			}
 			
 			research_bonus = {
@@ -5011,7 +4988,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_form_the_jagdwaffe
 			}
 			
 			research_bonus = {
@@ -5038,7 +5014,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = {	has_completed_focus = GER_dive_bombers }
 			}
 						
 			research_bonus = {
@@ -5064,7 +5039,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_dive_bombers
 			}
 						
 			research_bonus = {
@@ -5093,7 +5067,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_develop_the_knickebein }
 			}	
 						
 			research_bonus = {
@@ -5115,7 +5088,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_develop_the_knickebein
 			}	
 
 			research_bonus = {
@@ -5148,7 +5120,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_aeronautical_research_institute }
 			}
 			
 			research_bonus = {
@@ -5170,7 +5141,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_aeronautical_research_institute
 			}	
 			
 			research_bonus = {
@@ -5198,7 +5168,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_tactical_bombers }
 			}	
 				
 			research_bonus = {
@@ -5220,7 +5189,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_tactical_bombers
 			}	
 				
 			research_bonus = {
@@ -5250,7 +5218,6 @@ ideas = {
 			}
 			
 			visible = {
-				NOT = { has_completed_focus = GER_aeronautical_research_institute }
 			}
 
 			cost = 150
@@ -5274,7 +5241,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_aeronautical_research_institute
 			}	
 			
 			cost = 150
@@ -5309,7 +5275,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_torpedobomber }
 			}	
 
 			cost = 150
@@ -5329,7 +5294,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_torpedobomber
 			}	
 			
 			cost = 150
@@ -5406,7 +5370,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_nationalize_ford_factories }
 			}
 			
 			research_bonus = {
@@ -5425,7 +5388,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_nationalize_ford_factories
 			}
 			
 			research_bonus = {
@@ -5468,7 +5430,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_panzergrenadier }
 			}
 			
 			cost = 150
@@ -5493,7 +5454,6 @@ ideas = {
 			}
 			
 			visible = {
-				has_completed_focus = GER_panzergrenadier
 			}
 			
 			cost = 150
@@ -5520,8 +5480,6 @@ ideas = {
 
 			visible = {
 				NOT = { 
-					has_completed_focus = GER_coal_liquefaction
-					has_completed_focus = GER_industrial_expansion
 				}
 			}
 
@@ -5549,8 +5507,6 @@ ideas = {
 
 			visible = {
 				OR = {
-					has_completed_focus = GER_coal_liquefaction
-					has_completed_focus = GER_industrial_expansion
 				}
 			}
 
@@ -5633,7 +5589,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = GER_kriegslokomotiven }
 			}
 			
 			cost = 150
@@ -5655,7 +5610,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_kriegslokomotiven
 			}
 			
 			cost = 150
@@ -5685,8 +5639,6 @@ ideas = {
 
 			visible = {
 				NOT = {
-					has_completed_focus = GER_employ_philipp_holzmann
-					has_completed_focus = GER_revitalize_the_nation
 				}
 			}
 			
@@ -5715,10 +5667,7 @@ ideas = {
 			visible = {
 				OR = {
 					AND = {
-						has_completed_focus = GER_employ_philipp_holzmann
-						NOT = { has_completed_focus = GER_plenipotentiary_of_armaments }
 					}
-					has_completed_focus = GER_revitalize_the_nation
 				}
 			}
 			
@@ -5742,7 +5691,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_plenipotentiary_of_armaments
 			}
 			
 			cost = 150
@@ -5765,7 +5713,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_plenipotentiary_of_armaments
 			}
 			
 			cost = 150
@@ -5786,8 +5733,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_form_organization_todt
-				NOT = { has_completed_focus = GER_autonomous_organization_todt }
 			}
 			
 			cost = 75
@@ -5813,7 +5758,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = GER_autonomous_organization_todt
 			}
 			
 			cost = 75
@@ -5857,15 +5801,11 @@ ideas = {
 			visible = {
 				NOT = { 
 					OR = {
-						has_completed_focus = GER_prioritize_the_four_year_plan 
-						has_completed_focus = GER_prepare_for_the_next_naval_blockade 
-						has_completed_focus = GER_effectivize_the_volkswerke 
 					}
 				}
 			}
 
 			available = {
-				has_completed_focus = GER_establish_the_reichswerke
 			}
 			
 			cost = 150
@@ -5892,17 +5832,12 @@ ideas = {
 
 			visible = {	
 				OR = {
-					has_completed_focus = GER_prioritize_the_four_year_plan
-					has_completed_focus = GER_prepare_for_the_next_naval_blockade
-					has_completed_focus = GER_effectivize_the_volkswerke
 				}
 				NOT = {
-					has_completed_focus = GER_plenipotentiary_of_the_four_year_plan
 				}
 			}
 
 			available = {
-				has_completed_focus = GER_establish_the_reichswerke
 			}
 			
 			cost = 100
@@ -5925,11 +5860,9 @@ ideas = {
 			}
 
 			visible = {	
-				has_completed_focus = GER_plenipotentiary_of_the_four_year_plan
 			}
 
 			available = {
-				has_completed_focus = GER_establish_the_reichswerke
 			}
 			
 			cost = 100

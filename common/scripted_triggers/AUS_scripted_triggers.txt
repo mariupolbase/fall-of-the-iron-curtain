@@ -10,10 +10,7 @@ AUS_anschluss_risk_low = {
 				ratio < global.medium_anschluss_risk
 			}
 	
-			has_completed_focus = GER_remilitarize_the_rhineland
 			NOT = {
-				has_completed_focus = GER_heed_von_neuraths_concerns
-				has_completed_focus = GER_reorganize_the_wehrmacht
 			}
 		}	
 	}
@@ -36,14 +33,10 @@ AUS_anschluss_risk_medium = {
 						ratio < global.high_anschluss_risk
 					}
 					NOT = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_reorganize_the_wehrmacht
 					}	
 				}
 				AND = {
 					OR = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_reorganize_the_wehrmacht
 					}
 					
 					fighting_army_strength_ratio = {
@@ -54,7 +47,6 @@ AUS_anschluss_risk_medium = {
 			}
 			
 			
-			has_completed_focus = GER_remilitarize_the_rhineland
 		}
 	}
 }
@@ -75,15 +67,11 @@ AUS_anschluss_risk_high = {
 						ratio > global.high_anschluss_risk
 					}
 					NOT = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_reorganize_the_wehrmacht
 					}
 				}
 
 				AND = {
 					OR = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_reorganize_the_wehrmacht
 					}
 					fighting_army_strength_ratio = {
 						tag = AUS
@@ -99,7 +87,6 @@ AUS_anschluss_risk_high = {
 			
 			
 			
-			has_completed_focus = GER_remilitarize_the_rhineland
 		}
 	}	
 }
@@ -112,8 +99,6 @@ AUS_anschluss_risk_critical = {
 			OR = {
 				AND = {
 					OR = {
-						has_completed_focus = GER_heed_von_neuraths_concerns
-						has_completed_focus = GER_reorganize_the_wehrmacht
 					}
 					fighting_army_strength_ratio = {
 						tag = AUS

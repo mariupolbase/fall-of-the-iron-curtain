@@ -198,6 +198,7 @@ script_enum_equipment_bonus_type = {
 	rocket
 	flame
 	land_cruiser
+	equipments
 	super_heavy_artillery_equipment
 	super_heavy_artillery_equipment_1
 	self_propelled_super_heavy_artillery_equipment
@@ -224,13 +225,18 @@ script_enum_equipment_bonus_type = {
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
 	amphibious_mechanized_equipment_2
+	amphibious_mechanized_equipment_3
 	anti_air_equipment
 	anti_air_equipment_1
 	anti_air_equipment_2
 	anti_air_equipment_3
+	anti_air_equipment_4
+	anti_air_equipment_5
 	anti_tank_equipment_1
 	anti_tank_equipment_2
 	anti_tank_equipment_3
+	anti_tank_equipment_4
+	anti_tank_equipment_5
 	armored_car_equipment
 	gw_armored_car_equipment
 	armored_car_equipment_1
@@ -268,17 +274,32 @@ script_enum_equipment_bonus_type = {
 	repair_ship_hull
 	repair_ship_1
 	repair_ship_2
-	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2
 	infantry_equipment_3
+	infantry_equipment_4
+	infantry_equipment_5
+	infantry_equipment_6
+	exoskeleton_equipment
+	exoskeleton_equipment_1
+	exoskeleton_equipment_2
+	PRC_qts_14_nib
 	mechanized_equipment
 	mechanized_equipment_1
 	mechanized_equipment_2
 	mechanized_equipment_3
+	mechanized_equipment_4
+	mechanized_equipment_5
+	light_mechanized_equipment
+	light_mechanized_equipment_1
+	light_mechanized_equipment_2
+	light_mechanized_equipment_3
+	light_mechanized_equipment_4
+	light_mechanized_equipment_5
 	motorized_equipment
-	motorized_equipment_0
 	motorized_equipment_1
+	motorized_equipment_2
+	motorized_equipment_3
 	small_plane_airframe
 	cv_small_plane_airframe
 	small_plane_airframe_0
@@ -304,10 +325,6 @@ script_enum_equipment_bonus_type = {
 	large_plane_airframe_2
 	large_plane_airframe_3
 	large_plane_airframe_4
-	transport_plane_equipment
-	transport_plane_equipment_1
-	transport_plane_equipment_2
-	transport_plane_equipment_3
 	railway_gun_equipment
 	railway_gun_equipment_1
 	super_heavy_railway_gun_equipment
@@ -334,16 +351,21 @@ script_enum_equipment_bonus_type = {
 	ship_hull_cruiser_2
 	ship_hull_cruiser_3
 	ship_hull_cruiser_4
+	ship_hull_cruiser_5
+	ship_hull_cruiser_6
 	light_cruiser_1
 	light_cruiser_2
 	light_cruiser_3
 	light_cruiser_4
+	light_cruiser_5
+	light_cruiser_6
 	heavy_cruiser_1
 	heavy_cruiser_2
 	heavy_cruiser_3
 	heavy_cruiser_4
+	heavy_cruiser_5
+	heavy_cruiser_6
 	torpedo_cruiser
-	ship_hull_cruiser_modern_aa
 	ship_hull_torpedo_cruiser
 	ship_hull_cruiser_panzerschiff
 	ship_hull_cruiser_coastal_defense_ship
@@ -369,10 +391,14 @@ script_enum_equipment_bonus_type = {
 	ship_hull_light_2
 	ship_hull_light_3
 	ship_hull_light_4
+	ship_hull_light_5
+	ship_hull_light_6
 	destroyer_1
 	destroyer_2
 	destroyer_3
 	destroyer_4
+	destroyer_5
+	destroyer_6
 	ship_hull_submarine
 	ship_hull_submarine_1
 	ship_hull_submarine_2
@@ -395,6 +421,7 @@ script_enum_equipment_bonus_type = {
 	submarine_4
 	support_equipment
 	support_equipment_1
+	support_equipment_2
 	light_tank_chassis
 	light_tank_chassis_0
 	light_tank_chassis_1
@@ -412,6 +439,8 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_3
 	modern_tank_chassis
 	modern_tank_chassis_1
+	modern_tank_chassis_2
+	modern_tank_chassis_3
 	super_heavy_tank_chassis
 	super_heavy_tank_chassis_1
 	amphibious_tank_chassis
@@ -608,8 +637,14 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_artillery_chassis_1
 	super_heavy_tank_destroyer_chassis_1
 	modern_tank_aa_chassis_1
+	modern_tank_aa_chassis_2
+	modern_tank_aa_chassis_3
 	modern_tank_artillery_chassis_1
+	modern_tank_artillery_chassis_2
+	modern_tank_artillery_chassis_3
 	modern_tank_destroyer_chassis_1
+	modern_tank_destroyer_chassis_2
+	modern_tank_destroyer_chassis_3
 	gw_tank_equipment
 	light_tank_equipment_1
 	light_tank_equipment_2
@@ -657,5 +692,16 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_aa_equipment_1
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
+	amphibious_tank_equipment
+	utility_helicopter_equipment
+	utility_helicopter_equipment_1
+	utility_helicopter_equipment_2
+	attack_helicopter_equipment
+	attack_helicopter_equipment_1
+	attack_helicopter_equipment_2
+	suicide_craft_equipment
+	spaa_equipment
+	spaa_equipment_1
+	spaa_equipment_2
 	supersonic_fighter_equipment_1
 }

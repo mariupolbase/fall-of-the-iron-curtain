@@ -2045,7 +2045,6 @@ USA_dont_send_lend_lease_to_japan_except_certain_scenarios = {
 				has_government = fascism
 			}
 			NOT = {
-				has_completed_focus = JAP_form_the_jikyoku_iinkai
 			}
 		}
 	}
@@ -2068,7 +2067,6 @@ USA_maybe_send_some_lend_lease_to_japan = {
 				has_government = neutrality
 				has_government = fascism
 			}
-			has_completed_focus = JAP_form_the_jikyoku_iinkai
 		}
 	}
 	abort_when_not_enabled = yes

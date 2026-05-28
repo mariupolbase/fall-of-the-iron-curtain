@@ -15,5 +15,5 @@ search_filters = {
 
 search_filters = {	
 	name = transport_planes
-	values = {transport_plane_equipment}
+	values = {large_plane_airframe}
 }

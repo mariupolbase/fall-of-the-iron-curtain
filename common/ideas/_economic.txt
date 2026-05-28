@@ -37,7 +37,6 @@ ideas = {
 					OR = {
 						has_war_support > 0.5
 						has_war = yes
-						has_completed_focus = USA_limited_intervention
 					}
 				}
 				ELSE = {
@@ -82,7 +81,6 @@ ideas = {
 					OR = {
 						has_war_support > 0.75
 						has_war = yes
-						has_completed_focus = USA_limited_intervention
 					}
 				}
 				ELSE = {
@@ -179,31 +177,16 @@ ideas = {
 
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.3
 					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
 				}
 			}
 			on_add = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -261,12 +244,10 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						OR = {
-							has_completed_focus = HUN_secret_rearmament
 							NOT = { has_idea = HUN_treaty_of_triannon_aat }
 						}
 					}
 					ELSE = {
-						has_completed_focus = HUN_secret_rearmament
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
@@ -280,36 +261,20 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						OR = {
-							has_completed_focus = wuw_HUN_secret_rearmament
 							NOT = { has_idea = HUN_treaty_of_triannon_aat_wuw }
 						}
 					}
 					ELSE = {
-						has_completed_focus = wuw_HUN_secret_rearmament
 						NOT = { has_idea = HUN_treaty_of_triannon_wuw }
 					}
 				}
 
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
 					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
 				}
 			}
 
@@ -329,7 +294,6 @@ ideas = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -365,7 +329,6 @@ ideas = {
 					NOT = {
 						has_idea = war_economy
 					}
-					has_completed_focus = GUAY_coup_detat
 				}
    			}
 		}
@@ -447,24 +410,10 @@ ideas = {
 
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
 					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
 				}
 			}
 
@@ -483,7 +432,6 @@ ideas = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -538,7 +486,6 @@ ideas = {
 					limit = {
 						original_tag = GER
 					}
-					NOT = { has_completed_focus = GER_totaler_krieg }
 				}
 			}
 
@@ -609,31 +556,16 @@ ideas = {
 				
 				if = {
 					limit = {
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
 					congress_high_support_trigger = yes
-				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_1
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-						}
-					}
 				}
 			}
 			on_add = {
 				if = {
 					limit = {
 						tag = USA
-						has_completed_focus = USA_limited_intervention
 						has_defensive_war = no
 					}
 					USA_congress_large_opposition = yes
@@ -708,11 +640,9 @@ ideas = {
 
 			visible = {
 				original_tag = GER
-				has_completed_focus = GER_totaler_krieg
 			}
 
 			available = {
-				has_completed_focus = GER_totaler_krieg
 				has_war_with_major = yes
 				has_war_support > 0.8
 				any_enemy_country = {
@@ -827,8 +757,6 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					has_war = yes
-					has_completed_focus = POL_integrate_gdansk_industries
-					has_completed_focus = POL_expand_gdynia_seaport
 					NOT = {
 						owns_state = 85
 						owns_state = 807
@@ -877,13 +805,11 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
 				}
 				if = {
 					limit = {
 						original_tag = GER
 					}
-					NOT = { has_completed_focus = GER_autarky_efforts }
 				}
 			}
 
@@ -954,13 +880,11 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
 				}
 				if = {
 					limit = {
 						original_tag = GER
 					}
-					NOT = { has_completed_focus = GER_autarky_efforts }
 				}
 			}
 
@@ -1054,7 +978,6 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
 				}
 			}
 
@@ -1121,8 +1044,6 @@ ideas = {
 		autarkic_economy = {
 			visible = {
 				original_tag = GER
-				has_completed_focus = GER_autarky_efforts
-				NOT = { has_completed_focus = GER_autarky_achieved }
 			}
 
 			available = {
@@ -1165,7 +1086,6 @@ ideas = {
 			name = autarkic_economy
 			visible = {
 				original_tag = GER
-				has_completed_focus = GER_autarky_achieved
 			}
 
 			available = {

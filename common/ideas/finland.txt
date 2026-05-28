@@ -1669,7 +1669,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_national_armor_focus }
 			}
 			
 			research_bonus = {
@@ -1688,7 +1687,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_national_armor_focus
 			}
 
 			cost = 75
@@ -1739,7 +1737,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_conversion_of_civilian_vessels }
 			}
 			
 			research_bonus = {
@@ -1758,7 +1755,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_conversion_of_civilian_vessels
 			}
 
 			cost = 75
@@ -1818,7 +1814,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_national_aircraft_production }
 			}
 			
 			research_bonus = {
@@ -1837,7 +1832,6 @@ ideas = {
 			}
 			
 			visible = {
-				has_completed_focus = FIN_national_aircraft_production
 			}
 
 			cost = 75
@@ -1874,7 +1868,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_integrate_oy_tikkakoski }
 			}
 			
 			research_bonus = {
@@ -1893,7 +1886,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_integrate_oy_tikkakoski
 			}
 
 			cost = 75
@@ -1921,7 +1913,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_national_firepower }
 			}
 			
 			research_bonus = {
@@ -1940,7 +1931,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_national_firepower
 			}
 
 			cost = 75
@@ -1968,7 +1958,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_contract_with_yhteissisu }
 			}
 			
 			research_bonus = {
@@ -1987,7 +1976,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_contract_with_yhteissisu
 			}
 
 			cost = 75
@@ -2053,7 +2041,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = FIN_found_pohjolan_voima
 			}
 			
 			cost = 150
@@ -2074,7 +2061,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = FIN_tire_factory_at_nokia }
 			}
 
 			available = {
@@ -2100,7 +2086,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = FIN_tire_factory_at_nokia
 			}
 			
 			available = {

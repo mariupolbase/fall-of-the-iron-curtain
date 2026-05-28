@@ -32,7 +32,6 @@ GRE_befriend_balkan_countries_YUG = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 
@@ -94,7 +93,6 @@ GRE_befriend_balkan_countries_ROM = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -154,7 +152,6 @@ GRE_befriend_balkan_countries_BUL = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -214,7 +211,6 @@ GRE_befriend_balkan_countries_TUR = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -260,7 +256,6 @@ GRE_befriend_balkan_countries_ALB = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -322,7 +317,6 @@ GRE_befriend_balkan_countries_HUN = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -382,7 +376,6 @@ GRE_befriend_balkan_countries_CZE = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -441,7 +434,6 @@ GRE_befriend_balkan_countries_AUS = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_bedrock_of_balkan_financial_stability
 		}
 	}
 	
@@ -526,7 +518,6 @@ GRE_befriend_major_investors = {
 					is_subject = yes
 				}
 			}
-			has_completed_focus = GRE_open_foreign_subsidized_factories
 		}
 	}
 

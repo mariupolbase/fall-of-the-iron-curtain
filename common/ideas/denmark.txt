@@ -90,7 +90,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = DEN_aalborg_portland_cement_plant }
 			}
 
 			available = {
@@ -115,7 +114,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = DEN_aalborg_portland_cement_plant
 			}
 
 			available = {
@@ -143,7 +141,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = DEN_danske_stalvalsevaerket
 			}
 			
 			research_bonus = {

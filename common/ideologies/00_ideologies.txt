@@ -14,6 +14,9 @@ ideologies = {
 
 			qvir_anarchism = {
 			}
+
+			anarchist_communism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -270,6 +273,7 @@ ideologies = {
 		types = {
 			market_liberalism_ideology = {}
 			conservatism_liberalism = {}
+			liberalism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -308,6 +312,8 @@ ideologies = {
 			national_conservatism = {}
 
 			liberalism_conservatism = {}
+
+			conservatism = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DEMOCRATIC_1"
@@ -421,6 +427,9 @@ ideologies = {
 			}
 
 			social_nationalism = {
+			}
+
+			emperor_fascism = {
 			}
 		}
 

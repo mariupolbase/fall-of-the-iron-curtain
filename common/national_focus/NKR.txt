@@ -38,6 +38,11 @@ focus_tree = {
 				neutrality = 1.9
 				fascism = 3.2
 				communism = 87.5
+				anarchism = 0
+				social_democracy = 0
+				social_liberalism = 0
+				market_liberalism = 0
+				conservatism = 0
 			}
 		}
 	}

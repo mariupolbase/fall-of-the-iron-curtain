@@ -869,7 +869,6 @@ aircraft_manufacturer = {
 	SWI_eidgenossische_FW = {
 			
 		available = {
-			has_completed_focus = SWI_swiss_airplane_designs
 		}
 		picture = SWI_eidgenossische_FW
 		
@@ -971,7 +970,6 @@ materiel_manufacturer = {
 		}
 
 		visible = {
-			NOT = { has_completed_focus = SWI_swiss_armored_divisions }
 		}
 		
 		research_bonus = {
@@ -992,10 +990,8 @@ materiel_manufacturer = {
 			SWI_bba = yes
 		}
 		visible = {
-			has_completed_focus = SWI_swiss_armored_divisions
 		}
 		available = {
-			has_completed_focus = SWI_swiss_armored_divisions
 
 		}
 		

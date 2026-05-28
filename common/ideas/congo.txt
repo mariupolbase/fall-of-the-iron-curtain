@@ -1647,11 +1647,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CONGO_compagnie_belge_maritime_du_congo
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1675,11 +1673,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CONGO_rawji_group
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1703,11 +1699,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CONGO_ccci
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1731,11 +1725,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CONGO_forminiere
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1760,13 +1752,10 @@ ideas = {
 
 			available = {	
 				OR = {
-					has_completed_focus = COG_societe_nationale_chemins_du_congo
-					has_completed_focus = CONGO_office_des_transports_coloniaux
 				}
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1790,11 +1779,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = COG_establish_new_sabena_air_routes
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -1824,7 +1811,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = COG_societe_africaine_dexplosifs_congo
 			}
 
 			visible = {

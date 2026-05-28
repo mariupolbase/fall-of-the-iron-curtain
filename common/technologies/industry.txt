@@ -1631,13 +1631,8 @@ technologies = {
 			modifier = {
 				factor = 5
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				oil < 30
@@ -1700,13 +1695,8 @@ technologies = {
 			modifier = {
 				factor = 25
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				oil < 30
@@ -1759,13 +1749,8 @@ technologies = {
 			modifier = {
 				factor = 25
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				oil < 30
@@ -1826,13 +1811,8 @@ technologies = {
 			modifier = {
 				factor = 25
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				oil < 30
@@ -1944,13 +1924,8 @@ technologies = {
 			modifier = {
 				factor = 15
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				rubber < 15
@@ -2009,13 +1984,8 @@ technologies = {
 			modifier = {
 				factor = 15
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				rubber < 15
@@ -2074,13 +2044,8 @@ technologies = {
 			modifier = {
 				factor = 15
 				OR = {
-					has_government = national_socialist
-					has_government = nationalist
-					has_government = authoritarian_democrat
-					has_government = fascist
-					has_government = communist
-					has_government = totalitarian_socialist
-					has_government = libertarian_socialist
+					has_government = fascism
+					has_government = communism
 				}
 				has_war = yes
 				rubber < 15

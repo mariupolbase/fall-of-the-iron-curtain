@@ -460,7 +460,6 @@ ideas = {
 
 			cost = 75
 			available = {
-				has_completed_focus = PAR_central_bank_of_paraguay
 			}
 
 

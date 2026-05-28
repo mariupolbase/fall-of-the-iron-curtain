@@ -759,7 +759,6 @@ ideas = {
 	
 	
 				available = { 
-					has_completed_focus = POR_ogma
 				}
 					
 				
@@ -865,7 +864,6 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_ogme
 				}
 	
 				research_bonus = {
@@ -892,7 +890,6 @@ ideas = {
 					has_dlc = "La Resistance"
 				}
 				available = {
-					has_completed_focus = POR_portuguese_artillery
 				}
 	
 				research_bonus = {

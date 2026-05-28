@@ -1,4 +1,4 @@
-
+﻿
 ####### KOREA
 
 
@@ -12,7 +12,7 @@ KOR_DEMOCRACY_ACTIVIST = {
 	#ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_carrier }
 	prefix = "ROKS "
 	
-	can_use = { NOT = { has_government = fascist } }
+	can_use = { NOT = { has_government = fascism } }
 
 	unique = {
 	# Presidents of South Korea (Democracy activist)

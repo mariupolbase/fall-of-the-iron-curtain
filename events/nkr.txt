@@ -1,7 +1,8 @@
 # NKR events
+add_namespace = nkr
 
-event = {
-	id = 90x.nkr.1
+country_event = {
+	id = nkr.1
 	title = 90x.nkr.1.t
 	desc = 90x.nkr.1.d
 	picture = GFX_report_event_SOV_litvinov_beck

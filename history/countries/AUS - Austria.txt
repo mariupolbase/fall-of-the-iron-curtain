@@ -6,7 +6,6 @@ set_technology = {
 
 }
 
-recruit_character = AUS_kurt_schuschnigg
 
 
 

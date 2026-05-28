@@ -2281,7 +2281,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2305,11 +2304,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_invest_in_shipping
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2333,11 +2330,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_advancements_in_telecommunications
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2362,14 +2357,11 @@ ideas = {
 
 			available = {
 				OR = {
-					has_completed_focus = CHL_strengthen_the_central_bank
-					has_completed_focus = CHL_inflation_control_by_the_central_bank
 				}
 			}
 
 			visible = {
 				NOT = {
-					has_completed_focus = CHL_inflation_control_by_the_central_bank
 				}
 			}
 
@@ -2395,13 +2387,10 @@ ideas = {
 
 			available = {
 				OR = {
-					has_completed_focus = CHL_strengthen_the_central_bank
-					has_completed_focus = CHL_inflation_control_by_the_central_bank
 				}
 			}
 
 			visible = {
-				has_completed_focus = CHL_inflation_control_by_the_central_bank
 			}
 
 			research_bonus = {
@@ -2428,7 +2417,6 @@ ideas = {
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2451,12 +2439,10 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_contract_efe
 			}
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2478,12 +2464,10 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_expand_the_forestry
 			}
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2506,13 +2490,11 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_establish_corfo
 			}
 
 			cost = 50
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2540,11 +2522,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_utlilize_famae
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2567,11 +2547,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_domestic_production_of_the_willys_mb
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2594,11 +2572,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_domestic_production_of_the_willys_mb
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2649,7 +2625,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_expand_the_naval_arsenal
 			}
 
 			visible = {
@@ -2675,7 +2650,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CHL_expand_the_naval_arsenal
 			}
 
 			visible = {

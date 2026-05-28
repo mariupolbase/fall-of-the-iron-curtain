@@ -3,7 +3,7 @@ ROM_be_nice_to_hitler = {
 		original_tag = ROM
 	}
 	enable = {
-		has_completed_focus = ROM_trade_treaty_with_germany
+		always = yes
 	}
 	abort={
 		is_in_faction = yes

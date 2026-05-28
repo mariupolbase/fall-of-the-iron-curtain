@@ -8,9 +8,7 @@ SOV_build_intel_network_in_MEX_strat = {
 		OR = {
 			AND = {
 				date > 1940.1.1
-				has_completed_focus = SOV_the_military_conspiracy #Parent focus of Behead the Snake
 			}
-			has_completed_focus = SOV_behead_the_snake
 		}
 	}
 	
@@ -31,7 +29,6 @@ SOV_raid_trotskys_villa_strat = {
 	
 	enable = {
 		tag = SOV
-		has_completed_focus = SOV_behead_the_snake
 
 		OR = { #Do it once then go for murder, then you can try again
 			NOT = { has_country_flag = SOV_raided_trotskys_villa_flag }
@@ -57,7 +54,6 @@ SOV_murder_trotsky_strat = {
 	
 	enable = {
 		tag = SOV
-		has_completed_focus = SOV_behead_the_snake
 
 		#Do it after raiding the villa
 		has_country_flag = SOV_raided_trotskys_villa_flag

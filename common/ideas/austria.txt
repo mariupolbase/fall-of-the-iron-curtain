@@ -691,7 +691,6 @@ ideas = {
 					NOT = { has_global_flag =  second_italo_ethiopian_war_flag }
 					OR = {
 						has_global_flag = scw_over
-						NOT = { has_completed_focus = AUS_spanish_intervention }
 					}
 					
 				}
@@ -881,8 +880,6 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-						has_completed_focus = AUS_demand_hungarian_submission
 					}
 				}
 			}
@@ -910,14 +907,11 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-						has_completed_focus = AUS_demand_hungarian_submission
 					}
 				}
 			}
 
 			available = {
-				has_completed_focus = AUS_invite_foreign_tank_designers
 			}
 			
 			research_bonus = {
@@ -961,11 +955,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_hirtenberger_artillery
 			}
 
 			visible = {
-				has_completed_focus = AUS_hirtenberger_artillery
 			}
 
 
@@ -981,8 +973,6 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-						has_completed_focus = AUS_demand_hungarian_submission
 					}
 				}
 			}
@@ -998,7 +988,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_steyr_arms_investment
 			}
 			
 			research_bonus = {
@@ -1022,7 +1011,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_graf_und_stift_focus
 			}
 			
 			research_bonus = {
@@ -1036,8 +1024,6 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-						has_completed_focus = AUS_demand_hungarian_submission
 					}
 				}
 			}
@@ -1053,7 +1039,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_saurerwerke
 			}
 			
 			research_bonus = {
@@ -1067,8 +1052,6 @@ ideas = {
 				modifier = {
 					factor = 2
 					OR = {
-						has_completed_focus = AUS_bring_hungary_back_into_the_fold
-						has_completed_focus = AUS_demand_hungarian_submission
 					}
 				}
 			}
@@ -1090,7 +1073,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_elin
 			}
 			
 			research_bonus = {
@@ -1121,7 +1103,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_revive_stt
 			}
 			
 			research_bonus = {
@@ -1156,11 +1137,9 @@ ideas = {
 			}
 
 			available = {
-				NOT = { has_completed_focus = AUS_revitalize_austrian_air_industry }
 			}
 
 			visible = {
-				NOT = { has_completed_focus = AUS_revitalize_austrian_air_industry }
 			}
 			
 			research_bonus = {
@@ -1173,7 +1152,6 @@ ideas = {
 				base = 1
 				modifier = {
 					factor = 2
-					has_completed_focus = AUS_osterreichische_luftstreitkrafte
 				}
 			}
 		}
@@ -1188,11 +1166,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_revitalize_austrian_air_industry
 			}
 
 			visible = {
-				has_completed_focus = AUS_revitalize_austrian_air_industry
 			}
 			
 			research_bonus = {
@@ -1205,7 +1181,6 @@ ideas = {
 				base = 1
 				modifier = {
 					factor = 2
-					has_completed_focus = AUS_osterreichische_luftstreitkrafte
 				}
 			}
 
@@ -1231,7 +1206,6 @@ ideas = {
 				base = 1
 				modifier = {
 					factor = 2
-					has_completed_focus = AUS_osterreichische_luftstreitkrafte
 				}
 			}
 
@@ -1358,13 +1332,11 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_completed_focus = AUS_bbo_focus
 				}
 			}
 
 			visible = {
 				NOT = {
-					has_completed_focus = AUS_bbo_focus
 				}
 			}
 
@@ -1396,7 +1368,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = AUS_bbo_focus
 			}
 
 			ai_will_do = {
@@ -1423,11 +1394,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_invest_in_alpen_elektrowerke
 			}
 
 			visible = {
-				has_completed_focus = AUS_invest_in_alpen_elektrowerke
 			}
 
 			research_bonus = {
@@ -1455,11 +1424,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = AUS_invest_in_kapsch
 			}
 
 			visible = {
-				has_completed_focus = AUS_invest_in_kapsch
 			}
 
 			research_bonus = {

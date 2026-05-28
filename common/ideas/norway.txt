@@ -1094,7 +1094,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = NOR_nationalize_the_hydro_plants } 
 			}
 
 			research_bonus = {
@@ -1117,7 +1116,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = NOR_nationalize_the_hydro_plants
 			}
 			
 			research_bonus = {

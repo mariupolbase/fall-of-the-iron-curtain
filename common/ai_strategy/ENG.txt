@@ -469,7 +469,6 @@ ENG_protect_poland_against_germany = {
 	allowed = { original_tag = ENG }
 
 	enable = {
-		GER = { has_completed_focus = GER_fate_of_czechoslovakia }
 		GER = { NOT = { has_war_with = POL } }
 		country_exists = POL
 	}
@@ -558,7 +557,6 @@ ENG_fewer_factories_for_purchases_please = {
 ENG_protect_poland_against_germany_even_more = {
 	allowed = { original_tag = ENG }
 	enable = {
-		GER = { has_completed_focus = GER_fate_of_czechoslovakia }
 		GER = { NOT = { has_war_with = POL } }
 		country_exists = POL
 	}
@@ -2564,7 +2562,6 @@ ENG_dont_kick_russia_out_from_triple_entente_due_to_gobbling_up_breakaway_states
 
 	enable = {
 		is_in_faction_with = SOV
-		SOV = { has_completed_focus = SOV_the_triple_entente }
 	}
 
 	abort = {
@@ -2945,7 +2942,6 @@ ENG_i_like_raj = {
 	enable = {
 		has_government = democratic
 		RAJ = {
-			has_completed_focus = RAJ_tryst_with_destiny	
 		}
 	}
 	abort_when_not_enabled = yes

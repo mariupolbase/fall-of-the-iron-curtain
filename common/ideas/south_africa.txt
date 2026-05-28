@@ -578,7 +578,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = SAF_south_african_railways
 			}
 			cost = 50
 			research_bonus = {

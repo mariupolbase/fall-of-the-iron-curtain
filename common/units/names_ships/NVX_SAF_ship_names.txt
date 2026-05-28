@@ -1,4 +1,4 @@
-
+﻿
 ### THEME: SOUTH AFRICAN PROVINCES ###
 SAF_PROVINCES = {
 	name = NAME_THEME_PROVINCES
@@ -38,7 +38,7 @@ SAF_DEMOCRACY_ACTIVIST = {
 	type = ship
 	prefix = "HMSAS "					
 	
-	can_use = { NOT = { has_government = fascist } }
+	can_use = { NOT = { has_government = fascism } }
 
 	unique = {
 	"Nelson Mandela" "Desmond Tutu" "Amina Cachalia" "Jeremy Cronin" "Anton Fransch" "Venitia Govender" "Ashley Kriel" "Raj Patel" "Moses Mayekiso" "Donald Barkly Molteno" "Harry Schwarz" "Rick Turner" 

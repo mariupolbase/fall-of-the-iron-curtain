@@ -1,4 +1,4 @@
-
+﻿
 
 ### THEME: AUSTRALIAN PROVINCES ###
 AST_STATES = {
@@ -7,7 +7,7 @@ AST_STATES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -28,7 +28,7 @@ AST_CITIES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -49,7 +49,7 @@ AST_TRIBES = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -72,7 +72,7 @@ AST_ANIMALS = {
 	for_countries = { AST }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -109,7 +109,7 @@ AST_STATES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -130,7 +130,7 @@ AST_CITIES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -151,7 +151,7 @@ AST_TRIBES = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -174,7 +174,7 @@ AST_ANIMALS_COMMUNIST = {
 	for_countries = { AST }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship

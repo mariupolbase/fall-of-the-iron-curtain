@@ -1,4 +1,4 @@
-
+﻿
 ### THEME: BRITISH COUNTIES ###
 ENG_COUNTIES = {
 	name = NAME_THEME_COUNTIES
@@ -6,7 +6,7 @@ ENG_COUNTIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -36,7 +36,7 @@ ENG_CITIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -62,7 +62,7 @@ ENG_COLONIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communist }
+		not = { has_government = communism }
 	}
 
 	type = ship
@@ -81,7 +81,7 @@ ENG_KINGS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communist }
+		NOT = { has_government = communism }
 	}
 
 	type = ship
@@ -106,7 +106,7 @@ ENG_BATTLES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communist }
+		NOT = { has_government = communism }
 	}
 
 	type = ship
@@ -129,7 +129,7 @@ ENG_RIVERS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communist }
+		NOT = { has_government = communism }
 	}
 
 	type = ship
@@ -151,7 +151,7 @@ ENG_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communist }
+		NOT = { has_government = communism }
 	}
 
 	type = ship
@@ -176,7 +176,7 @@ ENG_COUNTIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -207,7 +207,7 @@ ENG_CITIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -234,7 +234,7 @@ ENG_ADMIRALS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -255,7 +255,7 @@ ENG_BATTLES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship
@@ -280,7 +280,7 @@ ENG_RIVERS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communist
+		has_government = communism
 	}
 
 	type = ship

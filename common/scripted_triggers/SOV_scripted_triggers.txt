@@ -883,28 +883,24 @@ SOV_is_threated_by_japan = {
 SOV_paranoia_is_finishing_purge_focus = {
 	OR = {
 		AND = {
-			NOT = { has_completed_focus = SOV_the_zinovyevite_terrorist_center }
 			focus_progress = {
 				focus = SOV_the_zinovyevite_terrorist_center
 				progress > 0.5
 			}
 		}
 		AND = {
-			NOT = { has_completed_focus = SOV_the_anti_soviet_trotskyist_center }
 			focus_progress = {
 				focus = SOV_the_anti_soviet_trotskyist_center
 				progress > 0.5
 			}
 		}
 		AND = {
-			NOT = { has_completed_focus = SOV_the_military_conspiracy }
 			focus_progress = {
 				focus = SOV_the_military_conspiracy
 				progress > 0.5
 			}
 		}
 		AND = {
-			NOT = { has_completed_focus = SOV_the_bloc_of_rights_and_trotskyites }
 			focus_progress = {
 				focus = SOV_the_bloc_of_rights_and_trotskyites
 				progress > 0.5
@@ -914,13 +910,11 @@ SOV_paranoia_is_finishing_purge_focus = {
 }
 
 SOV_is_going_historical_stalinist = { # Add/Change stuff here instead of doing it in 2243987238472854294 places, tack så mycket
-	has_completed_focus = SOV_the_centre	
 }
 
 SOV_target_capital_is_on_unlocked_continent_fifth_columnists = {
 	OR = {
 		AND = {
-			has_completed_focus = SOV_the_permanent_revolution
 			FROM = {
 				capital_scope = {
 					is_on_continent = europe
@@ -928,7 +922,6 @@ SOV_target_capital_is_on_unlocked_continent_fifth_columnists = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_the_onslaught_on_colonialism
 			FROM = {
 				capital_scope = {
 					is_on_continent = africa
@@ -936,7 +929,6 @@ SOV_target_capital_is_on_unlocked_continent_fifth_columnists = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_carry_revolution_east
 				FROM = {
 				capital_scope = {
 					OR = {
@@ -947,7 +939,6 @@ SOV_target_capital_is_on_unlocked_continent_fifth_columnists = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_the_end_of_the_imperialist_era
 			FROM = {
 				capital_scope = {
 					OR = {
@@ -964,7 +955,6 @@ SOV_target_capital_is_on_unlocked_continent_fifth_columnists = {
 SOV_target_capital_is_on_unlocked_continent_uprisings = {
 	OR = {
 		AND = {
-			has_completed_focus = SOV_a_global_class_struggle
 			FROM = {
 				capital_scope = {
 					is_on_continent = europe
@@ -972,7 +962,6 @@ SOV_target_capital_is_on_unlocked_continent_uprisings = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_the_onslaught_on_colonialism
 			FROM = {
 				capital_scope = {
 					is_on_continent = africa
@@ -980,7 +969,6 @@ SOV_target_capital_is_on_unlocked_continent_uprisings = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_carry_revolution_east
 			FROM = {
 				capital_scope = {
 					OR = {
@@ -991,7 +979,6 @@ SOV_target_capital_is_on_unlocked_continent_uprisings = {
 			}
 		}
 		AND = {
-			has_completed_focus = SOV_the_end_of_the_imperialist_era
 			FROM = {
 				capital_scope = {
 					OR = {
@@ -1181,18 +1168,15 @@ SOV_is_unaligned_state = {
 SOV_is_left_opposition = {
 	#custom_trigger_tooltip = {
 		#tooltip = SOV_is_left_opposition_tt
-		SOV = { has_completed_focus = SOV_the_left_opposition }
 	#}
 }
 
 SOV_advisor_is_aligned_left = {
 	SOV_is_left_opposition = yes 
-	has_completed_focus = SOV_gain_support_from_party_members
 	tag = SOV
 }
 SOV_advisor_is_aligned_right = {
 	SOV_is_right_opposition = yes 
-	has_completed_focus = SOV_gain_support_from_party_members
 	tag = SOV
 }
 SOV_advisor_is_aligned_centre = {
@@ -1200,21 +1184,18 @@ SOV_advisor_is_aligned_centre = {
 	NOT = { tag = SOV }
 	any_country = {
 		original_tag = SOV 
-		NOT = { has_completed_focus = SOV_gain_support_from_party_members } 
 	}
 }
 
 SOV_is_right_opposition = {
 	#custom_trigger_tooltip = {
 		#tooltip = SOV_is_right_opposition_tt
-		SOV = { has_completed_focus = SOV_the_right_opposition }
 	#}
 }
 
 SOV_is_exiles = {
 	#custom_trigger_tooltip = {
 		#tooltip = SOV_is_exiles_tt
-		SOV = { has_completed_focus = SOV_beaten_but_not_defeated }
 	#}
 }
 
@@ -1232,13 +1213,7 @@ SOV_is_opposition = {
 SOV_has_crackdown = {
 	custom_trigger_tooltip = {
 		tooltip = SOV_has_crackdown_tt
-		OR = {
-			has_active_mission = SOV_ukraine_crackdown_timer
-			has_active_mission = SOV_steppe_crackdown_timer
-			has_active_mission = SOV_northern_crackdown_timer
-			has_active_mission = SOV_siberian_crackdown_timer
-			has_active_mission = SOV_urals_crackdown_timer
-		}
+		always = no
 	}
 }
 
@@ -1250,12 +1225,10 @@ SOV_is_major_not_original_sov = {
 }
 
 SOV_is_stalinist = {
-	has_completed_focus = SOV_the_centre
 }
 
 SOV_we_want_to_send_ultimatums = {
 	OR = {
-		has_completed_focus = SOV_claims_in_baltic
 		focus_progress = {
 			focus = SOV_claims_in_baltic
 			progress > 0.01

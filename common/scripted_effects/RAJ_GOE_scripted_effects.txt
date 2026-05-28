@@ -773,7 +773,6 @@ indian_railways_increase_bonus = {
 
         if = {
             limit = {
-                has_completed_focus = RAJ_orchestrate_train_robberies
             }
              custom_effect_tooltip = RAJ_modify_indian_railways_tt  
             if = {
@@ -948,7 +947,6 @@ bathe_in_hellfire_nuclear = {
             has_event_target = nuclear_gandhi_actor_country
             event_target:nuclear_gandhi_actor_country = {
                 original_tag = RAJ
-                has_completed_focus = RAJ_bathe_in_hellfire
             }
             has_dlc = "Graveyard of Empires"
 
@@ -986,7 +984,6 @@ bathe_in_hellfire_thermonuclear = {
             has_event_target = nuclear_gandhi_actor_country
             event_target:nuclear_gandhi_actor_country = {
                 original_tag = RAJ
-                has_completed_focus = RAJ_bathe_in_hellfire
             }
             has_dlc = "Graveyard of Empires"
 

@@ -47,7 +47,6 @@ ITA_manage_italian_defeat_in_ethiopia_effect = {
 	#First missiolini focus (Struggle in ETH, AByssinian Fiasco and Solid Progress) are handled before this effect
 	if = {
 		limit = {
-			NOT = { has_completed_focus = ITA_servizio_informazione_militare }
 		}
 		unlock_national_focus = ITA_servizio_informazione_militare
 	}
@@ -186,8 +185,6 @@ ITA_missiolini_progress_in_ethiopia_success_effect = {
 	}
 	else_if = { #Second mission to succeed
 		limit = {
-			NOT = { has_completed_focus = ITA_the_abyssinian_fiasco }
-			NOT = { has_completed_focus = ITA_struggle_in_ethiopia }
 		}
 		complete_national_focus = ITA_solid_progress
 	}
@@ -296,7 +293,6 @@ ITA_missiolini_stockpile_trucks_failure_effect = {
 ITA_missiolini_stockpile_trucks_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_war_support = 0.03
@@ -324,7 +320,6 @@ ITA_missiolini_stockpile_fuel_failure_effect = {
 ITA_missiolini_stockpile_fuel_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		army_experience = 25
 		navy_experience = 25
@@ -360,7 +355,6 @@ ITA_missiolini_strengthen_the_airforce_failure_effect = {
 ITA_missiolini_strengthen_the_airforce_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		air_experience = 50
 		add_command_power = 25
@@ -413,7 +407,6 @@ ITA_missiolini_industrial_research_failure_effect = {
 ITA_missiolini_industrial_research_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 25
 		add_tech_bonus = {
@@ -479,7 +472,6 @@ ITA_missiolini_expand_intelligence_service_failure_effect = {
 ITA_missiolini_expand_intelligence_service_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 25
 		#ASSIGN APPROPRIATE REWARD
@@ -590,7 +582,6 @@ ITA_missiolini_occupy_albania_failure_effect = {
 ITA_missiolini_occupy_albania_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_popularity = {
@@ -787,7 +778,6 @@ ITA_missiolini_occupy_dalmatia_failure_effect = {
 ITA_missiolini_occupy_dalmatia_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_war_support = 0.03
@@ -961,7 +951,6 @@ ITA_missiolini_occupy_greece_failure_effect = {
 ITA_missiolini_occupy_greece_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_war_support = 0.03
@@ -1076,7 +1065,6 @@ ITA_missiolini_occupy_ticino_failure_effect = {
 ITA_missiolini_occupy_ticino_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_war_support = 0.03
@@ -1190,7 +1178,6 @@ ITA_missiolini_bolster_political_cabinet_failure_effect = {
 ITA_missiolini_bolster_political_cabinet_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 50
 		add_stability = 0.03
@@ -1230,7 +1217,6 @@ ITA_missiolini_bolster_military_high_command_failure_effect = {
 ITA_missiolini_bolster_military_high_command_success_effect = {
 	if = { #DEFAULT
 		limit = {
-			NOT = { has_completed_focus = ITA_to_live_as_a_lion }
 		}
 		add_political_power = 25
 		add_command_power = 25
@@ -1803,7 +1789,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 
 		if = { #MUSSOLINI BRANCH
 			limit = {
-				has_completed_focus = ITA_culto_del_duce
 			}
 			uncomplete_national_focus = {
 				focus = ITA_culto_del_duce
@@ -1819,7 +1804,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			if = { #ALT-FASCIST/MONARCHIST BRANCH
 				limit = {
-					has_completed_focus = ITA_convene_the_grand_council
 				}
 				uncomplete_national_focus = {
 					focus = ITA_convene_the_grand_council
@@ -1828,7 +1812,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			if = { #FASCIST FOREIGN AFFAIRS BRANCH
 				limit = {
-					has_completed_focus = ITA_foreign_affairs
 				}
 				uncomplete_national_focus = {
 					focus = ITA_foreign_affairs
@@ -1837,7 +1820,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			if = { #ETH-ITA war focus
 				limit = {
-					has_completed_focus = ITA_struggle_in_ethiopia
 				}
 				uncomplete_national_focus = {
 					focus = ITA_struggle_in_ethiopia
@@ -1857,7 +1839,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 		else = { #Going MONARCHIST
 			if = { #BALBO BRANCH
 				limit = {
-					has_completed_focus = ITA_italo_balbo_focus
 				}
 				uncomplete_national_focus = {
 					focus = ITA_italo_balbo_focus
@@ -1866,7 +1847,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			else_if = { #GRANDI BRANCH
 				limit = {
-					has_completed_focus = ITA_dino_grandi_focus
 				}
 				uncomplete_national_focus = {
 					focus = ITA_dino_grandi_focus
@@ -1875,7 +1855,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			if = { #PACT OF STEEL BRANCH
 				limit = {
-					has_completed_focus = ITA_pact_of_steel
 				}
 				uncomplete_national_focus = {
 					focus = ITA_pact_of_steel
@@ -1884,7 +1863,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			}
 			if = { #ETH-ITA war focus
 				limit = {
-					has_completed_focus = ITA_the_abyssinian_fiasco
 				}
 				uncomplete_national_focus = {
 					focus = ITA_the_abyssinian_fiasco
@@ -1894,7 +1872,6 @@ ITA_start_civil_war_effect = { #The one triggered via BoP
 			#COMPLETE FOCUS
 			if = {
 				limit = {
-					NOT = { has_completed_focus = ITA_triumph_in_africa_bba }
 				}
 				unlock_national_focus = ITA_undermine_the_duce
 				unlock_national_focus = ITA_conspiracies_in_the_shadows
@@ -2686,13 +2663,11 @@ ITA_set_special_characters_as_fascist_effect = {
 	#Promote appropriate Duce
 	if = {
 		limit = {
-			has_completed_focus = ITA_italo_balbo_focus
 		}
 		ITA_italo_balbo = { promote_character = yes }
 	}
 	else_if = {
 		limit = {
-			has_completed_focus = ITA_dino_grandi_focus
 		}
 		ITA_dino_grandi = { promote_character = yes }
 	}
@@ -2702,7 +2677,6 @@ ITA_set_special_characters_as_fascist_effect = {
 
 	if = {
 		limit = {
-			NOT = { has_completed_focus = ITA_italo_balbo_focus }
 		}
 		ITA_italo_balbo = {
 			if = {
@@ -2725,7 +2699,6 @@ ITA_set_special_characters_as_fascist_effect = {
 	}
 	if = {
 		limit = {
-			NOT = { has_completed_focus = ITA_dino_grandi_focus }
 		}
 		ITA_dino_grandi = {
 			if = {
@@ -2792,7 +2765,6 @@ ITA_set_special_characters_as_monarchist_effect = {
 
 	if = {
 		limit = {
-			NOT = { has_completed_focus = ITA_italo_balbo_focus }
 		}
 		ITA_italo_balbo = {
 			if = {
@@ -2815,7 +2787,6 @@ ITA_set_special_characters_as_monarchist_effect = {
 	}
 	if = {
 		limit = {
-			NOT = { has_completed_focus = ITA_dino_grandi_focus }
 		}
 		ITA_dino_grandi = {
 			if = {
@@ -2888,8 +2859,6 @@ ITA_civil_war_deal_with_militias = {
 	if = {
 		limit = {
 			OR = {
-				has_completed_focus = ITA_organize_strikes_in_the_north
-				has_completed_focus = ITA_the_southern_farmlands
 			}
 		}
 		capital_scope = {
@@ -2918,7 +2887,6 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 
 	if = {
 		limit = {
-			has_completed_focus = ITA_organize_strikes_in_the_north
 		}
 		every_owned_state = {
 			limit = {
@@ -2937,7 +2905,6 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 	}
 	else_if = {
 		limit = {
-			has_completed_focus = ITA_the_southern_farmlands
 		}
 		every_owned_state = {
 			limit = {
@@ -2995,7 +2962,6 @@ ITA_start_anti_fascist_civil_war = { #The one triggered via focus
 
 	if = {
 		limit = {
-			has_completed_focus = ITA_unite_the_opposition
 		}
 		start_civil_war = {
 			ideology = fascism
@@ -3098,7 +3064,6 @@ ITA_anti_fascist_civil_war_deal_with_fascist_side = {
 		#DAMAGE FROM ANTIFA FOCUSES
 		if = {
 			limit = {
-				ROOT = { has_completed_focus = ITA_organize_strikes_in_the_north }
 			}
 			set_temp_variable = { temp_targets_index = 0 }
 			while_loop_effect = {
@@ -3168,7 +3133,6 @@ ITA_anti_fascist_civil_war_deal_with_fascist_side = {
 		}
 		else_if = {
 			limit = {
-				ROOT = { has_completed_focus = ITA_the_southern_farmlands }
 			}
 			set_temp_variable = { temp_targets_index = 0 }
 			while_loop_effect = {
@@ -3656,7 +3620,6 @@ ITA_remove_king_vittorio_emanuele_as_idea = {
 ITA_add_king_vittorio_emanuele_back_as_idea = { #After having removed him
 	if = {
 		limit = {
-			has_completed_focus = ITA_the_new_emperor_of_ethiopia
 			ITA_vittorio_emanuele_iii = { has_character_flag = ITA_king_of_albania_flag }
 		}
 		add_ideas = vittorio_emanuele_albania_ethiopia
@@ -3670,7 +3633,6 @@ ITA_add_king_vittorio_emanuele_back_as_idea = { #After having removed him
 	}
 	else_if = {
 		limit = {
-			has_completed_focus = ITA_the_new_emperor_of_ethiopia
 		}
 		add_ideas = vittorio_emanuele_emperor_of_ethiopia
 	}
@@ -4565,7 +4527,6 @@ ITA_promote_umberto_to_country_leader = {
 	}
 	else_if = {
 		limit = {
-			has_completed_focus = ITA_democratic_king
 		}
 		add_country_leader_role = {
 			character =  ITA_prince_umberto
@@ -4880,33 +4841,7 @@ ITA_peace_out_eth_on_startup_effect = {
 
 
 ITA_replace_designers_by_improved_version_north = {
-	if = {
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		every_military_industrial_organization = {
-			limit = {
-				OR = {
-					is_military_industrial_organization = ITA_fiat_organization
-					is_military_industrial_organization = ITA_crda_organization
-					is_military_industrial_organization = ITA_cantiere_oto_organization
-					is_military_industrial_organization = ITA_macchi_organization
-					is_military_industrial_organization = ITA_savoia_marchetti_organization
-					is_military_industrial_organization = ITA_caproni_organization
-					is_military_industrial_organization = ITA_piaggio_organization
-					is_military_industrial_organization = ITA_crda_cant_organization
-					is_military_industrial_organization = ITA_fiat_aviazione_organization
-					is_military_industrial_organization = ITA_beretta_organization
-					is_military_industrial_organization = ITA_lancia_organization
-					is_military_industrial_organization = ITA_breda_organization
-					is_military_industrial_organization = ITA_brescia_arsenal_organization
-				}
-			}
-			complete_mio_trait = ITA_mio_trait_new_industrialization_program
-		}
-	}
-	else = {
-		#ARMOR
+	#ARMOR
 		if = {
 			limit = {
 				has_idea =  fiat
@@ -5031,7 +4966,6 @@ ITA_replace_designers_by_improved_version_north = {
 			}
 		}
 
-	}
 
 	#INDUSTRIAL (Always regardless of AAT)
 	if = {
@@ -5064,24 +4998,7 @@ ITA_replace_designers_by_improved_version_north = {
 }
 
 ITA_replace_designers_by_improved_version_south = {
-	if = {
-		limit = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		every_military_industrial_organization = {
-			limit = {
-				OR = {
-					is_military_industrial_organization = ITA_navalmeccanica_organization
-					is_military_industrial_organization = ITA_cantiere_navale_di_ancona_organization
-					is_military_industrial_organization = ITA_cantieri_navali_tosi_organization
-					is_military_industrial_organization = ITA_imam_organization
-				}
-			}
-			complete_mio_trait = ITA_mio_trait_new_industrialization_program
-		}
-	}
-	else = {
-		#NAVAL
+	#NAVAL
 		if = {
 			limit = {
 				has_idea =  ITA_navalmeccanica
@@ -5120,7 +5037,7 @@ ITA_replace_designers_by_improved_version_south = {
 				add_idea = ITA_imam_improved
 			}
 		}
-	}
+
 
 	#INDUSTRIAL (Always regardless of AAT)
 	if = {
@@ -5210,7 +5127,6 @@ ITA_naval_air_coordination_templates = {
 
 	if = { #CANT Z.1007 Alcione also unlocked in Bomber Designs focus
 		limit = {
-			NOT = { has_completed_focus = ITA_bomber_designs }
 		}
 		create_equipment_variant = {
 			name = "CANT Z.1007 Alcione"
@@ -5297,7 +5213,6 @@ ITA_add_bomber_designs_templates = {
 
 	if = { #CANT Z.1007 Alcione also unlocked in Naval-Air Coordination focus
 		limit = {
-			NOT = { has_completed_focus = ITA_naval_air_coordination }
 		}
 		create_equipment_variant = {
 			name = "CANT Z.1007 Alcione"

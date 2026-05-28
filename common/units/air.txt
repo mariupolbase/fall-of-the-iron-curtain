@@ -133,7 +133,7 @@ sub_units = {
 		priority = 6
 		active = yes
 		type = { air_transport }
-		need = { transport_plane_equipment = 1 }
+		need = { large_plane_airframe = 1 }
 		land_air_wing_size = 100
 	}
 	

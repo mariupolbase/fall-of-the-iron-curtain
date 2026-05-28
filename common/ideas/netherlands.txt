@@ -1123,7 +1123,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = neutrality
-					NOT = { has_completed_focus = HOL_the_only_man_in_the_dutch_government }
 				}
 			}
 
@@ -1152,7 +1151,6 @@ ideas = {
 			available = {
 				OR = {
 					has_government = neutrality
-					NOT = { has_completed_focus = HOL_the_only_man_in_the_dutch_government }
 				}
 			}
 
@@ -1923,7 +1921,6 @@ ideas = {
 			picture = fokker
 
 			available = {
-				has_completed_focus = HOL_fokker
 			}
 			
 			allowed = {
@@ -2036,7 +2033,6 @@ ideas = {
 			picture = HOL_daf
 
 			available = {
-				has_completed_focus = HOL_daf
 			}
 
 			allowed = {
@@ -2060,7 +2056,6 @@ ideas = {
 			picture = artillerie_inrichtingen
 
 			available = {
-				has_completed_focus = HOL_expand_the_artillerieinrichtingen
 			}
 			
 			allowed = {
@@ -2114,7 +2109,6 @@ ideas = {
 		HOL_royal_dutch_shell = {
 
 			available = {
-				has_completed_focus = HOL_expand_curacao_oil_refineries
 			}
 			
 			allowed = {
@@ -2137,7 +2131,6 @@ ideas = {
 		HOL_philips = {
 
 			available = {
-				has_completed_focus = HOL_philips_focus
 			}
 			
 			allowed = {

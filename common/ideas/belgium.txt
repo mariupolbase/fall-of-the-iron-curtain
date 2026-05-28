@@ -838,7 +838,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BEL_fonderie_royale_de_canons_liege
 			}
 			
 			research_bonus = {
@@ -886,7 +885,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BEL_fonderie_royale_de_canons_liege
 			}
 			
 			traits = { medium_tank_manufacturer }
@@ -926,7 +924,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BEL_invite_soviet_tank_makers
 			}
 
 			research_bonus = {
@@ -949,7 +946,6 @@ ideas = {
 			}
 			
 			visible = {
-				has_completed_focus = BEL_invite_german_tank_organization
 			}
 
 			cost = 150
@@ -992,8 +988,6 @@ ideas = {
 
 			available = {
 				OR = {
-					has_completed_focus = BEL_renard_constructions_aeronautiques
-					has_completed_focus = BEL_stampe_et_vertrongen
 				}
 			}
 			
@@ -1113,7 +1107,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BEL_fn_herstal
 			}
 			
 			research_bonus = {
@@ -1152,7 +1145,6 @@ ideas = {
 				has_dlc = "Gotterdammerung"
 			}
 			available = {
-				has_completed_focus = BEL_fonderie_royale_de_canons_liege
 			}
 			
 			research_bonus = {
@@ -1174,7 +1166,6 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = BEL_minerva_imperia
 			}
 			
 			research_bonus = {
@@ -1207,7 +1198,6 @@ ideas = {
 			}
 
 			visible = {
-				NOT = { has_completed_focus = BEL_cockerill }
 			}
 
 			cost = 150
@@ -1229,7 +1219,6 @@ ideas = {
 			}
 
 			visible = {
-				has_completed_focus = BEL_cockerill
 			}
 
 			cost = 75
@@ -1256,7 +1245,6 @@ ideas = {
 			}
 
 			available = { 
-				has_completed_focus = CONGO_societe_generale_de_belgique
 			}
 
 			cost = 150
@@ -1297,11 +1285,9 @@ ideas = {
 			}
 
 			available = {
-				has_completed_focus = CONGO_compagnie_belge_maritime_du_congo
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
