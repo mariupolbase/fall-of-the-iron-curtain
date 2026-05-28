@@ -1,2 +1,23 @@
 on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { tag = SOV }
+				country_event = { id = FOTIC_SOV_1990.1 }
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					tag = SOV
+					has_country_flag = fotic_sov_1990_initialized
+					NOT = { has_country_flag = fotic_sov_1991_started }
+				}
+				country_event = { id = FOTIC_SOV_1990.100 }
+			}
+		}
+	}
 }

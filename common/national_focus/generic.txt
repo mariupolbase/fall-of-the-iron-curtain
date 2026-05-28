@@ -35,10 +35,13 @@ focus_tree = {
 		mutually_exclusive = { focus = autoritarism_reform }
 		mutually_exclusive = { focus = nationalism_reform }
 		mutually_exclusive = { focus = socialism_reform }
-				available = {
+		available = {
 			OR = {
 				has_government = democratic
-				has_government = neutrality
+				has_government = social_democracy
+				has_government = social_liberalism
+				has_government = market_liberalism
+				has_government = conservatism
 			}
 		}
 		x = 0
@@ -96,10 +99,10 @@ focus_tree = {
 		mutually_exclusive = { focus = autoritarism_reform }
 		mutually_exclusive = { focus = nationalism_reform }
 		mutually_exclusive = { focus = democratic_reform }
-				available = {
+		available = {
 			OR = {
 				has_government = communism
-				has_government = neutrality
+				has_government = anarchism
 			}
 		}
 		x = -2
@@ -160,11 +163,8 @@ focus_tree = {
 		mutually_exclusive = { focus = democratic_reform }
 		mutually_exclusive = { focus = nationalism_reform }
 		mutually_exclusive = { focus = socialism_reform }
-				available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
+		available = {
+			has_government = neutrality
 		}
 		x = 2
 		y = 0
@@ -220,7 +220,7 @@ focus_tree = {
 		mutually_exclusive = { focus = autoritarism_reform }
 		mutually_exclusive = { focus = democratic_reform }
 		mutually_exclusive = { focus = socialism_reform }
-						available = {
+		available = {
 			OR = {
 				has_government = fascism
 				has_government = neutrality

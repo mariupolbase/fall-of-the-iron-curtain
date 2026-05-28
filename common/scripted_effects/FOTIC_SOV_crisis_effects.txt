@@ -1,0 +1,150 @@
+FOTIC_SOV_clamp_crisis_variables = {
+	if = {
+		limit = { check_variable = { fotic_sov_deficit > 100 } }
+		set_variable = { fotic_sov_deficit = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_deficit < 0 } }
+		set_variable = { fotic_sov_deficit = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_party_discipline > 100 } }
+		set_variable = { fotic_sov_party_discipline = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_party_discipline < 0 } }
+		set_variable = { fotic_sov_party_discipline = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_reformist_influence > 100 } }
+		set_variable = { fotic_sov_reformist_influence = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_reformist_influence < 0 } }
+		set_variable = { fotic_sov_reformist_influence = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_conservative_pressure > 100 } }
+		set_variable = { fotic_sov_conservative_pressure = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_conservative_pressure < 0 } }
+		set_variable = { fotic_sov_conservative_pressure = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_kgb_influence > 100 } }
+		set_variable = { fotic_sov_kgb_influence = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_kgb_influence < 0 } }
+		set_variable = { fotic_sov_kgb_influence = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_army_loyalty > 100 } }
+		set_variable = { fotic_sov_army_loyalty = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_army_loyalty < 0 } }
+		set_variable = { fotic_sov_army_loyalty = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_army_politicization > 100 } }
+		set_variable = { fotic_sov_army_politicization = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_army_politicization < 0 } }
+		set_variable = { fotic_sov_army_politicization = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_republican_separatism > 100 } }
+		set_variable = { fotic_sov_republican_separatism = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_republican_separatism < 0 } }
+		set_variable = { fotic_sov_republican_separatism = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_russian_challenge > 100 } }
+		set_variable = { fotic_sov_russian_challenge = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_russian_challenge < 0 } }
+		set_variable = { fotic_sov_russian_challenge = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_street_pressure > 100 } }
+		set_variable = { fotic_sov_street_pressure = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_street_pressure < 0 } }
+		set_variable = { fotic_sov_street_pressure = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_black_market > 100 } }
+		set_variable = { fotic_sov_black_market = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_black_market < 0 } }
+		set_variable = { fotic_sov_black_market = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_union_treaty_progress > 100 } }
+		set_variable = { fotic_sov_union_treaty_progress = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_union_treaty_progress < 0 } }
+		set_variable = { fotic_sov_union_treaty_progress = 0 }
+	}
+
+	if = {
+		limit = { check_variable = { fotic_sov_gkchp_risk > 100 } }
+		set_variable = { fotic_sov_gkchp_risk = 100 }
+	}
+	if = {
+		limit = { check_variable = { fotic_sov_gkchp_risk < 0 } }
+		set_variable = { fotic_sov_gkchp_risk = 0 }
+	}
+}
+
+FOTIC_SOV_change_deficit_small_down = {
+	add_to_variable = { fotic_sov_deficit = -3 }
+	FOTIC_SOV_clamp_crisis_variables = yes
+}
+
+FOTIC_SOV_increase_gkchp_risk = {
+	add_to_variable = { fotic_sov_gkchp_risk = 3 }
+	if = {
+		limit = {
+			check_variable = { fotic_sov_conservative_pressure > 60 }
+		}
+		add_to_variable = { fotic_sov_gkchp_risk = 2 }
+	}
+	FOTIC_SOV_clamp_crisis_variables = yes
+}
+
+FOTIC_SOV_republic_concession = {
+	add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+	add_to_variable = { fotic_sov_republican_separatism = -2 }
+	add_to_variable = { fotic_sov_conservative_pressure = 2 }
+	add_to_variable = { fotic_sov_party_discipline = -1 }
+	FOTIC_SOV_clamp_crisis_variables = yes
+}
+
+FOTIC_SOV_security_pressure = {
+	add_to_variable = { fotic_sov_kgb_influence = 2 }
+	add_to_variable = { fotic_sov_street_pressure = -2 }
+	add_to_variable = { fotic_sov_reformist_influence = -1 }
+	add_to_variable = { fotic_sov_gkchp_risk = 1 }
+	FOTIC_SOV_clamp_crisis_variables = yes
+}

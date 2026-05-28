@@ -1,0 +1,22 @@
+FOTIC_SOV_high_deficit_trigger = {
+	check_variable = { fotic_sov_deficit > 70 }
+}
+
+FOTIC_SOV_weak_party_trigger = {
+	check_variable = { fotic_sov_party_discipline < 40 }
+}
+
+FOTIC_SOV_russian_challenge_high_trigger = {
+	check_variable = { fotic_sov_russian_challenge > 60 }
+}
+
+FOTIC_SOV_gkchp_risk_high_trigger = {
+	OR = {
+		check_variable = { fotic_sov_gkchp_risk > 50 }
+		AND = {
+			check_variable = { fotic_sov_conservative_pressure > 65 }
+			check_variable = { fotic_sov_kgb_influence > 55 }
+			check_variable = { fotic_sov_army_politicization > 40 }
+		}
+	}
+}

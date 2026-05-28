@@ -1,0 +1,64 @@
+ideas = {
+	country = {
+		SOV_idea_supply_breakdown = {
+			picture = generic_consumer_goods
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.08
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+			}
+		}
+
+		SOV_idea_party_without_monolith = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.08
+				drift_defence_factor = -0.10
+			}
+		}
+
+		SOV_idea_afghan_shadow = {
+			picture = generic_manpower_bonus
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = -0.03
+				army_morale_factor = -0.03
+				army_experience_gain_factor = 0.05
+			}
+		}
+
+		SOV_idea_uncontrolled_glastnost = {
+			picture = generic_pp_unity_bonus
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.03
+				stability_factor = -0.04
+			}
+		}
+
+		SOV_idea_republics_count_powers = {
+			picture = generic_disjointed_gov
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.03
+			}
+		}
+
+		SOV_idea_shadow_economy = {
+			picture = generic_consumer_goods
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.02
+				stability_factor = -0.03
+			}
+		}
+	}
+}
