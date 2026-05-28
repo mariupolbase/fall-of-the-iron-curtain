@@ -1,7 +1,8 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			SOV = {
+			every_country = {
+				limit = { tag = SOV }
 				country_event = { id = FOTIC_SOV_1990.1 }
 			}
 		}
