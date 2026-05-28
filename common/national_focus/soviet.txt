@@ -457,4 +457,545 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = SOV_1990_first_session
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 55
+		y = 0
+
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+		}
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_supply_over_slogans
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 51
+		y = 1
+
+		prerequisite = { focus = SOV_1990_first_session }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -4 }
+			add_to_variable = { fotic_sov_party_discipline = -1 }
+			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_check_the_warehouses
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 55
+		y = 1
+
+		prerequisite = { focus = SOV_1990_first_session }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -5 }
+			add_to_variable = { fotic_sov_street_pressure = -2 }
+			country_event = { id = FOTIC_SOV_1990.10 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_keep_cpsu_together
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 57
+		y = 1
+
+		prerequisite = { focus = SOV_1990_first_session }
+		mutually_exclusive = { focus = SOV_1990_reform_the_apparat }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = 5 }
+			add_to_variable = { fotic_sov_reformist_influence = -3 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_reform_the_apparat
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 61
+		y = 1
+
+		prerequisite = { focus = SOV_1990_first_session }
+		mutually_exclusive = { focus = SOV_1990_keep_cpsu_together }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			add_to_variable = { fotic_sov_party_discipline = -3 }
+			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_ryzhkovs_tables
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 51
+		y = 2
+
+		prerequisite = { focus = SOV_1990_supply_over_slogans }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -3 }
+			add_to_variable = { fotic_sov_black_market = -2 }
+			add_to_variable = { fotic_sov_reformist_influence = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_presidential_question
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 55
+		y = 2
+
+		prerequisite = { focus = SOV_1990_check_the_warehouses }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = -4 }
+			add_to_variable = { fotic_sov_reformist_influence = 4 }
+			add_to_variable = { fotic_sov_conservative_pressure = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_conservative_patience
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 57
+		y = 2
+
+		prerequisite = { focus = SOV_1990_keep_cpsu_together }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_gkchp_risk = -4 }
+			add_to_variable = { fotic_sov_conservative_pressure = -2 }
+			add_to_variable = { fotic_sov_party_discipline = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_yakovlevs_line
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 61
+		y = 2
+
+		prerequisite = { focus = SOV_1990_reform_the_apparat }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_reformist_influence = 4 }
+			add_to_variable = { fotic_sov_street_pressure = -2 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_lubyanka_report
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		x = 65
+		y = 2
+
+		prerequisite = { focus = SOV_1990_presidential_question }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_kgb_influence = 4 }
+			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_lithuanian_challenge
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 47
+		y = 2
+
+		prerequisite = { focus = SOV_1990_presidential_question }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = 4 }
+			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			add_to_variable = { fotic_sov_street_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_controlled_cooperatives
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 49
+		y = 3
+
+		prerequisite = { focus = SOV_1990_ryzhkovs_tables }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -3 }
+			add_to_variable = { fotic_sov_black_market = 2 }
+			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_ration_cards
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 53
+		y = 3
+
+		prerequisite = { focus = SOV_1990_ryzhkovs_tables }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -4 }
+			add_to_variable = { fotic_sov_black_market = -3 }
+			add_to_variable = { fotic_sov_street_pressure = 2 }
+			add_to_variable = { fotic_sov_party_discipline = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_article_six
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 55
+		y = 3
+
+		prerequisite = { focus = SOV_1990_presidential_question }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = -6 }
+			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			add_to_variable = { fotic_sov_republican_separatism = 2 }
+			add_to_variable = { fotic_sov_street_pressure = -3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_obkom_promises
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 57
+		y = 3
+
+		prerequisite = { focus = SOV_1990_conservative_patience }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = 3 }
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_party_is_not_enough
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 61
+		y = 3
+
+		prerequisite = { focus = SOV_1990_yakovlevs_line }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			add_to_variable = { fotic_sov_party_discipline = -5 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_kgb_watches_fronts
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		x = 65
+		y = 3
+
+		prerequisite = { focus = SOV_1990_lubyanka_report }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_kgb_influence = 3 }
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_legal_path_to_secession
+		icon = GFX_goal_generic_improve_relations
+		cost = 7
+		x = 45
+		y = 3
+
+		prerequisite = { focus = SOV_1990_lithuanian_challenge }
+		mutually_exclusive = { focus = SOV_1990_baltic_economic_pressure }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_baltic_economic_pressure
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 47
+		y = 3
+
+		prerequisite = { focus = SOV_1990_lithuanian_challenge }
+		mutually_exclusive = { focus = SOV_1990_legal_path_to_secession }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_street_pressure = 3 }
+			add_to_variable = { fotic_sov_reformist_influence = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_director_barter
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 51
+		y = 4
+
+		prerequisite = { focus = SOV_1990_controlled_cooperatives }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = -2 }
+			add_to_variable = { fotic_sov_black_market = 3 }
+			add_to_variable = { fotic_sov_republican_separatism = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_year_of_decrees
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 55
+		y = 4
+
+		prerequisite = { focus = SOV_1990_article_six }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = 3 }
+			add_to_variable = { fotic_sov_conservative_pressure = -2 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_yazov_demands_clarity
+		icon = GFX_goal_generic_major_war
+		cost = 5
+		x = 63
+		y = 4
+
+		prerequisite = { focus = SOV_1990_kgb_watches_fronts }
+		mutually_exclusive = { focus = SOV_1990_keep_army_in_barracks }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_army_loyalty = -3 }
+			add_to_variable = { fotic_sov_army_politicization = 4 }
+			add_to_variable = { fotic_sov_gkchp_risk = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_keep_army_in_barracks
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 67
+		y = 4
+
+		prerequisite = { focus = SOV_1990_kgb_watches_fronts }
+		mutually_exclusive = { focus = SOV_1990_yazov_demands_clarity }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_army_loyalty = 4 }
+			add_to_variable = { fotic_sov_army_politicization = -2 }
+			add_to_variable = { fotic_sov_gkchp_risk = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_negotiate_with_baltics
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 43
+		y = 4
+
+		prerequisite = { focus = SOV_1990_legal_path_to_secession }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = -4 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_ukrainian_weight
+		icon = GFX_goal_generic_improve_relations
+		cost = 7
+		x = 47
+		y = 4
+
+		prerequisite = { focus = SOV_1990_article_six }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = 3 }
+			add_to_variable = { fotic_sov_russian_challenge = 2 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_close_the_distributors
+		icon = GFX_goal_generic_improve_relations
+		cost = 7
+		x = 49
+		y = 5
+
+		prerequisite = { focus = SOV_1990_director_barter }
+		mutually_exclusive = { focus = SOV_1990_leave_the_distributors }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_deficit = 2 }
+			add_to_variable = { fotic_sov_street_pressure = -4 }
+			add_to_variable = { fotic_sov_reformist_influence = 3 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_leave_the_distributors
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 53
+		y = 5
+
+		prerequisite = { focus = SOV_1990_director_barter }
+		mutually_exclusive = { focus = SOV_1990_close_the_distributors }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_party_discipline = 4 }
+			add_to_variable = { fotic_sov_deficit = -1 }
+			add_to_variable = { fotic_sov_street_pressure = 2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_year_end_balance
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 55
+		y = 5
+
+		prerequisite = { focus = SOV_1990_year_of_decrees }
+
+		available = {
+			date > 1990.11.01
+		}
+
+		completion_reward = {
+			country_event = { id = FOTIC_SOV_1990.90 }
+		}
+	}
+
+	focus = {
+		id = SOV_1990_files_on_republics
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5
+		x = 63
+		y = 5
+
+		prerequisite = { focus = SOV_1990_yazov_demands_clarity }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_kgb_influence = 4 }
+			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			add_to_variable = { fotic_sov_gkchp_risk = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_emergency_drafts
+		icon = GFX_goal_generic_major_war
+		cost = 7
+		x = 67
+		y = 5
+
+		prerequisite = { focus = SOV_1990_keep_army_in_barracks }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_army_loyalty = 2 }
+			add_to_variable = { fotic_sov_army_politicization = 2 }
+			add_to_variable = { fotic_sov_gkchp_risk = -3 }
+			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_kazakh_guarantees
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 45
+		y = 5
+
+		prerequisite = { focus = SOV_1990_ukrainian_weight }
+
+		completion_reward = {
+			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
 }
