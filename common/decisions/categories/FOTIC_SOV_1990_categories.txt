@@ -1,36 +1,43 @@
+SOV_1990_union_crisis_category = {
+	icon = generic_political_discourse
+	priority = 110
+	allowed = { tag = SOV }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
+}
+
 SOV_1990_supply_category = {
 	icon = generic_prepare_civilian
 	priority = 100
 	allowed = { tag = SOV }
-	visible = { has_country_flag = fotic_sov_1990_initialized }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
 }
 
 SOV_1990_party_category = {
 	icon = generic_political_discourse
 	priority = 90
 	allowed = { tag = SOV }
-	visible = { has_country_flag = fotic_sov_1990_initialized }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
 }
 
 SOV_1990_security_category = {
 	icon = generic_form_nation
 	priority = 80
 	allowed = { tag = SOV }
-	visible = { has_country_flag = fotic_sov_1990_initialized }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
 }
 
 SOV_1990_union_treaty_category = {
 	icon = generic_improve_relations
 	priority = 70
 	allowed = { tag = SOV }
-	visible = { has_country_flag = fotic_sov_1990_initialized }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
 }
 
 SOV_1990_street_category = {
 	icon = generic_civil_support
 	priority = 60
 	allowed = { tag = SOV }
-	visible = { has_country_flag = fotic_sov_1990_initialized }
+	visible = { has_country_flag = fotic_sov_1990_initialized NOT = { has_country_flag = fotic_sov_1991_started } }
 }
 
 SOV_1990_russian_question_category = {
@@ -40,5 +47,6 @@ SOV_1990_russian_question_category = {
 	visible = {
 		has_country_flag = fotic_sov_1990_initialized
 		date > 1990.06.01
+		NOT = { has_country_flag = fotic_sov_1991_started }
 	}
 }

@@ -577,6 +577,11 @@ focus_tree = {
 			add_to_variable = { fotic_sov_reformist_influence = 4 }
 			add_to_variable = { fotic_sov_conservative_pressure = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			if = {
+				limit = { NOT = { has_country_flag = fotic_sov_ev20_fired } }
+				set_country_flag = fotic_sov_ev20_fired
+				country_event = { id = FOTIC_SOV_1990.20 days = 3 }
+			}
 		}
 	}
 
@@ -627,6 +632,7 @@ focus_tree = {
 			add_to_variable = { fotic_sov_kgb_influence = 4 }
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			country_event = { id = FOTIC_SOV_1990.30 days = 3 }
 		}
 	}
 
@@ -644,6 +650,11 @@ focus_tree = {
 			add_to_variable = { fotic_sov_conservative_pressure = 2 }
 			add_to_variable = { fotic_sov_street_pressure = 1 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			if = {
+				limit = { NOT = { has_country_flag = fotic_sov_ev40_fired } }
+				set_country_flag = fotic_sov_ev40_fired
+				country_event = { id = FOTIC_SOV_1990.40 days = 2 }
+			}
 		}
 	}
 
@@ -697,6 +708,7 @@ focus_tree = {
 			add_to_variable = { fotic_sov_republican_separatism = 2 }
 			add_to_variable = { fotic_sov_street_pressure = -3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			country_event = { id = FOTIC_SOV_1990.21 days = 2 }
 		}
 	}
 
@@ -785,6 +797,7 @@ focus_tree = {
 			add_to_variable = { fotic_sov_street_pressure = 3 }
 			add_to_variable = { fotic_sov_reformist_influence = -2 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			country_event = { id = FOTIC_SOV_1990.41 days = 3 }
 		}
 	}
 
@@ -837,6 +850,7 @@ focus_tree = {
 			add_to_variable = { fotic_sov_army_politicization = 4 }
 			add_to_variable = { fotic_sov_gkchp_risk = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			country_event = { id = FOTIC_SOV_1990.31 days = 3 }
 		}
 	}
 
@@ -889,6 +903,11 @@ focus_tree = {
 			add_to_variable = { fotic_sov_russian_challenge = 2 }
 			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
 			FOTIC_SOV_clamp_crisis_variables = yes
+			if = {
+				limit = { NOT = { has_country_flag = fotic_sov_ev60_fired } }
+				set_country_flag = fotic_sov_ev60_fired
+				country_event = { id = FOTIC_SOV_1990.60 days = 3 }
+			}
 		}
 	}
 
@@ -944,7 +963,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			country_event = { id = FOTIC_SOV_1990.90 }
+			if = {
+				limit = { NOT = { has_country_flag = fotic_sov_ev90_fired } }
+				set_country_flag = fotic_sov_ev90_fired
+				country_event = { id = FOTIC_SOV_1990.90 }
+			}
 		}
 	}
 
@@ -995,6 +1018,119 @@ focus_tree = {
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = -3 }
 			add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+			country_event = { id = FOTIC_SOV_1990.62 days = 3 }
+		}
+	}
+
+	focus = {
+		id = SOV_1990_russian_question
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 41
+		y = 6
+		prerequisite = { focus = SOV_1990_ukrainian_weight }
+		completion_reward = {
+			add_to_variable = { fotic_sov_russian_challenge = 3 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			set_country_flag = fotic_sov_russian_question_engaged
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_talk_to_yeltsin
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 39
+		y = 7
+		prerequisite = { focus = SOV_1990_russian_question }
+		mutually_exclusive = { focus = SOV_1990_isolate_yeltsin }
+		completion_reward = {
+			add_to_variable = { fotic_sov_russian_challenge = -4 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			country_event = { id = FOTIC_SOV_1990.151 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_isolate_yeltsin
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 43
+		y = 7
+		prerequisite = { focus = SOV_1990_russian_question }
+		mutually_exclusive = { focus = SOV_1990_talk_to_yeltsin }
+		completion_reward = {
+			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			add_to_variable = { fotic_sov_party_discipline = 2 }
+			add_to_variable = { fotic_sov_russian_challenge = 5 }
+			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			set_country_flag = fotic_yeltsin_martyr
+			country_event = { id = FOTIC_SOV_1990.153 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_support_moderates_rsfsr
+		icon = GFX_goal_generic_improve_relations
+		cost = 5
+		x = 39
+		y = 8
+		prerequisite = { focus = SOV_1990_talk_to_yeltsin }
+		completion_reward = {
+			add_to_variable = { fotic_sov_russian_challenge = -3 }
+			add_to_variable = { fotic_sov_party_discipline = -1 }
+			add_political_power = -50
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_laws_war
+		icon = GFX_goal_generic_political_pressure
+		cost = 5
+		x = 43
+		y = 8
+		prerequisite = { focus = SOV_1990_isolate_yeltsin }
+		completion_reward = {
+			add_to_variable = { fotic_sov_russian_challenge = 4 }
+			add_to_variable = { fotic_sov_republican_separatism = 2 }
+			set_country_flag = fotic_1991_laws_war_active
+			country_event = { id = FOTIC_SOV_1990.156 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_russia_inside_union
+		icon = GFX_goal_generic_improve_relations
+		cost = 7
+		x = 39
+		y = 9
+		prerequisite = { focus = SOV_1990_support_moderates_rsfsr }
+		completion_reward = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+			add_to_variable = { fotic_sov_russian_challenge = -5 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+	}
+
+	focus = {
+		id = SOV_1990_moscow_against_moscow
+		icon = GFX_goal_generic_political_pressure
+		cost = 7
+		x = 43
+		y = 9
+		prerequisite = { focus = SOV_1990_laws_war }
+		completion_reward = {
+			add_to_variable = { fotic_sov_russian_challenge = 5 }
+			set_country_flag = fotic_1991_moscow_white_house
+			country_event = { id = FOTIC_SOV_1990.157 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}

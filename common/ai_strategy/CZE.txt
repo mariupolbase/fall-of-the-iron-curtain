@@ -247,7 +247,7 @@ CZE_super_boost_light_for_med_armor = {
 	
 	enable = {
 		OR = {
-			has_tech = basic_medium_tank
+			always = no
 			has_tech = basic_medium_tank_chassis
 		}
 		NOT = { has_template_ai_majority_unit = medium_armor }
@@ -290,7 +290,7 @@ CZE_super_boost_light_for_modern_armor = {
 	allowed = { original_tag = CZE }
 	enable = {
 		OR = {
-			has_tech = main_battle_tank
+			always = no
 			has_tech = main_battle_tank_chassis
 		}
 		NOT = { has_template_ai_majority_unit = modern_armor }

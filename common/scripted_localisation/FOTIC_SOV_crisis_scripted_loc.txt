@@ -1,0 +1,155 @@
+defined_text = {
+	name = FOTIC_SOV_deficit_status
+	text = {
+		trigger = { check_variable = { fotic_sov_deficit > 80 } }
+		localization_key = FOTIC_SOV_deficit_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_deficit > 60 } }
+		localization_key = FOTIC_SOV_deficit_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_deficit > 40 } }
+		localization_key = FOTIC_SOV_deficit_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_deficit_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_party_status
+	text = {
+		trigger = { check_variable = { fotic_sov_party_discipline < 30 } }
+		localization_key = FOTIC_SOV_party_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_party_discipline < 50 } }
+		localization_key = FOTIC_SOV_party_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_party_discipline < 70 } }
+		localization_key = FOTIC_SOV_party_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_party_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_kgb_status
+	text = {
+		trigger = { check_variable = { fotic_sov_kgb_influence > 70 } }
+		localization_key = FOTIC_SOV_kgb_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_kgb_influence > 50 } }
+		localization_key = FOTIC_SOV_kgb_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_kgb_influence > 30 } }
+		localization_key = FOTIC_SOV_kgb_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_kgb_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_army_status
+	text = {
+		trigger = {
+			check_variable = { fotic_sov_army_politicization > 60 }
+		}
+		localization_key = FOTIC_SOV_army_status_4
+	}
+	text = {
+		trigger = {
+			check_variable = { fotic_sov_army_politicization > 40 }
+		}
+		localization_key = FOTIC_SOV_army_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_army_loyalty > 60 } }
+		localization_key = FOTIC_SOV_army_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_army_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_separatism_status
+	text = {
+		trigger = { check_variable = { fotic_sov_republican_separatism > 75 } }
+		localization_key = FOTIC_SOV_separatism_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_republican_separatism > 55 } }
+		localization_key = FOTIC_SOV_separatism_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_republican_separatism > 35 } }
+		localization_key = FOTIC_SOV_separatism_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_separatism_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_russia_status
+	text = {
+		trigger = { check_variable = { fotic_sov_russian_challenge > 70 } }
+		localization_key = FOTIC_SOV_russia_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_russian_challenge > 50 } }
+		localization_key = FOTIC_SOV_russia_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_russian_challenge > 25 } }
+		localization_key = FOTIC_SOV_russia_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_russia_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_street_status
+	text = {
+		trigger = { check_variable = { fotic_sov_street_pressure > 70 } }
+		localization_key = FOTIC_SOV_street_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_street_pressure > 50 } }
+		localization_key = FOTIC_SOV_street_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_street_pressure > 30 } }
+		localization_key = FOTIC_SOV_street_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_street_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_gkchp_status
+	text = {
+		trigger = { check_variable = { fotic_sov_gkchp_risk > 65 } }
+		localization_key = FOTIC_SOV_gkchp_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_gkchp_risk > 40 } }
+		localization_key = FOTIC_SOV_gkchp_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_gkchp_risk > 20 } }
+		localization_key = FOTIC_SOV_gkchp_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_gkchp_status_1
+	}
+}

@@ -2105,7 +2105,7 @@ ENG_super_boost_armor_div = { #lets make sure the uk upgrades rtr to divs
 	}
 	enable = {
 		OR = {
-			has_tech = basic_medium_tank
+			always = no
 			has_tech = basic_medium_tank_chassis
 		}
 		NOT = { has_template_ai_majority_unit = medium_armor }
@@ -2140,7 +2140,7 @@ ENG_super_boost_armor_div_med = { #lets make sure the uk upgrades armor divs to 
 	}
 	enable = {
 		OR = {
-			has_tech = basic_medium_tank
+			always = no
 			has_tech = basic_medium_tank_chassis
 		}
 		NOT = { has_template_ai_majority_unit = medium_armor }

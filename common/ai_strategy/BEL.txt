@@ -3,7 +3,7 @@
 
 BEL_build_a_nuclear_facility_anywhere = {
 	allowed = {
-		has_tech = atomic_research
+		always = no
 		original_tag = BEL
 		any_country_with_original_tag = {
 		  original_tag_to_check = COG
@@ -11,7 +11,7 @@ BEL_build_a_nuclear_facility_anywhere = {
 		}
 	}
 	enable = {
-		has_tech = atomic_research
+		always = no
 		num_of_civilian_factories > 25
 		nuclear_facility < 1  # one is enough
 	}

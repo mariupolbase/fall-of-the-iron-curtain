@@ -1449,3 +1449,28 @@ WGR {
 	color = rgb { 140 165 195 }
 	color_ui = rgb { 182 215 255 }
 }
+
+KAZ = {
+	color = rgb { 38 138 196 }
+	color_ui = rgb { 38 138 196 }
+}
+UZB = {
+	color = rgb { 0 153 153 }
+	color_ui = rgb { 0 153 153 }
+}
+TMS = {
+	color = rgb { 0 168 142 }
+	color_ui = rgb { 0 168 142 }
+}
+MOL = {
+	color = rgb { 153 102 51 }
+	color_ui = rgb { 153 102 51 }
+}
+TAJ = {
+	color = rgb { 204 51 51 }
+	color_ui = rgb { 204 51 51 }
+}
+KYR = {
+	color = rgb { 204 102 0 }
+	color_ui = rgb { 204 102 0 }
+}

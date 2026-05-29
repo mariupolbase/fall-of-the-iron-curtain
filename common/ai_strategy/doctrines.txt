@@ -130,7 +130,7 @@ DOCTRINE_SF_superior_firepower_ratios = {
 		has_doctrine = superior_firepower
 	}
 	abort = {
-		#has_tech = concentrated_fire_plans
+		#always = no
 		always = no
 	}
 	

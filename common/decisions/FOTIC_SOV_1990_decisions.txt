@@ -1,3 +1,24 @@
+SOV_1990_union_crisis_category = {
+	SOV_1990_request_interdept_summary = {
+		icon = generic_political_discourse
+		cost = 0
+		days_remove = 60
+		days_re_enable = 60
+
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+		}
+
+		complete_effect = {
+			add_political_power = 5
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+
 SOV_1990_supply_category = {
 	SOV_1990_inspect_food_stocks = {
 		icon = generic_prepare_civilian
@@ -41,6 +62,7 @@ SOV_1990_supply_category = {
 			add_to_variable = { fotic_sov_street_pressure = -3 }
 			add_to_variable = { fotic_sov_republican_separatism = 2 }
 			add_to_variable = { fotic_sov_deficit = 1 }
+			country_event = { id = FOTIC_SOV_1990.11 days = 5 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 
@@ -198,6 +220,7 @@ SOV_1990_security_category = {
 
 		available = {
 			has_country_flag = fotic_sov_1990_initialized
+			has_completed_focus = SOV_1990_lubyanka_report
 		}
 
 		complete_effect = {
@@ -218,6 +241,7 @@ SOV_1990_security_category = {
 
 		available = {
 			has_country_flag = fotic_sov_1990_initialized
+			has_completed_focus = SOV_1990_lubyanka_report
 		}
 
 		complete_effect = {
@@ -246,6 +270,7 @@ SOV_1990_security_category = {
 			add_to_variable = { fotic_sov_street_pressure = -3 }
 			add_to_variable = { fotic_sov_kgb_influence = 2 }
 			add_to_variable = { fotic_sov_reformist_influence = -1 }
+			country_event = { id = FOTIC_SOV_1990.32 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 
@@ -399,5 +424,110 @@ SOV_1990_russian_question_category = {
 		ai_will_do = {
 			factor = 0
 		}
+	}
+
+	SOV_1990_support_rsfsr_moderates = {
+		icon = generic_improve_relations
+		cost = 50
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.06.01
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_russian_challenge = -3 }
+			add_to_variable = { fotic_sov_party_discipline = -1 }
+			country_event = { id = FOTIC_SOV_1990.154 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_limit_yeltsin_airtime = {
+		icon = generic_form_nation
+		cost = 35
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.06.01
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_russian_challenge = -2 }
+			add_to_variable = { fotic_sov_reformist_influence = -2 }
+			add_to_variable = { fotic_sov_kgb_influence = 1 }
+			country_event = { id = FOTIC_SOV_1990.155 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_offer_russia_special_status = {
+		icon = generic_improve_relations
+		cost = 50
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.06.01
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_russian_challenge = -4 }
+			add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+			add_to_variable = { fotic_sov_conservative_pressure = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_bind_russia_to_union_treaty = {
+		icon = generic_improve_relations
+		cost = 45
+		days_remove = 60
+		days_re_enable = 120
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.06.01
+			NOT = { has_country_flag = fotic_sov_1991_started }
+			check_variable = { fotic_sov_union_treaty_progress > 10 }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+			add_to_variable = { fotic_sov_russian_challenge = -2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_rsfsr_sovereignty_timer = {
+		icon = generic_political_discourse
+		activation = {
+			has_country_flag = fotic_sov_ev51_fired
+			NOT = { has_country_flag = fotic_sov_rsfsr_timer_resolved }
+		}
+		is_good = no
+		selectable_mission = no
+		days_mission_timeout = 120
+		fire_only_once = yes
+		available = {
+			has_completed_focus = SOV_1990_russian_question
+		}
+		complete_effect = {
+			set_country_flag = fotic_sov_rsfsr_timer_resolved
+			add_political_power = 25
+		}
+		timeout_effect = {
+			set_country_flag = fotic_sov_rsfsr_timer_resolved
+			add_to_variable = { fotic_sov_russian_challenge = 8 }
+			add_to_variable = { fotic_sov_party_discipline = -3 }
+			add_to_variable = { fotic_sov_conservative_pressure = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
 	}
 }
