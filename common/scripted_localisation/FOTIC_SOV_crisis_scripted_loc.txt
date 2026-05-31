@@ -153,3 +153,79 @@ defined_text = {
 		localization_key = FOTIC_SOV_gkchp_status_1
 	}
 }
+
+defined_text = {
+	name = FOTIC_SOV_reformist_status
+	text = {
+		trigger = { check_variable = { fotic_sov_reformist_influence > 70 } }
+		localization_key = FOTIC_SOV_reformist_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_reformist_influence > 50 } }
+		localization_key = FOTIC_SOV_reformist_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_reformist_influence > 30 } }
+		localization_key = FOTIC_SOV_reformist_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_reformist_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_conservative_status
+	text = {
+		trigger = { check_variable = { fotic_sov_conservative_pressure > 70 } }
+		localization_key = FOTIC_SOV_conservative_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_conservative_pressure > 50 } }
+		localization_key = FOTIC_SOV_conservative_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_conservative_pressure > 30 } }
+		localization_key = FOTIC_SOV_conservative_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_conservative_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_blackmarket_status
+	text = {
+		trigger = { check_variable = { fotic_sov_black_market > 70 } }
+		localization_key = FOTIC_SOV_blackmarket_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_black_market > 50 } }
+		localization_key = FOTIC_SOV_blackmarket_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_black_market > 30 } }
+		localization_key = FOTIC_SOV_blackmarket_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_blackmarket_status_1
+	}
+}
+
+defined_text = {
+	name = FOTIC_SOV_treaty_status
+	text = {
+		trigger = { check_variable = { fotic_sov_union_treaty_progress > 70 } }
+		localization_key = FOTIC_SOV_treaty_status_4
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_union_treaty_progress > 50 } }
+		localization_key = FOTIC_SOV_treaty_status_3
+	}
+	text = {
+		trigger = { check_variable = { fotic_sov_union_treaty_progress > 25 } }
+		localization_key = FOTIC_SOV_treaty_status_2
+	}
+	text = {
+		localization_key = FOTIC_SOV_treaty_status_1
+	}
+}

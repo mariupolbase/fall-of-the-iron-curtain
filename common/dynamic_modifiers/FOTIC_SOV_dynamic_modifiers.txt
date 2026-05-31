@@ -1,0 +1,6 @@
+fotic_sov_state_of_union = {
+	enable = { always = yes }
+	stability_factor = fotic_sov_mod_stab
+	consumer_goods_factor = fotic_sov_mod_cg
+	political_power_factor = fotic_sov_mod_pp
+}

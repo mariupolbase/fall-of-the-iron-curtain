@@ -148,3 +148,33 @@ FOTIC_SOV_security_pressure = {
 	add_to_variable = { fotic_sov_gkchp_risk = 1 }
 	FOTIC_SOV_clamp_crisis_variables = yes
 }
+
+FOTIC_SOV_update_modifiers = {
+	set_temp_variable = { fotic_tmp = fotic_sov_deficit }
+	multiply_temp_variable = { fotic_tmp = 0.0010 }
+	set_variable = { fotic_sov_mod_stab = fotic_tmp }
+	set_temp_variable = { fotic_tmp = fotic_sov_street_pressure }
+	multiply_temp_variable = { fotic_tmp = 0.0010 }
+	add_to_variable = { fotic_sov_mod_stab = fotic_tmp }
+	set_temp_variable = { fotic_tmp = fotic_sov_republican_separatism }
+	multiply_temp_variable = { fotic_tmp = 0.0008 }
+	add_to_variable = { fotic_sov_mod_stab = fotic_tmp }
+	set_temp_variable = { fotic_tmp = fotic_sov_gkchp_risk }
+	multiply_temp_variable = { fotic_tmp = 0.0010 }
+	add_to_variable = { fotic_sov_mod_stab = fotic_tmp }
+	multiply_variable = { fotic_sov_mod_stab = -1 }
+
+	set_temp_variable = { fotic_tmp = fotic_sov_deficit }
+	multiply_temp_variable = { fotic_tmp = 0.0010 }
+	set_variable = { fotic_sov_mod_cg = fotic_tmp }
+	set_temp_variable = { fotic_tmp = fotic_sov_black_market }
+	multiply_temp_variable = { fotic_tmp = 0.0006 }
+	add_to_variable = { fotic_sov_mod_cg = fotic_tmp }
+
+	set_temp_variable = { fotic_tmp = fotic_sov_party_discipline }
+	multiply_temp_variable = { fotic_tmp = 0.0010 }
+	set_variable = { fotic_sov_mod_pp = fotic_tmp }
+	set_temp_variable = { fotic_tmp = fotic_sov_gkchp_risk }
+	multiply_temp_variable = { fotic_tmp = 0.0035 }
+	subtract_from_variable = { fotic_sov_mod_pp = fotic_tmp }
+}

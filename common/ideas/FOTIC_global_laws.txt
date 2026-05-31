@@ -1,0 +1,272 @@
+ideas = {
+	fotic_economic_model_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_economic_model_command_economy = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_economic_model_limited_khozraschyot = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_economic_model_regulated_mixed_economy = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_economic_model_market_liberalisation = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_economic_model_state_capitalism = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = 0.04
+				political_power_gain = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_social_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_social_policy_universal_state_welfare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_social_policy_reduced_state_welfare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.02
+				consumer_goods_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_social_policy_targeted_social_support = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				consumer_goods_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_social_policy_minimal_social_state = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_security_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_security_policy_administrative_control = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_security_policy_restricted_public_space = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_security_policy_liberalised_public_space = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_security_policy_emergency_security_measures = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.03
+				political_power_gain = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_military_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_military_policy_volunteer_force = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.02
+				political_power_gain = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_military_policy_standing_army = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_military_policy_mass_mobilisation = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.03
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_tax_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_tax_policy_low_taxes = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.03
+				stability_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_tax_policy_moderate_taxes = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_tax_policy_high_taxes = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.03
+				stability_factor = -0.02
+				political_power_gain = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_trade_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_trade_policy_closed_trade = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.02
+				stability_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_trade_policy_regulated_trade = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+
+		fotic_trade_policy_open_trade = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.03
+				stability_factor = -0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

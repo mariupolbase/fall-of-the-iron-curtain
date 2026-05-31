@@ -1,0 +1,42 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				add_ideas = {
+					fotic_financial_system_placeholder
+					fotic_labour_policy_placeholder
+					fotic_ownership_model_placeholder
+					fotic_conscription_model_placeholder
+					fotic_military_spending_placeholder
+					fotic_army_structure_placeholder
+					fotic_defence_industry_placeholder
+					fotic_healthcare_model_placeholder
+					fotic_education_model_placeholder
+					fotic_civil_liberties_placeholder
+				}
+			}
+			every_country = {
+				limit = { NOT = { tag = SOV } }
+				add_ideas = {
+					fotic_economic_model_regulated_mixed_economy
+					fotic_tax_policy_moderate_taxes
+					fotic_trade_policy_regulated_trade
+					fotic_military_policy_standing_army
+					fotic_social_policy_targeted_social_support
+					fotic_security_policy_restricted_public_space
+				}
+			}
+			every_country = {
+				limit = { tag = SOV }
+				add_ideas = {
+					fotic_economic_model_command_economy
+					fotic_tax_policy_high_taxes
+					fotic_trade_policy_closed_trade
+					fotic_military_policy_standing_army
+					fotic_social_policy_universal_state_welfare
+					fotic_security_policy_administrative_control
+				}
+			}
+		}
+	}
+}

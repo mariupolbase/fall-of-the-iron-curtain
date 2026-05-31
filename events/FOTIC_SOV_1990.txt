@@ -35,7 +35,16 @@ country_event = {
 			SOV_idea_uncontrolled_glastnost
 			SOV_idea_republics_count_powers
 			SOV_idea_shadow_economy
+			SOV_ryzhkov_head
+			SOV_shevardnadze_foreign
+			SOV_maslyukov_economic
+			SOV_bakatin_interior
+			SOV_kryuchkov_intel
+			SOV_yakovlev_theorist
 		}
+
+		FOTIC_SOV_update_modifiers = yes
+		add_dynamic_modifier = { modifier = fotic_sov_state_of_union }
 
 		country_event = { id = FOTIC_SOV_1990.2 days = 1 }
 	}
@@ -187,6 +196,7 @@ country_event = {
 				NOT = { has_country_flag = fotic_sov_ev51_fired }
 			}
 			set_country_flag = fotic_sov_ev51_fired
+			set_country_flag = fotic_sov_rsfsr_declaration_fired
 			country_event = { id = FOTIC_SOV_1990.51 days = 2 }
 		}
 		if = {
@@ -315,6 +325,117 @@ country_event = {
 
 		if = {
 			limit = {
+				date > 1990.7.2
+				NOT = { has_country_flag = fotic_sov_ev120_fired }
+			}
+			set_country_flag = fotic_sov_ev120_fired
+			country_event = { id = FOTIC_SOV_1990.120 days = 2 }
+		}
+		if = {
+			limit = {
+				date > 1990.9.10
+				NOT = { has_country_flag = fotic_sov_ev110_fired }
+			}
+			set_country_flag = fotic_sov_ev110_fired
+			country_event = { id = FOTIC_SOV_1990.110 days = 3 }
+		}
+		if = {
+			limit = {
+				date > 1990.8.2
+				NOT = { has_country_flag = fotic_sov_ev130_fired }
+			}
+			set_country_flag = fotic_sov_ev130_fired
+			country_event = { id = FOTIC_SOV_1990.130 days = 2 }
+		}
+		if = {
+			limit = {
+				date > 1990.10.3
+				NOT = { has_country_flag = fotic_sov_ev131_fired }
+			}
+			set_country_flag = fotic_sov_ev131_fired
+			country_event = { id = FOTIC_SOV_1990.131 days = 2 }
+		}
+		if = {
+			limit = {
+				date > 1990.10.15
+				NOT = { has_country_flag = fotic_sov_ev132_fired }
+			}
+			set_country_flag = fotic_sov_ev132_fired
+			country_event = { id = FOTIC_SOV_1990.132 days = 3 }
+		}
+		if = {
+			limit = {
+				date > 1990.9.5
+				NOT = { has_country_flag = fotic_sov_ev145_fired }
+			}
+			set_country_flag = fotic_sov_ev145_fired
+			country_event = { id = FOTIC_SOV_1990.145 days = 3 }
+		}
+		if = {
+			limit = {
+				date > 1990.10.20
+				NOT = { has_country_flag = fotic_sov_ev140_fired }
+			}
+			set_country_flag = fotic_sov_ev140_fired
+			country_event = { id = FOTIC_SOV_1990.140 days = 2 }
+		}
+		if = {
+			limit = {
+				date > 1990.8.1
+				NOT = { has_country_flag = fotic_sov_ev190_fired }
+			}
+			set_country_flag = fotic_sov_ev190_fired
+			country_event = { id = FOTIC_SOV_1990.190 days = 4 }
+		}
+		if = {
+			limit = {
+				date > 1990.9.20
+				NOT = { has_country_flag = fotic_sov_ev191_fired }
+			}
+			set_country_flag = fotic_sov_ev191_fired
+			country_event = { id = FOTIC_SOV_1990.191 days = 3 }
+		}
+		if = {
+			limit = {
+				date > 1990.11.1
+				has_country_flag = fotic_sov_ev190_fired
+				NOT = { has_country_flag = fotic_sov_ev192_fired }
+			}
+			set_country_flag = fotic_sov_ev192_fired
+			country_event = { id = FOTIC_SOV_1990.192 days = 5 }
+		}
+
+		if = {
+			limit = {
+				date > 1990.2.1
+				date < 1990.12.20
+			}
+			random_list = {
+				40 = { }
+				6 = { country_event = { id = FOTIC_SOV_1990.200 days = 2 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.201 days = 2 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.202 days = 3 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.203 days = 2 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.204 days = 3 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.205 days = 4 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.206 days = 3 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.207 days = 4 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.208 days = 2 } }
+				6 = { country_event = { id = FOTIC_SOV_1990.209 days = 3 } }
+			}
+		}
+
+		if = {
+			limit = {
+				date > 1990.12.20
+				NOT = { has_country_flag = fotic_sov_ev80_fired }
+			}
+			set_country_flag = fotic_sov_ev80_fired
+			country_event = { id = FOTIC_SOV_1990.80 days = 1 }
+		}
+
+		if = {
+			limit = {
 				date > 1990.12.28
 				NOT = { has_country_flag = fotic_sov_ev90_fired }
 			}
@@ -323,6 +444,7 @@ country_event = {
 		}
 
 		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
 	}
 
 	option = {
@@ -359,7 +481,44 @@ country_event = {
 country_event = {
 	id = FOTIC_SOV_1990.90
 	title = FOTIC_SOV_1990.90.t
-	desc = FOTIC_SOV_1990.90.d
+	desc = {
+		trigger = {
+			check_variable = { fotic_sov_gkchp_risk > 45 }
+			OR = {
+				check_variable = { fotic_sov_kgb_influence > 55 }
+				check_variable = { fotic_sov_conservative_pressure > 50 }
+			}
+		}
+		text = FOTIC_SOV_1990.90.d_security
+	}
+	desc = {
+		trigger = {
+			OR = {
+				check_variable = { fotic_sov_republican_separatism > 70 }
+				check_variable = { fotic_sov_party_discipline < 28 }
+			}
+		}
+		text = FOTIC_SOV_1990.90.d_collapse
+	}
+	desc = {
+		trigger = {
+			check_variable = { fotic_sov_russian_challenge > 55 }
+		}
+		text = FOTIC_SOV_1990.90.d_russia
+	}
+	desc = {
+		trigger = {
+			check_variable = { fotic_sov_reformist_influence > 50 }
+			OR = {
+				check_variable = { fotic_sov_deficit > 55 }
+				check_variable = { fotic_sov_street_pressure > 50 }
+			}
+		}
+		text = FOTIC_SOV_1990.90.d_reform
+	}
+	desc = {
+		text = FOTIC_SOV_1990.90.d_held
+	}
 	picture = GFX_report_event_picture
 	is_triggered_only = yes
 
@@ -404,8 +563,34 @@ country_event = {
 			set_country_flag = fotic_1991_russia_strong
 		}
 		if = {
+			limit = { check_variable = { fotic_sov_russian_challenge > 45 } }
+			set_country_flag = fotic_1991_yeltsin_momentum
+		}
+		if = {
 			limit = { check_variable = { fotic_sov_union_treaty_progress > 30 } }
 			set_country_flag = fotic_1991_treaty_possible
+		}
+		if = {
+			limit = {
+				check_variable = { fotic_sov_kgb_influence > 55 }
+				check_variable = { fotic_sov_gkchp_risk > 40 }
+			}
+			set_country_flag = fotic_1991_security_drift
+		}
+		if = {
+			limit = { check_variable = { fotic_sov_kgb_influence > 60 } }
+			set_country_flag = fotic_1991_kryuchkov_security_option
+		}
+		if = {
+			limit = { check_variable = { fotic_sov_army_politicization > 40 } }
+			set_country_flag = fotic_1991_yazov_army_option
+		}
+		if = {
+			limit = {
+				check_variable = { fotic_sov_conservative_pressure > 50 }
+				check_variable = { fotic_sov_gkchp_risk > 40 }
+			}
+			set_country_flag = fotic_1991_yanayev_committee_possible
 		}
 
 		FOTIC_SOV_clamp_crisis_variables = yes
@@ -1476,5 +1661,745 @@ country_event = {
 		name = FOTIC_SOV_1990.157.a
 		add_to_variable = { fotic_sov_russian_challenge = 2 }
 		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.64
+	title = FOTIC_SOV_1990.64.t
+	desc = FOTIC_SOV_1990.64.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.64.a
+		add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+		add_to_variable = { fotic_sov_conservative_pressure = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.64.b
+		add_to_variable = { fotic_sov_republican_separatism = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.65
+	title = FOTIC_SOV_1990.65.t
+	desc = FOTIC_SOV_1990.65.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.65.a
+		add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+		add_to_variable = { fotic_sov_republican_separatism = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.65.b
+		add_to_variable = { fotic_sov_republican_separatism = 2 }
+		add_to_variable = { fotic_sov_party_discipline = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.170
+	title = FOTIC_SOV_1990.170.t
+	desc = FOTIC_SOV_1990.170.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.170.a
+		add_to_variable = { fotic_sov_street_pressure = -2 }
+		add_to_variable = { fotic_sov_deficit = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.170.b
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.175
+	title = FOTIC_SOV_1990.175.t
+	desc = FOTIC_SOV_1990.175.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.175.a
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.175.b
+		add_to_variable = { fotic_sov_kgb_influence = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.176
+	title = FOTIC_SOV_1990.176.t
+	desc = FOTIC_SOV_1990.176.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.176.a
+		add_to_variable = { fotic_sov_kgb_influence = 2 }
+		add_to_variable = { fotic_sov_street_pressure = -3 }
+		add_to_variable = { fotic_sov_gkchp_risk = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.176.b
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.179
+	title = FOTIC_SOV_1990.179.t
+	desc = FOTIC_SOV_1990.179.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.179.a
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.34
+	title = FOTIC_SOV_1990.34.t
+	desc = FOTIC_SOV_1990.34.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.34.a
+		add_to_variable = { fotic_sov_army_loyalty = 2 }
+		add_to_variable = { fotic_sov_deficit = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.34.b
+		add_to_variable = { fotic_sov_army_loyalty = -2 }
+		add_to_variable = { fotic_sov_army_politicization = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.35
+	title = FOTIC_SOV_1990.35.t
+	desc = FOTIC_SOV_1990.35.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.35.a
+		add_to_variable = { fotic_sov_army_politicization = -1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.35.b
+		add_to_variable = { fotic_sov_army_politicization = 3 }
+		add_to_variable = { fotic_sov_gkchp_risk = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.36
+	title = FOTIC_SOV_1990.36.t
+	desc = FOTIC_SOV_1990.36.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.36.a
+		add_to_variable = { fotic_sov_kgb_influence = 2 }
+		add_to_variable = { fotic_sov_street_pressure = -2 }
+		add_to_variable = { fotic_sov_gkchp_risk = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.36.b
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.37
+	title = FOTIC_SOV_1990.37.t
+	desc = FOTIC_SOV_1990.37.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.37.a
+		add_to_variable = { fotic_sov_gkchp_risk = 2 }
+		add_to_variable = { fotic_sov_conservative_pressure = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.37.b
+		add_to_variable = { fotic_sov_gkchp_risk = -2 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.190
+	title = FOTIC_SOV_1990.190.t
+	desc = FOTIC_SOV_1990.190.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.190.a
+		add_to_variable = { fotic_sov_republican_separatism = -2 }
+		add_to_variable = { fotic_sov_army_politicization = 2 }
+		add_to_variable = { fotic_sov_army_loyalty = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.190.b
+		add_to_variable = { fotic_sov_republican_separatism = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.190.c
+		add_to_variable = { fotic_sov_republican_separatism = 3 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.191
+	title = FOTIC_SOV_1990.191.t
+	desc = FOTIC_SOV_1990.191.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.191.a
+		add_to_variable = { fotic_sov_republican_separatism = 1 }
+		add_to_variable = { fotic_sov_street_pressure = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.191.b
+		add_to_variable = { fotic_sov_republican_separatism = 2 }
+		add_to_variable = { fotic_sov_army_politicization = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.192
+	title = FOTIC_SOV_1990.192.t
+	desc = FOTIC_SOV_1990.192.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.192.a
+		add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+		add_to_variable = { fotic_sov_party_discipline = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.192.b
+		add_to_variable = { fotic_sov_republican_separatism = 3 }
+		add_to_variable = { fotic_sov_conservative_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.200
+	title = FOTIC_SOV_1990.200.t
+	desc = FOTIC_SOV_1990.200.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.200.a
+		add_to_variable = { fotic_sov_deficit = -1 }
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.200.b
+		add_to_variable = { fotic_sov_black_market = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.201
+	title = FOTIC_SOV_1990.201.t
+	desc = FOTIC_SOV_1990.201.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.201.a
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.201.b
+		add_to_variable = { fotic_sov_deficit = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.202
+	title = FOTIC_SOV_1990.202.t
+	desc = FOTIC_SOV_1990.202.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.202.a
+		add_to_variable = { fotic_sov_black_market = 2 }
+		add_to_variable = { fotic_sov_deficit = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.202.b
+		add_to_variable = { fotic_sov_black_market = -1 }
+		add_to_variable = { fotic_sov_reformist_influence = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.203
+	title = FOTIC_SOV_1990.203.t
+	desc = FOTIC_SOV_1990.203.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.203.a
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.203.b
+		add_to_variable = { fotic_sov_black_market = 1 }
+		add_to_variable = { fotic_sov_deficit = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.204
+	title = FOTIC_SOV_1990.204.t
+	desc = FOTIC_SOV_1990.204.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.204.a
+		add_to_variable = { fotic_sov_kgb_influence = 2 }
+		add_to_variable = { fotic_sov_black_market = -2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.204.b
+		add_to_variable = { fotic_sov_black_market = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.205
+	title = FOTIC_SOV_1990.205.t
+	desc = FOTIC_SOV_1990.205.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.205.a
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		add_to_variable = { fotic_sov_deficit = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.205.b
+		add_to_variable = { fotic_sov_party_discipline = -1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.80
+	title = FOTIC_SOV_1990.80.t
+	desc = FOTIC_SOV_1990.80.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.80.a
+		remove_ideas = SOV_shevardnadze_foreign
+		add_to_variable = { fotic_sov_reformist_influence = -3 }
+		add_to_variable = { fotic_sov_conservative_pressure = 3 }
+		add_to_variable = { fotic_sov_kgb_influence = 2 }
+		add_to_variable = { fotic_sov_gkchp_risk = 4 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.80.b
+		add_political_power = -50
+		add_to_variable = { fotic_sov_reformist_influence = 2 }
+		add_to_variable = { fotic_sov_gkchp_risk = -3 }
+		add_to_variable = { fotic_sov_party_discipline = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.80.c
+		add_to_variable = { fotic_sov_conservative_pressure = 2 }
+		add_to_variable = { fotic_sov_reformist_influence = -1 }
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.110
+	title = FOTIC_SOV_1990.110.t
+	desc = FOTIC_SOV_1990.110.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.110.a
+		fotic_set_economic_market_liberalisation = yes
+		add_to_variable = { fotic_sov_reformist_influence = 6 }
+		add_to_variable = { fotic_sov_russian_challenge = 5 }
+		add_to_variable = { fotic_sov_deficit = -3 }
+		add_to_variable = { fotic_sov_street_pressure = 4 }
+		add_to_variable = { fotic_sov_party_discipline = -4 }
+		add_to_variable = { fotic_sov_conservative_pressure = 4 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.110.b
+		fotic_set_economic_regulated_mixed = yes
+		add_to_variable = { fotic_sov_conservative_pressure = 3 }
+		add_to_variable = { fotic_sov_party_discipline = 2 }
+		add_to_variable = { fotic_sov_reformist_influence = -3 }
+		add_to_variable = { fotic_sov_deficit = 3 }
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.110.c
+		add_to_variable = { fotic_sov_reformist_influence = -2 }
+		add_to_variable = { fotic_sov_conservative_pressure = -2 }
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		add_to_variable = { fotic_sov_street_pressure = 3 }
+		add_to_variable = { fotic_sov_deficit = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.120
+	title = FOTIC_SOV_1990.120.t
+	desc = FOTIC_SOV_1990.120.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	immediate = {
+		country_event = { id = FOTIC_SOV_1990.121 days = 3 }
+	}
+	option = {
+		name = FOTIC_SOV_1990.120.a
+		add_to_variable = { fotic_sov_reformist_influence = 5 }
+		add_to_variable = { fotic_sov_conservative_pressure = -3 }
+		add_to_variable = { fotic_sov_party_discipline = -3 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.120.b
+		add_to_variable = { fotic_sov_conservative_pressure = 4 }
+		add_to_variable = { fotic_sov_party_discipline = 3 }
+		add_to_variable = { fotic_sov_reformist_influence = -4 }
+		add_to_variable = { fotic_sov_kgb_influence = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.120.c
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		add_to_variable = { fotic_sov_conservative_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.121
+	title = FOTIC_SOV_1990.121.t
+	desc = FOTIC_SOV_1990.121.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.121.a
+		add_to_variable = { fotic_sov_russian_challenge = 5 }
+		add_to_variable = { fotic_sov_reformist_influence = 2 }
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.121.b
+		add_to_variable = { fotic_sov_conservative_pressure = 3 }
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		add_to_variable = { fotic_sov_russian_challenge = 3 }
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.130
+	title = FOTIC_SOV_1990.130.t
+	desc = FOTIC_SOV_1990.130.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.130.a
+		add_to_variable = { fotic_sov_reformist_influence = 3 }
+		add_to_variable = { fotic_sov_conservative_pressure = 3 }
+		add_to_variable = { fotic_sov_army_politicization = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.130.b
+		add_to_variable = { fotic_sov_conservative_pressure = 2 }
+		add_to_variable = { fotic_sov_reformist_influence = -2 }
+		add_to_variable = { fotic_sov_kgb_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.130.c
+		add_to_variable = { fotic_sov_party_discipline = -1 }
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.131
+	title = FOTIC_SOV_1990.131.t
+	desc = FOTIC_SOV_1990.131.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.131.a
+		add_to_variable = { fotic_sov_reformist_influence = 3 }
+		add_to_variable = { fotic_sov_conservative_pressure = 4 }
+		add_to_variable = { fotic_sov_gkchp_risk = 3 }
+		add_to_variable = { fotic_sov_army_politicization = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.131.b
+		add_to_variable = { fotic_sov_conservative_pressure = 5 }
+		add_to_variable = { fotic_sov_gkchp_risk = 4 }
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		add_to_variable = { fotic_sov_reformist_influence = -2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.132
+	title = FOTIC_SOV_1990.132.t
+	desc = FOTIC_SOV_1990.132.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.132.a
+		add_to_variable = { fotic_sov_reformist_influence = 2 }
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.132.b
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.140
+	title = FOTIC_SOV_1990.140.t
+	desc = FOTIC_SOV_1990.140.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.140.a
+		add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+		add_to_variable = { fotic_sov_republican_separatism = -2 }
+		add_to_variable = { fotic_sov_party_discipline = -2 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.140.b
+		add_to_variable = { fotic_sov_conservative_pressure = 3 }
+		add_to_variable = { fotic_sov_republican_separatism = 3 }
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.140.c
+		add_to_variable = { fotic_sov_republican_separatism = 2 }
+		add_to_variable = { fotic_sov_union_treaty_progress = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.145
+	title = FOTIC_SOV_1990.145.t
+	desc = FOTIC_SOV_1990.145.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.145.a
+		add_to_variable = { fotic_sov_republican_separatism = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.145.b
+		add_to_variable = { fotic_sov_republican_separatism = 2 }
+		add_to_variable = { fotic_sov_army_politicization = 2 }
+		add_to_variable = { fotic_sov_russian_challenge = 1 }
+		add_to_variable = { fotic_sov_conservative_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.145.c
+		add_to_variable = { fotic_sov_republican_separatism = 3 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.206
+	title = FOTIC_SOV_1990.206.t
+	desc = FOTIC_SOV_1990.206.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.206.a
+		add_to_variable = { fotic_sov_street_pressure = -1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.206.b
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		add_to_variable = { fotic_sov_reformist_influence = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.207
+	title = FOTIC_SOV_1990.207.t
+	desc = FOTIC_SOV_1990.207.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.207.a
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		add_to_variable = { fotic_sov_street_pressure = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.207.b
+		add_to_variable = { fotic_sov_party_discipline = 1 }
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.208
+	title = FOTIC_SOV_1990.208.t
+	desc = FOTIC_SOV_1990.208.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.208.a
+		add_to_variable = { fotic_sov_kgb_influence = 1 }
+		add_to_variable = { fotic_sov_black_market = -1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.208.b
+		add_to_variable = { fotic_sov_black_market = 2 }
+		add_to_variable = { fotic_sov_street_pressure = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+}
+
+country_event = {
+	id = FOTIC_SOV_1990.209
+	title = FOTIC_SOV_1990.209.t
+	desc = FOTIC_SOV_1990.209.d
+	picture = GFX_report_event_picture
+	is_triggered_only = yes
+	option = {
+		name = FOTIC_SOV_1990.209.a
+		add_to_variable = { fotic_sov_street_pressure = -1 }
+		add_to_variable = { fotic_sov_reformist_influence = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
+	}
+	option = {
+		name = FOTIC_SOV_1990.209.b
+		add_to_variable = { fotic_sov_street_pressure = 2 }
+		add_to_variable = { fotic_sov_republican_separatism = 1 }
+		FOTIC_SOV_clamp_crisis_variables = yes
+		FOTIC_SOV_update_modifiers = yes
 	}
 }

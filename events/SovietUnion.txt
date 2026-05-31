@@ -9,6 +9,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.03.11
 	}
@@ -50,6 +51,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.05.04
 	}
@@ -89,6 +91,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.05.08
 	}
@@ -128,6 +131,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.08.23
 	}
@@ -159,6 +163,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.04.09
 	}
@@ -194,6 +199,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.06.08
 	}
@@ -225,6 +231,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.24
 	}
@@ -302,6 +309,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.25
 	}
@@ -347,6 +355,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.27
 	}
@@ -380,6 +389,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.30
 	}
@@ -411,6 +421,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.31
 	}
@@ -450,6 +461,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.08.31
 	}
@@ -481,6 +493,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.09.09
 	}
@@ -512,6 +525,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.10.27
 	}
@@ -545,6 +559,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.12.12
 	}
@@ -573,6 +588,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1991.12.16
 	}
@@ -626,6 +642,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.3.18
 	}
@@ -739,6 +756,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.11.14
 	}
@@ -765,6 +783,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.5.20
 	}
@@ -791,6 +810,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+			always = no
 		tag = SOV
 		date > 1990.3.4
 	}
@@ -818,6 +838,7 @@ country_event = {
 
 	is_triggered_only = yes
 	trigger = {
+			always = no
 		tag = SOV
 	}
 	option = {

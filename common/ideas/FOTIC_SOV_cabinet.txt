@@ -1,0 +1,74 @@
+ideas = {
+	head_minister = {
+		SOV_ryzhkov_head = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = -0.03
+				political_power_gain = 0.02
+			}
+		}
+	}
+
+	foreign_minister = {
+		SOV_shevardnadze_foreign = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.03
+				drift_defence_factor = 0.05
+			}
+		}
+	}
+
+	economic_minister = {
+		SOV_maslyukov_economic = {
+			picture = generic_consumer_goods
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+	}
+
+	interior_minister = {
+		SOV_bakatin_interior = {
+			picture = generic_form_nation
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				war_support_factor = 0.02
+			}
+		}
+	}
+
+	intelligence_minister = {
+		SOV_kryuchkov_intel = {
+			picture = generic_form_nation
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = 0.02
+			}
+		}
+	}
+
+	theorist_minister = {
+		SOV_yakovlev_theorist = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SOV }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.03
+				stability_factor = -0.02
+			}
+		}
+	}
+}

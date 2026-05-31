@@ -1,0 +1,111 @@
+ideas = {
+	fotic_financial_system_law = {
+		law = yes
+		use_list_view = yes
+		fotic_financial_system_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_labour_policy_law = {
+		law = yes
+		use_list_view = yes
+		fotic_labour_policy_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_ownership_model_law = {
+		law = yes
+		use_list_view = yes
+		fotic_ownership_model_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_conscription_model_law = {
+		law = yes
+		use_list_view = yes
+		fotic_conscription_model_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_military_spending_law = {
+		law = yes
+		use_list_view = yes
+		fotic_military_spending_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_army_structure_law = {
+		law = yes
+		use_list_view = yes
+		fotic_army_structure_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_defence_industry_law = {
+		law = yes
+		use_list_view = yes
+		fotic_defence_industry_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_healthcare_model_law = {
+		law = yes
+		use_list_view = yes
+		fotic_healthcare_model_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_education_model_law = {
+		law = yes
+		use_list_view = yes
+		fotic_education_model_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_civil_liberties_law = {
+		law = yes
+		use_list_view = yes
+		fotic_civil_liberties_placeholder = {
+			picture = unknown
+			allowed = { always = yes }
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

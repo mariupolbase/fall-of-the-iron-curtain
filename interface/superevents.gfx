@@ -2,24 +2,24 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_supereventsbg"
-		textureFile = "/gfx/superevents_gui/supereventsbg.dds"
+		textureFile = "gfx/superevents_gui/supereventsbg.dds"
 	}
 	spriteType = {
 		name = "GFX_supereventsbg_test"
-		textureFile = "/gfx/superevents_gui/supereventsbg_test.dds"
+		textureFile = "gfx/superevents_gui/supereventsbg_test.dds"
 	}
 	spriteType = {
 		name = "GFX_supereventsbutton"
-		textureFile = "/gfx/superevents_gui/supereventsbutton.dds"
+		textureFile = "gfx/superevents_gui/supereventsbutton.dds"
 	}
 	spriteType = {
 		name = "GFX_supereventsoverlay"
-		textureFile = "/gfx/superevents_gui/supereventsoverlay.dds"
+		textureFile = "gfx/superevents_gui/supereventsoverlay.dds"
 	}
 	
 	#meat and potatoes
 	spriteType = {
 		name = "GFX_superevents_Raspad"
-		textureFile = "/gfx/superevents_pictures/superevents_Raspad.dds"
+		textureFile = "gfx/superevents_pictures/superevents_Raspad.dds"
 	}
 }

@@ -1,0 +1,20 @@
+FOTIC_WTO_cohesion = {
+	allowed = {
+		OR = {
+			original_tag = POL
+			original_tag = DDR
+			original_tag = ROM
+			original_tag = BUL
+			original_tag = HUN
+			original_tag = CZE
+		}
+	}
+	enable = {
+		has_idea = idea_wto_membership
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 1000
+	}
+}

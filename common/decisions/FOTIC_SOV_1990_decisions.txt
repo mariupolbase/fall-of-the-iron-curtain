@@ -247,6 +247,7 @@ SOV_1990_security_category = {
 		complete_effect = {
 			add_to_variable = { fotic_sov_army_loyalty = 2 }
 			add_to_variable = { fotic_sov_army_politicization = 1 }
+			country_event = { id = FOTIC_SOV_1990.34 days = 4 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 
@@ -326,6 +327,128 @@ SOV_1990_union_treaty_category = {
 			factor = 1
 		}
 	}
+
+	SOV_1990_ukrainian_economic_guarantees = {
+		icon = generic_improve_relations
+		cost = 45
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.03.11
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_deficit = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_push_union_treaty_framework = {
+		icon = generic_improve_relations
+		cost = 50
+		days_remove = 60
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.03.11
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+			add_to_variable = { fotic_sov_conservative_pressure = 3 }
+			country_event = { id = FOTIC_SOV_1990.64 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_legal_block_exit = {
+		icon = generic_form_nation
+		cost = 40
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.03.11
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			add_to_variable = { fotic_sov_reformist_influence = -1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_republic_property_commission = {
+		icon = generic_political_discourse
+		cost = 35
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.03.11
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			add_to_variable = { fotic_sov_republican_separatism = 1 }
+			country_event = { id = FOTIC_SOV_1990.65 days = 3 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_negotiate_baltic_formula = {
+		icon = generic_improve_relations
+		cost = 40
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			date > 1990.03.11
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_union_treaty_deadline = {
+		icon = generic_improve_relations
+		activation = {
+			date > 1990.09.01
+			NOT = { has_country_flag = fotic_sov_treaty_deadline_resolved }
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		is_good = no
+		days_mission_timeout = 100
+		fire_only_once = yes
+		available = {
+			check_variable = { fotic_sov_union_treaty_progress > 25 }
+		}
+		complete_effect = {
+			set_country_flag = fotic_sov_treaty_deadline_resolved
+			add_political_power = 25
+		}
+		timeout_effect = {
+			set_country_flag = fotic_sov_treaty_deadline_resolved
+			set_country_flag = fotic_1991_union_treaty_deadline_failed
+			add_to_variable = { fotic_sov_republican_separatism = 3 }
+			add_to_variable = { fotic_sov_gkchp_risk = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
 }
 
 SOV_1990_street_category = {
@@ -376,6 +499,186 @@ SOV_1990_street_category = {
 		ai_will_do = {
 			factor = 1
 		}
+	}
+
+	SOV_1990_miner_unrest_timer = {
+		icon = generic_political_discourse
+		activation = {
+			check_variable = { fotic_sov_deficit > 60 }
+			check_variable = { fotic_sov_street_pressure > 45 }
+			NOT = { has_country_flag = fotic_sov_miner_unrest_resolved }
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		is_good = no
+		days_mission_timeout = 90
+		fire_only_once = yes
+		available = {
+			OR = {
+				check_variable = { fotic_sov_street_pressure < 40 }
+				has_completed_focus = SOV_1990_miners_telegram
+			}
+		}
+		complete_effect = {
+			set_country_flag = fotic_sov_miner_unrest_resolved
+			add_political_power = 25
+		}
+		timeout_effect = {
+			set_country_flag = fotic_sov_miner_unrest_resolved
+			set_country_flag = fotic_1991_kuzbass_unrest
+			add_to_variable = { fotic_sov_street_pressure = 5 }
+			add_to_variable = { fotic_sov_deficit = 2 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_send_miner_commission = {
+		icon = generic_prepare_civilian
+		cost = 30
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -3 }
+			add_to_variable = { fotic_sov_deficit = -1 }
+			add_to_variable = { fotic_sov_party_discipline = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_pay_wage_arrears = {
+		icon = generic_consumer_goods
+		cost = 40
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -4 }
+			add_to_variable = { fotic_sov_deficit = 3 }
+			add_to_variable = { fotic_sov_black_market = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_strengthen_trade_unions = {
+		icon = generic_political_discourse
+		cost = 35
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -3 }
+			add_to_variable = { fotic_sov_party_discipline = 2 }
+			add_to_variable = { fotic_sov_reformist_influence = -1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_restrict_rallies = {
+		icon = generic_form_nation
+		cost = 40
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			check_variable = { fotic_sov_street_pressure > 40 }
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -4 }
+			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			add_to_variable = { fotic_sov_reformist_influence = -3 }
+			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_allow_televised_debate = {
+		icon = generic_political_discourse
+		cost = 30
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			add_to_variable = { fotic_sov_street_pressure = 2 }
+			add_to_variable = { fotic_sov_party_discipline = -2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_mvd_disperse_radicals = {
+		icon = generic_form_nation
+		cost = 50
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			check_variable = { fotic_sov_street_pressure > 45 }
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -5 }
+			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			add_to_variable = { fotic_sov_reformist_influence = -3 }
+			add_to_variable = { fotic_sov_gkchp_risk = 2 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_supply_mining_regions = {
+		icon = generic_prepare_civilian
+		cost = 45
+		days_remove = 45
+		days_re_enable = 90
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -3 }
+			add_to_variable = { fotic_sov_deficit = 2 }
+			add_to_variable = { fotic_sov_black_market = -1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	SOV_1990_blame_local_party = {
+		icon = generic_political_discourse
+		cost = 25
+		days_remove = 30
+		days_re_enable = 60
+		available = {
+			has_country_flag = fotic_sov_1990_initialized
+			NOT = { has_country_flag = fotic_sov_1991_started }
+		}
+		complete_effect = {
+			add_to_variable = { fotic_sov_street_pressure = -2 }
+			add_to_variable = { fotic_sov_party_discipline = -3 }
+			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			FOTIC_SOV_clamp_crisis_variables = yes
+		}
+		ai_will_do = { factor = 1 }
 	}
 }
 
@@ -440,6 +743,7 @@ SOV_1990_russian_question_category = {
 			add_to_variable = { fotic_sov_russian_challenge = -3 }
 			add_to_variable = { fotic_sov_party_discipline = -1 }
 			country_event = { id = FOTIC_SOV_1990.154 days = 3 }
+			set_country_flag = fotic_1991_moderate_rsfsr_network
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 		ai_will_do = { factor = 1 }
@@ -512,7 +816,7 @@ SOV_1990_russian_question_category = {
 		}
 		is_good = no
 		selectable_mission = no
-		days_mission_timeout = 120
+		days_mission_timeout = 90
 		fire_only_once = yes
 		available = {
 			has_completed_focus = SOV_1990_russian_question
@@ -523,6 +827,7 @@ SOV_1990_russian_question_category = {
 		}
 		timeout_effect = {
 			set_country_flag = fotic_sov_rsfsr_timer_resolved
+			set_country_flag = fotic_1991_russia_strong
 			add_to_variable = { fotic_sov_russian_challenge = 8 }
 			add_to_variable = { fotic_sov_party_discipline = -3 }
 			add_to_variable = { fotic_sov_conservative_pressure = 3 }

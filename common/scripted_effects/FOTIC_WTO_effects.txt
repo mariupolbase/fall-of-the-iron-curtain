@@ -1,0 +1,10 @@
+FOTIC_WTO_dissolve = {
+	every_country = {
+		limit = { has_idea = idea_wto_membership }
+		remove_ideas = idea_wto_membership
+		set_rule = {
+			can_join_factions = yes
+			can_create_factions = yes
+		}
+	}
+}

@@ -76,7 +76,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "research_slots_tab"
-				position = { x = -125 y = -15 }
+				position = { x = -250 y = -15 }
 				quadTextureSprite = "GFX_tab_large"
 				text = "RESEARCH_TAB_SLOTS"
 				buttonFont = "hoi4_typewriter16"
@@ -85,16 +85,16 @@ guiTypes = {
 				Orientation = "CENTER"
 			}
 
-			#buttonType = {
-			#	name = "facilities_tab"
-			#	position = { x = 0 y = -15 }
-			#	quadTextureSprite = "GFX_tab_large"
-			#	buttonFont = "hoi_20b"
-			#	frame = 2
-			#	text = "RESEARCH_TAB_FACILITIES"
-			#	clicksound = click_default
-			#	Orientation = "CENTER"
-			#}
+			buttonType = {
+				name = "facilities_tab"
+				position = { x = 0 y = -15 }
+				quadTextureSprite = "GFX_tab_large"
+				buttonFont = "hoi4_typewriter16"
+				frame = 2
+				text = "RESEARCH_TAB_FACILITIES"
+				clicksound = click_default
+				Orientation = "CENTER"
+			}
 		}
 		
 		containerWindowType = {

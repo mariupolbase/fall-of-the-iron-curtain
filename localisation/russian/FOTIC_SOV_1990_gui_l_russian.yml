@@ -1,54 +1,67 @@
 ﻿ l_russian:
  SOV_1990_union_crisis_category:0 "Сводка кризиса Союза"
- SOV_1990_union_crisis_category_desc:0 "§Y=== СОСТОЯНИЕ СССР ===§!\n\n§WДефицит снабжения:§!           §H[?fotic_sov_deficit|0]§! — [FOTIC_SOV_deficit_status]\n§WПартийная дисциплина:§!         §H[?fotic_sov_party_discipline|0]§! — [FOTIC_SOV_party_status]\n§WВлияние реформаторов:§!         §H[?fotic_sov_reformist_influence|0]§!\n§WДавление консерваторов:§!       §H[?fotic_sov_conservative_pressure|0]§!\n§WВлияние КГБ:§!                  §H[?fotic_sov_kgb_influence|0]§! — [FOTIC_SOV_kgb_status]\n§WЛояльность армии:§!             §H[?fotic_sov_army_loyalty|0]§!\n§WПолитизация армии:§!            §H[?fotic_sov_army_politicization|0]§! — [FOTIC_SOV_army_status]\n§WСепаратизм республик:§!         §H[?fotic_sov_republican_separatism|0]§! — [FOTIC_SOV_separatism_status]\n§WРоссийский вызов:§!             §H[?fotic_sov_russian_challenge|0]§! — [FOTIC_SOV_russia_status]\n§WУличное давление:§!             §H[?fotic_sov_street_pressure|0]§! — [FOTIC_SOV_street_status]\n§WЧёрный рынок:§!                 §H[?fotic_sov_black_market|0]§!\n§WПрогресс Союзного договора:§!   §H[?fotic_sov_union_treaty_progress|0]§!\n§WРиск чрезвычайного сценария:§!  §R[?fotic_sov_gkchp_risk|0]§! — [FOTIC_SOV_gkchp_status]"
+ SOV_1990_union_crisis_category_desc:0 "§Y═══ СОСТОЯНИЕ СССР ═══§!\n\n§Y▌ ЭКОНОМИКА§!\n§WДефицит снабжения:§! §H[?fotic_sov_deficit|0]§! — [FOTIC_SOV_deficit_status]\n§WЧёрный рынок:§! §H[?fotic_sov_black_market|0]§! — [FOTIC_SOV_blackmarket_status]\n\n§Y▌ ВЛАСТЬ И ПАРТИЯ§!\n§WПартийная дисциплина:§! §H[?fotic_sov_party_discipline|0]§! — [FOTIC_SOV_party_status]\n§WВлияние реформаторов:§! §H[?fotic_sov_reformist_influence|0]§! — [FOTIC_SOV_reformist_status]\n§WДавление консерваторов:§! §H[?fotic_sov_conservative_pressure|0]§! — [FOTIC_SOV_conservative_status]\n\n§Y▌ СИЛОВИКИ§!\n§WВлияние КГБ:§! §H[?fotic_sov_kgb_influence|0]§! — [FOTIC_SOV_kgb_status]\n§WЛояльность армии:§! §H[?fotic_sov_army_loyalty|0]§!\n§WПолитизация армии:§! §H[?fotic_sov_army_politicization|0]§! — [FOTIC_SOV_army_status]\n\n§Y▌ РЕСПУБЛИКИ§!\n§WСепаратизм республик:§! §H[?fotic_sov_republican_separatism|0]§! — [FOTIC_SOV_separatism_status]\n§WРоссийский вызов:§! §H[?fotic_sov_russian_challenge|0]§! — [FOTIC_SOV_russia_status]\n§WСоюзный договор:§! §H[?fotic_sov_union_treaty_progress|0]§! — [FOTIC_SOV_treaty_status]\n\n§Y▌ УЛИЦА§!\n§WУличное давление:§! §H[?fotic_sov_street_pressure|0]§! — [FOTIC_SOV_street_status]\n\n§R▌ УГРОЗА§!\n§WРиск чрезвычайного сценария:§! §R[?fotic_sov_gkchp_risk|0]§! — [FOTIC_SOV_gkchp_status]"
 
  SOV_1990_request_interdept_summary:0 "Запросить межведомственную сводку"
  SOV_1990_request_interdept_summary_desc:0 "Собрать актуальные данные от всех ведомств: Совмин, КГБ, МВД, Генштаб, республиканские комитеты. Позволяет видеть полный диагноз Союза."
 
- # Статусы дефицита
  FOTIC_SOV_deficit_status_1:0 "§Gснабжение работает с перебоями§!"
  FOTIC_SOV_deficit_status_2:0 "§Yочереди становятся политикой§!"
  FOTIC_SOV_deficit_status_3:0 "§Tскладские отчёты расходятся с улицей§!"
  FOTIC_SOV_deficit_status_4:0 "§Rснабженческий обвал§!"
 
- # Статусы партии
  FOTIC_SOV_party_status_1:0 "§Gаппарат подчиняется центру§!"
  FOTIC_SOV_party_status_2:0 "§Yвертикаль спорит с собой§!"
  FOTIC_SOV_party_status_3:0 "§Tаппарат действует сам по себе§!"
  FOTIC_SOV_party_status_4:0 "§RКПСС потеряла управление§!"
 
- # Статусы КГБ
  FOTIC_SOV_kgb_status_1:0 "§Gинструмент, не политик§!"
  FOTIC_SOV_kgb_status_2:0 "§Yактивно наблюдает§!"
  FOTIC_SOV_kgb_status_3:0 "§Tсамостоятельный центр влияния§!"
  FOTIC_SOV_kgb_status_4:0 "§Rготовит сценарии§!"
 
- # Статусы армии
  FOTIC_SOV_army_status_1:0 "§Gлояльна, вне политики§!"
  FOTIC_SOV_army_status_2:0 "§Gлояльна, ждёт приказов§!"
  FOTIC_SOV_army_status_3:0 "§Yармия думает политически§!"
  FOTIC_SOV_army_status_4:0 "§Rгенералы выбирают сторону§!"
 
- # Статусы сепаратизма
  FOTIC_SOV_separatism_status_1:0 "§Gреспублики в союзной логике§!"
  FOTIC_SOV_separatism_status_2:0 "§Yреспублики требуют полномочий§!"
  FOTIC_SOV_separatism_status_3:0 "§Tреспублики ищут выход§!"
  FOTIC_SOV_separatism_status_4:0 "§Rцентр теряет республики§!"
 
- # Статусы России
  FOTIC_SOV_russia_status_1:0 "§GРСФСР в союзной логике§!"
  FOTIC_SOV_russia_status_2:0 "§Yроссийские структуры требуют полномочий§!"
  FOTIC_SOV_russia_status_3:0 "§TМосква спорит с Москвой§!"
  FOTIC_SOV_russia_status_4:0 "§Rроссийский центр сильнее союзного§!"
 
- # Статусы улицы
  FOTIC_SOV_street_status_1:0 "§Gулица молчит§!"
  FOTIC_SOV_street_status_2:0 "§Yочереди обсуждают политику§!"
  FOTIC_SOV_street_status_3:0 "§Tмитинги у обкомов§!"
  FOTIC_SOV_street_status_4:0 "§Rзабастовки и требования§!"
 
- # Статусы ГКЧП
  FOTIC_SOV_gkchp_status_1:0 "§Gугроза не сформирована§!"
  FOTIC_SOV_gkchp_status_2:0 "§Yконсерваторы недовольны§!"
  FOTIC_SOV_gkchp_status_3:0 "§Tзаговор возможен§!"
  FOTIC_SOV_gkchp_status_4:0 "§Rчрезвычайный сценарий готовится§!"
+
+ FOTIC_SOV_reformist_status_1:0 "§Gреформаторы оттеснены§!"
+ FOTIC_SOV_reformist_status_2:0 "§Yреформаторы заметны§!"
+ FOTIC_SOV_reformist_status_3:0 "§Tреформаторы задают тон§!"
+ FOTIC_SOV_reformist_status_4:0 "§Tреформа стала курсом§!"
+
+ FOTIC_SOV_conservative_status_1:0 "§Gконсерваторы притихли§!"
+ FOTIC_SOV_conservative_status_2:0 "§Yконсерваторы ворчат§!"
+ FOTIC_SOV_conservative_status_3:0 "§Tконсерваторы консолидируются§!"
+ FOTIC_SOV_conservative_status_4:0 "§Rконсерваторы готовы давить§!"
+
+ FOTIC_SOV_blackmarket_status_1:0 "§Gтеневой оборот невелик§!"
+ FOTIC_SOV_blackmarket_status_2:0 "§Yфарцовка и кооперативы растут§!"
+ FOTIC_SOV_blackmarket_status_3:0 "§Tтеневая экономика кормит города§!"
+ FOTIC_SOV_blackmarket_status_4:0 "§Rрынок ушёл в тень§!"
+
+ FOTIC_SOV_treaty_status_1:0 "§Rдоговор остаётся на бумаге§!"
+ FOTIC_SOV_treaty_status_2:0 "§Yидут переговоры§!"
+ FOTIC_SOV_treaty_status_3:0 "§Gконтуры нового Союза видны§!"
+ FOTIC_SOV_treaty_status_4:0 "§Gновый Союз почти согласован§!"
+ fotic_sov_state_of_union:0 "Состояние Союза"

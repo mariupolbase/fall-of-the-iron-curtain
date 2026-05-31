@@ -1,0 +1,34 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					OR = {
+						original_tag = POL
+						original_tag = DDR
+						original_tag = ROM
+						original_tag = BUL
+						original_tag = HUN
+						original_tag = CZE
+					}
+				}
+				add_ideas = idea_wto_membership
+				set_rule = {
+					can_join_factions = no
+					can_create_factions = no
+				}
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			if = {
+				limit = {
+					has_idea = idea_wto_membership
+					NOT = { is_in_faction_with = SOV }
+				}
+				SOV = { add_to_faction = ROOT }
+			}
+		}
+	}
+}
