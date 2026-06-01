@@ -1,0 +1,20 @@
+add_namespace = wgr
+
+country_event = {
+	id = wgr.1
+	title = wgr.1.t
+	desc = wgr.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wgr.1.a
+        news_event = news_90x.2
+	    annex_country = {
+			target = DDR
+			transfer_troops = yes
+		}
+		set_capital = { state = 984 remember_old_capital = no }
+    }
+}

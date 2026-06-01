@@ -27,6 +27,6 @@ set_popularities = {
 add_ideas = {
 
 }
-
+country_event = { id = ddr.1 days = 274 }
 
 recruit_character = DDR_Manfred

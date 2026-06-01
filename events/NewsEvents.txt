@@ -1,7 +1,7 @@
-add_namespace = 90x_news
+add_namespace = news_90x
 
 news_event = {
-	id = 90x_news.1
+	id = news_90x.1
 	title = news.1.t
 	desc = news.1.d
 	picture = GFX_news_event_075
@@ -25,8 +25,8 @@ news_event = {
 		name = news.1.a
 		trigger = {
 		NOT = {
-		tag = USA
-		}
+			tag = USA
+			}
 		}
 	}
 	option = {
@@ -34,5 +34,31 @@ news_event = {
 		trigger = {
 		tag = USA
 		}
+	}
+}
+news_event = {
+	id = news_90x.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_076
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.2.a
+		trigger = {
+		NOT = {
+			tag = SOV
+			}
+		}
+	}
+	option = {
+		name = news.2.b
+		trigger = {
+		tag = SOV
+		}
+		add_stability = -0.02
 	}
 }
