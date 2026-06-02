@@ -86,7 +86,7 @@ ITA_is_compatible_spanish_tag = { #THIS is Spanish tag, ROOT is ITA
 		AND = {
 			tag = SPD
 			OR = {
-				ROOT = { has_government = democratic }
+				ROOT = { has_government = communism }
 				ROOT = { has_government = communism }
 			}
 		}
@@ -229,7 +229,7 @@ ITA_is_in_liberation_war = {
 }
 
 ITA_is_valid_free_states_of_europe_target = {
-	has_government = democratic
+	has_government = communism
 	is_in_faction = no
 	is_subject = no
 	NOT = { has_war_with = ROOT }
@@ -387,7 +387,7 @@ ITA_has_rejected_monarchy = { # Used to change NS names from Regio/a to somethin
 	OR = {
 		has_government = communism
 		AND = {
-			has_government = democratic
+			has_government = communism
 		}
 		tag = RSI
 	}
@@ -502,7 +502,7 @@ ITA_is_kinda_fascist = {
 			custom_trigger_tooltip = {
 				tooltip = ITA_is_constitutional_monarchy_tt
 				AND = {
-					has_government = democratic
+					has_government = communism
 					OR = {
 					}
 				}
@@ -522,7 +522,7 @@ ITA_is_anti_fascist = {
 			custom_trigger_tooltip = {
 				tooltip = ITA_is_not_constitutional_monarchy_tt
 				AND = {
-					has_government = democratic
+					has_government = communism
 					OR = {
 					}
 				}
@@ -532,7 +532,7 @@ ITA_is_anti_fascist = {
 	else = {
 		OR = {
 			has_government = communism
-			has_government = democratic
+			has_government = communism
 		}
 	}
 }

@@ -80,14 +80,14 @@
 					original_tag  = CZE
 				}
 				available = {
-					has_government = democratic
+					has_government = communism
 					is_country_leader = no
 					NOT = {
 					}
 				}
 				visible = {
 					is_country_leader = no
-					has_government = democratic
+					has_government = communism
 					NOT = {
 					}
 				}
@@ -626,7 +626,6 @@
 			}
 			available = { #too important to restrict
 				# OR = {
-				# 	has_government = democratic
 				# 	AND = {
 				# 		has_government = communism
 				# 		has_completed_focus = CZE_zapotocky_faction
@@ -918,12 +917,12 @@
 				original_tag  = CZE
 			}
 			available = {
-				has_government = democratic
+				has_government = communism
 				NOT = {
 				}
 			}
 			visible = {
-				has_government = democratic
+				has_government = communism
 			}
 			cost = 75
 			traits = {
@@ -984,10 +983,10 @@
 					original_tag  = CZE
 				}
 				available = {
-					has_government = democratic
+					has_government = communism
 				}
 				visible = {
-					has_government = democratic
+					has_government = communism
 				}
 				cost = 75
 				traits = {
@@ -1113,13 +1112,11 @@
 			available = {
 				OR = {
 					has_government = communism
-					has_government = democratic
 				}
 			}
 			visible = {
 				OR = {
 					has_government = communism
-					has_government = democratic
 				}
 			}
 			cost = 150
@@ -1368,10 +1365,10 @@
 				original_tag  = CZE
 			}
 			available = {
-				has_government = democratic
+				has_government = communism
 			}
 			visible = {
-				has_government = democratic
+				has_government = communism
 				NOT = {
 				}
 			}
@@ -1797,7 +1794,7 @@
 					original_tag  = CZE
 				}
 				available = {
-					has_government = democratic
+					has_government = communism
 				}
 				visible = {
 					NOT = {
@@ -2003,7 +2000,7 @@
 					original_tag  = CZE
 				}
 				available = {
-					has_government = democratic
+					has_government = communism
 				}
 				visible = {
 					NOT = {
@@ -2035,7 +2032,7 @@
 					original_tag  = CZE
 				}
 				available = {
-					has_government = democratic
+					has_government = communism
 				}
 				traits = {
 					financial_expert
@@ -2138,7 +2135,6 @@
 			}
 			available = {
 				OR = {
-					has_government = democratic
 					has_government = communism
 				}
 			}
@@ -3590,7 +3586,7 @@
 				original_tag = CZE
 			}
 			available = {
-				has_government = democratic
+				has_government = communism
 				is_subject = no
 				NOT = {
 					has_war_with = FRA
@@ -4702,7 +4698,7 @@
 					limit = {
 						original_tag = CZE
 					}
-					has_government = democratic
+					has_government = communism
 				}
 				if = {
 					limit = {

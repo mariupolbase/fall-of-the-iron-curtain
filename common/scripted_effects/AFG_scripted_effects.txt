@@ -50,7 +50,7 @@ add_ideology_drift_based_on_partner = {
 	}
 	ELSE_IF = {
 		limit = {
-			has_government = democratic
+			has_government = communism
 		}
 		ROOT = {
 			add_timed_idea = {

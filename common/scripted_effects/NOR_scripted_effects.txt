@@ -908,64 +908,6 @@ NOR_start_fascist_civil_war = {
 	}
 }
 
-NOR_fcw_effect_fascist_player = {
-	start_civil_war = {
-		ruling_party = fascism 
-		ideology = democratic
-		size = party_popularity@democratic 
-		states = all 
-		states_filter = {
-			 is_controlled_by = ROOT 
-			 NOT = {
-			 	state = 110
-			 } 
-		}
-		keep_all_characters = yes  
-
-		ROOT = {
-			hidden_effect = { add_stability = 0.30 } 
-		}
-	}
-	random_other_country = {
-		limit = {
-			original_tag = NOR 
-			NOT = { has_government = fascism }
-		}
-		set_variable = { NOR.NOR_cw_democratic_norway = THIS }
-	}
-	every_character = {
-		limit = {
-			has_character_flag = NOR_anti_fascist
-		}
-		set_nationality = var:NOR.NOR_cw_democratic_norway 
-	}
-	var:NOR.NOR_cw_democratic_norway = {
-		NOR_johan_nygaardsvold = {
-			promote_character = yes
-		}
-		NOR_spawn_democratic_militia = yes 
-	}
-	ROOT = {
-		add_popularity = {
-			ideology = fascism
-			popularity = 0.60
-		}
-		add_manpower = 10000
-		set_cosmetic_tag = NOR_fascism
-	}
-
-	110 = {
-		if = {
-			limit = {
-				check_variable = { NOR_state_preparation > 0 }
-			}
-			NOR_deploy_prep_fasc_basic_effects = yes 
-		}
-		transfer_state_to = ROOT
-	}
-	set_global_flag = NOR_norwegian_fascist_cw_started	
-} 
-
 NOR_fcw_effect_democratic_player = {
 	start_civil_war = {
 		ruling_party = democratic 
@@ -1011,7 +953,7 @@ NOR_fcw_big_fascist_support = {
 	random_country = {
 		limit = {
 			original_tag = NOR 
-			has_government = democratic
+			has_government = communism
 			has_civil_war = yes 
 		}
 		NOR = {
@@ -1139,86 +1081,6 @@ NOR_spawn_hirden = {
 			division = "name = \"5. Hirden Milits\" division_template = \"Hirden Milits\" start_experience_factor = 0.6" 
 			owner = ROOT
 		}
-	}
-}
-
-
-NOR_start_communist_civil_war = {
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = NOR_sorted_characters
-			}		
-		}
-		NOR_character_flag_setup_for_cw = yes 
-	}
-	start_civil_war = {
-		ideology = democratic
-		ruling_party = communism 
-		size = party_popularity@democratic 
-		states = all 
-		states_filter = {
-			 OR = {
-				 NOT = { has_variable = NOR_state_preparation }
-				 state = 110 
-			 }
-		}
-		keep_all_characters = yes 
-	}
-	random_other_country = {
-		limit = {
-			original_tag = NOR
-			NOT = {
-				has_government = communism 
-			}
-		}
-		set_variable = { NOR.NOR_bourgeois_norway = THIS }
-	}
-	NOR = {
-		if = {
-			limit = {
-			}
-			every_character = {
-				limit = {
-					OR = {
-						has_character_flag = NOR_anti_trostky
-						has_character_flag = NOR_anti_communist
-					}
-				}
-				set_nationality = var:NOR.NOR_bourgeois_norway 		
-			}
-		}
-		else = {
-			every_character = {
-				limit = {
-					OR = {
-						has_character_flag = NOR_anti_stalin
-						has_character_flag = NOR_anti_communist
-					}
-				}
-				set_nationality = var:NOR.NOR_bourgeois_norway 		
-			}
-		}
-	}
-	var:NOR.NOR_bourgeois_norway = {
-		uncomplete_national_focus = {
-			focus = NOR_a_resurgent_labor_movement
-			uncomplete_children = yes 
-		}
-		complete_national_focus = NOR_vote_of_no_confidence
-	}
-	NOR_create_communist_templates = yes
-	add_popularity = {
-		ideology = communism 
-		popularity = 0.25
-	}
-	set_cosmetic_tag = NOR_cw_communism
-	every_controlled_state = {
-		limit = {
-			check_variable = { NOR_state_preparation > 1 }
-		}
-		NOR_spawn_militias_in_state = yes 
-		NOR_deploy_prep_comm_damage = yes 
 	}
 }
 

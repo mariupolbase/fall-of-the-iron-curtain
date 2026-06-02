@@ -476,7 +476,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 					
 			modifier = {
@@ -538,7 +538,7 @@ ideas = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = communism
 					}
 				}
 			}
@@ -577,9 +577,9 @@ ideas = {
 						}
 					}
 					AND = {
-						has_government = democratic
+						has_government = communism
 						GER = {
-							has_government = democratic
+							has_government = communism
 						}
 					}
 				}
@@ -3278,7 +3278,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			available = {
 				has_global_flag = second_italo_ethiopian_war_flag
@@ -3287,7 +3287,6 @@ ideas = {
 			modifier = {
 				political_power_factor = -0.3
 				war_support_weekly = -0.01
-				democratic_drift = -0.01
 			}
 		}
 		ITA_public_questions_war_effort_idea_communism = {

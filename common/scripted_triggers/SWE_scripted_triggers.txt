@@ -173,7 +173,7 @@ SWE_cross_we_bear_state_condition_trigger = {
 			is_in_faction_with = SWE
 			is_subject = no
 			OR = {
-				has_government = democratic
+				has_government = communism
 				has_government = neutrality
 			}
 		}

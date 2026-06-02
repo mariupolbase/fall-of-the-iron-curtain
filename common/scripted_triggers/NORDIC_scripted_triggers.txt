@@ -32,7 +32,7 @@ NORDIC_is_democratic = {
 		original_tag = ICE
 	}
 	OR = {
-		has_government = democratic
+		has_government = communism
 		has_government = neutrality
 	}
 	NOT = { has_cosmetic_tag = ICE_independent_kingdom }
@@ -46,7 +46,7 @@ NORDIC_is_monarchist = {
 		original_tag = ICE
 	}
 	OR = {
-		has_government = democratic
+		has_government = communism
 		has_government = neutrality
 	}
 	OR = {

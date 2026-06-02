@@ -307,7 +307,6 @@ ideas = {
 				consumer_goods_factor = 0.1
 				stability_weekly = 0.005
 				communism_drift = 0.02
-				democratic_drift = 0.02
 			}
 
 			on_remove = {
@@ -439,7 +438,7 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
@@ -541,12 +540,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.02
 				communism_drift = 0.01
 				political_power_factor = 0.15
 			}
@@ -563,12 +561,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.02
 				neutrality_drift = 0.01
 				political_power_factor = 0.05
 				production_speed_infrastructure_factor = 0.05
@@ -586,12 +583,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.02
 				communism_drift = 0.05
 				political_power_factor = 0.1
 				war_support_factor = 0.05
@@ -609,12 +605,12 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.02
+				communism_drift = 0.02
 				communism_drift = 0.02
 				neutrality_drift = 0.01
 				political_power_factor = 0.2
@@ -632,12 +628,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.02
 				neutrality_drift = 0.05
 				political_power_factor = 0.05
 				stability_factor = 0.1
@@ -655,12 +650,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = CHL
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.01
 				neutrality_drift = 0.01
 				communism_drift = -0.02
 				political_power_factor = 0.05
@@ -683,7 +677,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				#democratic_drift = 0.02
+				#
 				#fascism_drift = 0.03
 				democratic_acceptance = 30
 				fascism_acceptance = 30
@@ -1697,7 +1691,7 @@ ideas = {
 			picture = EST_democratic_opposition
 			
 			modifier = {
-				democratic_drift = 0.05
+				
 				stability_factor = -0.15
 			}
 		}

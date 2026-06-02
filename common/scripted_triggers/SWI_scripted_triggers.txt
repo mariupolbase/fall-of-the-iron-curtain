@@ -41,7 +41,7 @@ SWI_is_at_war_with_neighbor = { #Checks if it's at war with your major neighbor
 
 SWI_is_democratic_to_balance = {
 	SWI_is_country_to_balance = yes 
-	has_government = democratic	
+	has_government = communism	
 }
 
 SWI_is_fascist_to_balance = {
@@ -94,7 +94,7 @@ is_suitable_democratic_major = {
 	capital_scope = { is_on_continent = europe }
 	exists = yes
 	has_capitulated = no
-	has_government = democratic
+	has_government = communism
 	NOT = { has_war_with = ROOT }	
 }
 
@@ -102,7 +102,7 @@ is_possible_secret_ally = {
 	is_major = yes
 	exists = yes
 	has_capitulated = no
-	has_government = democratic
+	has_government = communism
 	NOT = { has_war_with = ROOT }	
 	OR = {
 		is_faction_leader = yes
@@ -176,7 +176,7 @@ SWI_country_opinion_is_dangerous = {
 SWI_dem_usa_valid_to_buy_planes = {
 	USA = { 
 		exists = yes
-		has_government = democratic
+		has_government = communism
 		NOT = { has_war_with = ROOT }
 	 }
 }
@@ -365,7 +365,7 @@ SWI_president_compatible_with_country_politics = {
 		var:SWI_confederation_president = {
 			OR = {
 				AND = {
-					ROOT = { has_government = democratic }
+					ROOT = { has_government = communism }
 					OR = {
 						SWI_councilor_is_democratic_socialism = yes
 						SWI_councilor_is_democratic_conservatism = yes
@@ -501,7 +501,7 @@ SWI_someone_is_about_to_be_angry = {
 SWI_any_democratic_to_balance_is_about_to_be_angry = {
 	any_other_country = {
 		SWI_is_country_to_balance = yes 
-		has_government = democratic 
+		has_government = communism 
 		SWI_country_about_to_be_angry = yes 
 	}
 }

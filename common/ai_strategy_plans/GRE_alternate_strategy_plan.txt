@@ -173,51 +173,6 @@ GRE_alternate_communist_plan = {
 
 }
 
-GRE_democratic_plan = {
-	name = "Greece Democratic Plan"
-	desc = "Greece will fight for the right to fulfill the Megali Idea"
-
-	allowed = {
-		original_tag = GRE
-	}
-	enable = {
-		OR = {
-			has_country_flag = GRE_AI_RANDOM_DEMOCRATIC
-			has_game_rule = {
-				rule = GRE_ai_behavior 
-				option = DEMOCRATIC
-			}
-		}
-	}
-	abort = {
-		AND = { 
-			ENG = { NOT = { has_government = democratic } }
-			FRA = { NOT = { has_government = democratic } }
-		}
-	}
-
-	ai_national_focuses = {
-	}
-
-	research = {
-
-	}
-
-	ideas = {
-		
-	}
-
-	# Keep small, as it is used as a factor for some things (such as research needs)
-	# Recommended around 1.0. Useful for relation between plans
-	weight = {
-		factor = 1.0
-		modifier = {
-			factor = 1.0
-		}
-	}
-
-}
-
 GRE_fascist_plan = {
 	name = "Greece Fascist Plan"
 	desc = "Greece will become a National Socialist republic and attempt to join the Axis alongside Turkey"

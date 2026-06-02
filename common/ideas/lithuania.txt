@@ -87,7 +87,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = -0.1
+				
 				communism_drift = -0.1
 				fascism_drift = 0.1
 				neutrality_drift = 0.1
@@ -119,7 +119,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = -0.1
+				
 				fascism_drift = -0.1
 				neutrality_drift = -0.1
 				communism_drift = 0.1
@@ -308,7 +308,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.05
+				
 				industrial_capacity_factory = 0.1
 			}
 		}
@@ -328,7 +328,7 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = -0.05
-				democratic_drift = -0.1
+				
 			}
 		}
 
@@ -425,7 +425,7 @@ ideas = {
 			modifier = {
 				neutrality_drift = 0.05
 				communism_drift = -0.05
-				democratic_drift = -0.05
+				
 				fascism_drift = -0.05
 			}
 		}
@@ -577,7 +577,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				democratic_drift = 0.05
+				
 				stability_factor = -0.15
 				political_advisor_cost_factor = 0.15
 				economy_cost_factor = 0.15
@@ -701,7 +701,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = neutrality
-					has_government = democratic
+					has_government = communism
 				}
 			}
 

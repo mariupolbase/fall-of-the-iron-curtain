@@ -1571,7 +1571,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 					AND = {
 						FROM = {
 							NOT = { has_government = communism }
-							NOT = { has_government = democratic }
+							NOT = { has_government = communism }
 						}
 					}
 				}
@@ -1640,7 +1640,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = communism
 				}
 				FROM = { original_tag = SPR }
 				OR = {
@@ -1661,7 +1661,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 							NOT = { has_dlc = "La Resistance" }
 							FROM = {
 								NOT = { has_government = communism }
-								NOT = { has_government = democratic }
+								NOT = { has_government = communism }
 							}
 						}
 					}
@@ -1709,7 +1709,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 				original_tag = SOV
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = communism
 				}
 				FROM = { original_tag = SPR }
 			}
@@ -1725,7 +1725,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 							NOT = { has_dlc = "La Resistance" }
 							FROM = {
 								NOT = { has_government = communism }
-								NOT = { has_government = democratic }
+								NOT = { has_government = communism }
 							}
 						}
 					}

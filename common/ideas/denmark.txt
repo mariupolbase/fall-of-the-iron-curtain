@@ -813,7 +813,7 @@ ideas = {
  				monthly_population = -0.1
  				stability_weekly = -0.001
  				neutrality_drift = 0.02
- 				democratic_drift = -0.05
+ 				
 			}
 		}
 

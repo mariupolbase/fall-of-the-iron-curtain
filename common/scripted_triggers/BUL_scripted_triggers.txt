@@ -96,7 +96,7 @@ BUL_country_seeks_macedonian_stability = {
 			AND = {
 				tag = ENG
 				OR = {
-					has_government = democratic
+					has_government = communism
 					is_in_faction_with = GRE
 					is_in_faction_with = YUG
 					803 = { controller = { is_in_faction_with = ENG } }
@@ -110,7 +110,7 @@ BUL_country_seeks_macedonian_stability = {
 			AND = {
 				tag = FRA
 				OR = {
-					has_government = democratic
+					has_government = communism
 					is_in_faction_with = GRE
 					is_in_faction_with = YUG
 					803 = { controller = { is_in_faction_with = ENG } }

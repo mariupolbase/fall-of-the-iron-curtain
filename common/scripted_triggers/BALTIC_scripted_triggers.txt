@@ -54,7 +54,7 @@ suitable_democratic_major_in_europe = {
 		capital_scope = { is_on_continent = europe }
 		exists = yes 
 		has_capitulated = no 
-		has_government = democratic
+		has_government = communism
 		NOT = { has_war_with = ROOT } 
 	}
 }

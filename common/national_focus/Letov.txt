@@ -17,7 +17,7 @@ focus_tree = {
 	focus = {
 		id = SOV_borders
 		icon = GFX_SOV_Perestroyka
-		cost = 70.00
+		cost = 10.00
 		x = 8
 		y = 1
 		available = {
@@ -25,17 +25,13 @@ focus_tree = {
 		}
 		completion_reward = {
 		add_political_power = 75
-			add_popularity = {
-				ideology = democratic 
-				popularity = 0.05
-			}
 		}
 	}
 
 	focus = {
 		id = SOV_Lenin
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 70.00
+		cost = 10.00
 		prerequisite = {
 			focus = SOV_borders
 		}

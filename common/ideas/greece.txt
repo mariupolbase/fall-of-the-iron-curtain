@@ -1268,7 +1268,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1305,7 +1305,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1342,7 +1342,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1378,7 +1378,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1415,7 +1415,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1456,7 +1456,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}
@@ -1494,7 +1494,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = democratic 
+						has_government = communism 
 					}
 				}
 			}

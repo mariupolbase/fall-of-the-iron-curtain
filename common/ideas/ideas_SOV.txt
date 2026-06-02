@@ -138,19 +138,11 @@ ideas = {
 			}
 			on_add = {
 				add_popularity = {
-					ideology = democratic
-					popularity = 0.02
-				}
-				add_popularity = {
 					ideology = social_liberalism
 					popularity = 0.01
 				}
 			}
 			on_remove = {
-				add_popularity = {
-					ideology = democratic
-					popularity = -0.02
-				}
 				add_popularity = {
 					ideology = social_liberalism
 					popularity = -0.01

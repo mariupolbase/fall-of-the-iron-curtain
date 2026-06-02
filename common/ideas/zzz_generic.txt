@@ -347,7 +347,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -355,7 +355,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				democratic_acceptance = 85
 			}
 		}
@@ -430,7 +430,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -438,7 +438,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				democratic_acceptance = 35
 			}
 		}
@@ -616,7 +616,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -624,7 +624,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				stability_factor = 0.1
 			}
 		}
@@ -683,7 +683,6 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
 			}
 		}
 	
@@ -695,7 +694,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			removal_cost = -1

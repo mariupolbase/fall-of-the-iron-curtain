@@ -258,7 +258,7 @@ FIN_MIL_01 = {
 	#can_use = { #MM: Broken
 	#	NOT = {
 	#		has_government = communism
-	#		has_government = democratic
+	#		has_government = communism
 	#	}
 	#}
 

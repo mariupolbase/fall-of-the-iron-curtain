@@ -845,7 +845,7 @@ GER_MOT_01 = {
 	can_use = {
 		OR = {
 			has_government = neutrality 
-			has_government = democratic 
+			has_government = communism 
 			has_government = communism
 		}
 		OR = {
@@ -923,7 +923,7 @@ GER_MEC_01_MONARNCHIST = {
 	can_use = { 
 		OR = {
 			has_government = neutrality 
-			has_government = democratic 
+			has_government = communism 
 		}
 		OR = {
 		}
@@ -1107,7 +1107,7 @@ GER_Arm_01_ANTIFASCIST = {
 	can_use = {
 		OR = {
 			has_government = neutrality
-			has_government = democratic
+			has_government = communism
 			has_government = communism
 		}
 	}
@@ -1195,7 +1195,7 @@ GER_MIL_02 = {
 	can_use = { 
 		OR = {
 			has_government = neutrality 
-			has_government = democratic 
+			has_government = communism 
 			has_government = fascism
 		}
 	}
@@ -1306,7 +1306,7 @@ GER_MONINF_01 = {
 	can_use = { 
 		OR = {
 			has_government = neutrality 
-			has_government = democratic 
+			has_government = communism 
 		}
 		OR = {
 		}
@@ -1541,7 +1541,7 @@ GER_MONMOB_01 = {
 	can_use = { 
 		OR = {
 			has_government = neutrality 
-			has_government = democratic 
+			has_government = communism 
 		}
 		OR = {
 		}

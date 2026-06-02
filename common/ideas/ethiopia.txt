@@ -196,7 +196,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			available = {
 				has_country_leader_with_trait = imperator_absentis
@@ -206,7 +206,6 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.1
-				democratic_drift = 0.15
 			}
 		}
 
@@ -1087,7 +1086,7 @@ ideas = {
 			picture = generic_democratic_drift_bonus		
 
 			modifier = {
-				democratic_drift = 0.05
+				
 				legitimacy_daily = -1
 			}
 		}

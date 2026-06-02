@@ -15,7 +15,7 @@ USA_alternate_plan_1 = {
 				}
 			}
 		}
-		has_government = democratic
+		has_government = communism
 		OR = {
 			GER = {
 				has_war = yes

@@ -1562,7 +1562,7 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_drift = 0.1
+				
 				autonomy_gain = 3
 			}
 		}

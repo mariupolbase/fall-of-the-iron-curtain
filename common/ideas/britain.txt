@@ -14,7 +14,7 @@ ideas = {
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = communism
 						NOT = {
 							tag = ROOT
 						}
@@ -42,7 +42,7 @@ ideas = {
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = communism
 						NOT = {
 							tag = ROOT
 						}
@@ -95,7 +95,7 @@ ideas = {
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_government = communism
 						NOT = {
 							tag = ROOT
 						}
@@ -357,7 +357,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			picture = generic_morale_bonus
@@ -551,7 +551,6 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_drift = 0.1
 				stability_weekly = 0.002
 			}
 
@@ -689,7 +688,6 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_drift = -0.1
 				war_support_factor = 0.1
 				political_power_factor = 0.1
 			}
@@ -922,7 +920,6 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_drift = -0.02
 			}
 
 			targeted_modifier = {
@@ -1293,7 +1290,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
@@ -1314,7 +1311,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
@@ -1337,7 +1334,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
@@ -1400,11 +1397,10 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
-				democratic_drift = 0.2
 			}
 
 			picture = generic_pp_unity_bonus

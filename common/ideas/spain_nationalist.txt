@@ -217,7 +217,7 @@ ideas = {
 			allowed = {
 				original_tag = SPR
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = fascism
 					has_government = neutrality
 				}

@@ -72,7 +72,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -93,7 +93,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -147,7 +147,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -169,7 +169,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -190,7 +190,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -466,7 +466,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = communism
 				}
 			}
 
@@ -485,7 +485,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = communism
 				}
 			}
 
@@ -506,7 +506,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = communism
 				}
 			}
 
@@ -677,7 +677,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -696,7 +696,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -882,7 +882,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -905,7 +905,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1			
@@ -924,7 +924,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1			
@@ -944,7 +944,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1			
@@ -960,7 +960,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 
@@ -976,7 +976,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			removal_cost = -1
 
@@ -1122,7 +1122,7 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -1135,20 +1135,20 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				democratic_drift = 0.05
+				
 			}
 		} 
 		american_protection_defence_democratic = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
@@ -1161,13 +1161,13 @@ ideas = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				democratic_drift = 0.05
+				
 			}			
 		}
 			# idea for the protect Amercians focus - USA communist

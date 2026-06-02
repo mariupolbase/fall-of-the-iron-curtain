@@ -16,7 +16,7 @@ focus_tree = {
 		icon = GFX_goal_generic_war_with_comintern
 		x = 2
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_political_power = -25
 			add_stability = 0.05
@@ -26,7 +26,7 @@ focus_tree = {
 	focus = {
 		id = NKR_pobkom
 		icon = GFX_goal_generic_war_with_comintern
-		cost = 70
+		cost = 10
 		prerequisite = { focus = NKR_parlvib }
 		x = 2
 		y = 1
@@ -34,15 +34,10 @@ focus_tree = {
 			add_political_power = 100
 			add_stability = 0.05
 			set_popularities = {
-				democratic = 7.4
+				social_democracy = 7.4
 				neutrality = 1.9
 				fascism = 3.2
 				communism = 87.5
-				anarchism = 0
-				social_democracy = 0
-				social_liberalism = 0
-				market_liberalism = 0
-				conservatism = 0
 			}
 		}
 	}
@@ -52,7 +47,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		x = 2
 		y = 2
-		cost = 70
+		cost = 10
 		prerequisite = { focus = NKR_pobkom }
 		mutually_exclusive = { focus = NKR_iskopp }
 		completion_reward = {
@@ -63,7 +58,7 @@ focus_tree = {
 	focus = {
 		id = NKR_iskopp
 		icon = GFX_goal_generic_war_with_comintern
-		cost = 70
+		cost = 10
 		x = 6
 		y = 2
 		prerequisite = { focus = NKR_pobkom }
@@ -72,7 +67,6 @@ focus_tree = {
 			add_political_power = -50
 			add_stability = -0.05
 			add_manpower = -20000
-			add_popularity = { ideology = democratic popularity = -0.2 }
 			add_popularity = { ideology = neutrality popularity = -0.15 }
 			add_popularity = { ideology = fascism popularity = -0.15 }
 		}

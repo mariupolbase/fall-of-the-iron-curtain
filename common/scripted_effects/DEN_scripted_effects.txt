@@ -285,7 +285,7 @@ DEN_available_candidates = {
 DEN_socialdemokratiet_takes_over = {
 	if = {
 		limit = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
 		}
 		if = {
 			limit = {
@@ -336,11 +336,6 @@ DEN_socialdemokratiet_takes_over = {
 				NOT = { has_character = DEN_thorvald_stauning } #He be dead
 			}
 			DEN_remove_democratic_leader = yes
-			set_party_name = {
-				ideology = democratic
-				name = DEN_democratic_party
-				long_name = DEN_democratic_party_long
-			}
 			DEN_vilhelm_buhl = {
 				add_country_leader_role = {
 					promote_leader = yes
@@ -354,11 +349,6 @@ DEN_socialdemokratiet_takes_over = {
 		}
 		else = {
 			DEN_remove_democratic_leader = yes
-			set_party_name = {
-				ideology = democratic
-				name = DEN_democratic_party
-				long_name = DEN_democratic_party_long
-			}
 			DEN_thorvald_stauning = {
 				add_country_leader_role = {
 					promote_leader = yes
@@ -376,7 +366,7 @@ DEN_socialdemokratiet_takes_over = {
 DEN_venstre_takes_over = {	
 	if = {
 		limit = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
 		}
 		set_politics = {
 			ruling_party = democratic
@@ -400,11 +390,6 @@ DEN_venstre_takes_over = {
 			DEN_knud_kristensen = { is_country_leader = no }
 		}
 		DEN_remove_democratic_leader = yes
-		set_party_name = {
-			ideology = democratic
-			name = DEN_democratic_venstre_party
-			long_name = DEN_democratic_venstre_party_long
-		}
 		DEN_knud_kristensen = {
 			add_country_leader_role = {
 				promote_leader = yes
@@ -434,7 +419,7 @@ DEN_communists_takes_over = {
 DEN_konservative_takes_over = {
 	if = {
 		limit = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
 		}
 		set_politics = {
 			ruling_party = democratic
@@ -458,11 +443,6 @@ DEN_konservative_takes_over = {
 			DEN_christmas_moller = { is_country_leader = no }
 		}
 		DEN_remove_democratic_leader = yes
-		set_party_name = {
-			ideology = democratic
-			name = DEN_democratic_konservative_party
-			long_name = DEN_democratic_konservative_party_long
-		}
 		DEN_christmas_moller = {
 			add_country_leader_role = {
 				promote_leader = yes
@@ -507,7 +487,7 @@ DEN_fascists_takes_over = {
 DEN_erik_scavenius_takes_over = {	
 	if = {
 		limit = {
-			NOT = { has_government = democratic }
+			NOT = { has_government = communism }
 		}
 		set_politics = {
 			ruling_party = democratic
@@ -531,11 +511,6 @@ DEN_erik_scavenius_takes_over = {
 			DEN_erik_scavenius = { is_country_leader = no }
 		}
 		DEN_remove_democratic_leader = yes
-		set_party_name = {
-			ideology = democratic
-			name = DEN_democratic_venstre_party
-			long_name = DEN_democratic_venstre_party_long
-		}
 		DEN_erik_scavenius = {
 			add_country_leader_role = {
 				promote_leader = yes
@@ -4047,7 +4022,7 @@ DEN_create_the_plenipotentiary = { #This is set up in an event and will create a
 	else_if = {
 		limit = {
 			FROM = { #Overlord Scope
-				has_government = democratic
+				has_government = communism
 			}
 		}
 		FROM = {
@@ -4099,7 +4074,7 @@ DEN_install_a_plenipotentiary = {
 	else_if = {
 		limit = {
 			FROM = { #Overlord Scope
-				has_government = democratic
+				has_government = communism
 			}
 		}
 		set_politics = { #Denmark Scope

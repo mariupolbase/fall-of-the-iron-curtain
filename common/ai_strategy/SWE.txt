@@ -82,47 +82,6 @@ SWE_armored_production = {
 	
 }
 
-SWE_trade_with_poland = {
-	# Poland has a mirrored version of this
-	allowed = {
-		original_tag = SWE
-	}
-	enable = {
-		OR = {
-			POL = { has_government = neutrality }
-			POL = { has_government = democratic }
-		}
-		has_government = democratic
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = equipment_market_trade_desire
-		id = POL
-		value = 60
-	}
-}
-
-SWE_trade_with_czech = {
-	allowed = {
-		original_tag = SWE
-	}
-	enable = {
-		has_government = democratic
-		CZE = {
-			exists = yes
-			has_government = democratic
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = equipment_market_trade_desire
-		id = CZE
-		value = 40
-	}
-}
-
 SWE_trade_with_italy = {
 	allowed = {
 		original_tag = SWE

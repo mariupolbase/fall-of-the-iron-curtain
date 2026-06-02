@@ -36,7 +36,7 @@ German_historical = {
 			}
 			ENG = {
 				NOT = {
-					has_government = democratic
+					has_government = communism
 				}
 			}
 			any_country_with_original_tag = {
@@ -53,7 +53,6 @@ German_historical = {
 				}
 			}
 			is_subject = yes
-			has_government = democratic
 			has_government = communism
 		}
 	}

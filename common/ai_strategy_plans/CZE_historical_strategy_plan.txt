@@ -29,7 +29,7 @@ CZE_historical_strategy_plan = {
 				}
 			}
 			FRA = {
-				not = { has_government = democratic }
+				not = { has_government = communism }
 			}
 		}
 		has_game_rule = {

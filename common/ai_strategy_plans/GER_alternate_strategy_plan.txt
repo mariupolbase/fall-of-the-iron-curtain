@@ -581,7 +581,6 @@ German_alternate_fascist = {
 	abort = {
 		OR = {
 			is_subject = yes
-			has_government = democratic
 			has_government = communism
 		}
 	}

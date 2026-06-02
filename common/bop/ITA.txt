@@ -454,7 +454,7 @@ ITA_power_balance = {
 						}
 						promote_character = {
 							character = ITA_alcide_de_gasperi
-							ideology = democratic
+							ideology = neutrality
 						}
 					}
 					else_if = {
@@ -462,7 +462,7 @@ ITA_power_balance = {
 						}
 						promote_character = {
 							character = ITA_vittorio_emanuele_iii
-							ideology = democratic
+							ideology = neutrality
 						}
 					}
 					else = {
@@ -782,7 +782,6 @@ ITA_power_balance = {
 			min = 0.1
 			max = 0.3
 			modifier = {
-				democratic_drift = 0.01
 				civil_war_involvement_tension = -0.02
 				guarantee_tension = -0.02
 				puppet_cost_factor = -0.3
@@ -800,7 +799,6 @@ ITA_power_balance = {
 			min = 0.3
 			max = 0.6
 			modifier = {
-				democratic_drift = 0.02
 				civil_war_involvement_tension = -0.04
 				guarantee_tension = -0.04
 				puppet_cost_factor = -0.6
@@ -818,7 +816,6 @@ ITA_power_balance = {
 			min = 0.6
 			max = 0.9
 			modifier = {
-				democratic_drift = 0.03
 				civil_war_involvement_tension = -0.06
 				guarantee_tension = -0.06
 				puppet_cost_factor = -0.9
@@ -837,7 +834,6 @@ ITA_power_balance = {
 			min = 0.9
 			max = 1
 			modifier = {
-				democratic_drift = 0.04
 				civil_war_involvement_tension = -0.1
 				guarantee_tension = -0.1
 				puppet_cost_factor = -0.15

@@ -280,7 +280,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -302,7 +302,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -327,7 +327,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -350,7 +350,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -374,7 +374,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -399,7 +399,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -426,7 +426,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -553,7 +553,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism
 					}
 				}
@@ -574,7 +574,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = communism 
 					}
 				}
@@ -670,7 +670,7 @@ ideas = {
 				always = yes
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			picture = CHL_liberal_party_in_power
 
@@ -687,7 +687,7 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			picture = HUN_the_cult_of_arpad_idea
 
@@ -1112,7 +1112,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = communism
 				}
 			}
@@ -1368,7 +1368,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = communism
 				}
 			}
@@ -1390,7 +1390,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = communism
 				}
 			}
@@ -1399,7 +1399,7 @@ ideas = {
 				stability_weekly = -0.002
 				political_power_factor = 0.15
 				communism_drift = 0.05
-				democratic_drift = 0.1
+				
 			}
 		}
 
@@ -1585,7 +1585,7 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			picture = generic_local_self_management
 
@@ -1600,7 +1600,7 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			picture = HUN_the_dragon_movement_idea
 
@@ -1761,12 +1761,12 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			available = {
 				OR = {
-					has_government = democratic
+					has_government = communism
 					AND = {
 						has_government = neutrality
 					}
@@ -1774,7 +1774,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				
 				stability_factor = 0.1
 			}
 		}
@@ -1788,19 +1788,18 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			available = {
 				
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = neutrality
 				}
 			}
 			
 			modifier = {
-				democratic_drift = 0.04
 				neutrality_drift = 0.01
 				stability_factor = 0.15
 				political_power_factor = 0.1
@@ -1839,15 +1838,15 @@ ideas = {
 			picture = HUN_hungarian_monarchy_democratic
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			available = { 
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				
 				fascism_drift = -0.01
 				communism_drift = -0.01
 				stability_factor = 0.1
@@ -1864,19 +1863,19 @@ ideas = {
 				original_tag = HUN
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 
 			available = {
 				
 				OR = {
-					has_government = democratic
+					has_government = communism
 					has_government = neutrality
 				}
 			}
 			
 			modifier = {
-				democratic_drift = 0.05
+				
 				neutrality_drift = 0.02
 				fascism_drift = -0.03
 				communism_drift = -0.03
@@ -1916,11 +1915,11 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				
 			}
 		}
 
@@ -1930,7 +1929,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {

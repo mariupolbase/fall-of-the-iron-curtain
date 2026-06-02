@@ -685,92 +685,6 @@ USA_torch_boost = {
 	}
 }
 
-
-
-USA_save_the_aussies = {
-	allowed = { original_tag = USA }
-	enable = {
-		has_government = democratic
-		is_in_faction = no
-		has_war = no
-
-		JAP = {	has_war_with = AST }
-		AST = {
-			has_government = democratic
-			surrender_progress > 0.15
-		}
-		has_opinion = {
-			target = AST
-			value > 0 # not if we hate AST
-		}
-	}
-	abort = {
-		OR = {
-			has_war_with = AST
-			is_in_faction_with = JAP
-			JAP = {
-				NOT = { has_war_with = AST }
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = contain
-		id = "JAP"
-		value = 200
-	}
-
-	ai_strategy = {
-		type = protect
-		id = "AST"
-		value = 200
-	}
-	ai_strategy = {
-		type = support
-		id = "AST"
-		value = 100
-	}
-}
-
-USA_save_india = { # in the case where japan has beaten china and is moving on india we should step up
-	allowed = { original_tag = USA }
-	enable = {
-		has_government = democratic
-		is_in_faction = no
-		has_war = no
-
-		JAP = {
-			has_war_with = RAJ
-			NOT = { has_war_with = CHI }
-		}
-		RAJ = {
-			is_in_faction_with = ENG
-			surrender_progress > 0.15
-		}
-	}
-	abort = {
-		OR = {
-			has_war_with = RAJ
-			is_in_faction_with = JAP
-			JAP = {
-				NOT = { has_war_with = RAJ }
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = contain
-		id = "JAP"
-		value = 200
-	}
-
-	ai_strategy = {
-		type = protect
-		id = "RAJ"
-		value = 200
-	}
-}
-
 USA_stop_soviet_from_falling = {
 	allowed = { original_tag = USA }
 	enable = {
@@ -980,63 +894,6 @@ USA_template_design_2 = {
 		type = template_prio
 		id = marines
 		value = 20
-	}
-}
-
-# This will prompt USA to try and support countries who are fighting against extremist elements.
-# Should improve alt-history situations like democratic Germany fighting the USSR etc.
-USA_protect_against_extremism = { # Reverse strategy
-	reversed = yes
-
-	enable_reverse = {
-		USA = {
-			has_government = democratic
-		}
-	}
-
-	enable = {
-		NOT = { tag = USA }
-		NOT = { has_government = communism }
-		NOT = { has_government = fascism }
-		OR = {
-			capital_scope = {
-				is_on_continent = europe # lets avoid smaller conflicts elsewhere
-			}
-			AND = {
-				num_of_civilian_factories > 10
-				is_subject = no
-			}
-		}
-		any_of_scopes = {
-			array = enemies
-			NOT = { tag = USA }
-			OR = {
-				has_government = communism
-				has_government = fascism
-			}
-		}
-	}
-
-	abort = {
-		OR = {
-			has_war = no
-			OR = {
-				has_government = communism
-				has_government = fascism
-			}
-			USA = {
-				OR = {
-					NOT = {	has_government = democratic }
-					has_war_with = ROOT
-				}
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = support
-		id = "USA"
-		value = 100
 	}
 }
 
@@ -1337,35 +1194,6 @@ USA_lose_fateful_lightning_from_terribly_swift_sword = {
 	}
 }
 
-GER_is_bad = {
-	allowed = {
-		tag = USA
-	}
-
-	enable = {
-		GER = {
-			exists = yes
-		}
-		NOT = { is_ally_with = GER }
-		ENG = {
-			has_war_with = GER
-		}
-		has_government = democratic
-		ENG = {
-			has_government = democratic
-		}
-		date > 1939.1.1
-	}
-
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = prepare_for_war
-		id = GER
-		value = 100
-	}
-}
-
 USA_Defends_australia_new_zealand = {
 	allowed = {
 		tag = USA
@@ -1432,23 +1260,6 @@ USA_stay_away_from_my_pacific = {
 		type = area_priority
 		id = pacific
 		value = 100
-	}
-}
-
-USA_lets_do_a_navy = {
-	allowed = { original_tag = USA }
-	enable = {
-		has_government = democratic
-		has_war = no
-		date > 1937.10.1
-		dockyard < 75 # If we have this many we can probably stop
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = build_building
-		id = dockyard
-		value = 2
 	}
 }
 
@@ -1752,44 +1563,6 @@ USA_90_division_gamble = {
 	ai_strategy = {
 		type = ai_wanted_divisions_factor
 		value = -30
-	}
-}
-
-USA_sugar_daddy_for_UK = {
-	allowed = { original_tag = USA }
-	enable = {
-		NOT = { has_war_with = ENG }
-		has_government = democratic
-		ENG = {
-			has_government = democratic
-			has_war = yes
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = ENG
-		value = 500
-	}
-}
-
-USA_sugar_daddy_for_SOV = {
-	allowed = { original_tag = USA }
-	enable = {
-		NOT = { has_war_with = SOV }
-		has_government = democratic
-		GER = { has_government = fascism }
-		SOV = {
-			has_war_with = GER
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = send_lend_lease_desire
-		id = SOV
-		value = 500
 	}
 }
 

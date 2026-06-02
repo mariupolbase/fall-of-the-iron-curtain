@@ -37,7 +37,6 @@ focus_tree = {
 		mutually_exclusive = { focus = socialism_reform }
 		available = {
 			OR = {
-				has_government = democratic
 				has_government = social_democracy
 				has_government = social_liberalism
 				has_government = market_liberalism
@@ -46,7 +45,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -57,7 +56,7 @@ focus_tree = {
 		prerequisite = { focus = democratic_reform }
 		x = 0
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -67,7 +66,7 @@ focus_tree = {
 		prerequisite = { focus = new_laws }
 		x = 0
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -77,7 +76,7 @@ focus_tree = {
 		prerequisite = { focus = democratic_propaganda }
 		x = 0
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -87,7 +86,7 @@ focus_tree = {
 		prerequisite = { focus = democratic_ecenomy }
 		x = 0
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -107,7 +106,7 @@ focus_tree = {
 		}
 		x = -2
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_ideas = GER_communist_refugees
 			}
@@ -119,7 +118,7 @@ focus_tree = {
 		prerequisite = { focus = socialism_reform }
 		x = -2
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_ideas = SOV_soviet_advisors_spr
 			}
@@ -130,7 +129,7 @@ focus_tree = {
 		prerequisite = { focus = socialism_revolution }
 		x = -2
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_ideas = SOV_collectivist_propaganda
 			}
@@ -141,7 +140,7 @@ focus_tree = {
 		prerequisite = { focus = socialism_propaganda }
 		x = -2
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -151,7 +150,7 @@ focus_tree = {
 		prerequisite = { focus = socialism_economy }
 		x = -2
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_ideas = SOV_socialist_emulation_2_ns
 		add_political_power = 100
@@ -168,7 +167,7 @@ focus_tree = {
 		}
 		x = 2
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -179,7 +178,7 @@ focus_tree = {
 		prerequisite = { focus = autoritarism_reform}
 		x = 2
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -189,7 +188,7 @@ focus_tree = {
 		prerequisite = { focus = power_of_government }
 		x = 2
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -199,7 +198,7 @@ focus_tree = {
 		prerequisite = { focus = autoritarism_propaganda }
 		x = 2
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -209,7 +208,7 @@ focus_tree = {
 		prerequisite = { focus = autoritarism_ecenomy }
 		x = 2
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -228,7 +227,7 @@ focus_tree = {
 		}
 		x = 4
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -239,7 +238,7 @@ focus_tree = {
 		prerequisite = { focus = nationalism_reform}
 		x = 4
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -249,7 +248,7 @@ focus_tree = {
 		prerequisite = { focus = power_of_nation }
 		x = 4
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -259,7 +258,7 @@ focus_tree = {
 		prerequisite = { focus = nationalism_propaganda }
 		x = 4
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			}
 		}
@@ -269,7 +268,7 @@ focus_tree = {
 		prerequisite = { focus = nationalism_ecenomy }
 		x = 4
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -279,7 +278,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		x = 7
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -296,7 +295,7 @@ focus_tree = {
 		prerequisite = { focus = industry}
 		x = 6
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -336,7 +335,7 @@ focus_tree = {
 		prerequisite = { focus = grazhdan_industry_1 }
 		x = 6
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -376,7 +375,7 @@ focus_tree = {
 		prerequisite = { focus = grazhdan_industry_2 }
 		x = 6
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -416,7 +415,7 @@ focus_tree = {
 		prerequisite = { focus = grazhdan_industry_3 }
 		x = 6
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -457,7 +456,7 @@ focus_tree = {
 		prerequisite = { focus = grazhdan_industry_4 }
 		x = 6
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -497,7 +496,7 @@ focus_tree = {
 		prerequisite = { focus = industry}
 		x = 8
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -538,7 +537,7 @@ focus_tree = {
 		prerequisite = { focus = voen_industry_1 }
 		x = 8
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -579,7 +578,7 @@ focus_tree = {
 		prerequisite = { focus = voen_industry_2 }
 		x = 8
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -620,7 +619,7 @@ focus_tree = {
 		prerequisite = { focus = voen_industry_3 }
 		x = 8
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -661,7 +660,7 @@ focus_tree = {
 		prerequisite = { focus = voen_industry_4 }
 		x = 8
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -702,7 +701,7 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 10
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 		army_experience = 5
 			}
@@ -714,7 +713,7 @@ focus_tree = {
 		prerequisite = { focus = army_1}
 		x = 10
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 		army_experience = 10
 			}
@@ -725,7 +724,7 @@ focus_tree = {
 		prerequisite = { focus = army_2 }
 		x = 10
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_doctrine_cost_reduction = {
 				name = land_doc_bonus
@@ -741,7 +740,7 @@ focus_tree = {
 		prerequisite = { focus = army_3 }
 		x = 10
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = motorized_bonus
@@ -757,7 +756,7 @@ focus_tree = {
 		prerequisite = { focus = army_4 }
 		x = 10
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		army_experience = 20
 			}
@@ -768,7 +767,7 @@ focus_tree = {
 		prerequisite = { focus = army_5 }
 		x = 10
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		army_experience = 50
 			}
@@ -779,7 +778,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		x = 12
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -795,7 +794,7 @@ focus_tree = {
 		prerequisite = { focus = research_1 }
 		x = 12
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -811,7 +810,7 @@ focus_tree = {
 		prerequisite = { focus = research_2 }
 		x = 12
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -827,7 +826,7 @@ focus_tree = {
 		prerequisite = { focus = research_3 }
 		x = 12
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -844,7 +843,7 @@ focus = {
 		prerequisite = { focus = research_4 }
 		x = 12
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_research_slot = 1
 			}
@@ -855,7 +854,7 @@ focus = {
 		icon = GFX_focus_research
 		x = 28
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -872,7 +871,7 @@ focus = {
 		prerequisite = { focus = voen_research_1 }
 		x = 28
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -888,7 +887,7 @@ focus = {
 		prerequisite = { focus = voen_research_2 }
 		x = 28
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -904,7 +903,7 @@ focus = {
 		prerequisite = { focus = voen_research_3 }
 		x = 28
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = res_bonus
@@ -922,7 +921,7 @@ focus = {
 		prerequisite = { focus = voen_research_4 }
 		x = 28
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_research_slot = 1
 			}
@@ -932,7 +931,7 @@ focus = {
 		icon = GFX_goal_generic_build_airforce
 		x = 16
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 30
 			}
@@ -945,7 +944,7 @@ focus = {
 		mutually_exclusive = { focus = air_6 }
 		x = 14
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			   add_tech_bonus = {
 				name = air_bonus
@@ -961,7 +960,7 @@ focus = {
 		prerequisite = { focus = air_2 }
 		x = 14
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -977,7 +976,7 @@ focus = {
 		prerequisite = { focus = air_3 }
 		x = 14
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 										random_owned_state = {
 				add_building_construction = {
@@ -994,7 +993,7 @@ focus = {
 		prerequisite = { focus = air_4}
 		x = 14
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 20
 			}
@@ -1005,7 +1004,7 @@ focus = {
 		prerequisite = { focus = air_5 }
 		x = 14
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 50
 			}
@@ -1018,7 +1017,7 @@ focus = {
 		mutually_exclusive = { focus = air_2 }
 		x = 16
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_tech_bonus = {
 				name = air_bonus
@@ -1035,7 +1034,7 @@ focus = {
 		prerequisite = { focus = air_6}
 		x = 16
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -1051,7 +1050,7 @@ focus = {
 		prerequisite = { focus = air_7 }
 		x = 16
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 												random_owned_state = {
 				add_building_construction = {
@@ -1068,7 +1067,7 @@ focus = {
 		prerequisite = { focus = air_8}
 		x = 16
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 20
 			}
@@ -1079,7 +1078,7 @@ focus = {
 		prerequisite = { focus = air_9 }
 		x = 16
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 50
 			}
@@ -1092,7 +1091,7 @@ focus = {
 		mutually_exclusive = { focus = air_2 }
 		x = 18
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = air_bonus
@@ -1109,7 +1108,7 @@ focus = {
 		prerequisite = { focus = air_11}
 		x = 18
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -1125,7 +1124,7 @@ focus = {
 		prerequisite = { focus = air_12 }
 		x = 18
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 				random_owned_state = {
 				add_building_construction = {
@@ -1142,7 +1141,7 @@ focus = {
 		prerequisite = { focus = air_13 }
 		x = 18
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 20
 			}
@@ -1153,7 +1152,7 @@ focus = {
 		prerequisite = { focus = air_14 }
 		x = 18
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		air_experience = 50
 			}	
@@ -1163,7 +1162,7 @@ focus = {
 		icon = GFX_goal_generic_build_navy
 		x = 22
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 30
 			}
@@ -1176,7 +1175,7 @@ focus = {
 		mutually_exclusive = { focus = naval_12 }
 		x = 20
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = naval_bonus
@@ -1192,7 +1191,7 @@ focus = {
 		prerequisite = { focus = naval_2 }
 		x = 20
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -1208,7 +1207,7 @@ focus = {
 		prerequisite = { focus = naval_3 }
 		x = 20
 		y = 3
-		cost = 70
+		cost = 10
 				available = {
 			any_state = {
 				is_coastal = yes
@@ -1231,7 +1230,7 @@ focus = {
 		prerequisite = { focus = naval_4}
 		x = 20
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 20
 			}
@@ -1242,7 +1241,7 @@ focus = {
 		prerequisite = { focus = naval_5 }
 		x = 20
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 50
 			}
@@ -1255,7 +1254,7 @@ focus = {
 		mutually_exclusive = { focus = naval_2 }
 		x = 22
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				add_tech_bonus = {
 				name = naval_bonus
@@ -1272,7 +1271,7 @@ focus = {
 		prerequisite = { focus = naval_7}
 		x = 22
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -1288,7 +1287,7 @@ focus = {
 		prerequisite = { focus = naval_8 }
 		x = 22
 		y = 3
-		cost = 70
+		cost = 10
 				available = {
 			any_state = {
 				is_coastal = yes
@@ -1311,7 +1310,7 @@ focus = {
 		prerequisite = { focus = naval_9}
 		x = 22
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 20
 			}
@@ -1322,7 +1321,7 @@ focus = {
 		prerequisite = { focus = naval_10 }
 		x = 22
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 50
 			}
@@ -1335,7 +1334,7 @@ focus = {
 		mutually_exclusive = { focus = naval_2 }
 		x = 24
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 				 add_tech_bonus = {
 				name = naval_bonus
@@ -1352,7 +1351,7 @@ focus = {
 		prerequisite = { focus = naval_12}
 		x = 24
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = air_doc_bonus
@@ -1368,7 +1367,7 @@ focus = {
 		prerequisite = { focus = naval_13 }
 		x = 24
 		y = 3
-		cost = 70
+		cost = 10
 				available = {
 			any_state = {
 				is_coastal = yes
@@ -1391,7 +1390,7 @@ focus = {
 		prerequisite = { focus = naval_14 }
 		x = 24
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 20
 			}
@@ -1402,7 +1401,7 @@ focus = {
 		prerequisite = { focus = naval_15 }
 		x = 24
 		y = 5
-		cost = 70
+		cost = 10
 		completion_reward = {
 		navy_experience = 50
 			}	
@@ -1413,7 +1412,7 @@ focus = {
 		icon = GFX_goal_generic_demand_territory
 		x = 26
 		y = 0
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -1425,7 +1424,7 @@ focus = {
 		prerequisite = { focus = polit_1}
 		x = 26
 		y = 1
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -1436,7 +1435,7 @@ focus = {
 		prerequisite = { focus = polit_2 }
 		x = 26
 		y = 2
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -1447,7 +1446,7 @@ focus = {
 		prerequisite = { focus = polit_3 }
 		x = 26
 		y = 3
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_political_power = 100
 			}
@@ -1458,7 +1457,7 @@ focus = {
 		prerequisite = { focus = polit_4 }
 		x = 26
 		y = 4
-		cost = 70
+		cost = 10
 		completion_reward = {
 		add_ideas = ideological_fanaticism_focus
 		add_political_power = 300

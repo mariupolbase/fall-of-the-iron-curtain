@@ -38,7 +38,7 @@ USA_historical_plan = {
 						}
 					}
 					ENG = {
-						not = { has_government = democratic }
+						not = { has_government = communism }
 					}
 					has_war_with = CAN
 					has_war_with = MEX

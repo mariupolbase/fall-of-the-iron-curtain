@@ -63,7 +63,6 @@ ideas = {
 			modifier = {
 				non_core_manpower = 0.25
 				stability_factor = 0.15
-				democratic_drift = 0.05
 				army_core_defence_factor = 0.1
 			}
 		}

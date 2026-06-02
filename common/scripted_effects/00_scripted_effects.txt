@@ -488,7 +488,7 @@ get_best_alliance_match_democratic_effect = { #arguably a trigger, but it does s
 			any_other_country = {
 				is_faction_leader = yes
 				is_major = yes
-				has_government = democratic
+				has_government = communism
 				not = { has_war_with = ROOT }
 				set_temp_variable = { ROOT.best_leader = this }
 				set_temp_variable = { ROOT.best_leader_score = 0 }
@@ -500,7 +500,7 @@ get_best_alliance_match_democratic_effect = { #arguably a trigger, but it does s
 			all_other_country = {
 				is_faction_leader = yes
 				is_major = yes
-				has_government = democratic
+				has_government = communism
 				not = { has_war_with = ROOT }
 				set_temp_variable = { this.leader_score = num_of_factories }
 				add_to_temp_variable = { this.leader_score = num_battalions }
@@ -838,7 +838,7 @@ clear_sabotaged_resources_if_necesary = {
 
 remove_from_allowed_party = {
 	if = {
-		limit = { has_government = democratic }
+		limit = { has_government = communism }
 		set_temp_variable = { allowed_party_democratic = 0 }
 	}
 	else_if = {
@@ -1172,7 +1172,7 @@ join_allies_effect = {
 		limit = {
 			ENG = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = communism
 				not = { has_war_with = ROOT }
 			}
 		}
@@ -1412,7 +1412,7 @@ add_ruling_to_fas = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = communism
 			}
 			set_variable = {
 				var = neutrality_support_var
@@ -1507,7 +1507,7 @@ add_ruling_to_com = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = communism
 			}
 			set_variable = {
 				var = neutrality_support_var
@@ -1602,7 +1602,7 @@ add_ruling_to_neu = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = communism
 			}
 			set_variable = {
 				var = neutrality_support_var

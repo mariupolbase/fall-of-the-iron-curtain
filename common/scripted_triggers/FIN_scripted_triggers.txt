@@ -124,7 +124,7 @@ FIN_can_purchase_equipment_from_country = {
 						}
 					}
 					AND = {
-						has_government = democratic
+						has_government = communism
 						PREV = {
 							has_government = neutrality
 						}

@@ -318,8 +318,7 @@ ideas = {
 				has_country_leader = {
 					character = BUL_boris_iii
 				}
-				NOT = { has_government = communism }
-				NOT = { has_government = democratic }		
+				NOT = { has_government = communism }	
 			}
 			removal_cost = -1
 			
@@ -344,7 +343,6 @@ ideas = {
 					character = BUL_boris_iii
 				}
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
 			}
 			removal_cost = -1
 			
@@ -369,7 +367,6 @@ ideas = {
 					character = BUL_boris_iii
 				}
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
 			}
 			removal_cost = -1
 			
@@ -1533,7 +1530,6 @@ ideas = {
 				tag = BUL
 				NOT = {
 					has_government = communism
-					has_government = democratic
 				}
 			}
 		
@@ -1855,7 +1851,6 @@ ideas = {
 			modifier = {
 				political_advisor_cost_factor = -0.30
 				political_power_factor = 0.05
-				democratic_drift = 0.05
 			} 
 		}
 
@@ -1984,7 +1979,6 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.15
 				drift_defence_factor = -0.5
-				democratic_drift = 0.05
 			}
 		}
 

@@ -570,11 +570,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_infrastructure_factor = 0.1
 			}
@@ -591,11 +591,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = communism
 			}
 			
 			modifier = {
-				democratic_drift = 0.2
+				
 				production_speed_industrial_complex_factor = 0.2
 				production_speed_infrastructure_factor = 0.2
 			}
@@ -656,7 +656,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				research_speed_factor = 0.05
 			}
 		}
@@ -676,7 +676,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				
 				send_volunteer_divisions_required = -1
 				enemy_justify_war_goal_time = 1.0
 			}

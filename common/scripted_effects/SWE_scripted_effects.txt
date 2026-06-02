@@ -533,7 +533,7 @@ SWE_scandinavian_defense_union_invite = {
 		limit = {
 			OR = {
 				has_government = communism
-				has_government = democratic
+				has_government = communism
 			}
 			NOT = {
 				is_subject = yes

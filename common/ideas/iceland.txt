@@ -527,7 +527,7 @@ ideas = {
 						is_in_faction_with = USA
 					}
 					OR = {
-						has_government = democratic
+						has_government = communism
 						has_government = neutrality
 					}
 				}

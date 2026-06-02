@@ -181,8 +181,8 @@ technology_sharing_group = {
 			}
 			OR = {
 				AND = {
-					USA = { has_government = democratic }
-					ENG = { has_government = democratic } 
+					USA = { has_government = communism }
+					ENG = { has_government = communism } 
 				}
 				AND = {
 					USA = { has_government = communism }
@@ -246,7 +246,7 @@ technology_sharing_group = {
 
     available = {
         is_in_faction_with = GER
-        GER = { has_government = democratic }
+        GER = { has_government = communism }
     }
 
 }
@@ -334,7 +334,7 @@ technology_sharing_group = {
 
     available = {
         is_in_faction_with = HOL
-        HOL = { has_government = democratic }
+        HOL = { has_government = communism }
     }
 
 }
@@ -406,7 +406,7 @@ technology_sharing_group = {
 			}
 			OR = {
 				has_government = neutrality
-				has_government = democratic
+				has_government = communism
 			}
 			is_in_faction_with = TUR
 		}
@@ -435,7 +435,7 @@ technology_sharing_group = {
 			}
 			OR = {
 				has_government = neutrality
-				has_government = democratic
+				has_government = communism
 			}
 			is_in_faction_with = TUR
 		}
@@ -859,7 +859,7 @@ technology_sharing_group = {
        	NOT = {
        		has_war_with = GER
        	}
-        GER = { has_government = democratic }
+        GER = { has_government = communism }
     }
 
 }

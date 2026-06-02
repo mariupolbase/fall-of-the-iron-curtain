@@ -3020,7 +3020,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = communism
 				}
 			}
 			ai_will_do = {
@@ -3231,7 +3231,6 @@ characters = {
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = democratic
 				}
 			}
 			traits = {
@@ -3319,7 +3318,6 @@ characters = {
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = democratic
 				}
 			}
 			traits = {
@@ -3555,7 +3553,6 @@ characters = {
 					AND = {
 						OR = {	
 							has_government = neutrality
-							has_government = democratic
 						}
 					}
 				}
@@ -3598,7 +3595,6 @@ characters = {
 					AND = {
 						OR = {	
 							has_government = neutrality
-							has_government = democratic
 						}
 					}
 				}

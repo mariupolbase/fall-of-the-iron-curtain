@@ -497,27 +497,6 @@ ENG_protect_poland_against_germany = {
 	}
 }
 
-ENG_trade_with_poland = {
-	# Poland has a mirrored version of this
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		OR = {
-			POL = { has_government = neutrality }
-			POL = { has_government = democratic }
-		}
-		has_government = democratic
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = equipment_market_trade_desire
-		id = POL
-		value = 60
-	}
-}
-
 ENG_less_weapon_purchases_more_for_construction = {
 	allowed = {
 		original_tag = ENG
@@ -1755,52 +1734,6 @@ ENG_please_stop_stomping_italy_so_hard_in_africa_ty = {
 	}
 }
 
-ENG_in_for_the_long_haul_bruv = {
-	allowed = { original_tag = ENG }
-	enable = {
-		has_government = democratic
-		date < 1937.10.1
-		has_war = no
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = building_target
-		id = industrial_complex
-		value = 49
-	}
-	ai_strategy = {
-		type = air_factory_balance
-		value = 15
-	}
-}
-
-ENG_industry_we_on_an_island_bruv = {
-	allowed = { original_tag = ENG }
-	enable = {
-		has_government = democratic
-		has_war = no
-		date > 1937.10.1
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = building_target
-		id = arms_factory
-		value = 50
-	}
-
-	ai_strategy = {
-		type = building_target
-		id = dockyard
-		value = 50
-	}
-
-	ai_strategy = {
-		type = air_factory_balance
-		value = 30
-	}
-}
 
 ENG_if_the_best_arrangements_are_made_as_they_are_being_made = {
 	allowed = {
@@ -1839,71 +1772,6 @@ ENG_the_best_arrangements_are_made = {
 	ai_strategy = {
 		type = added_military_to_civilian_factory_ratio
 		value = 20
-	}
-}
-
-ENG_growing_confidence_in_the_air = {
-	allowed = { original_tag = ENG }
-	enable = {
-		has_war = yes
-		has_government = democratic
-		date > 1938.1.1
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = air_factory_balance
-		value = 30
-	}
-}
-
-ENG_allies_dont_ask_for_diplo_access_to_SOV = {
-	enable = {
-		ENG = {
-			has_government = democratic
-		}
-		SOV = {
-			has_government = communism
-		}
-		is_in_faction_with = ENG
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = diplo_action_desire
-		id = SOV
-		target = military_access
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = TAN
-		target = military_access
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = MON
-		target = military_access
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = SOV
-		target = docking_rights
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = TAN
-		target = docking_rights
-		value = -5000
-	}
-	ai_strategy = {
-		type = diplo_action_desire
-		id = MON
-		target = docking_rights
-		value = -5000
 	}
 }
 
@@ -2933,30 +2801,6 @@ ENG_raids = {
     }
 }
 
-ENG_i_like_raj = {
-
-	allowed = {	
-		original_tag = ENG 
-		has_dlc = "Graveyard of Empires"
-	}
-	enable = {
-		has_government = democratic
-		RAJ = {
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = befriend
-		id = "RAJ"
-		value = 200
-	}
-	ai_strategy = {
-		type = alliance
-		id = "RAJ"
-		value = 200
-	}
-}
 
 ENG_become_head_of_crypto = {
 	allowed = {	

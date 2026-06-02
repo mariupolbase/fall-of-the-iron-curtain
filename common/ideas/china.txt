@@ -425,7 +425,7 @@ ideas = {
 			
 			modifier = {
 				political_power_gain = 0.25
-				democratic_drift = 0.02
+				
 			}
 		}
 

@@ -367,40 +367,6 @@ FRA_help_germany_if_vichy = {
 	}
 }
 
-FRA_antagonize_vichy = {
-	reversed = yes
-
-	enable_reverse = {
-		FRA = {
-			has_government = democratic
-		}
-	}
-
-	enable = {
-		has_focus_tree = vichy_french_focus
-		OR = {
-			date > 1942.6.1
-			448 = {
-				CONTROLLER = {
-					is_in_faction_with = FRA
-				}
-			}
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = antagonize
-		id = FRA
-		value = 200
-	}
-
-	ai_strategy = {
-		type = conquer
-		id = FRA
-		value = 200
-	}
-}
 
 FRA_GER_will_probably_join_ITA = {
 	# if ITA is going to war with us, consider GER as a threat as well
