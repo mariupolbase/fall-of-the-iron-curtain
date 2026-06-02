@@ -62,3 +62,37 @@ news_event = {
 		add_stability = -0.02
 	}
 }
+news_event = {
+	id = news_90x.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_077
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.3.a
+		trigger = {
+		NOT = {
+			tag = USA
+			tag = PAN
+			}
+		}
+	}
+	option = {
+		name = news.3.b
+		trigger = {
+		tag = USA
+		}
+		add_war_support = 0.05
+	}
+	option = {
+		name = news.3.c
+		trigger = {
+		tag = PAN
+		}
+		add_stability = 0.1
+	}
+}

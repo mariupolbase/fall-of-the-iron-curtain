@@ -26,6 +26,7 @@ add_to_faction = TUR
 add_to_faction = SPR
 add_to_faction = POR
 add_to_faction = DEN
+add_to_faction = CAN
 
 set_convoys = 700
 
@@ -43,8 +44,15 @@ set_popularities = {
 	neutrality = 0.4
 }
 
+country_event = { id = usa.1 days = 3 }
+
 add_ideas = {
 	home_of_the_free
+}
+
+set_autonomy = {
+	target = PAN
+	autonomous_state =  autonomy_puppet
 }
 
 recruit_character = USA_bush

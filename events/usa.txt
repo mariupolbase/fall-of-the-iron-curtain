@@ -1,0 +1,33 @@
+add_namespace = usa
+
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.1.a
+    	news_event = news_90x.3
+		country_event = { id = usa.2 days = 27 }
+	}
+}
+country_event = {
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.2.a
+		set_autonomy = {
+    		target = PAN
+    		autonomous_state = autonomy_free
+		}
+		remove_from_faction = PAN
+	}
+}
