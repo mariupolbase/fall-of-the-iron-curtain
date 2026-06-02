@@ -1,0 +1,32 @@
+FOTIC_grant_1990_tech_baseline = {
+	set_technology = {
+		sp_artillery_1971 = 1
+		sp_artillery_1989 = 1
+		rocket_artillery_1965 = 1
+		rocket_artillery_1987 = 1
+		artillery_1965 = 1
+		artillery_1975 = 1
+		artillery_1985 = 1
+		advanced_modern_tank_turret_tech = 1
+		apds_tech = 1
+		armor_tech_1 = 1
+		basic_battery = 1
+		basic_medium_tank_chassis = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		commercial_nuclear_reactor_tech = 1
+		gwtank_chassis = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		isotope_separation_centrifugal = 1
+		land_multi_charge_large_caliber_gun_tech = 1
+		legacy_armor_designs = 1
+		main_battle_tank1 = 1
+		mtg_transport = 1
+		stronghold_network_tech = 1
+		submarine_mine_laying = 1
+		thermonuclear_bombs = 1
+		turret_mounted_mg_tech = 1
+		winter_logistics_support_tech = 1
+	}
+}

@@ -12,6 +12,7 @@ FOTIC_WTO_cohesion = {
 	enable = {
 		has_idea = idea_wto_membership
 	}
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = alliance
 		id = "SOV"

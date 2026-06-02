@@ -1,19 +1,212 @@
-@2000 = 0
-@2006 = 2
-@2012 = 4
-@2018 = 6
-@2021 = 8
-@2024 = 10
-@2027 = 12
-@2030 = 14
-@2033 = 16
-@2036 = 18
+@y1965 = 0
+@y1975 = 2
+@y1985 = 4
+@2000 = 6
+@2006 = 8
+@2012 = 10
+@2018 = 12
+@2021 = 14
+@2024 = 16
+@2027 = 18
+@2030 = 20
+@2033 = 22
+@2036 = 24
 @anti_air = -6
 @sp_artillery = -3
 @artillery = 0
 @rocket_artillery = 3
 @anti_tank = 6
 technologies = {
+	artillery_1965 = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		enable_subunits = {
+			artillery
+		}
+		path = {
+			leads_to_tech = artillery_1975
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sp_artillery_1971
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rocket_artillery_1965
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1965
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery
+				y = @y1965
+			}
+		}
+		categories = {
+			artillery
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	artillery_1975 = {
+		enable_equipments = {
+			artillery_equipment_2
+		}
+		path = {
+			leads_to_tech = artillery_1985
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1975
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery
+				y = @y1975
+			}
+		}
+		categories = {
+			artillery
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	artillery_1985 = {
+		enable_equipments = {
+			artillery_equipment_3
+		}
+		path = {
+			leads_to_tech = gw_artillery
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @artillery
+				y = @y1985
+			}
+		}
+		categories = {
+			artillery
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	sp_artillery_1971 = {
+		enable_equipments = {
+			modern_tank_artillery_equipment_1
+		}
+		enable_subunits = {
+			modern_sp_artillery_brigade
+		}
+		enable_subunits = {
+			spa_company
+		}
+		path = {
+			leads_to_tech = sp_artillery_1989
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1971
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @sp_artillery
+				y = @y1975
+			}
+		}
+		categories = {
+			artillery
+			cat_self_propelled
+		}
+		ai_will_do = {
+			factor = 4
+		}
+	}
+	sp_artillery_1989 = {
+		enable_equipments = {
+			modern_tank_artillery_equipment_1
+		}
+		path = {
+			leads_to_tech = sp_artillery1
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1989
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @sp_artillery
+				y = @y1985
+			}
+		}
+		categories = {
+			artillery
+			cat_self_propelled
+		}
+		ai_will_do = {
+			factor = 4
+		}
+	}
+	rocket_artillery_1965 = {
+		enable_equipments = {
+			rocket_artillery_equipment_1
+		}
+		enable_subunits = {
+			rocket_artillery
+		}
+		path = {
+			leads_to_tech = rocket_artillery_1987
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1965
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @rocket_artillery
+				y = @y1965
+			}
+		}
+		categories = {
+			artillery
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	rocket_artillery_1987 = {
+		enable_equipments = {
+			rocket_artillery_equipment_2
+		}
+		path = {
+			leads_to_tech = rocket_artillery
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1987
+		folder = {
+			name = artillery_folder
+			position = {
+				x = @rocket_artillery
+				y = @y1985
+			}
+		}
+		categories = {
+			artillery
+		}
+		ai_will_do = {
+			factor = 3
+		}
+	}
 	gw_artillery = {
 		enable_equipments = {
 			artillery_equipment_1

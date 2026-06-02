@@ -1,4 +1,4 @@
-﻿capital = 987
+﻿capital = 454
 
 set_technology = {
 

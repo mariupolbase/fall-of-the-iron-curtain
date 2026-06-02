@@ -1,4 +1,5 @@
 ideas = {
+
 	fotic_economic_model_law = {
 		law = yes
 		use_list_view = yes
@@ -8,188 +9,213 @@ ideas = {
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
+				industrial_capacity_factory = 0.05
 				consumer_goods_factor = 0.05
-				stability_factor = 0.02
+				production_speed_buildings_factor = -0.02
+				trade_opinion_factor = -0.10
 			}
 			ai_will_do = { factor = 0 }
 		}
-
 		fotic_economic_model_limited_khozraschyot = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.02
-				production_speed_buildings_factor = 0.02
+				production_speed_buildings_factor = 0.03
+				consumer_goods_factor = -0.02
+				political_power_factor = -0.03
+				industrial_capacity_factory = -0.03
 			}
 			ai_will_do = { factor = 0 }
 		}
-
 		fotic_economic_model_regulated_mixed_economy = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
 				production_speed_buildings_factor = 0.03
+				consumer_goods_factor = -0.02
+				political_power_factor = -0.03
 			}
 			ai_will_do = { factor = 0 }
 		}
-
+		fotic_economic_model_social_market = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.03
+				production_speed_buildings_factor = 0.02
+				conscription_factor = -0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
 		fotic_economic_model_market_liberalisation = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.05
 				production_speed_buildings_factor = 0.05
-				stability_factor = -0.02
+				consumer_goods_factor = -0.05
+				stability_factor = -0.04
+				trade_opinion_factor = 0.10
 			}
 			ai_will_do = { factor = 0 }
 		}
-
 		fotic_economic_model_state_capitalism = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = 0.04
-				political_power_gain = 0.02
+				industrial_capacity_factory = 0.03
+				consumer_goods_factor = -0.02
+				political_power_factor = -0.03
 			}
 			ai_will_do = { factor = 0 }
 		}
 	}
 
-	fotic_social_policy_law = {
+	fotic_ownership_model_law = {
 		law = yes
 		use_list_view = yes
 
-		fotic_social_policy_universal_state_welfare = {
-			picture = generic_political_discourse
+		fotic_ownership_state_dominance = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = 0.05
+				political_power_gain = 0.03
+				industrial_capacity_factory = 0.03
+				production_speed_buildings_factor = -0.02
 			}
 			ai_will_do = { factor = 0 }
 		}
-
-		fotic_social_policy_reduced_state_welfare = {
-			picture = generic_political_discourse
+		fotic_ownership_cooperative_sector = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				stability_factor = -0.02
 				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = 0.02
+				stability_factor = -0.01
 			}
 			ai_will_do = { factor = 0 }
 		}
-
-		fotic_social_policy_targeted_social_support = {
-			picture = generic_political_discourse
+		fotic_ownership_mixed_property = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				stability_factor = 0.02
-				consumer_goods_factor = 0.01
+				production_speed_buildings_factor = 0.02
+				consumer_goods_factor = -0.01
 			}
 			ai_will_do = { factor = 0 }
 		}
-
-		fotic_social_policy_minimal_social_state = {
-			picture = generic_political_discourse
+		fotic_ownership_private_property_protected = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = -0.03
+				production_speed_buildings_factor = 0.04
+				consumer_goods_factor = -0.03
+				conscription_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_ownership_strategic_state_sector = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.02
+				political_power_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_ownership_crony_privatisation = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { has_country_flag = fotic_law_special }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				production_speed_buildings_factor = 0.03
+				stability_factor = -0.05
 			}
 			ai_will_do = { factor = 0 }
 		}
 	}
 
-	fotic_security_policy_law = {
+	fotic_financial_system_law = {
 		law = yes
 		use_list_view = yes
 
-		fotic_security_policy_administrative_control = {
-			picture = generic_form_nation
+		fotic_finance_state_credit_monopoly = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = 0.02
+				consumer_goods_factor = 0.02
+				trade_opinion_factor = -0.10
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_finance_dual_track = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.02
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_finance_regulated_banking = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.03
+				political_power_factor = -0.03
+				trade_opinion_factor = 0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_finance_independent_central_bank = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.04
+				political_power_factor = -0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_finance_capital_controls = {
+			picture = generic_pp_unity_bonus
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.03
-				political_power_gain = 0.02
+				consumer_goods_factor = 0.02
+				trade_opinion_factor = -0.10
 			}
 			ai_will_do = { factor = 0 }
 		}
-
-		fotic_security_policy_restricted_public_space = {
-			picture = generic_form_nation
+		fotic_finance_emergency_monetary_regime = {
+			picture = generic_pp_unity_bonus
 			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.01
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_security_policy_liberalised_public_space = {
-			picture = generic_form_nation
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = -0.02
-				political_power_gain = 0.02
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_security_policy_emergency_security_measures = {
-			picture = generic_form_nation
-			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
 			removal_cost = -1
 			modifier = {
 				stability_factor = 0.05
-				war_support_factor = 0.03
-				political_power_gain = -0.02
-			}
-			ai_will_do = { factor = 0 }
-		}
-	}
-
-	fotic_military_policy_law = {
-		law = yes
-		use_list_view = yes
-
-		fotic_military_policy_volunteer_force = {
-			picture = generic_form_nation
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				war_support_factor = -0.02
-				political_power_gain = 0.01
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_military_policy_standing_army = {
-			picture = generic_form_nation
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.01
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_military_policy_mass_mobilisation = {
-			picture = generic_form_nation
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				war_support_factor = 0.03
-				stability_factor = -0.02
+				consumer_goods_factor = 0.05
+				political_power_factor = -0.05
 			}
 			ai_will_do = { factor = 0 }
 		}
@@ -199,74 +225,434 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		fotic_tax_policy_low_taxes = {
+		fotic_tax_centralised_extraction = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.03
-				stability_factor = 0.02
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_tax_policy_moderate_taxes = {
-			picture = generic_consumer_goods
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				stability_factor = 0.01
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_tax_policy_high_taxes = {
-			picture = generic_consumer_goods
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
+				political_power_gain = 0.03
 				consumer_goods_factor = 0.03
 				stability_factor = -0.02
-				political_power_gain = 0.02
 			}
 			ai_will_do = { factor = 0 }
 		}
-	}
-
-	fotic_trade_policy_law = {
-		law = yes
-		use_list_view = yes
-
-		fotic_trade_policy_closed_trade = {
+		fotic_tax_progressive = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = 0.02
 				production_speed_buildings_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_tax_balanced = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
 				stability_factor = 0.01
 			}
 			ai_will_do = { factor = 0 }
 		}
-
-		fotic_trade_policy_regulated_trade = {
-			picture = generic_consumer_goods
-			allowed = { always = yes }
-			removal_cost = -1
-			modifier = {
-				production_speed_buildings_factor = 0.01
-			}
-			ai_will_do = { factor = 0 }
-		}
-
-		fotic_trade_policy_open_trade = {
+		fotic_tax_low_tax_competition = {
 			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
 			modifier = {
 				production_speed_buildings_factor = 0.03
-				stability_factor = -0.01
+				consumer_goods_factor = -0.03
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_tax_indirect_heavy = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.02
+				consumer_goods_factor = 0.02
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_tax_emergency_levies = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.04
+				stability_factor = -0.04
 			}
 			ai_will_do = { factor = 0 }
 		}
 	}
+
+	fotic_foreign_trade_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_trade_state_monopoly = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = -0.15
+				stability_factor = 0.02
+				production_speed_buildings_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_trade_controlled = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = -0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_trade_protectionism = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.03
+				consumer_goods_factor = 0.02
+				trade_opinion_factor = -0.10
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_trade_managed_opening = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = 0.05
+				production_speed_buildings_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_trade_free_trade = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = 0.15
+				production_speed_buildings_factor = 0.03
+				stability_factor = -0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_trade_sanctions_evasion = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			available = { has_country_flag = fotic_law_special }
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = 0.05
+				political_power_factor = -0.05
+				stability_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_social_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_social_universal_state_welfare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_social_broad_guarantees = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = 0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_social_targeted_support = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				consumer_goods_factor = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_social_minimal_safety_net = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.04
+				stability_factor = -0.03
+				production_speed_buildings_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_social_rationed_welfare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = 0.04
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_civil_liberties_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_liberties_party_state_censorship = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = 0.02
+				research_speed_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_liberties_controlled_public_sphere = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_liberties_limited_pluralism = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.02
+				stability_factor = -0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_liberties_protected_rights = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				research_speed_factor = 0.03
+				political_power_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_liberties_emergency_restrictions = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_security_policy_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_security_administrative_control = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_security_restricted_public_space = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.01
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_security_community_policing = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.04
+				political_power_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_security_liberalised_public_space = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.02
+				political_power_gain = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_security_emergency_measures = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.03
+				political_power_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_state_military_posture_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_posture_defensive_deterrence = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				army_attack_factor = -0.05
+				stability_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_posture_expeditionary = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				political_power_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_posture_internal_stability = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_posture_total_defence = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				conscription_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_posture_revisionist = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			available = { has_country_flag = fotic_law_revisionist }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				war_support_factor = 0.05
+				stability_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	fotic_army_structure_law = {
+		law = yes
+		use_list_view = yes
+
+		fotic_army_centralised_general_staff = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.03
+				army_morale_factor = 0.02
+				political_power_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_army_military_districts = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.02
+				conscription_factor = 0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_army_joint_command = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_org_factor = 0.04
+				political_power_factor = -0.04
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_army_political_oversight = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.02
+				army_org_factor = -0.03
+			}
+			ai_will_do = { factor = 0 }
+		}
+		fotic_army_fragmented_security_forces = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			available = { has_country_flag = fotic_law_special }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				army_org_factor = -0.05
+				army_morale_factor = -0.02
+			}
+			ai_will_do = { factor = 0 }
+		}
+	}
+
 }

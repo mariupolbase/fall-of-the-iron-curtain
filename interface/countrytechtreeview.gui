@@ -1503,9 +1503,45 @@ guiTypes = { #NVX# Tag for changes
 				}
 			}					
 				
+					instantTextBoxType = {
+						name = "art_y1965"
+						position = { x = 60 y = 140 }
+						textureFile = ""
+						font = "hoi4_typewriter22"
+						borderSize = {x = 0 y = 4}
+						text = "1965"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "art_y1975"
+						position = { x = 60 y = 280 }
+						textureFile = ""
+						font = "hoi4_typewriter22"
+						borderSize = {x = 0 y = 4}
+						text = "1975"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "art_y1985"
+						position = { x = 60 y = 420 }
+						textureFile = ""
+						font = "hoi4_typewriter22"
+						borderSize = {x = 0 y = 4}
+						text = "1985"
+						maxWidth = 170
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				instantTextBoxType = {
 					name = "artillery_year2"
-					position = { x = 60 y = 140 }
+					position = { x = 60 y = 560 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1518,7 +1554,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year3"
-					position = { x = 60 y = 278 }
+					position = { x = 60 y = 698 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1531,7 +1567,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year4"
-					position = { x = 60 y = 420 }
+					position = { x = 60 y = 840 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1544,7 +1580,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year5"
-					position = { x = 60 y = 560 }
+					position = { x = 60 y = 980 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1557,7 +1593,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year6"
-					position = { x = 60 y = 698 }
+					position = { x = 60 y = 1118 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1570,7 +1606,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year7"
-					position = { x = 60 y = 838 }
+					position = { x = 60 y = 1258 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1583,7 +1619,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year8"
-					position = { x = 60 y = 978 }
+					position = { x = 60 y = 1398 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1596,7 +1632,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year9"
-					position = { x = 60 y = 1118 }
+					position = { x = 60 y = 1538 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1609,7 +1645,7 @@ guiTypes = { #NVX# Tag for changes
 
 				instantTextBoxType = {
 					name = "artillery_year10"
-					position = { x = 60 y = 1258 }
+					position = { x = 60 y = 1678 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1622,7 +1658,7 @@ guiTypes = { #NVX# Tag for changes
 				
 				instantTextBoxType = {
 					name = "artillery_year11"
-					position = { x = 60 y = 1398 }
+					position = { x = 60 y = 1818 }
 					textureFile = ""
 					font = "hoi4_typewriter22"
 					borderSize = {x = 0 y = 4}
@@ -1641,7 +1677,7 @@ guiTypes = { #NVX# Tag for changes
 				
 					instantTextBoxType = {
 						name = "artillery_year2"
-						position = { x = 0 y = 140 }
+						position = { x = 0 y = 560 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1654,7 +1690,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year3"
-						position = { x = 0 y = 278 }
+						position = { x = 0 y = 698 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1667,7 +1703,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year4"
-						position = { x = 0 y = 420 }
+						position = { x = 0 y = 840 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1680,7 +1716,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year5"
-						position = { x = 0 y = 560 }
+						position = { x = 0 y = 980 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1693,7 +1729,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year6"
-						position = { x = 0 y = 698 }
+						position = { x = 0 y = 1118 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1706,7 +1742,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year7"
-						position = { x = 0 y = 838 }
+						position = { x = 0 y = 1258 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1719,7 +1755,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year8"
-						position = { x = 0 y = 978 }
+						position = { x = 0 y = 1398 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1732,7 +1768,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year9"
-						position = { x = 0 y = 1118 }
+						position = { x = 0 y = 1538 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1745,7 +1781,7 @@ guiTypes = { #NVX# Tag for changes
 	
 					instantTextBoxType = {
 						name = "artillery_year10"
-						position = { x = 0 y = 1258 }
+						position = { x = 0 y = 1678 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1758,7 +1794,7 @@ guiTypes = { #NVX# Tag for changes
 					
 					instantTextBoxType = {
 						name = "artillery_year11"
-						position = { x = 0 y = 1398 }
+						position = { x = 0 y = 1818 }
 						textureFile = ""
 						font = "hoi4_typewriter22"
 						borderSize = {x = 0 y = 4}
@@ -1774,7 +1810,7 @@ guiTypes = { #NVX# Tag for changes
 			}
 			
 			gridboxtype = {
-				name = "gw_artillery_tree"
+				name = "artillery_1965_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }

@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { OR = { tag = SOV tag = USA } }
+				FOTIC_grant_1990_tech_baseline = yes
+			}
+		}
+	}
+}

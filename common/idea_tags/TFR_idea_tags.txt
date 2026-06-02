@@ -15,25 +15,25 @@ idea_categories = {
 
 	fotic_economic_laws = {
 		slot = fotic_economic_model_law
-		slot = fotic_tax_policy_law
-		slot = fotic_trade_policy_law
-		slot = fotic_financial_system_law
-		slot = fotic_labour_policy_law
 		slot = fotic_ownership_model_law
+		slot = fotic_financial_system_law
+		slot = fotic_tax_policy_law
+		slot = fotic_foreign_trade_law
+		slot = fotic_labour_policy_law
 
-		cost = 150
+		cost = 100
 		removal_cost = -1
 		ledger = civilian
 	}
 
 	fotic_military_laws = {
-		slot = fotic_military_policy_law
 		slot = fotic_conscription_model_law
-		slot = fotic_military_spending_law
 		slot = fotic_army_structure_law
+		slot = fotic_defence_spending_law
+		slot = fotic_state_military_posture_law
 		slot = fotic_defence_industry_law
 
-		cost = 150
+		cost = 100
 		removal_cost = -1
 		ledger = civilian
 	}
@@ -45,7 +45,7 @@ idea_categories = {
 		slot = fotic_civil_liberties_law
 		slot = fotic_security_policy_law
 
-		cost = 150
+		cost = 100
 		removal_cost = -1
 		ledger = civilian
 	}

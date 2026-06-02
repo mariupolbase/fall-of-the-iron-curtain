@@ -3,6 +3,7 @@ fotic_set_economic_khozraschyot = {
 		fotic_economic_model_command_economy
 		fotic_economic_model_limited_khozraschyot
 		fotic_economic_model_regulated_mixed_economy
+		fotic_economic_model_social_market
 		fotic_economic_model_market_liberalisation
 		fotic_economic_model_state_capitalism
 	}
@@ -14,30 +15,11 @@ fotic_set_economic_regulated_mixed = {
 		fotic_economic_model_command_economy
 		fotic_economic_model_limited_khozraschyot
 		fotic_economic_model_regulated_mixed_economy
+		fotic_economic_model_social_market
 		fotic_economic_model_market_liberalisation
 		fotic_economic_model_state_capitalism
 	}
 	add_ideas = fotic_economic_model_regulated_mixed_economy
-}
-
-fotic_set_security_emergency = {
-	remove_ideas = {
-		fotic_security_policy_administrative_control
-		fotic_security_policy_restricted_public_space
-		fotic_security_policy_liberalised_public_space
-		fotic_security_policy_emergency_security_measures
-	}
-	add_ideas = fotic_security_policy_emergency_security_measures
-}
-
-fotic_set_security_liberalised = {
-	remove_ideas = {
-		fotic_security_policy_administrative_control
-		fotic_security_policy_restricted_public_space
-		fotic_security_policy_liberalised_public_space
-		fotic_security_policy_emergency_security_measures
-	}
-	add_ideas = fotic_security_policy_liberalised_public_space
 }
 
 fotic_set_economic_market_liberalisation = {
@@ -45,8 +27,42 @@ fotic_set_economic_market_liberalisation = {
 		fotic_economic_model_command_economy
 		fotic_economic_model_limited_khozraschyot
 		fotic_economic_model_regulated_mixed_economy
+		fotic_economic_model_social_market
 		fotic_economic_model_market_liberalisation
 		fotic_economic_model_state_capitalism
 	}
 	add_ideas = fotic_economic_model_market_liberalisation
+}
+
+fotic_set_security_emergency = {
+	remove_ideas = {
+		fotic_security_administrative_control
+		fotic_security_restricted_public_space
+		fotic_security_community_policing
+		fotic_security_liberalised_public_space
+		fotic_security_emergency_measures
+	}
+	add_ideas = fotic_security_emergency_measures
+}
+
+fotic_set_security_liberalised = {
+	remove_ideas = {
+		fotic_security_administrative_control
+		fotic_security_restricted_public_space
+		fotic_security_community_policing
+		fotic_security_liberalised_public_space
+		fotic_security_emergency_measures
+	}
+	add_ideas = fotic_security_liberalised_public_space
+}
+
+FOTIC_clear_econ_laws = {
+	remove_ideas = {
+		fotic_economic_model_command_economy
+		fotic_economic_model_limited_khozraschyot
+		fotic_economic_model_regulated_mixed_economy
+		fotic_economic_model_social_market
+		fotic_economic_model_market_liberalisation
+		fotic_economic_model_state_capitalism
+	}
 }

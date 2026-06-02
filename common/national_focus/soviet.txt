@@ -471,7 +471,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -487,8 +489,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -4 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_party_discipline = -1 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -504,7 +509,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -5 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_street_pressure = -2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			country_event = { id = FOTIC_SOV_1990.10 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -522,8 +529,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = 5 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_reformist_influence = -3 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_down
 			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -540,8 +550,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_party_discipline = -3 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -557,8 +570,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -3 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_black_market = -2 }
+			custom_effect_tooltip = FOTIC_tt_black_market_down
 			add_to_variable = { fotic_sov_reformist_influence = 1 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -574,8 +590,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = -4 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_reformist_influence = 4 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_conservative_pressure = 3 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			if = {
 				limit = { NOT = { has_country_flag = fotic_sov_ev20_fired } }
@@ -596,8 +615,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_gkchp_risk = -4 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_down
 			add_to_variable = { fotic_sov_conservative_pressure = -2 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_down
 			add_to_variable = { fotic_sov_party_discipline = 2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -613,8 +635,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_reformist_influence = 4 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_street_pressure = -2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -630,7 +655,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_kgb_influence = 4 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			country_event = { id = FOTIC_SOV_1990.30 days = 3 }
 		}
@@ -647,8 +674,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = 4 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_up
 			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			add_to_variable = { fotic_sov_street_pressure = 1 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			if = {
 				limit = { NOT = { has_country_flag = fotic_sov_ev40_fired } }
@@ -669,8 +699,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -3 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_black_market = 2 }
+			custom_effect_tooltip = FOTIC_tt_black_market_up
 			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			fotic_set_economic_khozraschyot = yes
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -687,9 +720,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -4 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_black_market = -3 }
+			custom_effect_tooltip = FOTIC_tt_black_market_down
 			add_to_variable = { fotic_sov_street_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			add_to_variable = { fotic_sov_party_discipline = 1 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -705,9 +742,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = -6 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_republican_separatism = 2 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_up
 			add_to_variable = { fotic_sov_street_pressure = -3 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 			country_event = { id = FOTIC_SOV_1990.21 days = 2 }
 		}
@@ -724,8 +765,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = 3 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -741,8 +785,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_reformist_influence = 5 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_party_discipline = -5 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -758,8 +805,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_kgb_influence = 3 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			country_event = { id = FOTIC_SOV_1990.36 days = 4 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -777,9 +827,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -796,8 +850,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = -2 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_street_pressure = 3 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			add_to_variable = { fotic_sov_reformist_influence = -2 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 			country_event = { id = FOTIC_SOV_1990.41 days = 3 }
 		}
@@ -814,8 +871,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = -2 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_black_market = 3 }
+			custom_effect_tooltip = FOTIC_tt_black_market_up
 			add_to_variable = { fotic_sov_republican_separatism = 1 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -831,8 +891,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = 3 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_conservative_pressure = -2 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_down
 			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -849,8 +912,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_army_loyalty = -3 }
+			custom_effect_tooltip = FOTIC_tt_army_loyalty_down
 			add_to_variable = { fotic_sov_army_politicization = 4 }
+			custom_effect_tooltip = FOTIC_tt_army_politicization_up
 			add_to_variable = { fotic_sov_gkchp_risk = 3 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			country_event = { id = FOTIC_SOV_1990.31 days = 3 }
 		}
@@ -868,8 +934,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_army_loyalty = 4 }
+			custom_effect_tooltip = FOTIC_tt_army_loyalty_up
 			add_to_variable = { fotic_sov_army_politicization = -2 }
+			custom_effect_tooltip = FOTIC_tt_army_politicization_down
 			add_to_variable = { fotic_sov_gkchp_risk = -2 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_down
 			country_event = { id = FOTIC_SOV_1990.35 days = 4 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -886,8 +955,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = -4 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_union_treaty_progress = 3 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -903,8 +975,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = 3 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_up
 			add_to_variable = { fotic_sov_russian_challenge = 2 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_up
 			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			if = {
 				limit = { NOT = { has_country_flag = fotic_sov_ev60_fired } }
@@ -926,9 +1001,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_deficit = 2 }
+			custom_effect_tooltip = FOTIC_tt_deficit_up
 			add_to_variable = { fotic_sov_street_pressure = -4 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			add_to_variable = { fotic_sov_reformist_influence = 3 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -945,9 +1024,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_party_discipline = 4 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_deficit = -1 }
+			custom_effect_tooltip = FOTIC_tt_deficit_down
 			add_to_variable = { fotic_sov_street_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			fotic_set_economic_regulated_mixed = yes
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -986,8 +1069,11 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_kgb_influence = 4 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_gkchp_risk = 2 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -1003,9 +1089,13 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_army_loyalty = 2 }
+			custom_effect_tooltip = FOTIC_tt_army_loyalty_up
 			add_to_variable = { fotic_sov_army_politicization = 2 }
+			custom_effect_tooltip = FOTIC_tt_army_politicization_up
 			add_to_variable = { fotic_sov_gkchp_risk = -3 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_down
 			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			country_event = { id = FOTIC_SOV_1990.37 days = 4 }
 			fotic_set_security_emergency = yes
 			FOTIC_SOV_clamp_crisis_variables = yes
@@ -1023,7 +1113,9 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { fotic_sov_republican_separatism = -3 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_down
 			add_to_variable = { fotic_sov_union_treaty_progress = 4 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			FOTIC_SOV_clamp_crisis_variables = yes
 			country_event = { id = FOTIC_SOV_1990.62 days = 3 }
 		}
@@ -1038,7 +1130,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_ukrainian_weight }
 		completion_reward = {
 			add_to_variable = { fotic_sov_russian_challenge = 3 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_up
 			add_to_variable = { fotic_sov_conservative_pressure = 1 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			set_country_flag = fotic_sov_russian_question_engaged
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1054,9 +1148,13 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_1990_isolate_yeltsin }
 		completion_reward = {
 			add_to_variable = { fotic_sov_russian_challenge = -4 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_down
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_conservative_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_conservative_pressure_up
 			add_to_variable = { fotic_sov_union_treaty_progress = 2 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			country_event = { id = FOTIC_SOV_1990.151 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1072,9 +1170,13 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_1990_talk_to_yeltsin }
 		completion_reward = {
 			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			add_to_variable = { fotic_sov_party_discipline = 2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_russian_challenge = 5 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_up
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			set_country_flag = fotic_yeltsin_martyr_effect
 			country_event = { id = FOTIC_SOV_1990.153 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
@@ -1090,7 +1192,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_talk_to_yeltsin }
 		completion_reward = {
 			add_to_variable = { fotic_sov_russian_challenge = -3 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_down
 			add_to_variable = { fotic_sov_party_discipline = -1 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_political_power = -50
 			set_country_flag = fotic_1991_moderate_rsfsr_network
 			FOTIC_SOV_clamp_crisis_variables = yes
@@ -1106,7 +1210,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_isolate_yeltsin }
 		completion_reward = {
 			add_to_variable = { fotic_sov_russian_challenge = 4 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_up
 			add_to_variable = { fotic_sov_republican_separatism = 2 }
+			custom_effect_tooltip = FOTIC_tt_republican_separatism_up
 			set_country_flag = fotic_1991_laws_war_active
 			country_event = { id = FOTIC_SOV_1990.156 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
@@ -1122,7 +1228,9 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_support_moderates_rsfsr }
 		completion_reward = {
 			add_to_variable = { fotic_sov_union_treaty_progress = 5 }
+			custom_effect_tooltip = FOTIC_tt_union_treaty_progress_up
 			add_to_variable = { fotic_sov_russian_challenge = -5 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -1136,6 +1244,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_laws_war }
 		completion_reward = {
 			add_to_variable = { fotic_sov_russian_challenge = 5 }
+			custom_effect_tooltip = FOTIC_tt_russian_challenge_up
 			set_country_flag = fotic_1991_moscow_white_house
 			country_event = { id = FOTIC_SOV_1990.157 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
@@ -1151,6 +1260,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_year_of_decrees }
 		completion_reward = {
 			add_to_variable = { fotic_sov_street_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			country_event = { id = FOTIC_SOV_1990.170 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1165,8 +1275,11 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_miners_telegram }
 		completion_reward = {
 			add_to_variable = { fotic_sov_street_pressure = -6 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			add_to_variable = { fotic_sov_deficit = 3 }
+			custom_effect_tooltip = FOTIC_tt_deficit_up
 			add_to_variable = { fotic_sov_black_market = 2 }
+			custom_effect_tooltip = FOTIC_tt_black_market_up
 			add_political_power = -75
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1181,8 +1294,11 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_miners_telegram }
 		completion_reward = {
 			add_to_variable = { fotic_sov_street_pressure = -3 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			add_to_variable = { fotic_sov_party_discipline = 2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_up
 			add_to_variable = { fotic_sov_reformist_influence = -1 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_down
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
 	}
@@ -1197,9 +1313,13 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_1990_let_them_speak }
 		completion_reward = {
 			add_to_variable = { fotic_sov_street_pressure = -4 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			add_to_variable = { fotic_sov_kgb_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_kgb_influence_up
 			add_to_variable = { fotic_sov_reformist_influence = -3 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_down
 			add_to_variable = { fotic_sov_gkchp_risk = 1 }
+			custom_effect_tooltip = FOTIC_tt_gkchp_risk_up
 			country_event = { id = FOTIC_SOV_1990.176 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1215,8 +1335,11 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_1990_limit_rallies }
 		completion_reward = {
 			add_to_variable = { fotic_sov_reformist_influence = 3 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			add_to_variable = { fotic_sov_street_pressure = -2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			fotic_set_security_liberalised = yes
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1231,8 +1354,11 @@ focus_tree = {
 		prerequisite = { focus = SOV_1990_let_them_speak }
 		completion_reward = {
 			add_to_variable = { fotic_sov_reformist_influence = 2 }
+			custom_effect_tooltip = FOTIC_tt_reformist_influence_up
 			add_to_variable = { fotic_sov_street_pressure = 2 }
+			custom_effect_tooltip = FOTIC_tt_street_pressure_up
 			add_to_variable = { fotic_sov_party_discipline = -2 }
+			custom_effect_tooltip = FOTIC_tt_party_discipline_down
 			country_event = { id = FOTIC_SOV_1990.175 days = 3 }
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}
@@ -1250,10 +1376,12 @@ focus_tree = {
 			if = {
 				limit = { check_variable = { fotic_sov_kgb_influence > 55 } }
 				add_to_variable = { fotic_sov_street_pressure = 3 }
+				custom_effect_tooltip = FOTIC_tt_street_pressure_up
 				set_country_flag = fotic_1991_street_radicalized
 			}
 			else = {
 				add_to_variable = { fotic_sov_street_pressure = -2 }
+				custom_effect_tooltip = FOTIC_tt_street_pressure_down
 			}
 			FOTIC_SOV_clamp_crisis_variables = yes
 		}

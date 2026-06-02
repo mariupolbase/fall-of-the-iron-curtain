@@ -1,33 +1,50 @@
 ideas = {
-	fotic_financial_system_law = {
-		law = yes
-		use_list_view = yes
-		fotic_financial_system_placeholder = {
-			picture = unknown
-			allowed = { always = yes }
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
-		}
-	}
 
 	fotic_labour_policy_law = {
 		law = yes
 		use_list_view = yes
-		fotic_labour_policy_placeholder = {
-			picture = unknown
+
+		fotic_labour_planned_employment = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { stability_factor = 0.02 production_speed_buildings_factor = -0.02 }
 			ai_will_do = { factor = 0 }
 		}
-	}
-
-	fotic_ownership_model_law = {
-		law = yes
-		use_list_view = yes
-		fotic_ownership_model_placeholder = {
-			picture = unknown
+		fotic_labour_state_labour_mobilisation = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.04 consumer_goods_factor = 0.03 stability_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_labour_enterprise_autonomy = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { production_speed_buildings_factor = 0.03 stability_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_labour_labour_market = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { production_speed_buildings_factor = 0.03 consumer_goods_factor = -0.03 stability_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_labour_workplace_partnership = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { stability_factor = 0.03 production_speed_buildings_factor = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_labour_emergency_labour_duty = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.05 stability_factor = -0.04 }
 			ai_will_do = { factor = 0 }
 		}
 	}
@@ -35,32 +52,82 @@ ideas = {
 	fotic_conscription_model_law = {
 		law = yes
 		use_list_view = yes
-		fotic_conscription_model_placeholder = {
-			picture = unknown
+
+		fotic_conscription_volunteer = {
+			picture = generic_form_nation
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { conscription_factor = -0.10 war_support_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_conscription_limited = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { conscription_factor = -0.05 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_conscription_standard_draft = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { conscription_factor = 0.05 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_conscription_extensive = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { conscription_factor = 0.10 stability_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_conscription_total_mobilisation = {
+			picture = generic_form_nation
+			allowed = { always = yes }
+			available = { OR = { has_war = yes has_country_flag = fotic_law_emergency } }
+			removal_cost = -1
+			modifier = { conscription_factor = 0.20 stability_factor = -0.04 consumer_goods_factor = 0.03 }
 			ai_will_do = { factor = 0 }
 		}
 	}
 
-	fotic_military_spending_law = {
+	fotic_defence_spending_law = {
 		law = yes
 		use_list_view = yes
-		fotic_military_spending_placeholder = {
-			picture = unknown
+
+		fotic_defence_minimal_spending = {
+			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { industrial_capacity_factory = -0.03 consumer_goods_factor = -0.03 stability_factor = 0.02 }
 			ai_will_do = { factor = 0 }
 		}
-	}
-
-	fotic_army_structure_law = {
-		law = yes
-		use_list_view = yes
-		fotic_army_structure_placeholder = {
-			picture = unknown
+		fotic_defence_balanced_spending = {
+			picture = generic_consumer_goods
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { stability_factor = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defence_elevated_spending = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.04 consumer_goods_factor = 0.03 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defence_war_budget = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.06 consumer_goods_factor = 0.05 stability_factor = -0.03 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defence_guns_over_butter = {
+			picture = generic_consumer_goods
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.05 consumer_goods_factor = 0.05 stability_factor = -0.04 war_support_factor = 0.03 }
 			ai_will_do = { factor = 0 }
 		}
 	}
@@ -68,10 +135,40 @@ ideas = {
 	fotic_defence_industry_law = {
 		law = yes
 		use_list_view = yes
-		fotic_defence_industry_placeholder = {
-			picture = unknown
+
+		fotic_defind_state_arsenal = {
+			picture = generic_production_bonus
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { industrial_capacity_factory = 0.05 production_speed_buildings_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defind_design_bureaus = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { research_speed_factor = 0.04 industrial_capacity_factory = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defind_dual_use = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { production_speed_buildings_factor = 0.02 industrial_capacity_factory = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defind_export_oriented = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { trade_opinion_factor = 0.10 industrial_capacity_factory = 0.02 consumer_goods_factor = -0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_defind_conversion = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { production_speed_buildings_factor = 0.04 consumer_goods_factor = -0.04 industrial_capacity_factory = -0.04 }
 			ai_will_do = { factor = 0 }
 		}
 	}
@@ -79,10 +176,40 @@ ideas = {
 	fotic_healthcare_model_law = {
 		law = yes
 		use_list_view = yes
-		fotic_healthcare_model_placeholder = {
-			picture = unknown
+
+		fotic_health_universal_state_health = {
+			picture = generic_political_discourse
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { stability_factor = 0.04 consumer_goods_factor = 0.04 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_health_basic_public_health = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { stability_factor = 0.02 consumer_goods_factor = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_health_mixed_healthcare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { stability_factor = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_health_insurance_based = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { stability_factor = 0.02 consumer_goods_factor = -0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_health_minimal_healthcare = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { consumer_goods_factor = -0.04 stability_factor = -0.02 }
 			ai_will_do = { factor = 0 }
 		}
 	}
@@ -90,22 +217,42 @@ ideas = {
 	fotic_education_model_law = {
 		law = yes
 		use_list_view = yes
-		fotic_education_model_placeholder = {
-			picture = unknown
+
+		fotic_edu_state_education = {
+			picture = generic_political_discourse
 			allowed = { always = yes }
 			removal_cost = -1
+			modifier = { research_speed_factor = 0.03 stability_factor = 0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_edu_technical_focus = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { research_speed_factor = 0.03 production_speed_buildings_factor = 0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_edu_broad_education = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { research_speed_factor = 0.04 stability_factor = 0.01 consumer_goods_factor = 0.02 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_edu_mixed_education = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { research_speed_factor = 0.01 }
+			ai_will_do = { factor = 0 }
+		}
+		fotic_edu_minimal_education = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = { research_speed_factor = -0.03 consumer_goods_factor = -0.02 }
 			ai_will_do = { factor = 0 }
 		}
 	}
 
-	fotic_civil_liberties_law = {
-		law = yes
-		use_list_view = yes
-		fotic_civil_liberties_placeholder = {
-			picture = unknown
-			allowed = { always = yes }
-			removal_cost = -1
-			ai_will_do = { factor = 0 }
-		}
-	}
 }

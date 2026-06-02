@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_artillery_1965_medium"
+		texturefile = "gfx/interface/technologies/artillery/ART_1980_M-30.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery_1975_medium"
+		texturefile = "gfx/interface/technologies/artillery/ART_2004_M2A1.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery_1985_medium"
+		texturefile = "gfx/interface/technologies/artillery/ART_2012_M198.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_artillery_1971_medium"
+		texturefile = "gfx/interface/technologies/artillery/GER_sp_artillery1.png"
+	}
+	spriteType = {
+		name = "GFX_sp_artillery_1989_medium"
+		texturefile = "gfx/interface/technologies/artillery/GER_sp_artillery2.png"
+	}
+	spriteType = {
+		name = "GFX_rocket_artillery_1965_medium"
+		texturefile = "gfx/interface/technologies/artillery/CRO_motorized_rocket_unit.dds"
+	}
+	spriteType = {
+		name = "GFX_rocket_artillery_1987_medium"
+		texturefile = "gfx/interface/technologies/artillery/CRO_motorized_rocket_unit.dds"
+	}
+}
