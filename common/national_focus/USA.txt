@@ -30,11 +30,11 @@ focus_tree = {
 	focus = {
 		id = USA_bush_starshiy
 		icon = GFX_goal_support_democracy
-		cost = 10
+		cost = 4
 		x = 30
 		y = 2
 		completion_reward = {
-		add_political_power = 100
+		add_political_power = 50
 		}
 
 	}
@@ -361,10 +361,14 @@ focus_tree = {
 		icon = GFX_goal_tripartite_pact
 		cost = 5
 		prerequisite = {
-			focus = USA_fuck_naziez
+			focus = USA_otnoshenia
 		}
-		x = 25
-		y = 5
+		x = 29
+		y = 4
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.05
+		}
 
 	}
 	focus = {
@@ -433,14 +437,16 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		cost = 10
 		prerequisite = {
-			focus = USA_bush_starshiy
+			focus = USA_nalazivat_otnoshenia
 		}
-		mutually_exclusive = {
-			focus = USA_lideri
+		prerequisite = {
+			focus = USA_Noviy_plan
 		}
-		x = 32
-		y = 3
-
+		x = 30
+		y = 5
+		completion_reward = {
+			add_ideas = { superpower }
+		}
 	}
 	focus = {
 		id = USA_Zahvat
@@ -460,7 +466,6 @@ focus_tree = {
 			target = MEX
 			}
 		}
-
 	}
 	focus = {
 		id = USA_down_up_commi
@@ -479,17 +484,14 @@ focus_tree = {
 	focus = {
 		id = USA_Noviy_plan
 		icon = GFX_goal_generic_attack_allies
-		cost = 10
+		cost = 5
 		prerequisite = {
-			focus = USA_down_up_commi
+			focus = USA_mir
 		}
-		x = 32
-		y = 5
+		x = 31
+		y = 4
 		completion_reward = {
-			create_wargoal = {
-			type = puppet_wargoal_focus
-			target = PRC
-			}
+			add_ideas = { East_block }
 		}
 	
 	}
@@ -499,9 +501,6 @@ focus_tree = {
 		cost = 10
 		prerequisite = {
 			focus = USA_bush_starshiy
-		}
-		mutually_exclusive = {
-			focus = USA_gegemoni
 		}
 		x = 34
 		y = 3
@@ -523,12 +522,13 @@ focus_tree = {
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 10
 		prerequisite = {
-			focus = USA_nato
+			focus = USA_bush_starshiy
 		}
-		x = 34
-		y = 5
+		x = 31
+		y = 3
 		completion_reward = {
 		add_stability = 0.1
+		add_threat = -10
 		}
 
 	}
@@ -552,10 +552,15 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		cost = 10
 		prerequisite = {
-			focus = USA_lideri
+			focus = USA_bush_starshiy
 		}
-		x = 36
-		y = 4
+		x = 29
+		y = 3
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.05
+			add_ideas = { american_world_economic }
+		}
 
 	}
 	focus = {
