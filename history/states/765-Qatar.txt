@@ -4,6 +4,10 @@ state = {
 	manpower = 51600
 	state_category = pastoral
 
+	resources={
+		oil=89 # was: 6
+	}
+
 	history = {
 		
 		owner = QAT

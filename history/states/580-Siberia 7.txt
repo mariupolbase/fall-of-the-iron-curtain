@@ -2,9 +2,14 @@
 state = {
 	id = 580
 	name = "STATE_580" # Tobolsk
-	manpower = 88126
+	manpower = 124899
 	
 	state_category = pastoral
+
+	resources = {
+		oil = 200 # was: 200, then 150 but split
+		steel = 10 # was: 34, then 16 but split
+	}
 
 	history = {
 		victory_points = {

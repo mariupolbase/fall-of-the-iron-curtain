@@ -4,6 +4,9 @@ state={
 	provinces={
 		4968 5058 10892 10923 12749 
 	}
+	resources = {
+		oil = 47 # was: 200, then 150 but split
+	}
 	history = {
 		owner = SAU
 		add_core_of = SAU

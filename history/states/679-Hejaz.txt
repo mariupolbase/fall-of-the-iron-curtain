@@ -3,13 +3,17 @@ state = {
 	name = "STATE_679"
 	manpower = 511000
 
+	resources = {
+		oil = 64 # was: 200, then 150 but split
+	}
+
 	history = {
 
 		owner = SAU
 		add_core_of = SAU
 
 		victory_points = {
-			12758 2 
+			12758 10
 		}
 		
 		buildings = {

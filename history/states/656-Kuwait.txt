@@ -1,9 +1,13 @@
 state={
 	id=656
 	name="STATE_656"
-	manpower = 80000
+	manpower = 2155000
 	
 	state_category = rural
+	
+	resources={
+		oil=300 # was: 200, then 150 but split
+	}
 	
 	history={
 		add_core_of = KUW

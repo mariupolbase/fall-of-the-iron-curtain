@@ -6,6 +6,13 @@ state={
 	
 	state_category = rural
 
+	resources = {
+		oil = 120 # was: 200, then 150 but split
+		tungsten = 15 # was: 34, then 16 but split
+	}
+
+
+
 	history={
 		owner = SOV
 		victory_points = {

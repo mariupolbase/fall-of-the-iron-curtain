@@ -2,6 +2,10 @@ state={
 	id=678
 	name="STATE_678"
 
+	resources = {
+		oil = 100 # was: 200, then 150 but split
+	}
+
 	history={
 		owner = SAU
 		buildings = {

@@ -56,13 +56,3 @@ fotic_set_security_liberalised = {
 	add_ideas = fotic_security_liberalised_public_space
 }
 
-FOTIC_clear_econ_laws = {
-	remove_ideas = {
-		fotic_economic_model_command_economy
-		fotic_economic_model_limited_khozraschyot
-		fotic_economic_model_regulated_mixed_economy
-		fotic_economic_model_social_market
-		fotic_economic_model_market_liberalisation
-		fotic_economic_model_state_capitalism
-	}
-}

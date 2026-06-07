@@ -5,13 +5,19 @@ state = {
 	
 	state_category = town
 
+	resources = {
+		oil = 20 # was: 200, then 150 but split
+		aluminium = 2 # was: 34, then 16 but split
+		steel = 15 # was: 40
+	}
+
 	history = {
 
 		owner = SOV
 		add_core_of = SOV
 
 		victory_points = {
-			11225 3 # Kuybyshev
+			11225 20 # Kuybyshev
 		}
 
 		buildings = {

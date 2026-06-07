@@ -10,7 +10,7 @@
 @2030 = 16
 
 technologies = {
-	
+
 	fighter1 = {
 		
 		enable_equipments = {

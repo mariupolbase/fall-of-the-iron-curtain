@@ -6,6 +6,10 @@ state = {
 
 	state_category = city
 
+	resources = {
+		oil = 20 # was: 200, then 150 but split
+	}
+
 	history = {
 		owner = SOV
 		buildings = {

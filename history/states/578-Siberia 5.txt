@@ -5,6 +5,10 @@ state={
 	manpower = 609304
 	
 	state_category = rural
+	resources = {
+		oil = 160 # was: 200, then 150 but split
+		aluminium = 2 # was: 34, then 16 but split
+	}
 
 	history={
 		owner = SOV

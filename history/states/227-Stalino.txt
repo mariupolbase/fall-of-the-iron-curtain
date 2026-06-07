@@ -2,7 +2,7 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 5339733
+	manpower = 5311781
 	
 	state_category = city
 
@@ -12,7 +12,10 @@ state={
 			infrastructure = 3 #was: 5
 		}
 		victory_points = {
-			6474 10
+			6474 15
+		}
+		victory_points = {
+			3421 10
 		}
 		add_core_of = SOV
 		add_core_of = UKR
