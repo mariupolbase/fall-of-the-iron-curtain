@@ -23,7 +23,7 @@ focus_tree = {
 		x = 13
 		y = 1
 		completion_reward = {
-		add_war_support = 0.1
+		army_experience = 50
 		}
 
 	}
@@ -376,10 +376,23 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		cost = 5
 		prerequisite = {
-			focus = USA_nalazivat_otnoshenia
+			focus = USA_gegemoni
 		}
-		x = 25
+		x = 29
 		y = 6
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			VIN = {
+				add_popularity = { ideology = communism popularity = -0.1 }
+			}
+			LAO = {
+				add_popularity = { ideology = communism popularity = -0.1 }
+			}
+			CAM = {
+				add_popularity = { ideology = communism popularity = -0.1 }
+			}
+		}
 
 	}
 	focus = {
@@ -423,12 +436,11 @@ focus_tree = {
 		icon = GFX_goal_generic_CAS
 		cost = 5
 		prerequisite = {
-			focus = USA_mobilizatia
+			focus = USA_down_up_commi
 		}
-		x = 28
-		y = 6
+		x = 31
+		y = 7
 		completion_reward = {
-		add_manpower = 10000
 		}
 
 	}
@@ -474,12 +486,20 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_gegemoni
 		}
-		x = 32
-		y = 4
+		x = 31
+		y = 6
 		completion_reward = {
-		add_war_support = 0.1		
+			add_political_power = 40
+			add_war_support = 0.05
+			ETH = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = yes
+    				last_election = "1987.6.5"
+    				election_frequency = 84	
+				}
+			}
 		}
-		
 	}
 	focus = {
 		id = USA_Noviy_plan
@@ -537,13 +557,38 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10
 		prerequisite = {
-			focus = USA_mir
-			focus = USA_Noviy_plan
+			focus = USA_duplomatic_pobeda
 		}
-		x = 33
-		y = 6
+		x = 29
+		y = 7
+
+		available = { 
+			country_exists = EST
+			country_exists = LAT
+			country_exists = LIT
+		}
+
 		completion_reward = {
-		add_political_power = 150
+			add_political_power = 50
+			EST = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = offered_support
+				}
+			}
+			LAT = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = offered_support
+				}
+			}
+			LIT = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = offered_support
+				}
+			}
+			add_threat = 2
 		}
 
 	}
@@ -682,13 +727,14 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = USA_Glory
+		}
+		prerequisite = {
 			focus = USA_man_power
-			focus = USA_duplomatic_pobeda
 		}
 		x = 30
-		y = 7
+		y = 8
 		completion_reward = {
-		add_political_power = 15
+		add_ideas = { USA_Pax_americana }
 		}
 
 	}

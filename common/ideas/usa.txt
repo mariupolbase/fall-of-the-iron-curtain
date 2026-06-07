@@ -53,7 +53,7 @@ ideas = {
 				improve_relations_maintain_cost_factor = -0.25
 			}
 		}
-		USA_limited_intervention = {
+		USA_Pax_americana = {
 			picture = generic_production_bonus
 			
 			allowed = {
@@ -67,11 +67,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				join_faction_tension = -0.25
-				send_volunteers_tension = -0.35
-				guarantee_tension = -0.2
-				mobilization_laws_cost_factor = 1
-				economy_cost_factor = 1
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				send_volunteer_factor = 0.15
 			}
 		}
 		USA_neutrality_act = {
