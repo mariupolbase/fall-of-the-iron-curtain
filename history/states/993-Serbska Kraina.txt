@@ -13,14 +13,14 @@ state={
 			industrial_complex = 2
 		}
 		victory_points = {
-			6672 3 
+			6672 5 
 		}
 		add_core_of = YUG
 		add_core_of = CRO
 	}
 
 	provinces={
-		984 3596 3601 3654 3974 6611 6672
+		984 3596 3654 3974 6611 6672
 	}
 
 	local_supplies=0.0 

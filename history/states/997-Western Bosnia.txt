@@ -1,0 +1,17 @@
+state = {
+	id = 997
+	name = "STATE_997"
+	manpower = 52908
+	state_category = town
+
+	history = {
+		owner = YUG
+		victory_points = {
+			6614 3
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+	}
+
+	provinces = { 6614 13373 }
+}

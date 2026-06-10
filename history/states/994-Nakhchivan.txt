@@ -1,0 +1,20 @@
+state = {
+	id = 994
+	name = "STATE_994"
+	manpower = 293875
+	state_category = town
+
+	history = {
+		owner = SOV
+		victory_points = {
+			6997 1
+		}
+		buildings = {
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = AZR
+	}
+
+	provinces = { 6997 }
+}
