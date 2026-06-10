@@ -4,7 +4,7 @@ state={
 	name="STATE_249"
 	manpower = 3761291
 	
-	state_category = town
+	state_category = city
 	resources={
 		steel=25 # was: 40
 		oil = 90 # was: 200, then 150 but split

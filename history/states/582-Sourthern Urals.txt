@@ -12,12 +12,16 @@ state = {
 
 		buildings = {
 			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			fuel_silo = 1
+			air_base = 1
+
 		}
 
 		add_core_of = SOV
 
 		victory_points = {
-			10256 3 # Magnitogorsk
+			10256 5 # Magnitogorsk
 		}
 		victory_points = {
 			4311 1 # Beloretsk
@@ -31,7 +35,7 @@ state = {
 
 	manpower = 1044991
 	buildings_max_level_factor = 1.000
-	state_category = rural
+	state_category = large_town
 
 	local_supplies = 0.0 
 }

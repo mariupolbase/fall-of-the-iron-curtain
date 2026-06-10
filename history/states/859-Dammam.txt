@@ -27,7 +27,7 @@ state = {
 	provinces = {
 		1955 10791 10850 12702 
 	}
-	state_category = rural
+	state_category = city
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.000
 }

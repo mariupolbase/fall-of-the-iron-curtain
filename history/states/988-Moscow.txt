@@ -7,7 +7,7 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
-		victory_points = { 6380 25 }
+		victory_points = { 6380 50 }
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -20,5 +20,5 @@ state={
 	manpower=8880124
 	buildings_max_level_factor=0.000
 	local_supplies=1.000
-	state_category = city
+	state_category = megalopolis
 }

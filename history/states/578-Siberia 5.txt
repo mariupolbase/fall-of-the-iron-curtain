@@ -4,7 +4,7 @@ state={
 	name="STATE_578" # Tomsk
 	manpower = 609304
 	
-	state_category = rural
+	state_category = city
 	resources = {
 		oil = 160 # was: 200, then 150 but split
 		aluminium = 2 # was: 34, then 16 but split
