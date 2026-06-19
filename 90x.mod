@@ -1,4 +1,4 @@
-version="0.0.3"
+version="0.1.0"
 tags={
 	"Military"
 	"Ideologies"
@@ -7,8 +7,8 @@ tags={
 	"Map"
 	"Historical"
 }
-name="Fall of the Iron Curtain Prototype2"
-supported_version="1.18.*"
+name="Fall of the Iron Curtain Prototype"
+supported_version="1.19.*"
 replace_path = "common/ai_strategy"
 replace_path = "common/ai_strategy_plans"
 replace_path = "history/states"
